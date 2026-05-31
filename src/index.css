@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
+:root {
+  /* Palette de base */
+  --hv-white: #FFFFFF;
+  --hv-cream: #FAF9F6;
+  --hv-black: #1A1A1A;
+  --hv-grey: #4A4A4A;
+  --hv-light-grey: #E5E5E5;
+  
+  /* Accent "Terre Battue" */
+  --hv-accent: #C25939;
+
+  /* Typographie */
+  --font-heading: 'Playfair Display', serif;
+  --font-body: 'Outfit', sans-serif;
+
+  /* Espacement Premium */
+  --spacing-base: 1rem;
+  --spacing-lg: 4rem;
+  --spacing-xl: 10vh;
+  --margin-side: 15vw;
+}
+
+/* RESET */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--hv-white);
+  color: var(--hv-black);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* TYPOGRAPHIE */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: var(--spacing-base);
+}
+
+h1 {
+  font-size: 3.5rem;
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 1.1rem;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+  color: var(--hv-grey);
+}
+
+/* BOUTONS ET LIENS */
+a {
+  color: var(--hv-black);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--hv-accent);
+}
+
+.btn-accent {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  background-color: var(--hv-white);
+  color: var(--hv-black);
+  border: 1px solid var(--hv-black);
+  padding: 0.8rem 2rem;
+  font-family: var(--font-body);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-accent:hover {
+  background-color: var(--hv-accent);
+  color: var(--hv-white);
+  border-color: var(--hv-accent);
+}
+
+/* LAYOUT PRINCIPAL */
+.container {
+  padding: var(--spacing-xl) var(--margin-side);
+  max-width: 100vw;
+}
+
+/* COMPOSANTS SPECIFIQUES */
+.nav-header {
+  padding: 2rem var(--margin-side);
+  display: flex;
+  justify-content: flex-start;
+  gap: 2rem;
+  align-items: center;
+  background-color: transparent;
+}
+
+.nav-logo {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: var(--hv-black);
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 400;
+  color: var(--hv-grey);
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: var(--hv-accent);
+}
+
+.footer {
+  padding: 4rem var(--margin-side);
+  border-top: 1px solid var(--hv-light-grey);
+  text-align: center;
+}
+
+.footer-title {
+  font-family: var(--font-heading);
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: var(--hv-black);
+}
+
+.footer-subtitle {
+  font-size: 0.9rem;
+  color: var(--hv-grey);
+}
+
+/* UTILITAIRES POUR LE VIDE PREMIUM */
+.spacer-lg {
+  height: var(--spacing-lg);
+}
+
+.spacer-xl {
+  height: var(--spacing-xl);
+}
+
+/* LOGOS EN NIVEAUX DE GRIS */
+.grayscale-logo {
+  filter: grayscale(100%) opacity(60%);
+  transition: filter 0.3s ease;
+  max-width: 150px;
+}
+
+.grayscale-logo:hover {
+}
+
+/* Salle des Acquisitions – Styles */
+
+.acquisitions-hero {
+  padding: 8vh 5vw;
+  text-align: center;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.acquisitions-hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(2rem, 8vw, 3.5rem);
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  margin-bottom: 1rem;
+}
+
+.acquisitions-hero .subtitle {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #C25939;
+  margin-bottom: 2rem;
+}
+
+.hero-divider {
+  width: 60px;
+  height: 1px;
+  background: #C25939;
+  margin: 2rem auto;
+}
+
+.acquisitions-hero .intro {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Grille produits */
+.acquisitions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 3rem;
+  padding: 6vh 5vw;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.acquisition-card {
+  background: #FAF9F6;
+  padding: 2rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.acquisition-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 30px -15px rgba(0,0,0,0.05);
+}
+
+.card-media {
+  aspect-ratio: 4 / 3;
+  background: #1A1A1A;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.placeholder-cover {
+  color: #FAF9F6;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.acquisition-card h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.subtitle-card {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.8rem;
+  color: #C25939;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 1rem;
+}
+
+.acquisition-card .description {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #444;
+  margin-bottom: 1.5rem;
+}
+
+.price {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+.btn-primary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  background: #1A1A1A;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  width: 100%;
+}
+
+.btn-primary:hover {
+  background: #C25939;
+}
+
+.acquisitions-note {
+  text-align: center;
+  padding: 3rem 5vw;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.75rem;
+  color: #888;
+  border-top: 1px solid rgba(0,0,0,0.05);
+  margin-top: 2rem;
+}
+
+/* =========================================================================
+   ANIMATIONS & MICRO-INTERACTIONS
+   ========================================================================= */
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  opacity: 0;
+}
+
+.delay-100 { animation-delay: 100ms; }
+.delay-200 { animation-delay: 200ms; }
+.delay-300 { animation-delay: 300ms; }
+.delay-400 { animation-delay: 400ms; }
+.delay-500 { animation-delay: 500ms; }
+
+/* =========================================================================
+   MEDIA QUERIES - OPTIMISATION MOBILE
+   ========================================================================= */
+
+:root {
+  --margin-mobile: 1.5rem;
+  --margin-tablette: 3rem;
+}
+
+/* Smartphones (portrait et paysage, max 768px) */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+  
+  /* Marges générales & Container */
+  .container {
+    padding-left: var(--margin-mobile) !important;
+    padding-right: var(--margin-mobile) !important;
+    padding-top: 5vh !important;
+  }
+  
+  /* H1 globaux */
+  h1 {
+    font-size: clamp(2rem, 10vw, 3rem) !important;
+    line-height: 1.2;
+  }
+  
+  /* Navigation */
+  .nav-header {
+    flex-direction: column;
+    padding: 1.5rem var(--margin-mobile);
+  }
+  .nav-links {
+    flex-wrap: wrap;
+    gap: 0.5rem 1rem;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  /* Page Nexus (récit) */
+  .nexus-reading {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+  }
+  .nexus-reading p {
+    text-align: left;
+  }
+  
+  /* Galerie – Ailes */
+  .galerie-grid {
+    grid-template-columns: 1fr !important;
+    gap: 2rem !important;
+  }
+  
+  /* Acquisitions */
+  .acquisitions-hero {
+    padding: 5vh var(--margin-mobile);
+  }
+
+  .acquisitions-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 4vh var(--margin-mobile);
+  }
+  
+  .acquisition-card {
+    padding: 1.25rem;
+  }
+  
+  .price {
+    font-size: 1.3rem;
+  }
+  
+  .btn-primary {
+    padding: 0.7rem 1rem;
+    font-size: 0.75rem;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 2rem var(--margin-mobile);
+  }
+}
+
+/* Tablettes (768px - 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    font-size: 17px;
+  }
+  
+  .container {
+    padding-left: var(--margin-tablette) !important;
+    padding-right: var(--margin-tablette) !important;
+  }
+  
+  .galerie-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  
+  .acquisitions-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Grands desktop (1400px+) */
+@media (min-width: 1400px) {
+  .container {
+    padding-left: 15vw !important;
+    padding-right: 15vw !important;
+  }
+}
