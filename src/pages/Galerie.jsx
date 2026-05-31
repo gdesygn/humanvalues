@@ -23,7 +23,7 @@ const ailes = [
       { id: "an8", title: "Monaco", subject: "Territoire", text: "La Principauté perchée, le Rocher au bord de l'eau.", image: "/artworks/region_3.jpg" },
       { id: "an9", title: "Ibiza", subject: "Territoire", text: "L'île blanche, vibrante de musique et d'énergie baléarique.", image: "/artworks/region_4.jpg" },
       { id: "an10", title: "Cap-Vert", subject: "Territoire", text: "L'archipel volcanique, balayé par les vents de l'Atlantique.", image: "/artworks/region_5.jpg" },
-      { id: "an29", title: "Bouches-du-RhÃ´ne", subject: "Département", text: "Le 13. Le soleil éclatant et l'âme méditerranéenne.", image: "/artworks/region_6.jpg" },
+      { id: "an29", title: "Bouches-du-Rhône", subject: "Département", text: "Le 13. Le soleil éclatant et l'âme méditerranéenne.", image: "/artworks/region_6.jpg" },
       { id: "an30", title: "Bretagne", subject: "Région", text: "Le 35. L'Armor et l'Argoat, la force brute face à l'océan.", image: "/artworks/region_7.jpg" },
       { id: "an31", title: "Corse", subject: "Région", text: "L'île de Beauté, la montagne majestueuse dans la mer.", image: "/artworks/region_8.jpg" },
       { id: "an31_1", title: "Martinique", subject: "Département", text: "Le 972. L'île aux fleurs, entre mer des Caraïbes et océan Atlantique.", image: "/artworks/outremer_martinique.jpg" },
