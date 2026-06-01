@@ -86,11 +86,20 @@ const Institution = () => {
           </figure>
 
           <figure style={{ margin: 0 }}>
-            <div style={{ borderRadius: '8px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0,0,0,0.1)', aspectRatio: '4/3', marginBottom: '1rem' }}>
-              <img src="/artworks/unesco_3.jpg" alt="Le Symbole UNESCO" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+            <div style={{ borderRadius: '8px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0,0,0,0.1)', aspectRatio: '4/3', marginBottom: '1rem', backgroundColor: '#eee' }}>
+              <img src="/artworks/greg_mma.jpg" alt="Greg MMA et Karaté Bushido" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
             </div>
             <figcaption style={{ fontSize: '0.85rem', color: '#666', fontStyle: 'italic', textAlign: 'center' }}>
-              Déploiement international du protocole éducatif HV
+              Greg MMA (Karaté Bushido) – Le soutien des grands noms des sports de combat
+            </figcaption>
+          </figure>
+
+          <figure style={{ margin: 0 }}>
+            <div style={{ borderRadius: '8px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0,0,0,0.1)', aspectRatio: '4/3', marginBottom: '1rem', backgroundColor: '#eee' }}>
+              <img src="/artworks/thomas_lombard.jpg" alt="Thomas Lombard - Stade Français" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+            </div>
+            <figcaption style={{ fontSize: '0.85rem', color: '#666', fontStyle: 'italic', textAlign: 'center' }}>
+              Thomas Lombard (Stade Français Rugby) – Synergies pour l'inclusion par le sport de haut niveau
             </figcaption>
           </figure>
 
