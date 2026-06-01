@@ -63,7 +63,7 @@ const Institution = () => {
               <img src="/artworks/unesco_2.jpg" alt="Présentation aux Décideurs" style={{ width: '100%', height: 'auto', display: 'block' }} />
             </div>
             <figcaption style={{ fontSize: '0.85rem', color: '#666', fontStyle: 'italic', textAlign: 'center' }}>
-              Présentation du Concept L'Echo des Mains aux décideurs institutionnels
+              3 Décembre 2024 – International Day of Persons with Disabilities / Group of Friends for Inclusion and Disability to UNESCO
             </figcaption>
           </figure>
 
@@ -72,7 +72,7 @@ const Institution = () => {
               <img src="/artworks/unesco_1.jpg" alt="Délégation UNESCO" style={{ width: '100%', height: 'auto', display: 'block' }} />
             </div>
             <figcaption style={{ fontSize: '0.85rem', color: '#666', fontStyle: 'italic', textAlign: 'center' }}>
-              3 Décembre 2024 – International Day of Persons with Disabilities / Group of Friends for Inclusion and Disability to UNESCO
+              Présentation du Concept L'Echo des Mains aux décideurs institutionnels
             </figcaption>
           </figure>
 
