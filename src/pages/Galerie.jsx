@@ -116,7 +116,7 @@ const ailes = [
       { id: "ar9", title: "Le Lion de Norvège", subject: "Emblème", text: "L'identité nordique gravée dans le symbole national.", image: "/artworks/embleme_3.jpg" },
       { id: "ar10", title: "La Feuille d'Érable", subject: "Emblème", text: "L'emblème rougeoyant, l'âme naturelle de l'Amérique du Nord.", image: "/artworks/embleme_4.jpg" },
       { id: "ar11", title: "Le Pur Sang Emirates", subject: "Excellence Hippique", text: "L'élégance animale et la noblesse brute sculptées par les lettres d'Emirates.", image: "/artworks/embleme_5.jpg", hc: true },
-      { id: "ar12", title: "L'Origine Nike", subject: "Équipementier", text: "The Goddess of Victory. Philip Knight et la naissance du mythe.", image: "/artworks/nexus_nike_1.jpg" },
+      { id: "ar12", title: "L'Origine Nike", subject: "Équipementier", text: "The Goddess of Victory. Philip Knight et la naissance du mythe.", image: "/artworks/nexus_nike_1.jpg", hc: true },
       { id: "ar13", title: "La Typographie", subject: "Équipementier", text: "No Fear. Keep Going. L'effort taillé dans la lettre massive.", image: "/artworks/nexus_nike_2.jpg", hc: true },
       { id: "ar14", title: "Le Swoosh", subject: "Équipementier", text: "L'épure parfaite. La virgule qui souligne les légendes.", image: "/artworks/nexus_nike_3.jpg", hc: true },
       { id: "ar14_1", title: "MJ2.0", subject: "Équipementier", text: "Le Jumpman, le 23. L'empreinte de la légende tissée dans le tissu.", image: "/artworks/jordan_cap.jpg", hc: true },
