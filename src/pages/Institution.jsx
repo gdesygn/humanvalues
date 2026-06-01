@@ -60,6 +60,15 @@ const Institution = () => {
           
           <figure style={{ margin: 0 }}>
             <div style={{ borderRadius: '8px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0,0,0,0.1)', marginBottom: '1rem', backgroundColor: '#fafafa', display: 'flex', justifyContent: 'center' }}>
+              <img src="/artworks/unesco_2.jpg" alt="Présentation aux Décideurs" style={{ width: '100%', height: 'auto', display: 'block' }} />
+            </div>
+            <figcaption style={{ fontSize: '0.85rem', color: '#666', fontStyle: 'italic', textAlign: 'center' }}>
+              Présentation du Concept L'Echo des Mains aux décideurs institutionnels
+            </figcaption>
+          </figure>
+
+          <figure style={{ margin: 0 }}>
+            <div style={{ borderRadius: '8px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0,0,0,0.1)', marginBottom: '1rem', backgroundColor: '#fafafa', display: 'flex', justifyContent: 'center' }}>
               <img src="/artworks/unesco_1.jpg" alt="Délégation UNESCO" style={{ width: '100%', height: 'auto', display: 'block' }} />
             </div>
             <figcaption style={{ fontSize: '0.85rem', color: '#666', fontStyle: 'italic', textAlign: 'center' }}>
@@ -73,15 +82,6 @@ const Institution = () => {
             </div>
             <figcaption style={{ fontSize: '0.85rem', color: '#666', fontStyle: 'italic', textAlign: 'center' }}>
               Raphaël Rébert (CIC-Crédit Mutuel) – Échanges et partage de projets d'inclusion
-            </figcaption>
-          </figure>
-
-          <figure style={{ margin: 0 }}>
-            <div style={{ borderRadius: '8px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0,0,0,0.1)', marginBottom: '1rem', backgroundColor: '#fafafa', display: 'flex', justifyContent: 'center' }}>
-              <img src="/artworks/unesco_2.jpg" alt="Présentation aux Décideurs" style={{ width: '100%', height: 'auto', display: 'block' }} />
-            </div>
-            <figcaption style={{ fontSize: '0.85rem', color: '#666', fontStyle: 'italic', textAlign: 'center' }}>
-              Présentation du Concept L'Echo des Mains aux décideurs institutionnels
             </figcaption>
           </figure>
 
