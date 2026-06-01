@@ -159,7 +159,7 @@ const ailes = [
       { id: "m11", title: "Le Prodige", subject: "Football", text: "Le joga bonito, le prodige brésilien et la barre des 700.", image: "/artworks/neymar_700.jpg" },
       { id: "m12", title: "Le O de Omar", subject: "Cinéma & Parcours", text: "Toute son histoire dans le O de Omar. De Trappes à Hollywood, le sourire de la France.", image: "/artworks/omar_sy.jpg" },
       { id: "m13", title: "La Vérité de José", subject: "Cinéma & Humour", text: "Le rire flamboyant. De Nulle Part Ailleurs aux sommets du box-office.", image: "/artworks/jose_garcia.jpg" },
-      { id: "m14", title: "Diogo JOTA 20", subject: "Football & R&D", text: "L'oiseau mythique de Liverpool tissé par le parcours, les statistiques et l'esport de Diogo Jota.", image: "/artworks/diogo_jota_lfc.jpg" },
+      { id: "m14", title: "Diogo JOTA 20", subject: "Football & R&D", text: "L'oiseau mythique de Liverpool tissé par le parcours, les statistiques et l'esport de Diogo Jota.", image: "/artworks/diogo_jota_lfc.jpg", hc: true },
       { id: "m15", title: "The Austrian Oak", subject: "Cinéma & Légende", text: "Arnie. Gouvernator. Schwarzy. L'incarnation du rêve américain et de la volonté absolue.", image: "/artworks/arnold_schwarzenegger.jpg" }
     ]
   },
