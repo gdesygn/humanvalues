@@ -197,7 +197,7 @@ const ailes = [
       { id: "are_jo_1", title: "L'Anneau Olympique", subject: "Paris 2024", text: "Les cinq anneaux entrelacés, tissés des lettres de la ville lumière.", image: "/artworks/paris_jo_rings.jpg", hc: true },
       { id: "are_jo_2", title: "L'Emblème Paris", subject: "Paris 2024", text: "La silhouette typographique de la Tour Eiffel, symbole de l'élégance et de la performance.", image: "/artworks/paris_jo_logo.jpg", hc: true },
       { id: "are_jo_3", title: "La Flamme 2024", subject: "Paris 2024", text: "Le visage de Marianne embrasé par l'esprit olympique, forgé dans la date fondatrice.", image: "/artworks/paris_jo_flame.jpg", hc: true },
-      { id: "are_inst_1", title: "Le Coq Olympique", subject: "CNOSF", text: "L'esprit du sport français réuni sous l'emblème national.", image: "/artworks/cnosf_rooster.jpg", hc: true },
+      { id: "are_inst_1", title: "Le Coq Olympique", subject: "CNOSF", text: "L'esprit du sport français réuni sous l'emblème national.", image: "/artworks/obj_coq_olympique.jpg", hc: true },
       { id: "are_inst_2", title: "Le Coq du Volley", subject: "FFVolley", text: "L'envol, le smash, l'excellence de la Fédération Française de Volley.", image: "/artworks/ffvolley_rooster.jpg", hc: true },
       { id: "are_club_1", title: "Les Spartiates", subject: "Hockey sur Glace", text: "Le casque de Sparte, le bouclier, la fierté de Marseille sur la glace.", image: "/artworks/spartiates.jpg" },
       { id: "ar1", title: "09 Playground", subject: "Basket", text: "La Fédération Française de Basket, l'héritage d'une nation.", image: "/artworks/ffbb_1.jpg", hc: true },
