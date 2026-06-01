@@ -240,7 +240,7 @@ const ailes = [
     color: "#F57C00", // Jaune Orangé
     description: "La transmission, les valeurs humaines, l'inclusion, la chaleur du groupe.",
     artworks: [
-      { id: "fo_logo", title: "L'Emblème 2025", subject: "Collection HumanValues", text: "Le flambeau de la liberté hissé par les mots. L'icône fondatrice de la collection artistique 2025.", image: "/artworks/flambeau_hv.jpg", hc: true },
+      { id: "fo_logo", title: "L'Emblème 2025", subject: "Collection HumanValues", text: "Le flambeau de la liberté hissé par les mots. L'icône fondatrice de la collection artistique 2025.", image: "/artworks/flambeau_hv.jpg" },
       { id: "fo16", title: "L'Accord Inclusif", subject: "UNESCO X Inclusion", text: "La poignée de main universelle. Diversité, autisme, soutien aux aînés et valeurs partagées à l'échelle mondiale.", image: "/artworks/concept_unesco.jpg", hc: true },
       { id: "fo17", title: "Ivry S/Seine", subject: "Territoire & Inclusion", text: "L'identité de la ville tissée par les mots de l'inclusion, du handicap et de la solidarité. Hommage à Philippe Bouyssou.", image: "/artworks/ivry_inclusion.jpg", hc: true },
       { id: "fo1", title: "Logo PMR", subject: "FFBB X Inclusion", text: "L'empathie, la solidarité, l'humanité. Le handicap visible et invisible.", image: "/artworks/inclusion_1.jpg", hc: true },
