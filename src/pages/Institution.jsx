@@ -49,7 +49,7 @@ const Institution = () => {
           </li>
           <li style={{ marginBottom: '1rem', paddingLeft: '1.5rem', position: 'relative' }}>
             <span style={{ position: 'absolute', left: 0, color: 'var(--hv-accent)' }}>•</span>
-            <strong>Figures emblématiques et médias (ex: Greg MMA, Karaté Bushido)</strong> – Adhésion des grands noms des sports de combat, ancrant les valeurs de discipline et de respect au cœur du projet.
+            <strong>Figures emblématiques et médias (ex: Fernand Lopez, Greg MMA, Karaté Bushido)</strong> – Adhésion des grands noms des sports de combat, ancrant les valeurs de discipline et de respect au cœur du projet.
           </li>
         </ul>
       </section>
@@ -100,6 +100,15 @@ const Institution = () => {
             </div>
             <figcaption style={{ fontSize: '0.85rem', color: '#666', fontStyle: 'italic', textAlign: 'center' }}>
               Thomas Lombard (Stade Français Rugby) – Synergies pour l'inclusion par le sport de haut niveau
+            </figcaption>
+          </figure>
+
+          <figure style={{ margin: 0 }}>
+            <div style={{ borderRadius: '8px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0,0,0,0.1)', aspectRatio: '4/3', marginBottom: '1rem', backgroundColor: '#eee' }}>
+              <img src="/artworks/fernand_lopez.jpg" alt="Fernand Lopez - MMA Factory" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+            </div>
+            <figcaption style={{ fontSize: '0.85rem', color: '#666', fontStyle: 'italic', textAlign: 'center' }}>
+              Fernand Lopez (Head Coach MMA Factory) – Transmettre l'excellence et la discipline
             </figcaption>
           </figure>
 
