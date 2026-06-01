@@ -118,7 +118,7 @@ const Institution = () => {
 
       {/* Bande thématique */}
       <section style={{ marginBottom: '5rem', padding: '3rem 0', borderTop: '1px solid #eee', borderBottom: '1px solid #eee', textAlign: 'center' }}>
-        <p style={{ fontSize: '0.9rem', color: '#999', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '2rem' }}>HumanValues HV dialogue et agit aux côtés de :</p>
+        <p style={{ fontSize: '0.9rem', color: '#999', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '2rem' }}>HumanValues HV dialogue et conseille :</p>
         <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', gap: '2rem', alignItems: 'center', fontFamily: 'Playfair Display', fontSize: '1.4rem', fontWeight: 'bold', color: 'var(--hv-black)' }}>
           <span style={{ transition: 'color 0.3s', cursor: 'default' }}>Instances internationales (UNESCO)</span>
           <span style={{ color: 'var(--hv-accent)' }}>•</span>
