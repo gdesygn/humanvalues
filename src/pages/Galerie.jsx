@@ -71,18 +71,18 @@ const ailes = [
     description: "L'essence de l'effort. Les vertus humaines incarnées dans le mouvement sportif et l'harmonie des éléments.",
     artworks: [
       { id: "val1", title: "Universalité", subject: "Vertu Sportive", text: "L'équilibre sur l'eau, le kayak propulsé par l'idéal universel.", image: "/artworks/valeur_1.jpg" },
-      { id: "val2", title: "Human Values", subject: "Vertu Sportive", text: "La glisse, l'anticipation, le ski de piste tracé par les valeurs.", image: "/artworks/valeur_2.jpg" },
+      { id: "val2", title: "Ski de piste & Anticipation", subject: "Vertu Sportive", text: "La glisse, l'anticipation, le ski de piste tracé par les valeurs.", image: "/artworks/valeur_2.jpg" },
       { id: "val3", title: "Collectif", subject: "Vertu Sportive", text: "Le hockey sur glace, la force du groupe, l'union inébranlable.", image: "/artworks/valeur_3.jpg" },
       { id: "val4", title: "Liberté", subject: "Vertu Sportive", text: "Le slalom, la trajectoire libre à travers les portes du défi.", image: "/artworks/valeur_4.jpg" },
       { id: "val5", title: "Résistant", subject: "Vertu Sportive", text: "Le ski de fond, l'endurance absolue, la ténacité dans l'effort long.", image: "/artworks/valeur_5.jpg" },
       { id: "val6", title: "Humilité", subject: "Vertu Sportive", text: "Le contrôle parfait. Le football au service du jeu sans artifice.", image: "/artworks/valeur_6.jpg" },
-      { id: "val7", title: "Human Values", subject: "Vertu Sportive", text: "L'envol vers le panier, l'élévation par l'esprit et la détente.", image: "/artworks/valeur_7.jpg" },
+      { id: "val7", title: "Détente & Élévation", subject: "Vertu Sportive", text: "L'envol vers le panier, l'élévation par l'esprit et la détente.", image: "/artworks/valeur_7.jpg" },
       { id: "val8", title: "Humilité", subject: "Vertu Sportive", text: "Le meneur de jeu. L'humilité dans la construction de l'action collective.", image: "/artworks/valeur_8.jpg" },
       { id: "val9", title: "Santé", subject: "Vertu Sportive", text: "Le service smashé, la vitalité pure et l'énergie du corps en mouvement.", image: "/artworks/valeur_9.jpg" },
       { id: "val10", title: "Liberté", subject: "Vertu Sportive", text: "L'extension en plein vol. La liberté de mouvement avant l'impact en handball.", image: "/artworks/valeur_10.jpg" },
-      { id: "val11", title: "Human Values", subject: "Vertu Sportive", text: "Le coup de genou sauté en Muay Thaï. L'engagement total dans l'arène.", image: "/artworks/valeur_11.jpg" },
+      { id: "val11", title: "Arène & Engagement", subject: "Vertu Sportive", text: "Le coup de genou sauté en Muay Thaï. L'engagement total dans l'arène.", image: "/artworks/valeur_11.jpg" },
       { id: "val12", title: "Humilité", subject: "Vertu Sportive", text: "Les gants suspendus. Le respect absolu du ring, de l'effort et de l'adversaire.", image: "/artworks/valeur_12.jpg" },
-      { id: "val13", title: "Human Values", subject: "Vertu Sportive", text: "Le boxeur thaï de face, genou levé. La détermination brute et l'impact imminent.", image: "/artworks/valeur_13.jpg" },
+      { id: "val13", title: "Détermination Brute", subject: "Vertu Sportive", text: "Le boxeur thaï de face, genou levé. La détermination brute et l'impact imminent.", image: "/artworks/valeur_13.jpg" },
       { id: "val14", title: "Excellence", subject: "Vertu Sportive", text: "Le coup de pied haut. L'équilibre et la recherche de la perfection martiale.", image: "/artworks/valeur_14.jpg" },
       { id: "val15", title: "Courage", subject: "Vertu Sportive", text: "La garde montée. La détermination sans faille face à l'impact imminent.", image: "/artworks/valeur_15.jpg" },
       { id: "val16", title: "Victoire", subject: "Vertu Sportive", text: "La croix de fer aux anneaux en gymnastique. La maîtrise absolue de la gravité.", image: "/artworks/valeur_16.jpg" },
@@ -90,11 +90,11 @@ const ailes = [
       { id: "val18", title: "Régularité", subject: "Vertu Sportive", text: "Le lancer de marteau. La force centrifuge maîtrisée dans la régularité du geste.", image: "/artworks/valeur_18.jpg" },
       { id: "val19", title: "Individuel", subject: "Vertu Sportive", text: "Le lancer de disque. L'engagement total et solitaire de l'athlète.", image: "/artworks/valeur_19.jpg" },
       { id: "val20", title: "Énergie", subject: "Vertu Sportive", text: "Le lancer de poids. L'énergie explosive et concentrée pour repousser la masse.", image: "/artworks/valeur_20.jpg" },
-      { id: "val21", title: "Human Values", subject: "Vertu Sportive", text: "Le tennis fauteuil. La frappe, la mobilité et la résilience pure.", image: "/artworks/valeur_21.jpg" },
-      { id: "val22", title: "Human Values", subject: "Vertu Sportive", text: "Le sprint paralympique. La lame affûtée pour transcender les limites humaines.", image: "/artworks/valeur_22.jpg" },
-      { id: "val23", title: "Human Values", subject: "Vertu Sportive", text: "Le para-ski alpin. L'équilibre et la vitesse au service du dépassement de soi.", image: "/artworks/valeur_23.jpg" },
-      { id: "val24", title: "Human Values", subject: "Vertu Sportive", text: "Le para-cyclisme. L'effort mécanique et la vélocité repoussant l'horizon.", image: "/artworks/valeur_24.jpg" },
-      { id: "val25", title: "Human Values", subject: "Vertu Sportive", text: "Le baseball fauteuil. L'attente du lancer, la puissance et la précision de la frappe.", image: "/artworks/valeur_25.jpg" }
+      { id: "val21", title: "Fauteuil & Résilience", subject: "Vertu Sportive", text: "Le tennis fauteuil. La frappe, la mobilité et la résilience pure.", image: "/artworks/valeur_21.jpg" },
+      { id: "val22", title: "Lame & Transcendance", subject: "Vertu Sportive", text: "Le sprint paralympique. La lame affûtée pour transcender les limites humaines.", image: "/artworks/valeur_22.jpg" },
+      { id: "val23", title: "Descente & Équilibre", subject: "Vertu Sportive", text: "Le para-ski alpin. L'équilibre et la vitesse au service du dépassement de soi.", image: "/artworks/valeur_23.jpg" },
+      { id: "val24", title: "Effort & Vélocité", subject: "Vertu Sportive", text: "Le para-cyclisme. L'effort mécanique et la vélocité repoussant l'horizon.", image: "/artworks/valeur_24.jpg" },
+      { id: "val25", title: "Puissance & Précision", subject: "Vertu Sportive", text: "Le baseball fauteuil. L'attente du lancer, la puissance et la précision de la frappe.", image: "/artworks/valeur_25.jpg" }
     ]
   },
   {
@@ -230,22 +230,14 @@ const ailes = [
       { id: "fo15", title: "Swiss", subject: "Institution & Valeurs", text: "L'empennage solidaire. La croix helvétique façonnée par l'inclusion et la transmission.", image: "/artworks/corp_9.jpg", hc: true },
       { id: "fo10", title: "Le Coq FFF", subject: "LFP X Inclusion", text: "L'emblème tricolore. Diversité, mécénat et humilité sur le terrain.", image: "/artworks/sport_5.jpg", hc: true },
       { id: "fo11", title: "Ligue de Football", subject: "LFP X Inclusion", text: "Le championnat professionnel porté par les valeurs saines et le cécifoot.", image: "/artworks/sport_6.jpg", hc: true },
-      { id: "fo12", title: "Bondy Cécifoot Club", subject: "Club X Inclusion", text: "L'emblème du serpent. Déficience visuelle, transmission et solidarité© sur le terrain.", image: "/artworks/sport_7.jpg", hc: true }
-    ]
-  },
-  {
-    id: "langage",
-    title: "Le Langage",
-    color: "#3F51B5", // Indigo
-    description: "Les signes, les mots, la communication universelle forgée par les valeurs.",
-    artworks: [
+      { id: "fo12", title: "Bondy Cécifoot Club", subject: "Club X Inclusion", text: "L'emblème du serpent. Déficience visuelle, transmission et solidarité sur le terrain.", image: "/artworks/sport_7.jpg", hc: true },
       { id: "lan1", title: "L'Accord Parfait", subject: "Signe OK", text: "Le respect et le partage tissent le langage universel de l'approbation.", image: "/artworks/hands_echo_ok.jpg" },
       { id: "lan2", title: "L'Amour Universel", subject: "Cœur", text: "Handicap et inclusion s'entrelacent pour former le symbole absolu.", image: "/artworks/hands_echo_heart.jpg" }
     ]
   },
   {
     id: "nexus-netflix",
-    title: "NEXUS NETFLIX",
+    title: "Nexus Netflix",
     color: "#E50914", // Rouge Netflix
     description: "Le catalogue mondial, l'histoire et les fondateurs gravés dans les lettres de la légende.",
     artworks: [
@@ -260,7 +252,7 @@ const ailes = [
   },
   {
     id: "nexus-stade-rochelais",
-    title: "NEXUS STADE ROCHELAIS",
+    title: "Nexus Stade Rochelais",
     color: "#FFDD00", // Jaune Stade Rochelais
     description: "Les champions d'Europe. Le territoire et le blason sculptés par ceux qui les défendent.",
     artworks: [
@@ -293,14 +285,9 @@ const Galerie = () => {
       <header style={{ marginBottom: '6rem', textAlign: 'center' }}>
         <h1 style={{ fontSize: '3.5rem', fontWeight: 'bold' }}>Le Registre</h1>
         <p style={{ fontStyle: 'italic', fontSize: '1.2rem', color: 'var(--hv-grey)', marginBottom: '1.5rem' }}>
-          Parcourez plus de 130 œuvres inédites réparties à travers les 7 Ailes Thématiques de la Maison Culturelle HV.
+          Entrez dans le Registre. 130 œuvres, 6 Ailes, une seule maison culturelle.
         </p>
-        <div style={{ 
-          display: 'inline-block', padding: '0.8rem 1.5rem', border: '1px solid var(--hv-light-grey)', 
-          borderRadius: '4px', backgroundColor: 'var(--hv-cream)', fontSize: '0.85rem', color: 'var(--hv-grey)'
-        }}>
-          <strong>Note :</strong> Les pièces estampillées <strong>H.C. (Hors Commerce)</strong> illustrent notre savoir-faire en matière de R&D et d'Inclusion institutionnelle.<br/>Ces études de style représentent des prestations de services B2B et ne sont pas disponibles à l'acquisition publique.
-        </div>
+        
       </header>
 
       {/* NAVIGATION INTERNE (ANCRES) STICKY */}
@@ -395,10 +382,18 @@ const Galerie = () => {
       
       {/* APPEL À L'ACTION PLEXIGLAS */}
       <div style={{ textAlign: 'center', marginTop: '12rem', borderTop: '1px solid var(--hv-light-grey)', paddingTop: '6rem' }}>
-        <h3 style={{ fontSize: '2rem', marginBottom: '1rem' }}>Acquérir une Œuvre</h3>
-        <p style={{ fontSize: '1.1rem', marginBottom: '2.5rem', color: 'var(--hv-grey)' }}>Chaque œuvre de ce registre est disponible en tirage d'art exclusif (Plexiglas Premium).</p>
+        <div style={{ 
+          display: 'inline-block', padding: '0.8rem 1.5rem', border: '1px solid var(--hv-light-grey)', 
+          borderRadius: '4px', backgroundColor: 'var(--hv-cream)', fontSize: '0.85rem', color: 'var(--hv-grey)',
+          marginBottom: '4rem', textAlign: 'left', maxWidth: '800px'
+        }}>
+          <strong>Note :</strong> Les pièces estampillées <strong>H.C. (Hors Commerce)</strong> illustrent notre savoir-faire en matière de R&D et d'Inclusion institutionnelle.<br/>Ces études de style représentent des prestations de services B2B et ne sont pas disponibles à l'acquisition publique.
+        </div>
+
+        <h3 style={{ fontSize: '2rem', marginBottom: '1rem' }}>Acquérir une œuvre – Tirage d'art exclusif</h3>
+        <p style={{ fontSize: '1.1rem', marginBottom: '2.5rem', color: 'var(--hv-grey)' }}>Chaque pièce du Registre peut devenir une pièce de votre collection (Plexiglas Premium).</p>
         <a href="/collections" className="btn-accent" style={{ padding: '1rem 2rem', fontSize: '1.1rem' }}>
-          Accéder à la Salle des Acquisitions
+          → Accéder à la Salle des Acquisitions
         </a>
       </div>
     </div>
