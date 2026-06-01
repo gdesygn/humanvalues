@@ -58,37 +58,27 @@ const Nexus = () => {
             </p>
           </div>
 
-          <h2 style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>Le code HG-776-276-4, c'est quoi ?</h2>
-          <p>
-            C'est l'identifiant unique de notre référentiel d'inclusion sportive.
-          </p>
-          <p>
-            Il scelle l'alliance invisible entre le monde associatif, les grandes fédérations et l'entreprise citoyenne. Quand le Cécifoot devient emblème avec le Bondy Club, quand la LFP et la FFBB s'engagent pour la diversité, un sport par essence compétitif se métamorphose en acte profondément collectif.
-          </p>
-
-          <div style={{ margin: '2rem 0', padding: '1.5rem', backgroundColor: '#f8f8f8', border: '1px solid #333' }}>
-            <h4 style={{ margin: '0 0 0.5rem 0', fontSize: '1.1rem' }}>Le code HG-776-276-4 : impact tangible</h4>
-            <p style={{ margin: '0 0 1rem 0', fontWeight: '600' }}>Depuis 2023, 216 structures l'ont activé.</p>
-            <p style={{ margin: '0 0 0.5rem 0' }}>Le code HG permet concrètement à toute organisation de :</p>
-            <ul style={{ margin: '0 0 1rem 1.5rem', padding: '0', listStyleType: 'disc' }}>
-              <li>Mesurer son indice d'inclusion sportive (référentiel soutenu par le monde associatif)</li>
-              <li>Accéder à un réseau d'acteurs engagés (fédérations, clubs formateurs, initiatives locales)</li>
-              <li>Reverser 5€ sur les 19€ de l'archive au développement du sport adapté (ex: Cécifoot)</li>
-            </ul>
-            <p style={{ margin: 0, fontWeight: 'bold', color: 'var(--hv-accent)' }}>Ce n'est pas un label décoratif. C'est un engageur opérationnel.</p>
-          </div>
-
-          <p style={{ fontWeight: '600', paddingLeft: '1rem', borderLeft: '3px solid var(--hv-accent)', color: 'var(--hv-accent)' }}>
-            Le code HG n'est pas un simple numéro – c'est une clé d'accès à un réseau d'engagement vérifié.
-          </p>
-
-          <h2 style={{ fontSize: '1.5rem', marginBottom: '1rem', marginTop: '3rem' }}>Pourquoi c'est important</h2>
-          <p>
-            Lorsqu'une institution s'inspire du courage d'un athlète paralympique ou de l'abnégation d'un peloton solidaire face à la montagne, elle nous démontre qu'une structure en mouvement est la plus belle preuve de vitalité sociale.
-          </p>
-          <p>
-            L'adaptation apprise sur le court, sur la route ou sur les parquets devient une cuirasse pour l'existence.
-          </p>
+          <section className="nexus-presentation" style={{ marginTop: '3rem' }}>
+            <h2 style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>Le code HG-776-276-4</h2>
+            <p>
+              Chaque Nexus porte un identifiant unique. Ce code scelle l’alliance 
+              entre le monde associatif, les fédérations et l’entreprise citoyenne.
+            </p>
+            <div className="impact-stat" style={{ margin: '2rem 0', padding: '1.5rem', backgroundColor: '#f8f8f8', border: '1px solid #333' }}>
+              <p style={{ margin: '0 0 1rem 0', fontWeight: '600', fontSize: '1.1rem' }}>
+                Depuis 2023, 216 structures l’ont activé.
+              </p>
+              <p style={{ margin: 0 }}>
+                Pour chaque archive acquise, 5€ sont reversés au développement 
+                du sport adapté (cécifoot, handisport, inclusion des aînés).
+              </p>
+            </div>
+            <p style={{ fontWeight: '600', paddingLeft: '1rem', borderLeft: '3px solid var(--hv-accent)', color: 'var(--hv-accent)', marginBottom: '2rem' }}>
+              L’adaptation apprise sur le court, la route ou les parquets devient 
+              une cuirasse pour l’existence. La véritable victoire ? Ne laisser 
+              personne sur le côté.
+            </p>
+          </section>
 
           <h2 style={{ fontSize: '1.5rem', marginBottom: '1rem', marginTop: '3rem' }}>Nous sommes les architectes</h2>
           <p>
