@@ -128,7 +128,8 @@ const ailes = [
       { id: "ar21", title: "Microphone RMC", subject: "Média", text: "Afterfoot, Jeanot, 1998... La voix du sport transmise aux ondes.", image: "/artworks/rmc_mic.jpg" },
       { id: "ar22", title: "Louis Vuitton", subject: "Marque de Luxe", text: "Arnault, l'Impératrice Eugénie, le monogramme intemporel.", image: "/artworks/lv_arnault.jpg", hc: true },
       { id: "ar32", title: "Coach Prime", subject: "Football Américain", text: "Le casque tissé de l'aura de Deion Sanders. L'ère Prime Time au Colorado.", image: "/artworks/coach_prime_helmet.jpg" },
-      { id: "ar33", title: "Buffaloes CUB", subject: "Football Américain", text: "Le bison universitaire. L'emblème des Buffaloes sculpté par la ferveur de Boulder.", image: "/artworks/buffaloes_cub.jpg" }
+      { id: "ar33", title: "Buffaloes CUB", subject: "Football Américain", text: "Le bison universitaire. L'emblème des Buffaloes sculpté par la ferveur de Boulder.", image: "/artworks/buffaloes_cub.jpg" },
+      { id: "ar34", title: "Le Volant", subject: "Badminton", text: "L'aérodynamisme et la légèreté du volant tissés par les valeurs humaines.", image: "/artworks/volant_badminton.jpg" }
     ]
   },
   {
