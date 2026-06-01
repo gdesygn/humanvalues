@@ -43,6 +43,10 @@ const Institution = () => {
             <span style={{ position: 'absolute', left: 0, color: 'var(--hv-accent)' }}>•</span>
             <strong>Acteurs bancaires et territoriaux (ex: Raphaël Rébert, CIC-Crédit Mutuel)</strong> – Rencontres et partages de vision pour construire des ponts entre le sport, l'art et l'inclusion.
           </li>
+          <li style={{ marginBottom: '1rem', paddingLeft: '1.5rem', position: 'relative' }}>
+            <span style={{ position: 'absolute', left: 0, color: 'var(--hv-accent)' }}>•</span>
+            <strong>Acteurs et clubs sportifs engagés (ex: Le Stade Français Rugby via Thomas Lombard, Bondy Cécifoot Club)</strong> – Synergies concrètes pour le rayonnement de l'inclusion par le sport de haut niveau.
+          </li>
         </ul>
       </section>
 
