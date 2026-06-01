@@ -150,10 +150,10 @@ const ailes = [
       { id: "m3", title: "The King", subject: "Football", text: "Le col relevé. The King, la poésie rebelle et le théâtre des rêves.", image: "/artworks/portrait_3.jpg" },
       { id: "m4", title: "Galactic", subject: "Football", text: "Zizou. La roulette, la grâce absolue, la finale 98.", image: "/artworks/portrait_4.jpg" },
       { id: "m5", title: "Goleador", subject: "Football", text: "La fulgurance. La vitesse pure, la coupe du monde à 19 ans.", image: "/artworks/portrait_5.jpg" },
-      { id: "m6", title: "Krongsak (Origines)", subject: "Muay Thaï", text: "Guerrier né d'un art royal. Nak Muay. Respect. Knees.", image: "/artworks/martial_arts_1.jpg" },
-      { id: "m7", title: "Krongsak (Mindset)", subject: "Muay Thaï", text: "L\'esprit martial, la garde d'acier, la posture royale.", image: "/artworks/martial_arts_2.jpg" },
-      { id: "m8", title: "Skarbowsky (L'Héritage)", subject: "Muay Thaï", text: "Jean-Charles Skarbowsky. KO 51, Victories 75. La fiole des statistiques.", image: "/artworks/martial_arts_3.jpg" },
-      { id: "m9", title: "Skarbowsky (Karma)", subject: "Muay Thaï", text: "Sang, Ancrage, Rigueur, Bangkok. Le karma du combattant.", image: "/artworks/martial_arts_4.jpg" },
+      { id: "m6", title: "Krongsak (Origines) *", subject: "Muay Thaï", text: "Guerrier né d'un art royal. Nak Muay. Respect. Knees.", image: "/artworks/martial_arts_1.jpg" },
+      { id: "m7", title: "Krongsak (Mindset) *", subject: "Muay Thaï", text: "L\'esprit martial, la garde d'acier, la posture royale.", image: "/artworks/martial_arts_2.jpg" },
+      { id: "m8", title: "Skarbowsky (L'Héritage) *", subject: "Muay Thaï", text: "Jean-Charles Skarbowsky. KO 51, Victories 75. La fiole des statistiques.", image: "/artworks/martial_arts_3.jpg" },
+      { id: "m9", title: "Skarbowsky (Karma) *", subject: "Muay Thaï", text: "Sang, Ancrage, Rigueur, Bangkok. Le karma du combattant.", image: "/artworks/martial_arts_4.jpg" },
       { id: "m9_1", title: "Karate & Bushido", subject: "Arts Martiaux", text: "L'opposition de style, la voie du guerrier. La pureté du combat typographique.", image: "/artworks/martial_arts_karate.jpg" },
       { id: "m10", title: "L'Avenir du Court", subject: "Tennis", text: "US Open, Roland Garros. La balle de tennis en lettres, l'avenir sur le court.", image: "/artworks/gauff.jpg" },
       { id: "m11", title: "Le Prodige", subject: "Football", text: "Le joga bonito, le prodige brésilien et la barre des 700.", image: "/artworks/neymar_700.jpg" },
@@ -382,12 +382,22 @@ const Galerie = () => {
       
       {/* APPEL À L'ACTION PLEXIGLAS */}
       <div style={{ textAlign: 'center', marginTop: '12rem', borderTop: '1px solid var(--hv-light-grey)', paddingTop: '6rem' }}>
-        <div style={{ 
-          display: 'inline-block', padding: '0.8rem 1.5rem', border: '1px solid var(--hv-light-grey)', 
-          borderRadius: '4px', backgroundColor: 'var(--hv-cream)', fontSize: '0.85rem', color: 'var(--hv-grey)',
-          marginBottom: '4rem', textAlign: 'left', maxWidth: '800px'
-        }}>
-          <strong>Note :</strong> Les pièces estampillées <strong>H.C. (Hors Commerce)</strong> illustrent notre savoir-faire en matière de R&D et d'Inclusion institutionnelle.<br/>Ces études de style représentent des prestations de services B2B et ne sont pas disponibles à l'acquisition publique.
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1rem', marginBottom: '4rem' }}>
+          <div style={{ 
+            padding: '0.8rem 1.5rem', border: '1px solid var(--hv-light-grey)', 
+            borderRadius: '4px', backgroundColor: 'var(--hv-cream)', fontSize: '0.85rem', color: 'var(--hv-grey)',
+            textAlign: 'left', maxWidth: '800px'
+          }}>
+            <strong>Note :</strong> Les pièces estampillées <strong>H.C. (Hors Commerce)</strong> illustrent notre savoir-faire en matière de R&D et d'Inclusion institutionnelle.<br/>Ces études de style représentent des prestations de services B2B et ne sont pas disponibles à l'acquisition publique.
+          </div>
+          
+          <div style={{ 
+            padding: '0.8rem 1.5rem', border: '1px solid #C25939', 
+            borderRadius: '4px', backgroundColor: '#fffdfa', fontSize: '0.85rem', color: '#a64526',
+            textAlign: 'left', maxWidth: '800px'
+          }}>
+            <strong>* Solidarité Arts Martiaux :</strong> Pour toute acquisition d'une œuvre de l'héritage Krongsak / Skarbowsky, <strong>20% des revenus</strong> sont automatiquement reversés au <strong>JC Skarbowsky Gym</strong>.
+          </div>
         </div>
 
         <h3 style={{ fontSize: '2rem', marginBottom: '1rem' }}>Acquérir une œuvre – Tirage d'art exclusif</h3>
