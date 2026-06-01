@@ -6,12 +6,12 @@ const Collectif = () => {
       <header style={{ marginBottom: '4rem', textAlign: 'center' }}>
         <h1>Le Collectif & Les Valeurs</h1>
         <p style={{ fontStyle: 'italic', fontSize: '1.2rem', color: 'var(--hv-grey)' }}>
-          L'institution, la charte et le Conseil des 5.
+          L'institution, la charte et le Conseil des Nexus.
         </p>
         
         <div style={{ maxWidth: '600px', margin: '2rem auto 0 auto', padding: '1.5rem', backgroundColor: '#f9f9f9', border: '1px solid #eee', textAlign: 'left' }}>
           <p style={{ margin: '0', fontSize: '1rem', lineHeight: '1.5', fontWeight: '500' }}>
-            HumanValues est une Maison Culturelle. Depuis 2023, <strong>47 Nexus</strong> ont été validés par notre Conseil.
+            HumanValues est une Maison Culturelle. Depuis 2023, <strong>47 Nexus</strong> sont en cours de validation par notre Conseil.
           </p>
         </div>
       </header>
@@ -19,7 +19,7 @@ const Collectif = () => {
       <section className="nexus-reading" style={{ marginBottom: '4rem' }}>
         <h2 style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>La Charte Fondatrice</h2>
         <p>
-          HumanValues (HV) n'est pas une entreprise classique, ni une simple marque. C'est une Maison Culturelle et une Institution Moderne. Notre mission est de bâtir un système narratif mondial reliant les cultures, les sports et les mémoires par le prisme de valeurs humaines universelles.
+          HumanValues (HV) est une Maison Culturelle et une Institution Moderne. Sa mission : bâtir un système narratif mondial reliant les cultures, les sports et les mémoires par le prisme de valeurs humaines universelles.
         </p>
       </section>
 
@@ -28,7 +28,7 @@ const Collectif = () => {
         <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '2rem', marginTop: '2rem' }}>
           <div>
             <h3 style={{ fontSize: '1.3rem', color: 'var(--hv-black)', marginBottom: '0.5rem' }}>I. Transmission</h3>
-            <p style={{ margin: 0 }}>La transmission n'est pas un don, c'est un relais que l'on accepte de porter. Refuser que l'expérience s'efface. Relier les pionniers d'hier aux acteurs de demain.</p>
+            <p style={{ margin: 0 }}>La transmission n'est pas un don – c'est un relais que l'on accepte de porter. Relier les pionniers d'hier aux acteurs de demain.</p>
           </div>
           <div>
             <h3 style={{ fontSize: '1.3rem', color: 'var(--hv-black)', marginBottom: '0.5rem' }}>II. Résilience</h3>
@@ -36,7 +36,7 @@ const Collectif = () => {
           </div>
           <div>
             <h3 style={{ fontSize: '1.3rem', color: 'var(--hv-black)', marginBottom: '0.5rem' }}>III. Partage</h3>
-            <p style={{ margin: 0 }}>Le filet ne sépare pas les hommes, il les réunit. Le terrain n'a pas d'ennemis – seulement des équipiers qu'on ne connaît pas encore. L'adversité s'efface au profit de la communion et de l'inclusion radicale.</p>
+            <p style={{ margin: 0 }}>Le filet ne sépare pas les hommes, il les réunit. Le terrain n'a pas d'ennemis – seulement des équipiers qu'on ne connaît pas encore.</p>
           </div>
         </div>
       </section>
@@ -47,10 +47,10 @@ const Collectif = () => {
           L'institution est régie par la transparence, la rigueur et l'éthique. Le Conseil, formé de 5 membres issus du monde du sport, de la culture et de l'éducation, valide l'intégration de tout nouveau Nexus au Registre.
         </p>
         <p style={{ fontStyle: 'italic', paddingLeft: '1rem', borderLeft: '3px solid var(--hv-accent)', color: '#555' }}>
-          Parmi ses membres : des personnalités issues de fédérations sportives nationales, de clubs formateurs historiques et du monde académique.
+          Leurs identités et leurs œuvres HV associées sont visibles dans notre Galerie institutionnelle.
         </p>
         <p style={{ marginTop: '1.5rem', fontWeight: 'bold' }}>
-          ✅ 47 Nexus validés depuis 2023.
+          ✅ 47 Nexus en cours de validation depuis 2023.
         </p>
       </section>
 
@@ -60,24 +60,16 @@ const Collectif = () => {
         <p style={{ fontWeight: 'bold', fontSize: '1.1rem', marginBottom: '1rem' }}>
           Ces valeurs animent chaque Nexus enregistré.
         </p>
-        <a href="/nexus" style={{ color: 'var(--hv-accent)', fontWeight: 'bold', textDecoration: 'underline' }}>
-          → Découvrir le Registre et activer le code HG
-        </a>
-
-        <div style={{ display: 'flex', justifyContent: 'center', gap: '1rem', marginTop: '3rem', flexWrap: 'wrap' }}>
-          <button 
-            className="btn-primary" 
-            style={{ backgroundColor: 'transparent', color: 'var(--hv-black)', border: '1px solid var(--hv-black)' }}
-            onClick={() => window.location.href = "mailto:contact@humanvalues.fr?subject=Proposer%20un%20Nexus"}
-          >
-            💬 Proposer un Nexus
-          </button>
-          <button 
-            className="btn-accent" 
-            onClick={() => window.location.href = "mailto:contact@humanvalues.fr?subject=Rejoindre%20le%20réseau%20HV"}
-          >
-            🤝 Rejoindre le réseau HV
-          </button>
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1rem', marginTop: '2rem' }}>
+          <a href="/nexus" style={{ color: 'var(--hv-black)', fontWeight: 'bold', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '0.5rem', transition: 'color 0.3s' }} className="hover-accent">
+            → Découvrir le Registre et activer le code HG
+          </a>
+          <a href="mailto:contact@humanvalues.fr?subject=Proposer%20un%20Nexus" style={{ color: 'var(--hv-black)', fontWeight: 'bold', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '0.5rem', transition: 'color 0.3s' }} className="hover-accent">
+            → Proposer un Nexus
+          </a>
+          <a href="mailto:contact@humanvalues.fr?subject=Rejoindre%20le%20réseau%20HV" style={{ color: 'var(--hv-black)', fontWeight: 'bold', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '0.5rem', transition: 'color 0.3s' }} className="hover-accent">
+            → Rejoindre le réseau HV
+          </a>
         </div>
       </div>
 
