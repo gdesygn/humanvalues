@@ -176,7 +176,7 @@ const ailes = [
       { id: "are_inst_2", title: "Le Coq du Volley", subject: "FFVolley", text: "L'envol, le smash, l'excellence de la Fédération Française de Volley.", image: "/artworks/ffvolley_rooster.jpg", hc: true },
       { id: "are_club_1", title: "Les Spartiates", subject: "Hockey sur Glace", text: "Le casque de Sparte, le bouclier, la fierté de Marseille sur la glace.", image: "/artworks/spartiates.jpg" },
       { id: "ar1", title: "09 Playground", subject: "Basket", text: "La Fédération Française de Basket, l'héritage d'une nation.", image: "/artworks/ffbb_1.jpg" },
-      { id: "ar2", title: "Team 99", subject: "Basket", text: "L'épopée fondatrice, les grands noms du basket tricolore.", image: "/artworks/ffbb_2.jpg", hc: true },
+      { id: "ar2", title: "Team 99", subject: "Basket", text: "L'épopée fondatrice, les grands noms du basket tricolore.", image: "/artworks/ffbb_2.jpg" },
       { id: "ar3", title: "NX Legends", subject: "Basket", text: "Le meneur, le Hall of Fame, le premier des géants.", image: "/artworks/ffbb_3.jpg", hc: true },
       { id: "ar4", title: "NX Icons", subject: "Basket", text: "L'Alien. La mutation du jeu, l'envergure vertigineuse.", image: "/artworks/ffbb_4.jpg" },
       { id: "ar5", title: "NX The Dancing Bear", subject: "Basket", text: "La légende de Limoges, la combativité, le titre européen.", image: "/artworks/ffbb_5.jpg" },
