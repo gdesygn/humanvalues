@@ -160,7 +160,8 @@ const ailes = [
       { id: "m12", title: "Le O de Omar", subject: "Cinéma & Parcours", text: "Toute son histoire dans le O de Omar. De Trappes à Hollywood, le sourire de la France.", image: "/artworks/omar_sy.jpg" },
       { id: "m13", title: "La Vérité de José", subject: "Cinéma & Humour", text: "Le rire flamboyant. De Nulle Part Ailleurs aux sommets du box-office.", image: "/artworks/jose_garcia.jpg" },
       { id: "m14", title: "Diogo JOTA 20", subject: "Football & R&D", text: "L'oiseau mythique de Liverpool tissé par le parcours, les statistiques et l'esport de Diogo Jota.", image: "/artworks/diogo_jota_lfc.jpg", hc: true },
-      { id: "m15", title: "The Austrian Oak", subject: "Cinéma & Légende", text: "Arnie. Gouvernator. Schwarzy. L'incarnation du rêve américain et de la volonté absolue.", image: "/artworks/arnold_schwarzenegger.jpg" }
+      { id: "m15", title: "The Austrian Oak", subject: "Cinéma & Légende", text: "Arnie. Gouvernator. Schwarzy. L'incarnation du rêve américain et de la volonté absolue.", image: "/artworks/arnold_schwarzenegger.jpg" },
+      { id: "m16", title: "Le 7 de CR7", subject: "Football & Légende", text: "L'obsession de la perfection. Le numéro mythique entièrement tissé par l'identité de Cristiano Ronaldo.", image: "/artworks/cr7.jpg", hc: true }
     ]
   },
   {
