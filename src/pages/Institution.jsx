@@ -59,8 +59,8 @@ const Institution = () => {
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem' }}>
           
           <figure style={{ margin: 0 }}>
-            <div style={{ borderRadius: '8px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0,0,0,0.1)', aspectRatio: '4/3', marginBottom: '1rem' }}>
-              <img src="/artworks/unesco_1.jpg" alt="Délégation UNESCO" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+            <div style={{ borderRadius: '8px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0,0,0,0.1)', marginBottom: '1rem', backgroundColor: '#fafafa', display: 'flex', justifyContent: 'center' }}>
+              <img src="/artworks/unesco_1.jpg" alt="Délégation UNESCO" style={{ width: '100%', height: 'auto', display: 'block' }} />
             </div>
             <figcaption style={{ fontSize: '0.85rem', color: '#666', fontStyle: 'italic', textAlign: 'center' }}>
               3 Décembre 2024 – International Day of Persons with Disabilities / Group of Friends for Inclusion and Disability to UNESCO
@@ -68,8 +68,8 @@ const Institution = () => {
           </figure>
 
           <figure style={{ margin: 0 }}>
-            <div style={{ borderRadius: '8px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0,0,0,0.1)', aspectRatio: '4/3', marginBottom: '1rem' }}>
-              <img src="/artworks/bank_boss.jpg" alt="Raphaël Rebert CIC" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+            <div style={{ borderRadius: '8px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0,0,0,0.1)', marginBottom: '1rem', backgroundColor: '#fafafa', display: 'flex', justifyContent: 'center' }}>
+              <img src="/artworks/bank_boss.jpg" alt="Raphaël Rebert CIC" style={{ width: '100%', height: 'auto', display: 'block' }} />
             </div>
             <figcaption style={{ fontSize: '0.85rem', color: '#666', fontStyle: 'italic', textAlign: 'center' }}>
               Raphaël Rébert (CIC-Crédit Mutuel) – Échanges et partage de projets d'inclusion
@@ -77,8 +77,8 @@ const Institution = () => {
           </figure>
 
           <figure style={{ margin: 0 }}>
-            <div style={{ borderRadius: '8px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0,0,0,0.1)', aspectRatio: '4/3', marginBottom: '1rem' }}>
-              <img src="/artworks/unesco_2.jpg" alt="Présentation aux Décideurs" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+            <div style={{ borderRadius: '8px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0,0,0,0.1)', marginBottom: '1rem', backgroundColor: '#fafafa', display: 'flex', justifyContent: 'center' }}>
+              <img src="/artworks/unesco_2.jpg" alt="Présentation aux Décideurs" style={{ width: '100%', height: 'auto', display: 'block' }} />
             </div>
             <figcaption style={{ fontSize: '0.85rem', color: '#666', fontStyle: 'italic', textAlign: 'center' }}>
               Présentation du Registre Nexus aux décideurs institutionnels
@@ -86,8 +86,8 @@ const Institution = () => {
           </figure>
 
           <figure style={{ margin: 0 }}>
-            <div style={{ borderRadius: '8px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0,0,0,0.1)', aspectRatio: '4/3', marginBottom: '1rem', backgroundColor: '#eee' }}>
-              <img src="/artworks/greg_mma.jpg" alt="Greg MMA et Karaté Bushido" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+            <div style={{ borderRadius: '8px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0,0,0,0.1)', marginBottom: '1rem', backgroundColor: '#fafafa', display: 'flex', justifyContent: 'center' }}>
+              <img src="/artworks/greg_mma.jpg" alt="Greg MMA et Karaté Bushido" style={{ width: '100%', height: 'auto', display: 'block' }} />
             </div>
             <figcaption style={{ fontSize: '0.85rem', color: '#666', fontStyle: 'italic', textAlign: 'center' }}>
               Greg MMA (Karaté Bushido) – Le soutien des grands noms des sports de combat
@@ -95,8 +95,8 @@ const Institution = () => {
           </figure>
 
           <figure style={{ margin: 0 }}>
-            <div style={{ borderRadius: '8px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0,0,0,0.1)', aspectRatio: '4/3', marginBottom: '1rem', backgroundColor: '#eee' }}>
-              <img src="/artworks/thomas_lombard.jpg" alt="Thomas Lombard - Stade Français" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+            <div style={{ borderRadius: '8px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0,0,0,0.1)', marginBottom: '1rem', backgroundColor: '#fafafa', display: 'flex', justifyContent: 'center' }}>
+              <img src="/artworks/thomas_lombard.jpg" alt="Thomas Lombard - Stade Français" style={{ width: '100%', height: 'auto', display: 'block' }} />
             </div>
             <figcaption style={{ fontSize: '0.85rem', color: '#666', fontStyle: 'italic', textAlign: 'center' }}>
               Thomas Lombard (Stade Français Rugby) – Synergies pour l'inclusion par le sport de haut niveau
@@ -104,8 +104,8 @@ const Institution = () => {
           </figure>
 
           <figure style={{ margin: 0 }}>
-            <div style={{ borderRadius: '8px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0,0,0,0.1)', aspectRatio: '4/3', marginBottom: '1rem', backgroundColor: '#eee' }}>
-              <img src="/artworks/fernand_lopez.jpg" alt="Fernand Lopez - MMA Factory" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+            <div style={{ borderRadius: '8px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0,0,0,0.1)', marginBottom: '1rem', backgroundColor: '#fafafa', display: 'flex', justifyContent: 'center' }}>
+              <img src="/artworks/fernand_lopez.jpg" alt="Fernand Lopez - MMA Factory" style={{ width: '100%', height: 'auto', display: 'block' }} />
             </div>
             <figcaption style={{ fontSize: '0.85rem', color: '#666', fontStyle: 'italic', textAlign: 'center' }}>
               Fernand Lopez (Head Coach MMA Factory) – Transmettre l'excellence et la discipline
