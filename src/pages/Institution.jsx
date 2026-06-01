@@ -4,15 +4,16 @@ const Institution = () => {
   return (
     <div className="container" style={{ maxWidth: '1000px', margin: '0 auto', paddingBottom: '10vh' }}>
       <header style={{ marginBottom: '4rem', textAlign: 'center' }}>
-        <h1>L'écosystème HumanValues</h1>
+        <h1>HumanValues HV</h1>
         <p style={{ fontStyle: 'italic', fontSize: '1.2rem', color: 'var(--hv-grey)' }}>
-          L'exigence comme seul laissez-passer.
+          "L'exigence comme seul laissez-passer."
         </p>
 
         {/* Executive summary */}
         <div style={{ maxWidth: '800px', margin: '2rem auto 0 auto', padding: '1.5rem', backgroundColor: '#f9f9f9', border: '1px solid #eee', textAlign: 'left' }}>
           <p style={{ margin: '0', fontSize: '1.05rem', lineHeight: '1.6', fontWeight: '500' }}>
-            L'engagement de HumanValues résonne aujourd'hui auprès d'acteurs institutionnels majeurs. Sans chercher de simples sponsors, nous cultivons une vision de l'inclusion qui éveille l'intérêt des décideurs et nous amène à contribuer à des réflexions d'envergure internationale.
+            HumanValues HV est aujourd'hui reconnu et sollicité par des acteurs institutionnels majeurs.<br/>
+            Notre engagement en faveur d'une inclusion exigeante – par le sport, la culture et le récit – a éveillé l'intérêt de décideurs internationaux.
           </p>
         </div>
       </header>
@@ -37,19 +38,19 @@ const Institution = () => {
         <ul style={{ listStyleType: 'none', padding: 0, margin: '0 0 3rem 0' }}>
           <li style={{ marginBottom: '1rem', paddingLeft: '1.5rem', position: 'relative' }}>
             <span style={{ position: 'absolute', left: 0, color: 'var(--hv-accent)' }}>•</span>
-            <strong>Reconnaissance Internationale</strong> – Invitation à contribuer aux travaux de cercles de réflexion internationaux axés sur l'inclusion et l'accessibilité culturelle.
+            <strong>Reconnaissance internationale</strong> – Invitation à contribuer aux travaux de cercles de réflexion de l'UNESCO sur l'inclusion et l'accessibilité culturelle.
           </li>
           <li style={{ marginBottom: '1rem', paddingLeft: '1.5rem', position: 'relative' }}>
             <span style={{ position: 'absolute', left: 0, color: 'var(--hv-accent)' }}>•</span>
-            <strong>Acteurs bancaires et territoriaux (ex: Raphaël Rébert, CIC-Crédit Mutuel)</strong> – Rencontres et partages de vision pour construire des ponts entre le sport, l'art et l'inclusion.
+            <strong>Partenariats bancaires et territoriaux</strong> – Raphaël Rébert (CIC-Crédit Mutuel) : échanges et construction de ponts entre sport, art et inclusion.
           </li>
           <li style={{ marginBottom: '1rem', paddingLeft: '1.5rem', position: 'relative' }}>
             <span style={{ position: 'absolute', left: 0, color: 'var(--hv-accent)' }}>•</span>
-            <strong>Acteurs et clubs sportifs engagés (ex: Le Stade Français Rugby via Thomas Lombard, Bondy Cécifoot Club)</strong> – Synergies concrètes pour le rayonnement de l'inclusion par le sport de haut niveau.
+            <strong>Clubs sportifs engagés</strong> – Stade Français Rugby (Thomas Lombard) & Bondy Cécifoot Club : actions concrètes pour l'inclusion par le sport de haut niveau.
           </li>
           <li style={{ marginBottom: '1rem', paddingLeft: '1.5rem', position: 'relative' }}>
             <span style={{ position: 'absolute', left: 0, color: 'var(--hv-accent)' }}>•</span>
-            <strong>Figures emblématiques et médias (ex: Fernand Lopez, Greg MMA, Karaté Bushido)</strong> – Adhésion des grands noms des sports de combat, ancrant les valeurs de discipline et de respect au cœur du projet.
+            <strong>Figures des sports de combat</strong> – Fernand Lopez, Greg MMA, Karaté Bushido : des noms majeurs qui ancrent discipline et respect au cœur de HV.
           </li>
         </ul>
       </section>
@@ -117,23 +118,29 @@ const Institution = () => {
 
       {/* Bande thématique */}
       <section style={{ marginBottom: '5rem', padding: '3rem 0', borderTop: '1px solid #eee', borderBottom: '1px solid #eee', textAlign: 'center' }}>
-        <p style={{ fontSize: '0.9rem', color: '#999', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '2rem' }}>Un dialogue ouvert avec</p>
+        <p style={{ fontSize: '0.9rem', color: '#999', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '2rem' }}>HumanValues HV dialogue et agit aux côtés de :</p>
         <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', gap: '2rem', alignItems: 'center', fontFamily: 'Playfair Display', fontSize: '1.4rem', fontWeight: 'bold', color: 'var(--hv-black)' }}>
-          <span style={{ transition: 'color 0.3s', cursor: 'default' }}>Instances Internationales</span>
+          <span style={{ transition: 'color 0.3s', cursor: 'default' }}>Instances internationales (UNESCO)</span>
           <span style={{ color: 'var(--hv-accent)' }}>•</span>
-          <span style={{ transition: 'color 0.3s', cursor: 'default' }}>Institutions & Collectivités</span>
+          <span style={{ transition: 'color 0.3s', cursor: 'default' }}>Institutions & collectivités</span>
           <span style={{ color: 'var(--hv-accent)' }}>•</span>
-          <span style={{ transition: 'color 0.3s', cursor: 'default' }}>Clubs & Médias Sportifs de Haut Niveau</span>
+          <span style={{ transition: 'color 0.3s', cursor: 'default' }}>Clubs & médias sportifs de haut niveau</span>
         </div>
       </section>
 
       {/* Section Licences */}
       <section className="nexus-reading" style={{ marginBottom: '4rem' }}>
-        <h2 style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>Déployer un Nexus – licence & protocole pédagogique</h2>
-        <p style={{ marginBottom: '1rem' }}>
+        <h2 style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>Déployer un Nexus – Licence & protocole pédagogique</h2>
+        
+        <p style={{ marginBottom: '1.5rem' }}>
           La propriété intellectuelle des Nexus et du protocole éducatif associé est disponible sous licence.
-          Écoles, musées, fédérations sportives, municipalités : transformez le récit en outil pédagogique et social.
         </p>
+
+        <p style={{ marginBottom: '1.5rem', fontWeight: '500' }}>
+          Écoles, musées, fédérations sportives, municipalités :<br/>
+          transformez le récit en outil pédagogique et social.
+        </p>
+
         <p style={{ fontStyle: 'italic', fontSize: '0.85rem', color: '#888' }}>
           HumanValues HV est une marque déposée (INPI).
         </p>
@@ -148,7 +155,7 @@ const Institution = () => {
           className="btn-accent" 
           onClick={() => window.location.href = "mailto:partenaires@humanvalues.fr?subject=Partenariat%20HV"}
         >
-          🤝 Rejoindre l'écosystème HV
+          🤝 Devenons partenaires d'un récit qui compte. Contactez le Conseil des Nexus.
         </button>
       </div>
 
