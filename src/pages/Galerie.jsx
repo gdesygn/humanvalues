@@ -97,7 +97,8 @@ const ailes = [
       { id: "val25", title: "Puissance & Précision", subject: "Vertu Sportive", text: "Le baseball fauteuil. L'attente du lancer, la puissance et la précision de la frappe.", image: "/artworks/valeur_25.jpg" },
       { id: "val26", title: "HV (Ruban)", subject: "Gymnastique Rythmique", text: "L'harmonie du mouvement et la légèreté du ruban, sculptées par les lettres HV.", image: "/artworks/grace_ruban.jpg" },
       { id: "val27", title: "La Grâce (Poutre)", subject: "Gymnastique Artistique", text: "L'équilibre parfait sur la poutre. La grâce incarnée dans chaque syllabe.", image: "/artworks/grace_poutre.jpg" },
-      { id: "val28", title: "La Grâce (Ballon)", subject: "Gymnastique Rythmique", text: "L'élégance absolue. La capture du ballon suspendue dans le temps.", image: "/artworks/grace_ballon.jpg" }
+      { id: "val28", title: "La Grâce (Ballon)", subject: "Gymnastique Rythmique", text: "L'élégance absolue. La capture du ballon suspendue dans le temps.", image: "/artworks/grace_ballon.jpg" },
+      { id: "val29", title: "Le Service Parfait", subject: "Tennis", text: "La puissance et la précision du service, dessinées par la typographie HV 2025.", image: "/artworks/hv_tennis_service.jpg" }
     ]
   },
   {
@@ -132,7 +133,10 @@ const ailes = [
       { id: "ar22", title: "Louis Vuitton", subject: "Marque de Luxe", text: "Arnault, l'Impératrice Eugénie, le monogramme intemporel.", image: "/artworks/lv_arnault.jpg", hc: true },
       { id: "ar32", title: "Coach Prime", subject: "Football Américain", text: "Le casque tissé de l'aura de Deion Sanders. L'ère Prime Time au Colorado.", image: "/artworks/coach_prime_helmet.jpg" },
       { id: "ar33", title: "Buffaloes CUB", subject: "Football Américain", text: "Le bison universitaire. L'emblème des Buffaloes sculpté par la ferveur de Boulder.", image: "/artworks/buffaloes_cub.jpg" },
-      { id: "ar34", title: "Le Volant", subject: "Badminton", text: "L'aérodynamisme et la légèreté du volant tissés par les valeurs humaines.", image: "/artworks/volant_badminton.jpg" }
+      { id: "ar34", title: "Le Volant", subject: "Badminton", text: "L'aérodynamisme et la légèreté du volant tissés par les valeurs humaines.", image: "/artworks/volant_badminton.jpg" },
+      { id: "ar35", title: "Sneakers HV", subject: "Lifestyle", text: "L'empreinte du streetwear et du basket sculptée dans la matière 2025.", image: "/artworks/hv_sneakers.jpg" },
+      { id: "ar36", title: "Home Run", subject: "Baseball", text: "La batte et la balle. Le classique américain forgé par les lettres HV 2025.", image: "/artworks/hv_baseball.jpg" },
+      { id: "ar37", title: "Le Strike", subject: "Bowling", text: "La quille et la boule. L'alignement parfait avant l'impact 2025.", image: "/artworks/hv_bowling.jpg" }
     ]
   },
   {
@@ -156,11 +160,11 @@ const ailes = [
       { id: "m3", title: "The King", subject: "Football", text: "Le col relevé. The King, la poésie rebelle et le théâtre des rêves.", image: "/artworks/portrait_3.jpg" },
       { id: "m4", title: "Galactic ⭐", subject: "Football", text: "Zizou. La roulette, la grâce absolue, la finale 98.", image: "/artworks/portrait_4.jpg" },
       { id: "m5", title: "Goleador", subject: "Football", text: "La fulgurance. La vitesse pure, la coupe du monde à 19 ans.", image: "/artworks/portrait_5.jpg" },
-      { id: "m6", title: "Krongsak (Origines) *", subject: "Muay Thaï", text: "Guerrier né d'un art royal. Nak Muay. Respect. Knees.", image: "/artworks/martial_arts_1.jpg" },
-      { id: "m7", title: "Krongsak (Mindset) *", subject: "Muay Thaï", text: "L\'esprit martial, la garde d'acier, la posture royale.", image: "/artworks/martial_arts_2.jpg" },
-      { id: "m8", title: "Skarbowsky (L'Héritage) *", subject: "Muay Thaï", text: "Jean-Charles Skarbowsky. KO 51, Victories 75. La fiole des statistiques.", image: "/artworks/martial_arts_3.jpg" },
-      { id: "m9", title: "Skarbowsky (Karma) *", subject: "Muay Thaï", text: "Sang, Ancrage, Rigueur, Bangkok. Le karma du combattant.", image: "/artworks/martial_arts_4.jpg" },
-      { id: "m9_1", title: "Karate & Bushido *", subject: "Arts Martiaux", text: "L'opposition de style, la voie du guerrier. La pureté du combat typographique.", image: "/artworks/martial_arts_karate.jpg" },
+      { id: "m6", title: "Krongsak (Origines) ⭐", subject: "Muay Thaï", text: "Guerrier né d'un art royal. Nak Muay. Respect. Knees.", image: "/artworks/martial_arts_1.jpg" },
+      { id: "m7", title: "Krongsak (Mindset) ⭐", subject: "Muay Thaï", text: "L\'esprit martial, la garde d'acier, la posture royale.", image: "/artworks/martial_arts_2.jpg" },
+      { id: "m8", title: "Skarbowsky (L'Héritage) ⭐", subject: "Muay Thaï", text: "Jean-Charles Skarbowsky. KO 51, Victories 75. La fiole des statistiques.", image: "/artworks/martial_arts_3.jpg" },
+      { id: "m9", title: "Skarbowsky (Karma) ⭐", subject: "Muay Thaï", text: "Sang, Ancrage, Rigueur, Bangkok. Le karma du combattant.", image: "/artworks/martial_arts_4.jpg" },
+      { id: "m9_1", title: "Karate & Bushido ⭐", subject: "Arts Martiaux", text: "L'opposition de style, la voie du guerrier. La pureté du combat typographique.", image: "/artworks/martial_arts_karate.jpg" },
       { id: "m10", title: "L'Avenir du Court", subject: "Tennis", text: "US Open, Roland Garros. La balle de tennis en lettres, l'avenir sur le court.", image: "/artworks/gauff.jpg", hc: true },
       { id: "m11", title: "Le Prodige", subject: "Football", text: "Le joga bonito, le prodige brésilien et la barre des 700.", image: "/artworks/neymar_700.jpg", hc: true },
       { id: "m12", title: "Le O de Omar", subject: "Cinéma & Parcours", text: "Toute son histoire dans le O de Omar. De Trappes à Hollywood, le sourire de la France.", image: "/artworks/omar_sy.jpg" },
@@ -404,7 +408,7 @@ const Galerie = () => {
             borderRadius: '4px', backgroundColor: '#fffdfa', fontSize: '0.85rem', color: '#a64526',
             textAlign: 'left', maxWidth: '800px'
           }}>
-            <strong>* Solidarité Arts Martiaux :</strong> Pour toute acquisition d'une œuvre de l'héritage Krongsak / Skarbowsky, <strong>20% des revenus</strong> sont automatiquement reversés au <strong>JC Skarbowsky Gym</strong>.
+            <strong>⭐ Solidarité Arts Martiaux :</strong> Pour toute acquisition d'une œuvre de l'héritage Krongsak / Skarbowsky (ou Karate & Bushido), <strong>20% des revenus</strong> sont automatiquement reversés au <strong>JC Skarbowsky Gym</strong>.
           </div>
         </div>
 
