@@ -262,7 +262,7 @@ const ailes = [
       { id: "nxr2", title: "La Caravelle", subject: "Stade Rochelais", text: "Le logo historique sculpté par l'effectif maritime champion d'Europe.", image: "/artworks/hands_echo_2.jpg", hc: true },
       { id: "nxr3", title: "Charente-Maritime (Or)", subject: "Stade Rochelais", text: "Le 17. Le département dessiné par les noms de ses fiers corsaires sur fond or.", image: "/artworks/rochelais_map_1.jpg", hc: true },
       { id: "nxr4", title: "La Caravelle (Or)", subject: "Stade Rochelais", text: "Le logo historique sculpté par l'effectif maritime champion d'Europe sur fond or.", image: "/artworks/rochelais_caravelle_1.jpg", hc: true },
-      { id: "nxr5", title: "Charente-Maritime (Noir)", subject: "Stade Rochelais", text: "Le département façonné par les noms, incrusté de noir profond.", image: "/artworks/rochelais_map_2.jpg" },
+      { id: "nxr5", title: "Charente-Maritime (Noir)", subject: "Stade Rochelais", text: "Le département façonné par les noms, incrusté de noir profond.", image: "/artworks/rochelais_map_2.jpg", hc: true },
       { id: "nxr6", title: "La Caravelle (Noir)", subject: "Stade Rochelais", text: "L'emblème du club et l'héritage européen en noir intense.", image: "/artworks/rochelais_caravelle_2.jpg" }
     ]
   }
