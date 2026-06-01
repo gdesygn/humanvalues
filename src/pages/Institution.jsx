@@ -115,13 +115,13 @@ const Institution = () => {
         </div>
       </section>
 
-      {/* Bande logos partenaires (texte styling en attendant assets) */}
+      {/* Bande thématique (texte styling en attendant assets) */}
       <section style={{ marginBottom: '5rem', padding: '3rem 0', borderTop: '1px solid #eee', borderBottom: '1px solid #eee', textAlign: 'center' }}>
-        <p style={{ fontSize: '0.9rem', color: '#999', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '2rem' }}>Nos partenaires de confiance</p>
+        <p style={{ fontSize: '0.9rem', color: '#999', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '2rem' }}>Un dialogue ouvert avec</p>
         <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', gap: '3rem', alignItems: 'center' }}>
-          <span style={{ fontFamily: 'Playfair Display', fontSize: '1.5rem', fontWeight: 'bold', color: '#333' }}>UNESCO</span>
+          <span style={{ fontFamily: 'Playfair Display', fontSize: '1.5rem', fontWeight: 'bold', color: '#333' }}>Instances Internationales</span>
           <span style={{ fontFamily: 'Inter', fontSize: '1.2rem', fontWeight: 'bold', color: '#333', letterSpacing: '-0.05em' }}>Institutions & Collectivités</span>
-          <span style={{ fontFamily: 'Inter', fontSize: '1.1rem', color: '#888', fontStyle: 'italic' }}>+12 fédérations sportives</span>
+          <span style={{ fontFamily: 'Inter', fontSize: '1.1rem', color: '#888', fontStyle: 'italic', fontWeight: 'bold' }}>Clubs & Médias Sportifs de Haut Niveau</span>
         </div>
       </section>
 
