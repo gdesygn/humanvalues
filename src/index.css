@@ -31,6 +31,7 @@
 
 html, body {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -141,6 +142,8 @@ a:hover {
   letter-spacing: 0.05em;
   font-weight: 400;
   color: var(--hv-grey);
+  padding: 0.5rem; /* Optimisation touch-target mobile */
+  transition: all 0.3s ease;
 }
 
 .nav-links a:hover,
@@ -388,9 +391,25 @@ a:hover {
   }
   .nav-links {
     flex-wrap: wrap;
-    gap: 0.5rem 1rem;
+    gap: 0.5rem;
     justify-content: center;
     margin-top: 1rem;
+    width: 100%;
+  }
+  
+  .nav-links a {
+    flex: 1 1 calc(33% - 1rem); /* Disposition en grille pour les pouces */
+    text-align: center;
+    padding: 0.8rem 0;
+    border: 1px solid rgba(0,0,0,0.05);
+    border-radius: 4px;
+    background: var(--hv-cream);
+  }
+  
+  .nav-links a.active {
+    background: var(--hv-black);
+    color: var(--hv-white);
+    border-color: var(--hv-black);
   }
   
   /* Page Nexus (récit) */
