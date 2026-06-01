@@ -47,7 +47,6 @@ const ailes = [
       { id: "an35_3", title: "Var", subject: "Département", text: "Le 83. Le soleil éclatant et l'âme méditerranéenne en lettres majuscules.", image: "/artworks/region_var.jpg" },
       { id: "an35_4", title: "Vaucluse", subject: "Département", text: "Le 84. La terre ensoleillée, le mistral et le charme provençal.", image: "/artworks/region_vaucluse.jpg" },
       { id: "an35", title: "Nouvelle-Aquitaine", subject: "Région HV", text: "Le code postal 33000 tissé au cœur du grand Sud-Ouest.", image: "/artworks/region_aquitaine_restored.jpg" },
-      { id: "an35_5", title: "Nouvelle-Aquitaine Typographique", subject: "Région", text: "L'identité de la région sculptée par ses lettres.", image: "/artworks/region_aquitaine.jpg" },
       { id: "an34", title: "Le Département 33", subject: "Gironde HV", text: "L'identité institutionnelle redessinée en lettres majuscules.", image: "/artworks/region_11.jpg" },
       { id: "an11", title: "Afrika", subject: "Continent", text: "Le berceau de l'humanité, l'énergie pure de la terre.", image: "/artworks/geo_pays_1.jpg" },
       { id: "an12", title: "Brazil", subject: "Pays", text: "Ordem e Progresso. La passion, le rythme, la forêt infinie.", image: "/artworks/geo_pays_2.jpg" },
