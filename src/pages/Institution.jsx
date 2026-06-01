@@ -6,13 +6,13 @@ const Institution = () => {
       <header style={{ marginBottom: '4rem', textAlign: 'center' }}>
         <h1>L'écosystème HumanValues</h1>
         <p style={{ fontStyle: 'italic', fontSize: '1.2rem', color: 'var(--hv-grey)' }}>
-          Nos gardiens institutionnels – UNESCO, et notre réseau grandissant d'acteurs engagés.
+          La rigueur et la valeur de notre travail nous ont ouvert des portes que nous n'avions jamais imaginées.
         </p>
 
         {/* Executive summary */}
         <div style={{ maxWidth: '800px', margin: '2rem auto 0 auto', padding: '1.5rem', backgroundColor: '#f9f9f9', border: '1px solid #eee', textAlign: 'left' }}>
           <p style={{ margin: '0', fontSize: '1.05rem', lineHeight: '1.6', fontWeight: '500' }}>
-            HumanValues est soutenu par des institutions qui partagent notre engagement. Ils ne sont pas de simples sponsors – ce sont des partenaires de sens, à l'échelle mondiale.
+            L'engagement de HumanValues résonne aujourd'hui auprès d'acteurs institutionnels majeurs. Sans chercher de simples sponsors, nous cultivons une vision de l'inclusion qui éveille l'intérêt des décideurs et nous amène à contribuer à des réflexions d'envergure internationale.
           </p>
         </div>
       </header>
@@ -37,11 +37,11 @@ const Institution = () => {
         <ul style={{ listStyleType: 'none', padding: 0, margin: '0 0 3rem 0' }}>
           <li style={{ marginBottom: '1rem', paddingLeft: '1.5rem', position: 'relative' }}>
             <span style={{ position: 'absolute', left: 0, color: 'var(--hv-accent)' }}>•</span>
-            <strong>3 Décembre 2024</strong> – Invitation et participation aux travaux du <em>Group of Friends for Inclusion and Disability</em> dans le cadre de la Journée Internationale des Personnes Handicapées.
+            <strong>Reconnaissance Internationale</strong> – Invitation à contribuer aux travaux de cercles de réflexion internationaux axés sur l'inclusion et l'accessibilité culturelle.
           </li>
           <li style={{ marginBottom: '1rem', paddingLeft: '1.5rem', position: 'relative' }}>
             <span style={{ position: 'absolute', left: 0, color: 'var(--hv-accent)' }}>•</span>
-            <strong>Acteurs bancaires et territoriaux (ex: Raphaël Rébert, CIC-Crédit Mutuel)</strong> – Partage de projets et de vision autour de l'inclusion sportive.
+            <strong>Acteurs bancaires et territoriaux (ex: Raphaël Rébert, CIC-Crédit Mutuel)</strong> – Rencontres et partages de vision pour construire des ponts entre le sport, l'art et l'inclusion.
           </li>
           <li style={{ marginBottom: '1rem', paddingLeft: '1.5rem', position: 'relative' }}>
             <span style={{ position: 'absolute', left: 0, color: 'var(--hv-accent)' }}>•</span>
