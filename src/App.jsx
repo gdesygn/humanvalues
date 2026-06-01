@@ -1,26 +1,50 @@
+import { BrowserRouter as Router, Routes, Route, Link, NavLink } from 'react-router-dom';
+import Home from './pages/Home';
+import Nexus from './pages/Nexus';
+import Collectif from './pages/Collectif';
+import Collections from './pages/Collections';
+import Institution from './pages/Institution';
+import Galerie from './pages/Galerie';
+import Legal from './pages/Legal';
+import Footer from './components/Footer';
 import './index.css';
+
+const Layout = ({ children }) => (
+  <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+    <header className="nav-header">
+      <Link to="/" className="nav-logo">HV.</Link>
+      <nav className="nav-links">
+        <NavLink to="/nexus" className={({isActive}) => isActive ? 'active' : ''}>Registre</NavLink>
+        <NavLink to="/galerie" className={({isActive}) => isActive ? 'active' : ''}>Galerie</NavLink>
+        <NavLink to="/collectif" className={({isActive}) => isActive ? 'active' : ''}>Collectif</NavLink>
+        <NavLink to="/collections" className={({isActive}) => isActive ? 'active' : ''}>Collections</NavLink>
+        <NavLink to="/institution" className={({isActive}) => isActive ? 'active' : ''}>Institution</NavLink>
+      </nav>
+    </header>
+    <main style={{ flex: '1 0 auto' }}>
+      {children}
+    </main>
+    <Footer />
+  </div>
+);
 
 function App() {
   return (
-    <div style={{
-      display: 'flex', 
-      flexDirection: 'column', 
-      justifyContent: 'center', 
-      alignItems: 'center', 
-      height: '100vh', 
-      backgroundColor: '#050505', 
-      color: '#ffffff',
-      fontFamily: 'Inter, system-ui, sans-serif',
-      textAlign: 'center',
-      padding: '20px'
-    }}>
-      <h1 style={{ fontSize: '3rem', marginBottom: '1rem', letterSpacing: '0.1em', fontWeight: 'bold' }}>HUMANVALUES</h1>
-      <div style={{ width: '50px', height: '2px', backgroundColor: '#333', marginBottom: '2rem' }}></div>
-      <p style={{ fontSize: '1.2rem', color: '#888', maxWidth: '600px', lineHeight: '1.6' }}>
-        Notre portail est actuellement en cours de mise à jour pour vous offrir une meilleure expérience.<br/><br/>
-        Bientôt disponible.
-      </p>
-    </div>
+    <Router>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/nexus" element={<Nexus />} />
+          <Route path="/galerie" element={<Galerie />} />
+          <Route path="/collectif" element={<Collectif />} />
+          <Route path="/collections" element={<Collections />} />
+          <Route path="/institution" element={<Institution />} />
+          <Route path="/mentions-legales" element={<Legal />} />
+          <Route path="/cgv" element={<Legal />} />
+          <Route path="/confidentialite" element={<Legal />} />
+        </Routes>
+      </Layout>
+    </Router>
   );
 }
 
