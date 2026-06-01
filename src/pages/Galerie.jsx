@@ -51,7 +51,7 @@ const ailes = [
       { id: "an11", title: "Afrika", subject: "Continent", text: "Le berceau de l'humanité, l'énergie pure de la terre.", image: "/artworks/geo_pays_1.jpg" },
       { id: "an12", title: "Brazil", subject: "Pays", text: "Ordem e Progresso. La passion, le rythme, la forêt infinie.", image: "/artworks/geo_pays_2.jpg" },
       { id: "an13", title: "Germany", subject: "Pays", text: "L'histoire, la rigueur, le cœur battant de l'Europe.", image: "/artworks/geo_pays_3.jpg" },
-      { id: "an14", title: "Italia", subject: "Pays", text: "L'art antique, la dolce vita, la péninsule au centre de l'histoire.", image: "/artworks/ville_italie.jpg" },
+      { id: "an14", title: "Italia", subject: "Pays", text: "L'art antique, la dolce vita, la péninsule au centre de l'histoire.", image: "/artworks/italia_eagle.jpg" },
       { id: "an15", title: "Norway", subject: "Pays", text: "Les fjords majestueux, les aurores boréales, l'appel du Nord.", image: "/artworks/geo_pays_5.jpg" },
       { id: "an15_0", title: "Argentina", subject: "Pays", text: "Le soleil de mai, la cordillère, l'albiceleste dans les cieux.", image: "/artworks/argentina.jpg" },
       { id: "an15_1", title: "Armenia", subject: "Pays", text: "Le lac Sevan, les montagnes sacrées, une histoire millénaire.", image: "/artworks/geo_pays_6.jpg" },
