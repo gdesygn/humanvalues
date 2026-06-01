@@ -191,7 +191,7 @@ const ailes = [
       { id: "ar14", title: "PFL", subject: "Arts Martiaux", text: "Professional Fighters League. Francis Ngannou, The Predator, Champion Poids Lourd.", image: "/artworks/pfl_1.jpg", hc: true },
       { id: "ar15", title: "UFC", subject: "Arts Martiaux", text: "Tom Aspinall, Team Kaobon, BJJ, Boxing. La suprématie du Royaume-Uni.", image: "/artworks/ufc_1.jpg", hc: true },
       { id: "ar16", title: "La Couronne", subject: "Boxe", text: "La couronne de Bud. WBO, WBA, WBC, IBF. L'unification absolue.", image: "/artworks/crawford.jpg" },
-      { id: "ar17", title: "L'Étoile du PSG", subject: "Club de Football", text: "L'effectif 2024/2025 gravé dans l'étoile. Enrique, Marquinhos, Barcola, Dembele.", image: "/artworks/psg_1.jpg" },
+      { id: "ar17", title: "L'Étoile du PSG", subject: "Club de Football", text: "L'effectif 2024/2025 gravé dans l'étoile. Enrique, Marquinhos, Barcola, Dembele.", image: "/artworks/psg_1.jpg", hc: true },
       { id: "ar18", title: "Le Cadratin", subject: "Rugby", text: "La course folle du Top 14, forgée par les noms des clubs et instances.", image: "/artworks/rugby_1.jpg" },
       { id: "ar19", title: "Jour de gloire", subject: "Rugby", text: "L'ombre du joueur façonnée par les chiffres de la Coupe du Monde 2023.", image: "/artworks/rugby_2.jpg" },
       { id: "ar20", title: "Le Ballon Ovale", subject: "Rugby", text: "L'essence du jeu encapsulée dans la typographie du tournoi mondial.", image: "/artworks/rugby_3.jpg" },
