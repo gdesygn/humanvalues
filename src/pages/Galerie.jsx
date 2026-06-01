@@ -155,8 +155,8 @@ const ailes = [
       { id: "m8", title: "Skarbowsky (L'Héritage) *", subject: "Muay Thaï", text: "Jean-Charles Skarbowsky. KO 51, Victories 75. La fiole des statistiques.", image: "/artworks/martial_arts_3.jpg" },
       { id: "m9", title: "Skarbowsky (Karma) *", subject: "Muay Thaï", text: "Sang, Ancrage, Rigueur, Bangkok. Le karma du combattant.", image: "/artworks/martial_arts_4.jpg" },
       { id: "m9_1", title: "Karate & Bushido *", subject: "Arts Martiaux", text: "L'opposition de style, la voie du guerrier. La pureté du combat typographique.", image: "/artworks/martial_arts_karate.jpg" },
-      { id: "m10", title: "L'Avenir du Court", subject: "Tennis", text: "US Open, Roland Garros. La balle de tennis en lettres, l'avenir sur le court.", image: "/artworks/gauff.jpg" },
-      { id: "m11", title: "Le Prodige", subject: "Football", text: "Le joga bonito, le prodige brésilien et la barre des 700.", image: "/artworks/neymar_700.jpg" },
+      { id: "m10", title: "L'Avenir du Court", subject: "Tennis", text: "US Open, Roland Garros. La balle de tennis en lettres, l'avenir sur le court.", image: "/artworks/gauff.jpg", hc: true },
+      { id: "m11", title: "Le Prodige", subject: "Football", text: "Le joga bonito, le prodige brésilien et la barre des 700.", image: "/artworks/neymar_700.jpg", hc: true },
       { id: "m12", title: "Le O de Omar", subject: "Cinéma & Parcours", text: "Toute son histoire dans le O de Omar. De Trappes à Hollywood, le sourire de la France.", image: "/artworks/omar_sy.jpg" },
       { id: "m13", title: "La Vérité de José", subject: "Cinéma & Humour", text: "Le rire flamboyant. De Nulle Part Ailleurs aux sommets du box-office.", image: "/artworks/jose_garcia.jpg" },
       { id: "m14", title: "Diogo JOTA 20", subject: "Football & R&D", text: "L'oiseau mythique de Liverpool tissé par le parcours, les statistiques et l'esport de Diogo Jota.", image: "/artworks/diogo_jota_lfc.jpg", hc: true },
@@ -216,6 +216,7 @@ const ailes = [
     color: "#F57C00", // Jaune Orangé
     description: "La transmission, les valeurs humaines, l'inclusion, la chaleur du groupe.",
     artworks: [
+      { id: "fo_logo", title: "L'Emblème 2025", subject: "Collection HumanValues", text: "Le flambeau de la liberté hissé par les mots. L'icône fondatrice de la collection artistique 2025.", image: "/artworks/flambeau_hv.jpg", hc: true },
       { id: "fo16", title: "L'Accord Inclusif", subject: "UNESCO X Inclusion", text: "La poignée de main universelle. Diversité, autisme, soutien aux aînés et valeurs partagées à l'échelle mondiale.", image: "/artworks/concept_unesco.jpg", hc: true },
       { id: "fo17", title: "Ivry S/Seine", subject: "Territoire & Inclusion", text: "L'identité de la ville tissée par les mots de l'inclusion, du handicap et de la solidarité. Hommage à Philippe Bouyssou.", image: "/artworks/ivry_inclusion.jpg", hc: true },
       { id: "fo1", title: "Logo PMR", subject: "FFBB X Inclusion", text: "L'empathie, la solidarité, l'humanité. Le handicap visible et invisible.", image: "/artworks/inclusion_1.jpg", hc: true },
