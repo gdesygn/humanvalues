@@ -28,24 +28,10 @@ const Layout = ({ children }) => (
   </div>
 );
 
+import Maintenance from './pages/Maintenance';
+
 function App() {
-  return (
-    <Router>
-      <Layout>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/nexus" element={<Nexus />} />
-          <Route path="/galerie" element={<Galerie />} />
-          <Route path="/collectif" element={<Collectif />} />
-          <Route path="/collections" element={<Collections />} />
-          <Route path="/institution" element={<Institution />} />
-          <Route path="/mentions-legales" element={<Legal />} />
-          <Route path="/cgv" element={<Legal />} />
-          <Route path="/confidentialite" element={<Legal />} />
-        </Routes>
-      </Layout>
-    </Router>
-  );
+  return <Maintenance />;
 }
 
 export default App;
