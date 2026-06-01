@@ -143,7 +143,7 @@ const ailes = [
       { id: "ar16", title: "Les 3 Bandes (Athlètes)", subject: "Adidas", text: "Messi, Mahomes, Serena... Les icônes qui forgent l'histoire du sport.", image: "/artworks/adidas_2.jpg", hc: true },
       { id: "ar19", title: "Tennis 2.0", subject: "Lacoste", text: "Un emblème devenu universel sur les terrains et dans la rue.", image: "/artworks/lacoste_3.jpg", hc: true },
       { id: "ar20", title: "Le Crocodile de Mots", subject: "Lacoste", text: "L'animal entier reconstitué par les valeurs de la marque au crocodile.", image: "/artworks/lacoste_4.jpg", hc: true },
-      { id: "ar21", title: "Microphone RMC", subject: "Média", text: "Afterfoot, Jeanot, 1998... La voix du sport transmise aux ondes.", image: "/artworks/rmc_mic.jpg", hc: true },
+      { id: "ar21", title: "Micro RMC", subject: "Média", text: "Afterfoot, Jeanot, 1998... La voix du sport transmise aux ondes.", image: "/artworks/rmc_mic.jpg", hc: true },
       { id: "ar22", title: "Louis Vuitton", subject: "Marque de Luxe", text: "Arnault, l'Impératrice Eugénie, le monogramme intemporel.", image: "/artworks/lv_arnault.jpg", hc: true },
       { id: "ar32", title: "Coach Prime", subject: "Football Américain", text: "Le casque tissé de l'aura de Deion Sanders. L'ère Prime Time au Colorado.", image: "/artworks/coach_prime_helmet.jpg" },
       { id: "ar33", title: "Buffaloes CUB", subject: "Football Américain", text: "Le bison universitaire. L'emblème des Buffaloes sculpté par la ferveur de Boulder.", image: "/artworks/buffaloes_cub.jpg", hc: true },
