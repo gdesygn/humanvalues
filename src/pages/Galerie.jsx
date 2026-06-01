@@ -52,7 +52,7 @@ const ailes = [
       { id: "an17", title: "Burj Khalifa", subject: "Monument", text: "L'ascension vertigineuse, le désir humain de toucher les cieux.", image: "/artworks/monument_2.jpg" },
       { id: "an18", title: "Statue de la Liberté", subject: "Monument", text: "L'accueil, la flamme, l'espoir d'un monde nouveau.", image: "/artworks/monument_3.jpg" },
       { id: "an19", title: "Tour de Pise", subject: "Monument", text: "La beauté dans l'imperfection, le miracle de l'équilibre.", image: "/artworks/monument_4.jpg" },
-      { id: "an20", title: "Marianne", subject: "Symbole", text: "Le buste de la République, les valeurs de liberté, égalité, fraternité.", image: "/artworks/monument_5.jpg" },
+      { id: "an20", title: "Danseuse du Lido", subject: "Spectacle", text: "L'élégance parisienne, le glamour intemporel et la magie des revues des Champs-Élysées.", image: "/artworks/monument_5.jpg" },
       { id: "an21", title: "Île de Pâques", subject: "Monument", text: "Le mystère des Moaï, le regard figé sur l'immensité du Pacifique.", image: "/artworks/monument_6.jpg" },
       { id: "an22", title: "Tour Eiffel", subject: "Monument", text: "La Dame de Fer, l'élégance architecturale s'élevant au-dessus de Paris.", image: "/artworks/monument_7.jpg" },
       { id: "an23", title: "Masque Vénitien", subject: "Culture", text: "L'énigme du carnaval, l'élégance mystérieuse de la Sérénissime dissimulée derrière le masque.", image: "/artworks/monument_8.jpg" },
