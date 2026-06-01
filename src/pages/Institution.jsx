@@ -47,6 +47,10 @@ const Institution = () => {
             <span style={{ position: 'absolute', left: 0, color: 'var(--hv-accent)' }}>•</span>
             <strong>Acteurs et clubs sportifs engagés (ex: Le Stade Français Rugby via Thomas Lombard, Bondy Cécifoot Club)</strong> – Synergies concrètes pour le rayonnement de l'inclusion par le sport de haut niveau.
           </li>
+          <li style={{ marginBottom: '1rem', paddingLeft: '1.5rem', position: 'relative' }}>
+            <span style={{ position: 'absolute', left: 0, color: 'var(--hv-accent)' }}>•</span>
+            <strong>Figures emblématiques et médias (ex: Greg MMA, Karaté Bushido)</strong> – Adhésion des grands noms des sports de combat, ancrant les valeurs de discipline et de respect au cœur du projet.
+          </li>
         </ul>
       </section>
 
