@@ -43,10 +43,6 @@ const Institution = () => {
             <span style={{ position: 'absolute', left: 0, color: 'var(--hv-accent)' }}>•</span>
             <strong>Acteurs bancaires et territoriaux (ex: Raphaël Rébert, CIC-Crédit Mutuel)</strong> – Rencontres et partages de vision pour construire des ponts entre le sport, l'art et l'inclusion.
           </li>
-          <li style={{ marginBottom: '1rem', paddingLeft: '1.5rem', position: 'relative' }}>
-            <span style={{ position: 'absolute', left: 0, color: 'var(--hv-accent)' }}>•</span>
-            <strong>+12 institutions partenaires</strong> depuis 2023.
-          </li>
         </ul>
       </section>
 
