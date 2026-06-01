@@ -6,7 +6,7 @@ const Institution = () => {
       <header style={{ marginBottom: '4rem', textAlign: 'center' }}>
         <h1>L'écosystème HumanValues</h1>
         <p style={{ fontStyle: 'italic', fontSize: '1.2rem', color: 'var(--hv-grey)' }}>
-          La rigueur et la valeur de notre travail nous ont ouvert des portes que nous n'avions jamais imaginées.
+          L'exigence comme seul laissez-passer.
         </p>
 
         {/* Executive summary */}
