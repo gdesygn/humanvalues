@@ -103,7 +103,7 @@ const ailes = [
     color: "#424242", // Gris/Noir
     description: "L'objet inerte, le symbole manufacturé, les marques et l'héritage humain.",
     artworks: [
-      { id: "ar1", title: "Barque de St-Jean-de-Monts", subject: "Objet", text: "L'héritage maritime, l'ancrage sur le littoral vendéen.", image: "/artworks/stjean_boat.jpg" },
+      { id: "ar1", title: "Brioche Vendéenne", subject: "Gastronomie", text: "La tresse dorée, symbole gourmand de la tradition et du terroir vendéen.", image: "/artworks/stjean_boat.jpg" },
       { id: "ar1_1", title: "La 2CV de St-Jean-de-Monts", subject: "Objet", text: "L'icône populaire, façonnée par les codes de la Vendée.", image: "/artworks/stjean_2cv.jpg" },
       { id: "ar1_2", title: "Le Margouillat Vendéen", subject: "Faune", text: "L'animal solaire tissé des lettres de St-Jean-de-Monts 85160.", image: "/artworks/stjean_gecko.jpg" },
       { id: "ar2", title: "Le Gouvernail", subject: "Objet", text: "La direction, le cap maintenu contre vents et marées.", image: "/artworks/obj_region_2.jpg" },
