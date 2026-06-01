@@ -115,13 +115,15 @@ const Institution = () => {
         </div>
       </section>
 
-      {/* Bande thématique (texte styling en attendant assets) */}
+      {/* Bande thématique */}
       <section style={{ marginBottom: '5rem', padding: '3rem 0', borderTop: '1px solid #eee', borderBottom: '1px solid #eee', textAlign: 'center' }}>
         <p style={{ fontSize: '0.9rem', color: '#999', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '2rem' }}>Un dialogue ouvert avec</p>
-        <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', gap: '3rem', alignItems: 'center' }}>
-          <span style={{ fontFamily: 'Playfair Display', fontSize: '1.5rem', fontWeight: 'bold', color: '#333' }}>Instances Internationales</span>
-          <span style={{ fontFamily: 'Inter', fontSize: '1.2rem', fontWeight: 'bold', color: '#333', letterSpacing: '-0.05em' }}>Institutions & Collectivités</span>
-          <span style={{ fontFamily: 'Inter', fontSize: '1.1rem', color: '#888', fontStyle: 'italic', fontWeight: 'bold' }}>Clubs & Médias Sportifs de Haut Niveau</span>
+        <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', gap: '2rem', alignItems: 'center', fontFamily: 'Playfair Display', fontSize: '1.4rem', fontWeight: 'bold', color: 'var(--hv-black)' }}>
+          <span style={{ transition: 'color 0.3s', cursor: 'default' }}>Instances Internationales</span>
+          <span style={{ color: 'var(--hv-accent)' }}>•</span>
+          <span style={{ transition: 'color 0.3s', cursor: 'default' }}>Institutions & Collectivités</span>
+          <span style={{ color: 'var(--hv-accent)' }}>•</span>
+          <span style={{ transition: 'color 0.3s', cursor: 'default' }}>Clubs & Médias Sportifs de Haut Niveau</span>
         </div>
       </section>
 
