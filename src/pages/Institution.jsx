@@ -81,7 +81,7 @@ const Institution = () => {
               <img src="/artworks/unesco_2.jpg" alt="Présentation aux Décideurs" style={{ width: '100%', height: 'auto', display: 'block' }} />
             </div>
             <figcaption style={{ fontSize: '0.85rem', color: '#666', fontStyle: 'italic', textAlign: 'center' }}>
-              Présentation du Registre Nexus aux décideurs institutionnels
+              Présentation du Concept L'Echo des Mains aux décideurs institutionnels
             </figcaption>
           </figure>
 
