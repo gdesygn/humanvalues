@@ -90,7 +90,7 @@ const Institution = () => {
               <img src="/artworks/greg_mma.jpg" alt="Greg MMA et Karaté Bushido" style={{ width: '100%', height: 'auto', display: 'block' }} />
             </div>
             <figcaption style={{ fontSize: '0.85rem', color: '#666', fontStyle: 'italic', textAlign: 'center' }}>
-              Greg MMA (Karaté Bushido) – Le soutien des grands noms des sports de combat
+              Greg MMA & Karaté Bushido – Le soutien des grands noms des sports de combat
             </figcaption>
           </figure>
 
