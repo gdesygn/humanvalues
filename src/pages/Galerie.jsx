@@ -422,9 +422,7 @@ const Galerie = () => {
             borderRadius: '4px', backgroundColor: '#fffdfa', fontSize: '0.85rem', color: '#a64526',
             textAlign: 'left', maxWidth: '800px'
           }}>
-            <strong>⭐ Solidarité & Mécénat :</strong> La présence de l'étoile jaune indique un engagement caritatif de 20% des revenus :<br/>
-            - <strong>Arts Martiaux :</strong> Héritage Krongsak / Skarbowsky (ou Karaté Bushido) reversé au <strong>JC Skarbowsky Gym</strong>.<br/>
-            - <strong>Galactic :</strong> Reversé à la <strong>Fondation ELA</strong> (soutenue par Zinedine Zidane).
+            <strong>⭐ Solidarité & Mécénat :</strong> Pour toute acquisition d'une œuvre signalée par une étoile jaune, <strong>20% des revenus</strong> sont automatiquement reversés à nos partenaires caritatifs (JC Skarbowsky Gym, Fondation ELA).
           </div>
         </div>
 
