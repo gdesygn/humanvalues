@@ -37,7 +37,7 @@ const Institution = () => {
         <ul style={{ listStyleType: 'none', padding: 0, margin: '0 0 3rem 0' }}>
           <li style={{ marginBottom: '1rem', paddingLeft: '1.5rem', position: 'relative' }}>
             <span style={{ position: 'absolute', left: 0, color: 'var(--hv-accent)' }}>•</span>
-            <strong>UNESCO</strong> – Programme « Transmission & Patrimoine sportif » déployé dans 3 pays.
+            <strong>3 Décembre 2024</strong> – Invitation et participation aux travaux du <em>Group of Friends for Inclusion and Disability</em> dans le cadre de la Journée Internationale des Personnes Handicapées.
           </li>
           <li style={{ marginBottom: '1rem', paddingLeft: '1.5rem', position: 'relative' }}>
             <span style={{ position: 'absolute', left: 0, color: 'var(--hv-accent)' }}>•</span>
