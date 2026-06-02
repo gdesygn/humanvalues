@@ -112,7 +112,8 @@ const ailes = [
       { id: "val26", title: "HV (Ruban)", subject: "Gymnastique Rythmique", text: "L'harmonie du mouvement et la légèreté du ruban, sculptées par les lettres HV.", image: "/artworks/grace_ruban.jpg" },
       { id: "val27", title: "La Grâce (Poutre)", subject: "Gymnastique Artistique", text: "L'équilibre parfait sur la poutre. La grâce incarnée dans chaque syllabe.", image: "/artworks/grace_poutre.jpg" },
       { id: "val28", title: "La Grâce (Ballon)", subject: "Gymnastique Rythmique", text: "L'élégance absolue. La capture du ballon suspendue dans le temps.", image: "/artworks/grace_ballon.jpg" },
-      { id: "val29", title: "Le Service Parfait", subject: "Tennis", text: "La puissance et la précision du service, dessinées par la typographie HV 2025.", image: "/artworks/hv_tennis_service.jpg" }
+      { id: "val29", title: "Le Service Parfait", subject: "Tennis", text: "La puissance et la précision du service, dessinées par la typographie HV 2025.", image: "/artworks/hv_tennis_service.jpg" },
+      { id: "val30", title: "Force & Alignement", subject: "Vertu Sportive", text: "L'haltérophilie. La force pure et l'alignement parfait pour s'élever au-dessus des limites physiques.", image: "/artworks/valeur_30.jpg" }
     ]
   },
   {
@@ -254,6 +255,9 @@ const ailes = [
       { id: "fo13", title: "Groupe Dubreuil", subject: "Institution & Valeurs", text: "L'envol inclusif. Le mécénat et l'autonomie gravés dans l'oiseau solaire.", image: "/artworks/corp_7.jpg", hc: true },
       { id: "fo14", title: "Les Jardins d'Arcadie", subject: "Institution & Valeurs", text: "L'arbre protecteur. L'accompagnement, la sérénité et le bien-être des seniors.", image: "/artworks/corp_8.jpg", hc: true },
       { id: "fo15", title: "Swiss", subject: "Institution & Valeurs", text: "L'empennage solidaire. La croix helvétique façonnée par l'inclusion et la transmission.", image: "/artworks/corp_9.jpg", hc: true },
+      { id: "fo18", title: "L'Élan Collectif (Swiss)", subject: "Institution & Valeurs", text: "Le saut d'obstacles. L'osmose entre le cavalier et sa monture au service de la performance collective.", image: "/artworks/swiss_horse.jpg", hc: true },
+      { id: "fo19", title: "L'Aérodynamisme (Swiss)", subject: "Institution & Valeurs", text: "Le contre-la-montre. La recherche absolue de la vitesse et de la performance face au vent.", image: "/artworks/swiss_cycling.jpg", hc: true },
+      { id: "fo20", title: "Double Jeu (Swiss)", subject: "Institution & Valeurs", text: "Le tennis de table. La dualité parfaite entre la discipline individuelle et la dynamique collective.", image: "/artworks/swiss_pingpong.jpg", hc: true },
       { id: "fo10", title: "Le Coq FFF", subject: "LFP X Inclusion", text: "L'emblème tricolore. Diversité, mécénat et humilité sur le terrain.", image: "/artworks/sport_5.jpg", hc: true },
       { id: "fo11", title: "Ligue de Football", subject: "LFP X Inclusion", text: "Le championnat professionnel porté par les valeurs saines et le cécifoot.", image: "/artworks/sport_6.jpg", hc: true },
       { id: "fo12", title: "Bondy Cécifoot Club", subject: "Club X Inclusion", text: "L'emblème du serpent. Déficience visuelle, transmission et solidarité sur le terrain.", image: "/artworks/sport_7.jpg", hc: true },
