@@ -70,7 +70,7 @@ const ailes = [
       { id: "an21", title: "Île de Pâques", subject: "Monument", text: "Le mystère des Moaï, le regard figé sur l'immensité du Pacifique.", image: "/artworks/monument_6.jpg" },
       { id: "an22", title: "Tour Eiffel", subject: "Monument", text: "La Dame de Fer, l'élégance architecturale s'élevant au-dessus de Paris.", image: "/artworks/monument_7.jpg" },
       { id: "an23", title: "Masque Vénitien", subject: "Culture", text: "L'énigme du carnaval, l'élégance mystérieuse de la Sérénissime dissimulée derrière le masque.", image: "/artworks/monument_8.jpg" },
-      { id: "an24", title: "The Greatest !", subject: "Légende", text: "The Greatest. Vole comme le papillon, pique comme l'abeille.", image: "/artworks/monument_9.jpg" },
+      { id: "an24", title: "Legend", subject: "Légende", text: "The Greatest. Vole comme le papillon, pique comme l'abeille.", image: "/artworks/monument_9.jpg" },
       { id: "an25", title: "Corcovado", subject: "Monument", text: "Le Christ Rédempteur, veillant majestueusement sur Rio de Janeiro.", image: "/artworks/monument_10.jpg" },
       { id: "an26", title: "La Bonne Mère", subject: "Monument", text: "Notre-Dame de la Garde, la protectrice de la cité phocéenne.", image: "/artworks/monument_11.jpg" },
       { id: "an27", title: "Burj Al Arab", subject: "Monument", text: "L'icône de Dubaï, la voile hissée vers la démesure.", image: "/artworks/monument_12.jpg" },
