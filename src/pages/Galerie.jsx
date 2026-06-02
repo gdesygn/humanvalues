@@ -204,7 +204,7 @@ const ailes = [
   {
     id: "olympe",
     title: "L'Olympe",
-    color: "#4FC3F7", // Bleu Ciel
+    color: "#FBC02D", // Jaune Or
     description: "Les divinités internationales du sport, dont l'empreinte dépasse les frontières et le temps.",
     artworks: [
       { id: "ol1", title: "Leo Messi", subject: "Légende Internationale", text: "Le génie argentin. L'aura et la vision sculptées dans les lettres de son nom.", image: "/artworks/olympe_messi.jpg", hc: true },
