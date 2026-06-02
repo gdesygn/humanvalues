@@ -38,7 +38,7 @@ const Nexus = () => {
 
           <h2 style={{ fontSize: '1.5rem', marginBottom: '1rem', marginTop: '3rem' }}>Des légendes aux institutions</h2>
           <p>
-            Aujourd'hui, l'héritage des grandes figures du sport ne s'arrête plus aux lignes du terrain. Il voyage et se métamorphose au sein de nos foyers… et de nos plus grandes institutions.
+            Aujourd'hui, l'héritage des grandes figures du sport ne s'arrête plus aux lignes du terrain. Il voyage et se métamorphose au cœur de la société… et de nos plus grandes institutions.
           </p>
           <p style={{ marginBottom: '1rem' }}>Des acteurs majeurs de la société s'emparent de ces valeurs pour redéfinir l'inclusion :</p>
           <ul style={{ listStyleType: 'disc', paddingLeft: '1.5rem', marginBottom: '2rem' }}>

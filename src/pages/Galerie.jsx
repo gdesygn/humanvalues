@@ -254,8 +254,8 @@ const ailes = [
     ]
   },
   {
-    id: "foyer",
-    title: "Le Foyer",
+    id: "edifice",
+    title: "L'Édifice",
     color: "#F57C00", // Jaune Orangé
     description: "La transmission, les valeurs humaines, l'inclusion, la chaleur du groupe.",
     artworks: [

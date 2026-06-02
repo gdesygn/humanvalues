@@ -66,7 +66,7 @@ const Home = () => {
           <Link to="/galerie#arene" style={{ color: 'var(--hv-accent)' }}> L'Arène</Link> — 
           <Link to="/galerie#fluides" style={{ color: 'var(--hv-accent)' }}> Les Fluides</Link> — 
           <Link to="/galerie#ancrage" style={{ color: 'var(--hv-accent)' }}> L'Ancrage</Link> — 
-          <Link to="/galerie#foyer" style={{ color: 'var(--hv-accent)' }}> Le Foyer</Link> — 
+          <Link to="/galerie#edifice" style={{ color: 'var(--hv-accent)' }}> L'Édifice</Link> — 
           <Link to="/galerie#artefacts" style={{ color: 'var(--hv-accent)' }}> Les Artefacts</Link>.
         </p>
         <p style={{ marginTop: '2rem', fontStyle: 'italic' }}>— Le Conseil des Nexus</p>
