@@ -195,6 +195,16 @@ const ailes = [
     ]
   },
   {
+    id: "monuments",
+    title: "Les Monuments",
+    color: "#607D8B", // Bleu Gris
+    description: "L'histoire incarnée, les figures intemporelles et l'héritage universel.",
+    artworks: [
+      { id: "mon1", title: "La Grâce", subject: "Le Chat", text: "L'élégance féline sculptée par la typographie.", image: "/artworks/monument_chat.jpg" },
+      { id: "mon2", title: "Elizabeth II", subject: "Reine d'Angleterre", text: "La Maison Windsor, Londres et le siècle. Le portrait de la souveraine absolue.", image: "/artworks/monument_elizabeth.jpg" }
+    ]
+  },
+  {
     id: "arene",
     title: "L'Arène",
     color: "#D32F2F", // Rouge
