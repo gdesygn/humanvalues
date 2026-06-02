@@ -206,18 +206,18 @@ const ailes = [
       { id: "are_inst_2", title: "Le Coq du Volley", subject: "FFVolley", text: "L'envol, le smash, l'excellence de la Fédération Française de Volley.", image: "/artworks/ffvolley_rooster.jpg", hc: true },
       { id: "are_club_1", title: "Spartiates", subject: "Club", text: "Le casque de Sparte, le bouclier, la fierté de Marseille sur la glace.", image: "/artworks/spartiates.jpg" },
       { id: "ar1", title: "09 Playground", subject: "Basket", text: "La Fédération Française de Basket, l'héritage d'une nation.", image: "/artworks/ffbb_1.jpg", hc: true },
-      { id: "ar2", title: "Team 99", subject: "Basket", text: "L'épopée fondatrice, les grands noms du basket tricolore.", image: "/artworks/ffbb_2.jpg" },
+      { id: "ar2", title: "Team 99", subject: "Basket", text: "L'épopée fondatrice, les grands noms du basket tricolore.", image: "/artworks/ffbb_2.jpg", hc: true },
       { id: "ar3", title: "NX Legends", subject: "Basket", text: "Le meneur, le Hall of Fame, le premier des géants.", image: "/artworks/ffbb_3.jpg", hc: true },
       { id: "ar4", title: "NX Icons", subject: "Basket", text: "L'Alien. La mutation du jeu, l'envergure vertigineuse.", image: "/artworks/ffbb_4.jpg", hc: true },
       { id: "ar5", title: "NX The Dancing Bear", subject: "Basket", text: "La légende de Limoges, la combativité, le titre européen.", image: "/artworks/ffbb_5.jpg", hc: true },
       { id: "ar6", title: "NX flying Dac", subject: "Basket", text: "Les éléments tactiques, le parquet, la balle.", image: "/artworks/ffbb_6.jpg" },
       { id: "ar7", title: "NX Wemby", subject: "Basket", text: "La formation, les Ligues, le maillot bleu.", image: "/artworks/ffbb_7.jpg" },
       { id: "ar8", title: "NX Ovni", subject: "Basket", text: "Les médailles, les sélections, l'impact mondial.", image: "/artworks/ffbb_8.jpg" },
-      { id: "ar9", title: "NX T.Parker", subject: "Basket", text: "L'esprit d'équipe, le pick and roll, la défense.", image: "/artworks/ffbb_9.jpg" },
+      { id: "ar9", title: "NX T.Parker", subject: "Basket", text: "L'esprit d'équipe, le pick and roll, la défense.", image: "/artworks/ffbb_9.jpg", hc: true },
       { id: "ar10", title: "NX TP vs TP", subject: "Basket", text: "La conclusion, le buzzer beater, la victoire collective.", image: "/artworks/ffbb_10.jpg" },
       { id: "ar11", title: "NX Champions 25", subject: "Club", text: "Champion 2025. La capitale s'impose sur les parquets.", image: "/artworks/paris_basket_1.jpg", hc: true },
       { id: "ar12", title: "NX PB Triomphe", subject: "Club", text: "L'identité visuelle du club de la Ville Lumière.", image: "/artworks/paris_basket_2.jpg", hc: true },
-      { id: "ar13", title: "NX PB Sneakers", subject: "Club", text: "Le roster qui a ramené le titre à Paris.", image: "/artworks/paris_basket_3.jpg" },
+      { id: "ar13", title: "NX PB Sneakers", subject: "Club", text: "Le roster qui a ramené le titre à Paris.", image: "/artworks/paris_basket_3.jpg", hc: true },
       { id: "ar14", title: "PFL", subject: "Arts Martiaux", text: "Professional Fighters League. Francis Ngannou, The Predator, Champion Poids Lourd.", image: "/artworks/pfl_1.jpg", hc: true },
       { id: "ar15", title: "UFC", subject: "Arts Martiaux", text: "Tom Aspinall, Team Kaobon, BJJ, Boxing. La suprématie du Royaume-Uni.", image: "/artworks/ufc_1.jpg", hc: true },
       { id: "ar16", title: "La Couronne", subject: "Boxe", text: "La couronne de Bud. WBO, WBA, WBC, IBF. L'unification absolue.", image: "/artworks/crawford.jpg" },
@@ -292,7 +292,7 @@ const ailes = [
       { id: "nxr3", title: "Charente-Maritime (Or)", subject: "Stade Rochelais", text: "Le 17. Le département dessiné par les noms de ses fiers corsaires sur fond or.", image: "/artworks/rochelais_map_1.jpg", hc: true },
       { id: "nxr4", title: "La Caravelle (Or)", subject: "Stade Rochelais", text: "Le logo historique sculpté par l'effectif maritime champion d'Europe sur fond or.", image: "/artworks/rochelais_caravelle_1.jpg", hc: true },
       { id: "nxr5", title: "Charente-Maritime (Noir)", subject: "Stade Rochelais", text: "Le département façonné par les noms, incrusté de noir profond.", image: "/artworks/rochelais_map_2.jpg", hc: true },
-      { id: "nxr6", title: "La Caravelle (Noir)", subject: "Stade Rochelais", text: "L'emblème du club et l'héritage européen en noir intense.", image: "/artworks/rochelais_caravelle_2.jpg" }
+      { id: "nxr6", title: "La Caravelle (Noir)", subject: "Stade Rochelais", text: "L'emblème du club et l'héritage européen en noir intense.", image: "/artworks/rochelais_caravelle_2.jpg", hc: true }
     ]
   }
 ];
