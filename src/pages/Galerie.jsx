@@ -344,7 +344,7 @@ const Galerie = () => {
       <header style={{ marginBottom: '6rem', textAlign: 'center' }}>
         <h1 style={{ fontSize: '3.5rem', fontWeight: 'bold' }}>Le Registre</h1>
         <p style={{ fontStyle: 'italic', fontSize: '1.2rem', color: 'var(--hv-grey)', marginBottom: '1.5rem' }}>
-          Entrez dans le Registre. 130 œuvres, 6 Ailes, une seule maison culturelle.
+          Entrez dans le Registre. 233 œuvres, 11 Ailes, une seule maison culturelle.
         </p>
         
       </header>

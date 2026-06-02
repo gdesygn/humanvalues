@@ -61,7 +61,7 @@ const Home = () => {
         Devant, il y a vous – si vous venez pour apprendre, ressentir ou participer.</p>
         <p>Ce site est vivant. Il grandit Nexus après Nexus.</p>
         <p style={{ marginTop: '1.5rem', fontWeight: '500' }}>
-          Parcourez les 6 ailes thématiques de notre Registre : <br/>
+          Parcourez les 11 ailes thématiques de notre Registre : <br/>
           <Link to="/galerie#pantheon" style={{ color: 'var(--hv-accent)' }}>Le Panthéon</Link> — 
           <Link to="/galerie#arene" style={{ color: 'var(--hv-accent)' }}> L'Arène</Link> — 
           <Link to="/galerie#fluides" style={{ color: 'var(--hv-accent)' }}> Les Fluides</Link> — 
