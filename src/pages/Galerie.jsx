@@ -129,6 +129,8 @@ const ailes = [
       { id: "ar1", title: "Brioche Vendéenne", subject: "Gastronomie", text: "La tresse dorée, symbole gourmand de la tradition et du terroir vendéen.", image: "/artworks/stjean_boat.jpg" },
       { id: "ar1_1", title: "La 2CV de St-Jean-de-Monts", subject: "Objet", text: "L'icône populaire, façonnée par les codes de la Vendée.", image: "/artworks/obj_2cv.jpg" },
       { id: "ar1_2", title: "Le Margouillat Vendéen", subject: "Faune", text: "L'animal solaire tissé des lettres de St-Jean-de-Monts 85160.", image: "/artworks/obj_margouillat.jpg" },
+      { id: "ar1_3", title: "Vendée Océan", subject: "Territoire", text: "L'empreinte maritime et l'horizon bleu de la côte vendéenne 85160.", image: "/artworks/vendee_ocean.jpg" },
+      { id: "ar1_4", title: "Le Cœur Vendéen", subject: "Emblème", text: "Le double cœur entrelacé. L'âme, la passion et l'histoire du 85.", image: "/artworks/vendee_coeur.jpg" },
       { id: "ar2", title: "Le Gouvernail", subject: "Objet", text: "La direction, le cap maintenu contre vents et marées.", image: "/artworks/obj_region_2.jpg" },
       { id: "ar3", title: "Vin Bordelais", subject: "Objet de Région", text: "Le cépage, la robe, le millésime. Le savoir-faire des vignobles.", image: "/artworks/bordeaux.jpg" },
       { id: "ar4", title: "Le Ruban", subject: "Saint-Étienne", text: "L'excellence de la passementerie, le textile de luxe, l'artisanat du XVIIe.", image: "/artworks/st_etienne_1.jpg" },
