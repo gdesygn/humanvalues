@@ -114,7 +114,8 @@ const ailes = [
       { id: "val27", title: "La Grâce (Poutre)", subject: "Gymnastique Artistique", text: "L'équilibre parfait sur la poutre. La grâce incarnée dans chaque syllabe.", image: "/artworks/grace_poutre.jpg" },
       { id: "val28", title: "La Grâce (Ballon)", subject: "Gymnastique Rythmique", text: "L'élégance absolue. La capture du ballon suspendue dans le temps.", image: "/artworks/grace_ballon.jpg" },
       { id: "val29", title: "Le Service Parfait", subject: "Tennis", text: "La puissance et la précision du service, dessinées par la typographie HV 2025.", image: "/artworks/hv_tennis_service.jpg" },
-      { id: "val31", title: "Collectif", subject: "Vertu Sportive", text: "La création est une femme sur un cheval au saut d'obstacle.", image: "/artworks/corp_9.jpg", hc: true }
+      { id: "val31", title: "Collectif", subject: "Vertu Sportive", text: "La création est une femme sur un cheval au saut d'obstacle.", image: "/artworks/corp_9.jpg", hc: true },
+      { id: "val32", title: "Individuel & Collectif", subject: "Vertu Sportive", text: "Le tennis de table. La dualité parfaite entre la discipline individuelle et la dynamique collective.", image: "/artworks/swiss_pingpong.jpg", hc: true }
     ]
   },
   {
