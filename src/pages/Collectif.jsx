@@ -42,15 +42,45 @@ const Collectif = () => {
       </section>
 
       <section className="nexus-reading" style={{ marginBottom: '4rem' }}>
-        <h2 style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>Le Conseil des Nexus</h2>
-        <p>
-          L'institution est régie par la transparence, la rigueur et l'éthique. Le Conseil, formé de 5 membres issus du monde du sport, de la culture et de l'éducation, valide l'intégration de tout nouveau Nexus au Registre.
+        <h2 style={{ fontSize: '1.5rem', marginBottom: '0.5rem' }}>Le Conseil des Nexus</h2>
+        <p style={{ fontStyle: 'italic', color: 'var(--hv-grey)', marginBottom: '2rem' }}>
+          Là où les récits naissent, là où les récits sont jugés.
         </p>
-        <p style={{ fontStyle: 'italic', paddingLeft: '1rem', borderLeft: '3px solid var(--hv-accent)', color: '#555' }}>
-          Leurs identités et leurs œuvres HV associées sont visibles dans notre Galerie institutionnelle.
+
+        <p style={{ marginBottom: '2rem', lineHeight: '1.8' }}>
+          L'institution est régie par la transparence, la rigueur et l'éthique. Le Conseil analyse et valide les <strong>Nexus Narratifs HumanValues</strong> — garantissant que chaque récit intégré au Registre porte une vérité, une force et une cohérence dignes de l'Institution.
         </p>
-        <p style={{ marginTop: '1.5rem', fontWeight: 'bold' }}>
-          ✅ Les nouveaux récits sont régulièrement intégrés au Registre.
+
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '1.5rem', marginBottom: '2rem' }}>
+
+          <div style={{ padding: '1.5rem 1.8rem', borderLeft: '4px solid var(--hv-black)', backgroundColor: '#fafafa' }}>
+            <h3 style={{ fontSize: '1.05rem', fontWeight: '700', marginBottom: '0.4rem', letterSpacing: '0.05em', textTransform: 'uppercase' }}>⬛ L'Omniscient</h3>
+            <p style={{ margin: 0, lineHeight: '1.7', color: '#333' }}>
+              Vision totale. Intelligence stratégique. Il perçoit ce que les autres ne voient pas encore — les cohérences profondes, les lacunes narratives, les récits qui transcendent leur époque. Son verdict est final.
+            </p>
+          </div>
+
+          <div style={{ padding: '1.5rem 1.8rem', borderLeft: '4px solid var(--hv-accent)', backgroundColor: '#fafafa' }}>
+            <h3 style={{ fontSize: '1.05rem', fontWeight: '700', marginBottom: '0.4rem', letterSpacing: '0.05em', textTransform: 'uppercase' }}>🔴 Le Brutal Board</h3>
+            <p style={{ margin: 0, lineHeight: '1.7', color: '#333' }}>
+              Pas de concession. Pas de complaisance. Le Brutal Board évalue chaque Nexus à l'aune d'un seul critère : <em>ce récit mérite-t-il d'exister ?</em> Il traque la falsification, brise les faux mythes, et n'approuve que ce qui résiste à l'épreuve du réel.
+            </p>
+          </div>
+
+          <div style={{ padding: '1.5rem 1.8rem', borderLeft: '4px solid #888', backgroundColor: '#fafafa' }}>
+            <h3 style={{ fontSize: '1.05rem', fontWeight: '700', marginBottom: '0.4rem', letterSpacing: '0.05em', textTransform: 'uppercase' }}>⚖️ La Constitution</h3>
+            <p style={{ margin: 0, lineHeight: '1.7', color: '#333' }}>
+              Gardienne des principes fondateurs. Elle s'assure que chaque Nexus validé est aligné avec les valeurs cardinales de l'Institution — universalité, dignité, excellence, transmission. Sans son aval, aucun récit n'entre au Registre.
+            </p>
+          </div>
+        </div>
+
+        <p style={{ fontStyle: 'italic', paddingLeft: '1rem', borderLeft: '3px solid var(--hv-accent)', color: '#555', marginBottom: '1.5rem' }}>
+          Trois instances. Une seule exigence commune : que chaque Nexus soit vrai, fort, et durable.
+        </p>
+
+        <p style={{ marginTop: '1rem', fontWeight: 'bold' }}>
+          ✅ Les nouveaux récits sont régulièrement soumis, délibérés et intégrés au Registre.
         </p>
       </section>
 
