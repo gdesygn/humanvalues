@@ -158,7 +158,8 @@ const ailes = [
       { id: "ar35", title: "Sneakers HV", subject: "Lifestyle", text: "L'empreinte du streetwear et du basket sculptée dans la matière 2025.", image: "/artworks/hv_sneakers.jpg" },
       { id: "ar36", title: "Home Run", subject: "Baseball", text: "La batte et la balle. Le classique américain forgé par les lettres HV 2025.", image: "/artworks/hv_baseball.jpg" },
       { id: "ar37", title: "Le Strike", subject: "Bowling", text: "La quille et la boule. L'alignement parfait avant l'impact 2025.", image: "/artworks/hv_bowling.jpg" },
-      { id: "ar38", title: "Le Caddie", subject: "Golf", text: "Le célèbre véhicule des greens, dessiné par l'empreinte de la collection 2025.", image: "/artworks/caddie.jpg" }
+      { id: "ar38", title: "Le Caddie", subject: "Golf", text: "Le célèbre véhicule des greens, dessiné par l'empreinte de la collection 2025.", image: "/artworks/caddie.jpg" },
+      { id: "ar39", title: "Ballon de Basket", subject: "Objet Sportif", text: "La sphère orange sculptée par la typographie Human Values 2025.", image: "/artworks/ballon_basket.jpg" }
     ]
   },
   {
