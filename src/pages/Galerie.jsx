@@ -270,7 +270,7 @@ const ailes = [
   {
     id: "edifice",
     title: "L'Édifice",
-    color: "#F57C00", // Jaune Orangé
+    color: "#607D8B", // Bleu Gris
     description: "La transmission, les valeurs humaines, l'inclusion, la chaleur du groupe.",
     artworks: [
       { id: "fo_logo", title: "L'Emblème 2025", subject: "Collection HumanValues", text: "Le flambeau de la liberté hissé par les mots. L'icône fondatrice de la collection artistique 2025.", image: "/artworks/flambeau_hv.jpg" },
