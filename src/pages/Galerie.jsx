@@ -43,6 +43,7 @@ const ailes = [
       { id: "an32", title: "Gironde", subject: "Département", text: "Le 33. L'élégance du grand Ouest et la noblesse de la terre.", image: "/artworks/region_9.jpg" },
       { id: "an33", title: "Grand-Est", subject: "Région", text: "Le 67. Le carrefour de l'Europe, fort de son héritage.", image: "/artworks/region_10.jpg" },
       { id: "an35_1", title: "Normandie", subject: "Région", text: "Le 14. L'histoire et le rivage, la bravoure forgée face à l'océan.", image: "/artworks/region_normandie.jpg" },
+      { id: "an35_5", title: "Hauts de France", subject: "Région", text: "Le 59. Le cœur de la région tissé par la chaleur et la solidarité du Nord.", image: "/artworks/hauts_de_france.jpg" },
       { id: "an35_2", title: "Pays de Monts", subject: "Territoire", text: "Le 85. La dune, la pinède et la force de l'océan atlantique.", image: "/artworks/region_paysdemonts.jpg" },
       { id: "an35_3", title: "Var", subject: "Département", text: "Le 83. Le soleil éclatant et l'âme méditerranéenne en lettres majuscules.", image: "/artworks/region_var.jpg" },
       { id: "an35_4", title: "Vaucluse", subject: "Département", text: "Le 84. La terre ensoleillée, le mistral et le charme provençal.", image: "/artworks/region_vaucluse.jpg" },
@@ -345,7 +346,7 @@ const Galerie = () => {
       <header style={{ marginBottom: '6rem', textAlign: 'center' }}>
         <h1 style={{ fontSize: '3.5rem', fontWeight: 'bold' }}>Le Registre</h1>
         <p style={{ fontStyle: 'italic', fontSize: '1.2rem', color: 'var(--hv-grey)', marginBottom: '1.5rem' }}>
-          Entrez dans le Registre. 234 œuvres, 11 Ailes, une seule maison culturelle.
+          Entrez dans le Registre. 235 œuvres, 11 Ailes, une seule maison culturelle.
         </p>
         
       </header>
