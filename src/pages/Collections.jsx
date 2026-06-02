@@ -76,10 +76,10 @@ const Collections = () => {
           </div>
           <h3>Dossier Nexus #1<br/><span style={{ fontSize: '1rem', fontWeight: 'normal' }}>Transmission & Héritage</span></h3>
           <p className="description" style={{ marginBottom: '0.5rem' }}>
-            Livre numérique institutionnel : récit complet, valeurs décryptées, code HG, archives narratives.
+            Édition numérique complète : récit, valeurs décryptées, code HG, archives.
           </p>
           <p className="description" style={{ fontSize: '0.85rem', color: '#666', fontStyle: 'italic', marginBottom: '1.5rem' }}>
-            Ouvrage numérique – 16 pages – Livraison immédiate après acquisition
+            Format PDF – 16 pages – Immédiat après paiement
           </p>
           <div className="price">19 €</div>
           <button className="btn-primary" onClick={() => handleProductClick('nexus1')}>
