@@ -184,7 +184,7 @@ const ailes = [
       { id: "m1", title: "Le 13 Éternel", subject: "Football", text: "Le record absolu. Les 13 buts qui défient le temps.", image: "/artworks/portrait_1.jpg" },
       { id: "m2", title: "Numéro 10", subject: "Football", text: "Le Roi Michel. Le numéro 10, le chef d'orchestre, le coup franc parfait.", image: "/artworks/portrait_2.jpg" },
       { id: "m3", title: "The King", subject: "Football", text: "Le col relevé. The King, la poésie rebelle et le théâtre des rêves.", image: "/artworks/portrait_3.jpg" },
-      { id: "m4", title: "Galactic ⭐", subject: "Football", text: "Zizou. La roulette, la grâce absolue, la finale 98.", image: "/artworks/portrait_4.jpg" },
+      { id: "m4", title: "Galactic", subject: "Football", text: "Zizou. La roulette, la grâce absolue, la finale 98.", image: "/artworks/portrait_4.jpg" },
       { id: "m5", title: "Goleador", subject: "Football", text: "La fulgurance. La vitesse pure, la coupe du monde à 19 ans.", image: "/artworks/portrait_5.jpg" },
       { id: "m6", title: "Krongsak (Origines) ⭐", subject: "Muay Thaï", text: "Guerrier né d'un art royal. Nak Muay. Respect. Knees.", image: "/artworks/martial_arts_1.jpg" },
       { id: "m7", title: "Krongsak (Mindset) ⭐", subject: "Muay Thaï", text: "L\'esprit martial, la garde d'acier, la posture royale.", image: "/artworks/martial_arts_2.jpg" },
@@ -357,7 +357,7 @@ const Galerie = () => {
       <header style={{ marginBottom: '6rem', textAlign: 'center' }}>
         <h1 style={{ fontSize: '3.5rem', fontWeight: 'bold' }}>Le Registre</h1>
         <p style={{ fontStyle: 'italic', fontSize: '1.2rem', color: 'var(--hv-grey)', marginBottom: '1.5rem' }}>
-          Entrez dans le Registre. 238 œuvres, 12 Ailes, une seule maison culturelle.
+          Entrez dans le Registre. Parcourez nos collections et découvrez nos œuvres.
         </p>
         
       </header>
@@ -468,7 +468,7 @@ const Galerie = () => {
             borderRadius: '4px', backgroundColor: '#fffdfa', fontSize: '0.85rem', color: '#a64526',
             textAlign: 'left', maxWidth: '800px'
           }}>
-            <strong>⭐ Solidarité & Mécénat :</strong> Pour toute acquisition d'une œuvre signalée par une étoile jaune, <strong>20% des revenus</strong> sont automatiquement reversés à nos partenaires caritatifs (JC Skarbowsky Gym, Fondation ELA).
+            <strong>⭐ Solidarité & Mécénat :</strong> Pour toute acquisition d'une œuvre signalée par une étoile jaune, <strong>20% des revenus</strong> sont reversés à notre partenaire caritatif (JC Skarbowsky Gym).
           </div>
         </div>
 

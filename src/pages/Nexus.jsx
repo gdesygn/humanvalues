@@ -15,10 +15,10 @@ const Nexus = () => {
           <div style={{ maxWidth: '600px', margin: '2rem auto 0 auto', padding: '1.5rem', backgroundColor: '#f9f9f9', border: '1px solid #eee', textAlign: 'left' }}>
             <h3 style={{ fontSize: '1.1rem', marginBottom: '0.5rem', color: 'var(--hv-black)' }}>En 10 secondes</h3>
             <p style={{ margin: '0 0 0.5rem 0', fontSize: '0.95rem', lineHeight: '1.5' }}>
-              HumanValues traduit l'esprit sportif en inclusion vérifiable. Le code HG-776-276-4 mesure votre indice d'inclusion, vous connecte à un vaste réseau associatif et reverse 5€ par archive au développement du sport adapté (ex: Cécifoot).
+              HumanValues traduit l'esprit sportif en récits inspirants. Le code HG-776-276-4 identifie cette édition, vous connecte à notre démarche et soutient le développement du sport adapté.
             </p>
             <p style={{ margin: '0 0 0.5rem 0', fontSize: '0.95rem', fontWeight: '600' }}>
-              216 structures déjà engagées depuis 2023.
+              Un protocole de transmission conçu pour être partagé avec les acteurs locaux du sport et de l'inclusion.
             </p>
             <p style={{ margin: '0', fontSize: '0.95rem', color: 'var(--hv-accent)', fontWeight: '500' }}>
               → Activez le code et recevez l'archive (dossier complet, édition Nexus). De l'intention à l'action.
@@ -66,11 +66,10 @@ const Nexus = () => {
             </p>
             <div className="impact-stat" style={{ margin: '2rem 0', padding: '1.5rem', backgroundColor: '#f8f8f8', border: '1px solid #333' }}>
               <p style={{ margin: '0 0 1rem 0', fontWeight: '600', fontSize: '1.1rem' }}>
-                Depuis 2023, 216 structures l’ont activé.
+                Un protocole de transmission conçu pour être partagé avec les acteurs locaux du sport et de l'inclusion.
               </p>
               <p style={{ margin: 0 }}>
-                Pour chaque archive acquise, 5€ sont reversés au développement 
-                du sport adapté (cécifoot, handisport, inclusion des aînés).
+                Destiné à accompagner les clubs et établissements scolaires dans leurs projets.
               </p>
             </div>
             <p style={{ fontWeight: '600', paddingLeft: '1rem', borderLeft: '3px solid var(--hv-accent)', color: 'var(--hv-accent)', marginBottom: '2rem' }}>
@@ -97,7 +96,7 @@ const Nexus = () => {
             <li style={{ marginBottom: '0.8rem', display: 'flex', alignItems: 'flex-start' }}><span style={{ marginRight: '10px' }}>📄</span> Le récit complet du registre HumanValues</li>
             <li style={{ marginBottom: '0.8rem', display: 'flex', alignItems: 'flex-start' }}><span style={{ marginRight: '10px' }}>🔐</span> Le dossier valeurs + code HG + archives partenaires</li>
             <li style={{ marginBottom: '0.8rem', display: 'flex', alignItems: 'flex-start' }}><span style={{ marginRight: '10px' }}>📱</span> L'édition numérique du Nexus</li>
-            <li style={{ marginBottom: '0.8rem', display: 'flex', alignItems: 'flex-start', color: 'var(--hv-accent)', fontWeight: '600' }}><span style={{ marginRight: '10px' }}>🤝</span> Contribution automatique à un programme Cécifoot local (5€ reversés par archive)</li>
+            <li style={{ marginBottom: '0.8rem', display: 'flex', alignItems: 'flex-start', color: 'var(--hv-accent)', fontWeight: '600' }}><span style={{ marginRight: '10px' }}>🤝</span> Contribution au développement et à la valorisation de récits du sport adapté</li>
           </ul>
 
           <p style={{ textAlign: 'center', fontSize: '0.85rem', color: '#666', marginBottom: '2rem' }}>
@@ -123,7 +122,7 @@ const Nexus = () => {
         </div>
 
         <p style={{ textAlign: 'center', fontSize: '0.9rem', color: '#888', marginTop: '3rem', fontStyle: 'italic' }}>
-          HumanValues est une maison culturelle à but non lucratif. Votre soutien finance directement des programmes d'inclusion sportive labellisés.
+          HumanValues est une maison culturelle indépendante. Votre soutien finance la recherche éditoriale et la production d'expositions culturelles.
         </p>
 
       </div>

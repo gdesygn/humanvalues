@@ -4,8 +4,8 @@ import '../index.css'; // S'assurer que le CSS global est chargé
 const Collections = () => {
   const handleProductClick = (product) => {
     const urls = {
-      nexus1: "/checkout-nexus1",
-      nexus1_premium: "/checkout-premium",
+      nexus1: "mailto:contact@humanvalues.fr?subject=Acquisition%20Dossier%20Nexus%201",
+      nexus1_premium: "mailto:contact@humanvalues.fr?subject=Acquisition%20Edition%20Audio%20Nexus%201",
       plexi: "mailto:contact@humanvalues.fr?subject=Acquisition%20Plexiglas"
     };
     
@@ -74,7 +74,7 @@ const Collections = () => {
             Fichier MP3 haute définition + certificat numérique de tirage
           </p>
           <p className="description" style={{ fontSize: '0.85rem', color: 'var(--hv-accent)', fontWeight: 'bold', marginBottom: '1.5rem' }}>
-            Tirage à 100 exemplaires numérotés.
+            Édition spéciale avec lecture audio immersive.
           </p>
           <div className="price">39 €</div>
           <button className="btn-accent" onClick={() => handleProductClick('nexus1_premium')}>
@@ -101,8 +101,8 @@ const Collections = () => {
           <button className="btn-primary" style={{ backgroundColor: 'transparent', color: 'var(--hv-black)', border: '1px solid var(--hv-black)' }} onClick={() => handleProductClick('plexi')}>
             🖼️ Contacter la galerie
           </button>
-          <p style={{ fontSize: '0.85rem', color: 'var(--hv-accent)', fontWeight: '500', marginTop: '1rem' }}>
-            12 exemplaires déjà réservés.
+          <p style={{ fontSize: '0.85rem', color: '#666', marginTop: '1rem' }}>
+            Certificat d'authenticité inclus.
           </p>
         </div>
 

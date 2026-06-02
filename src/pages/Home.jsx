@@ -45,7 +45,7 @@ const Home = () => {
         <p className="subtitle" style={{ fontSize: '1.4rem', fontWeight: '600', color: 'var(--hv-black)', marginBottom: '1rem' }}>Maison culturelle des récits universels</p>
         <p className="description" style={{ fontSize: '1.2rem', maxWidth: '600px', margin: '0 auto', color: 'var(--hv-grey)', lineHeight: '1.6' }}>
           Des Nexus narratifs où sport, territoires et valeurs humaines convergent.<br />
-          Chaque archive acquise reverse 5€ au développement du sport adapté.
+          Notre mission est de soutenir le développement et la visibilité du sport adapté.
         </p>
         <div className="spacer-lg" style={{ height: '2rem' }}></div>
         <Link to="/nexus" className="btn-accent">Explorer le Registre</Link>

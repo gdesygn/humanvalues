@@ -11,7 +11,7 @@ const Collectif = () => {
         
         <div style={{ maxWidth: '600px', margin: '2rem auto 0 auto', padding: '1.5rem', backgroundColor: '#f9f9f9', border: '1px solid #eee', textAlign: 'left' }}>
           <p style={{ margin: '0', fontSize: '1rem', lineHeight: '1.5', fontWeight: '500' }}>
-            HumanValues est une Maison Culturelle. Depuis 2023, <strong>47 Nexus</strong> sont en cours de validation par notre Conseil.
+            HumanValues est une Maison Culturelle. Nos récits (Nexus) sont étudiés et validés par notre équipe éditoriale pour garantir leur authenticité.
           </p>
         </div>
       </header>
@@ -50,7 +50,7 @@ const Collectif = () => {
           Leurs identités et leurs œuvres HV associées sont visibles dans notre Galerie institutionnelle.
         </p>
         <p style={{ marginTop: '1.5rem', fontWeight: 'bold' }}>
-          ✅ 47 Nexus en cours de validation depuis 2023.
+          ✅ Les nouveaux récits sont régulièrement intégrés au Registre.
         </p>
       </section>
 

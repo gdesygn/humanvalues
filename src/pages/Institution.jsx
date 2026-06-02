@@ -12,8 +12,8 @@ const Institution = () => {
         {/* Executive summary */}
         <div style={{ maxWidth: '800px', margin: '2rem auto 0 auto', padding: '1.5rem', backgroundColor: '#f9f9f9', border: '1px solid #eee', textAlign: 'left' }}>
           <p style={{ margin: '0', fontSize: '1.05rem', lineHeight: '1.6', fontWeight: '500' }}>
-            HumanValues HV est aujourd'hui reconnu et sollicité par des acteurs institutionnels majeurs.<br/>
-            Notre engagement en faveur d'une inclusion exigeante – par le sport, la culture et le récit – a éveillé l'intérêt de décideurs internationaux.
+            HumanValues HV présente sa démarche auprès d'acteurs du sport et de la culture.<br/>
+            Notre objectif est de sensibiliser le public et les décideurs à une inclusion exigeante par le sport, la culture et le récit.
           </p>
         </div>
       </header>
@@ -30,27 +30,27 @@ const Institution = () => {
 
       {/* Section UNESCO + CIC */}
       <section className="nexus-reading" style={{ marginBottom: '4rem' }}>
-        <h2 style={{ fontSize: '1.8rem', borderBottom: '1px solid var(--hv-light-grey)', paddingBottom: '1rem', marginBottom: '2rem' }}>Le poids des actes</h2>
+        <h2 style={{ fontSize: '1.8rem', borderBottom: '1px solid var(--hv-light-grey)', paddingBottom: '1rem', marginBottom: '2rem' }}>Échanges et Rencontres</h2>
         <p style={{ marginBottom: '2rem' }}>
-          HumanValues s'inscrit au cœur des décisions institutionnelles majeures. Voici ce que nos partenaires ont rendu possible :
+          HumanValues présente sa vision et échange avec divers acteurs pour promouvoir le sport adapté et l'inclusion :
         </p>
 
         <ul style={{ listStyleType: 'none', padding: 0, margin: '0 0 3rem 0' }}>
           <li style={{ marginBottom: '1rem', paddingLeft: '1.5rem', position: 'relative' }}>
             <span style={{ position: 'absolute', left: 0, color: 'var(--hv-accent)' }}>•</span>
-            <strong>Reconnaissance internationale</strong> – Invitation à contribuer aux travaux de cercles de réflexion de l'UNESCO sur l'inclusion et l'accessibilité culturelle.
+            <strong>Présentation à l'UNESCO</strong> – Échanges lors de la journée internationale des personnes handicapées concernant l'inclusion et l'accessibilité.
           </li>
           <li style={{ marginBottom: '1rem', paddingLeft: '1.5rem', position: 'relative' }}>
             <span style={{ position: 'absolute', left: 0, color: 'var(--hv-accent)' }}>•</span>
-            <strong>Partenariats bancaires et territoriaux</strong> – Raphaël Rébert (CIC-Crédit Mutuel) : échanges et construction de ponts entre sport, art et inclusion.
+            <strong>Rencontre CIC-Crédit Mutuel</strong> – Présentation de notre démarche d'inclusion à Raphaël Rébert.
           </li>
           <li style={{ marginBottom: '1rem', paddingLeft: '1.5rem', position: 'relative' }}>
             <span style={{ position: 'absolute', left: 0, color: 'var(--hv-accent)' }}>•</span>
-            <strong>Clubs sportifs engagés</strong> – Stade Français Rugby (Thomas Lombard) & Bondy Cécifoot Club : actions concrètes pour l'inclusion par le sport de haut niveau.
+            <strong>Échanges sportifs</strong> – Rencontres avec des représentants du Stade Français Rugby (Thomas Lombard) et d'initiatives associatives de Cécifoot.
           </li>
           <li style={{ marginBottom: '1rem', paddingLeft: '1.5rem', position: 'relative' }}>
             <span style={{ position: 'absolute', left: 0, color: 'var(--hv-accent)' }}>•</span>
-            <strong>Figures des sports de combat</strong> – Fernand Lopez, Greg MMA, Karaté Bushido : des noms majeurs qui ancrent discipline et respect au cœur de HV.
+            <strong>Acteurs des sports de combat</strong> – Présentations et échanges sur les valeurs d'engagement et de discipline avec Fernand Lopez, Greg MMA et Karaté Bushido.
           </li>
         </ul>
       </section>
@@ -118,7 +118,7 @@ const Institution = () => {
 
       {/* Bande thématique */}
       <section style={{ marginBottom: '5rem', padding: '3rem 0', borderTop: '1px solid #eee', borderBottom: '1px solid #eee', textAlign: 'center' }}>
-        <p style={{ fontSize: '0.9rem', color: '#999', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '2rem' }}>HumanValues HV dialogue et conseille :</p>
+        <p style={{ fontSize: '0.9rem', color: '#999', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '2rem' }}>HumanValues HV dialogue avec le monde du sport et de l'inclusion :</p>
         <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', gap: '2rem', alignItems: 'center', fontFamily: 'Playfair Display', fontSize: '1.4rem', fontWeight: 'bold', color: 'var(--hv-black)' }}>
           <span style={{ transition: 'color 0.3s', cursor: 'default' }}>Instances internationales (UNESCO)</span>
           <span style={{ color: 'var(--hv-accent)' }}>•</span>

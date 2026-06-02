@@ -56,7 +56,7 @@ const CGV = () => {
           </div>
 
           <p style={{ padding: '1.5rem', backgroundColor: '#f9f9f9', borderLeft: '4px solid var(--hv-accent)', fontStyle: 'italic' }}>
-            Chaque dossier numérique acquis s’accompagne d’un reversement automatique de 5€ au profit du développement du sport adapté (cécifoot, handisport, inclusion des aînés). Le Client est informé de ce reversement avant validation de sa commande.
+            Chaque dossier numérique acquis contribue à soutenir le développement du sport adapté (cécifoot, handisport, inclusion des aînés). Le Client soutient ainsi nos actions de valorisation et d'inclusion.
           </p>
         </section>
 
@@ -130,13 +130,8 @@ const CGV = () => {
         </section>
 
         <section style={{ marginBottom: '3rem' }}>
-          <h2 style={{ fontSize: '1.8rem', color: 'var(--hv-black)', marginBottom: '1.5rem', fontFamily: 'var(--font-title, Playfair Display)' }}>Article 7 – Reversement au sport adapté (5€)</h2>
-          <p style={{ marginBottom: '1rem' }}>HumanValues HV s’engage à reverser 5€ (cinq euros) par dossier Nexus numérique acquis à des associations ou structures œuvrant pour le développement du sport adapté (cécifoot, handisport, inclusion des aînés).</p>
-          <ul style={{ paddingLeft: '1.5rem', marginBottom: '1.5rem' }}>
-            <li style={{ marginBottom: '0.5rem' }}>Le reversement est effectué une fois par trimestre.</li>
-            <li style={{ marginBottom: '0.5rem' }}>La liste des structures bénéficiaires est disponible sur demande auprès du Conseil des Nexus.</li>
-            <li style={{ marginBottom: '0.5rem' }}>Ce reversement est indépendant du prix d’achat : le Client paie 19€, 5€ sont reversés.</li>
-          </ul>
+          <h2 style={{ fontSize: '1.8rem', color: 'var(--hv-black)', marginBottom: '1.5rem', fontFamily: 'var(--font-title, Playfair Display)' }}>Article 7 – Soutien au sport adapté</h2>
+          <p style={{ marginBottom: '1rem' }}>HumanValues HV s’engage à soutenir le développement du sport adapté (cécifoot, handisport, inclusion des aînés) par le biais de projets d'exposition ou de dons de mécénat.</p>
         </section>
 
         <section style={{ marginBottom: '3rem' }}>
