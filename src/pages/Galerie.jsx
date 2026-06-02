@@ -327,7 +327,7 @@ const ailes = [
   {
     id: "nexus-messi",
     title: "Nexus Messi",
-    color: "#E53935", // Rouge
+    color: "#C25939", // Ocre / Or
     description: "L'icône absolue. Le génie argentin décliné sous ses trois maillots historiques.",
     artworks: [
       { id: "nxm1", title: "Messi (Miami)", subject: "Inter Miami", text: "MAGIC, EFFICIENCY, STILLNESS. Le génie argentin sous les couleurs de la Floride.", image: "/artworks/messi_miami.jpg", hc: true },
