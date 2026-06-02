@@ -43,7 +43,7 @@ const Collections = () => {
         {/* Carte 1 – Dossier Nexus #1 */}
         <div className="acquisition-card">
           <div className="card-media" style={{ position: 'relative' }}>
-            <img src="/assets/images/mockup_pdf.png" alt="Mockup Dossier Nexus 1" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+            <img src="/assets/images/mockup_nexus1_hv.png" alt="Mockup Dossier Nexus 1" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
             {/* Logo HV — signature institutionnelle */}
             <div style={{
               position: 'absolute',
@@ -114,7 +114,7 @@ const Collections = () => {
         {/* Carte 3 – Tirage Plexiglas Premium */}
         <div className="acquisition-card">
           <div className="card-media">
-            <img src="/assets/images/mockup_plexi.png" alt="Mockup Tirage Plexiglas" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+            <img src="/assets/images/mockup_plexi.png" alt="Tirage Plexiglas La terre battue - HumanValues" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
           </div>
           <h3>Tirage Plexiglas – "La terre battue"<br/><span style={{ fontSize: '1rem', fontWeight: 'normal' }}>Édition signée XXL – 100x80 cm</span></h3>
           <p className="description" style={{ marginBottom: '0.5rem' }}>
