@@ -175,8 +175,8 @@ const ailes = [
     ]
   },
   {
-    id: "mythes",
-    title: "Les Mythes",
+    id: "pantheon",
+    title: "Le Panthéon",
     color: "#C25939", // Ocre / Or
     description: "L'humain devenu légende, l'imaginaire, les figures tutélaires du sport, des arts et de l'écran.",
     artworks: [

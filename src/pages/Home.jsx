@@ -62,7 +62,7 @@ const Home = () => {
         <p>Ce site est vivant. Il grandit Nexus après Nexus.</p>
         <p style={{ marginTop: '1.5rem', fontWeight: '500' }}>
           Parcourez les 6 ailes thématiques de notre Registre : <br/>
-          <Link to="/galerie#mythes" style={{ color: 'var(--hv-accent)' }}>Mythes</Link> — 
+          <Link to="/galerie#pantheon" style={{ color: 'var(--hv-accent)' }}>Le Panthéon</Link> — 
           <Link to="/galerie#arene" style={{ color: 'var(--hv-accent)' }}> L'Arène</Link> — 
           <Link to="/galerie#fluides" style={{ color: 'var(--hv-accent)' }}> Les Fluides</Link> — 
           <Link to="/galerie#ancrage" style={{ color: 'var(--hv-accent)' }}> L'Ancrage</Link> — 
