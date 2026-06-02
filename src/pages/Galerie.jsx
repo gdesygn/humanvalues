@@ -100,6 +100,7 @@ const ailes = [
       { id: "val14", title: "Excellence", subject: "Vertu Sportive", text: "Le coup de pied haut. L'équilibre et la recherche de la perfection martiale.", image: "/artworks/valeur_14.jpg" },
       { id: "val15", title: "Courage", subject: "Vertu Sportive", text: "La garde montée. La détermination sans faille face à l'impact imminent.", image: "/artworks/valeur_15.jpg" },
       { id: "val15_1", title: "Précision", subject: "Vertu Sportive", text: "Le sac de poing. L'impact millimétré et la répétition du geste parfait.", image: "/artworks/valeur_precision.jpg" },
+      { id: "val15_2", title: "Le Sifflet", subject: "Respect", text: "Le symbole de l'arbitrage et du fair-play, tissé par le respect absolu.", image: "/artworks/sifflet.jpg" },
       { id: "val16", title: "Victoire", subject: "Vertu Sportive", text: "La croix de fer aux anneaux en gymnastique. La maîtrise absolue de la gravité.", image: "/artworks/valeur_16.jpg" },
       { id: "val17", title: "Technique", subject: "Vertu Sportive", text: "Le lancer de javelot. L'équilibre parfait entre puissance et technique pure.", image: "/artworks/valeur_17.jpg" },
       { id: "val18", title: "Régularité", subject: "Vertu Sportive", text: "Le lancer de marteau. La force centrifuge maîtrisée dans la régularité du geste.", image: "/artworks/valeur_18.jpg" },
