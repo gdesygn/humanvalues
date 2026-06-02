@@ -21,8 +21,7 @@ const Footer = () => {
         <div style={{ flex: '1 1 300px' }}>
           <h3 style={{ fontSize: '1.5rem', marginBottom: '1rem', fontFamily: 'var(--font-title, Playfair Display)' }}>HumanValues</h3>
           <p style={{ color: '#aaa', fontSize: '0.9rem', lineHeight: '1.6' }}>
-            La première galerie digitale alliant typographie, design et valeurs humaines. 
-            Éditions d'art exclusives, limitées et engagées.
+            HumanValues est une marque déposée et protégée depuis 2016. L'ensemble des œuvres de notre registre est conçu pour être décliné sur de multiples supports. Elles sont ouvertes à l'acquisition pour les institutions, incluant la cession intégrale des droits d'auteur.
           </p>
         </div>
         
