@@ -255,7 +255,6 @@ const ailes = [
       { id: "fo9", title: "RATP", subject: "Institution & Valeurs", text: "La mobilité pour tous. Le visage de l'intégration tracé par la ligne bleue.", image: "/artworks/corp_6.jpg", hc: true },
       { id: "fo13", title: "Groupe Dubreuil", subject: "Institution & Valeurs", text: "L'envol inclusif. Le mécénat et l'autonomie gravés dans l'oiseau solaire.", image: "/artworks/corp_7.jpg", hc: true },
       { id: "fo14", title: "Les Jardins d'Arcadie", subject: "Institution & Valeurs", text: "L'arbre protecteur. L'accompagnement, la sérénité et le bien-être des seniors.", image: "/artworks/corp_8.jpg", hc: true },
-      { id: "fo20", title: "Double Jeu (Swiss)", subject: "Institution & Valeurs", text: "Le tennis de table. La dualité parfaite entre la discipline individuelle et la dynamique collective.", image: "/artworks/swiss_pingpong.jpg", hc: true },
       { id: "fo10", title: "Le Coq FFF", subject: "LFP X Inclusion", text: "L'emblème tricolore. Diversité, mécénat et humilité sur le terrain.", image: "/artworks/sport_5.jpg", hc: true },
       { id: "fo11", title: "Ligue de Football", subject: "LFP X Inclusion", text: "Le championnat professionnel porté par les valeurs saines et le cécifoot.", image: "/artworks/sport_6.jpg", hc: true },
       { id: "fo12", title: "Bondy Cécifoot Club", subject: "Club X Inclusion", text: "L'emblème du serpent. Déficience visuelle, transmission et solidarité sur le terrain.", image: "/artworks/sport_7.jpg", hc: true },
