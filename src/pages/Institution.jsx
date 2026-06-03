@@ -12,7 +12,7 @@ const Institution = () => {
 
         {/* Executive summary */}
         <div style={{ maxWidth: '800px', margin: '2rem auto 0 auto', padding: '1.5rem', backgroundColor: '#f9f9f9', border: '1px solid #eee', textAlign: 'left' }}>
-          <p style={{ margin: '0', fontSize: '1.05rem', lineHeight: '1.6', fontWeight: '500' }}>
+          <p style={{ margin: '0', fontSize: '1.05rem', lineHeight: '1.6', fontWeight: '500', textAlign: 'center' }}>
             HumanValues présente sa démarche auprès d'acteurs du sport et de la culture.<br/>
             Notre objectif est de sensibiliser le public et les décideurs à une inclusion exigeante par le sport, la culture et le récit.
           </p>
