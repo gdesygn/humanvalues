@@ -3,11 +3,11 @@ import React from 'react';
 const CGV = () => {
   return (
     <div className="container animate-fade-in-up" style={{ maxWidth: '800px', margin: '4rem auto', padding: '0 2rem', minHeight: '60vh' }}>
-      <h1 style={{ fontSize: '3rem', marginBottom: '1rem', fontFamily: 'var(--font-title, Playfair Display)', color: 'var(--hv-black)' }}>
-        CONDITIONS GÉNÉRALES DE VENTE
+      <h1 style={{ fontSize: '1.8rem', marginBottom: '1rem', fontFamily: 'var(--font-title, Playfair Display)', color: 'var(--hv-black)' }}>
+        Conditions Générales de Vente
       </h1>
       <p style={{ fontSize: '1.2rem', color: 'var(--hv-grey)', marginBottom: '3rem', borderBottom: '2px solid var(--hv-light-grey)', paddingBottom: '1rem' }}>
-        HumanValues HV
+        HumanValues
       </p>
       
       <div style={{ fontSize: '1.1rem', color: 'var(--hv-grey)', lineHeight: '1.8' }}>
