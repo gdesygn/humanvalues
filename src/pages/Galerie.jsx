@@ -61,21 +61,32 @@ const ailes = [
       { id: "an14_1", title: "Suisse", subject: "Pays", text: "L'helvétie façonnée par les lettres. La précision, la neutralité et le survol alpin.", image: "/artworks/suisse.jpg" },
       { id: "an29_3", title: "Chine", subject: "Pays", text: "L'Empire du Milieu. Les étoiles dorées brillant sur l'immensité de la nation rouge.", image: "/artworks/chine.jpg" },
       { id: "an29_1", title: "Tunisie", subject: "Pays", text: "L'histoire carthaginoise, le soleil méditerranéen et l'ancrage nord-africain.", image: "/artworks/tunisie.jpg" },
-      { id: "an29_2", title: "Uruguay", subject: "Pays", text: "Le soleil de mai rayonnant sur la ferveur céleste et l'héritage sud-américain.", image: "/artworks/uruguay.jpg" },
-      { id: "an16", title: "Arc de Triomphe", subject: "Monument", text: "Symbole de victoire, carrefour de la nation.", image: "/artworks/monument_1.jpg" },
-      { id: "an17", title: "Burj Khalifa", subject: "Monument", text: "L'ascension vertigineuse, le désir humain de toucher les cieux.", image: "/artworks/monument_2.jpg" },
-      { id: "an18", title: "Statue de la Liberté", subject: "Monument", text: "L'accueil, la flamme, l'espoir d'un monde nouveau.", image: "/artworks/monument_3.jpg" },
-      { id: "an19", title: "Tour de Pise", subject: "Monument", text: "La beauté dans l'imperfection, le miracle de l'équilibre.", image: "/artworks/monument_4.jpg" },
-      { id: "an20", title: "Danseuse du Lido", subject: "Spectacle", text: "L'élégance parisienne, le glamour intemporel et la magie des revues des Champs-Élysées.", image: "/artworks/monument_5.jpg" },
-      { id: "an21", title: "Île de Pâques", subject: "Monument", text: "Le mystère des Moaï, le regard figé sur l'immensité du Pacifique.", image: "/artworks/monument_6.jpg" },
-      { id: "an22", title: "Tour Eiffel", subject: "Monument", text: "La Dame de Fer, l'élégance architecturale s'élevant au-dessus de Paris.", image: "/artworks/monument_7.jpg" },
-      { id: "an23", title: "Masque Vénitien", subject: "Culture", text: "L'énigme du carnaval, l'élégance mystérieuse de la Sérénissime dissimulée derrière le masque.", image: "/artworks/monument_8.jpg" },
-      { id: "an24", title: "Legend", subject: "Légende", text: "The Greatest. Vole comme le papillon, pique comme l'abeille.", image: "/artworks/monument_9.jpg" },
-      { id: "an25", title: "Corcovado", subject: "Monument", text: "Le Christ Rédempteur, veillant majestueusement sur Rio de Janeiro.", image: "/artworks/monument_10.jpg" },
-      { id: "an26", title: "La Bonne Mère", subject: "Monument", text: "Notre-Dame de la Garde, la protectrice de la cité phocéenne.", image: "/artworks/monument_11.jpg" },
-      { id: "an27", title: "Burj Al Arab", subject: "Monument", text: "L'icône de Dubaï, la voile hissée vers la démesure.", image: "/artworks/monument_12.jpg" },
-      { id: "an28", title: "Les Pyramides", subject: "Monument", text: "Le Sphinx et l'immensité de Gizeh, l'éternité gravée dans la pierre.", image: "/artworks/monument_13.jpg" },
-      { id: "an28_1", title: "Mémorial de Vimy", subject: "Monument", text: "L'hommage canadien. Les piliers de la mémoire dressés vers l'éternité.", image: "/artworks/memorial_canadien.jpg" }
+      { id: "an29_2", title: "Uruguay", subject: "Pays", text: "Le soleil de mai rayonnant sur la ferveur céleste et l'héritage sud-américain.", image: "/artworks/uruguay.jpg" }
+    ]
+  },
+  {
+    id: "monuments",
+    title: "Les Monuments",
+    color: "#607D8B", // Bleu Gris
+    description: "L'histoire incarnée, les figures intemporelles et l'héritage universel.",
+    artworks: [
+      { id: "mon0_1", title: "Arc de Triomphe", subject: "Monument Historique", text: "L'Arc de Triomphe de l'Étoile dessiné par la répétition typographique de la capitale.", image: "/artworks/paris.jpg" },
+      { id: "mon3", title: "Burj Al Arab", subject: "Monument", text: "L'icône de Dubaï, la voile hissée vers la démesure.", image: "/artworks/monument_12.jpg" },
+      { id: "mon4", title: "Corcovado", subject: "Monument", text: "Le Christ Rédempteur, veillant majestueusement sur Rio de Janeiro.", image: "/artworks/monument_10.jpg" },
+      { id: "mon5", title: "Mémorial de Vimy", subject: "Monument", text: "L'hommage canadien. Les piliers de la mémoire dressés vers l'éternité.", image: "/artworks/memorial_canadien.jpg" },
+      { id: "mon1", title: "La Grâce", subject: "Le Chat", text: "L'élégance féline sculptée par la typographie.", image: "/artworks/monument_chat.jpg" },
+      { id: "mon2", title: "Elizabeth II", subject: "Reine d'Angleterre", text: "La Maison Windsor, Londres et le siècle. Le portrait de la souveraine absolue.", image: "/artworks/monument_elizabeth.jpg" },
+      { id: "mon6", title: "Les Pyramides", subject: "Monument", text: "Le Sphinx et l'immensité de Gizeh, l'éternité gravée dans la pierre.", image: "/artworks/monument_13.jpg" },
+      { id: "mon7", title: "Burj Khalifa", subject: "Monument", text: "L'ascension vertigineuse, le désir humain de toucher les cieux.", image: "/artworks/monument_2.jpg" },
+      { id: "mon8", title: "Statue de la Liberté", subject: "Monument", text: "L'accueil, la flamme, l'espoir d'un monde nouveau.", image: "/artworks/monument_3.jpg" },
+      { id: "mon9", title: "Tour de Pise", subject: "Monument", text: "La beauté dans l'imperfection, le miracle de l'équilibre.", image: "/artworks/monument_4.jpg" },
+      { id: "mon10", title: "Île de Pâques", subject: "Monument", text: "Le mystère des Moaï, le regard figé sur l'immensité du Pacifique.", image: "/artworks/monument_6.jpg" },
+      { id: "mon11", title: "Tour Eiffel", subject: "Monument", text: "La Dame de Fer, l'élégance architecturale s'élevant au-dessus de Paris.", image: "/artworks/monument_7.jpg" },
+      { id: "mon12", title: "La Bonne Mère", subject: "Monument", text: "Notre-Dame de la Garde, la protectrice de la cité phocéenne.", image: "/artworks/monument_11.jpg" },
+      { id: "mon13", title: "Masque Vénitien", subject: "Culture", text: "L'énigme du carnaval, l'élégance mystérieuse de la Sérénissime dissimulée derrière le masque.", image: "/artworks/monument_8.jpg" },
+      { id: "mon14", title: "L'Emblème 2025", subject: "Collection HumanValues", text: "Le flambeau de la liberté hissé par les mots. L'icône fondatrice de la collection artistique 2025.", image: "/artworks/flambeau_hv.jpg" },
+      { id: "mon15", title: "Danseuse du Lido", subject: "Spectacle", text: "L'élégance parisienne, le glamour intemporel et la magie des revues des Champs-Élysées.", image: "/artworks/monument_5.jpg" },
+      { id: "mon16", title: "Legend", subject: "Légende", text: "The Greatest. Vole comme le papillon, pique comme l'abeille.", image: "/artworks/monument_9.jpg" }
     ]
   },
   {
@@ -199,30 +210,6 @@ const ailes = [
       { id: "m15", title: "The Austrian Oak", subject: "Cinéma & Légende", text: "Arnie. Gouvernator. Schwarzy. L'incarnation du rêve américain et de la volonté absolue.", image: "/artworks/arnold_schwarzenegger.jpg" },
       { id: "m16", title: "Le 7 de CR7", subject: "Football & Légende", text: "L'obsession de la perfection. Le numéro mythique entièrement tissé par l'identité de Cristiano Ronaldo.", image: "/artworks/cr7.jpg", hc: true },
       { id: "m17", title: "NX Donnarumma", subject: "Football", text: "Le rempart ultime. L'envergure du gardien sculptée par le PSG, l'AC Milan et la Ligue des Champions.", image: "/artworks/donnarumma.jpg", hc: true }
-    ]
-  },
-  {
-    id: "monuments",
-    title: "Les Monuments",
-    color: "#607D8B", // Bleu Gris
-    description: "L'histoire incarnée, les figures intemporelles et l'héritage universel.",
-    artworks: [
-      { id: "mon0_1", title: "Arc de Triomphe", subject: "Monument Historique", text: "L'Arc de Triomphe de l'Étoile dessiné par la répétition typographique de la capitale.", image: "/artworks/paris.jpg" },
-      { id: "mon3", title: "Burj Al Arab", subject: "Monument", text: "L'icône de Dubaï, la voile hissée vers la démesure.", image: "/artworks/monument_12.jpg" },
-      { id: "mon4", title: "Corcovado", subject: "Monument", text: "Le Christ Rédempteur, veillant majestueusement sur Rio de Janeiro.", image: "/artworks/monument_10.jpg" },
-      { id: "mon5", title: "Mémorial de Vimy", subject: "Monument", text: "L'hommage canadien. Les piliers de la mémoire dressés vers l'éternité.", image: "/artworks/memorial_canadien.jpg" },
-      { id: "mon1", title: "La Grâce", subject: "Le Chat", text: "L'élégance féline sculptée par la typographie.", image: "/artworks/monument_chat.jpg" },
-      { id: "mon2", title: "Elizabeth II", subject: "Reine d'Angleterre", text: "La Maison Windsor, Londres et le siècle. Le portrait de la souveraine absolue.", image: "/artworks/monument_elizabeth.jpg" },
-      { id: "mon6", title: "Les Pyramides", subject: "Monument", text: "Le Sphinx et l'immensité de Gizeh, l'éternité gravée dans la pierre.", image: "/artworks/monument_13.jpg" },
-      { id: "mon7", title: "Burj Khalifa", subject: "Monument", text: "L'ascension vertigineuse, le désir humain de toucher les cieux.", image: "/artworks/monument_2.jpg" },
-      { id: "mon8", title: "Statue de la Liberté", subject: "Monument", text: "L'accueil, la flamme, l'espoir d'un monde nouveau.", image: "/artworks/monument_3.jpg" },
-      { id: "mon9", title: "Tour de Pise", subject: "Monument", text: "La beauté dans l'imperfection, le miracle de l'équilibre.", image: "/artworks/monument_4.jpg" },
-      { id: "mon10", title: "Île de Pâques", subject: "Monument", text: "Le mystère des Moaï, le regard figé sur l'immensité du Pacifique.", image: "/artworks/monument_6.jpg" },
-      { id: "mon11", title: "Tour Eiffel", subject: "Monument", text: "La Dame de Fer, l'élégance architecturale s'élevant au-dessus de Paris.", image: "/artworks/monument_7.jpg" },
-      { id: "mon12", title: "La Bonne Mère", subject: "Monument", text: "Notre-Dame de la Garde, la protectrice de la cité phocéenne.", image: "/artworks/monument_11.jpg" },
-      { id: "mon13", title: "Masque Vénitien", subject: "Culture", text: "L'énigme du carnaval, l'élégance mystérieuse de la Sérénissime dissimulée derrière le masque.", image: "/artworks/monument_8.jpg" },
-      { id: "mon14", title: "L'Emblème 2025", subject: "Collection HumanValues", text: "Le flambeau de la liberté hissé par les mots. L'icône fondatrice de la collection artistique 2025.", image: "/artworks/flambeau_hv.jpg" },
-      { id: "mon15", title: "Danseuse du Lido", subject: "Spectacle", text: "L'élégance parisienne, le glamour intemporel et la magie des revues des Champs-Élysées.", image: "/artworks/monument_5.jpg" }
     ]
   },
   {
