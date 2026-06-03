@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
+import { useLocation, Link } from 'react-router-dom';
 
 const ailes = [
   {
@@ -474,9 +474,9 @@ const Galerie = () => {
 
         <h3 style={{ fontSize: '2rem', marginBottom: '1rem' }}>Acquérir une œuvre – Tirage d'art exclusif</h3>
         <p style={{ fontSize: '1.1rem', marginBottom: '2.5rem', color: 'var(--hv-grey)' }}>Chaque pièce du Registre peut devenir une pièce de votre collection (Plexiglas Premium).</p>
-        <a href="/collections" className="btn-accent" style={{ padding: '1rem 2rem', fontSize: '1.1rem' }}>
+        <Link to="/collections" className="btn-accent" style={{ padding: '1rem 2rem', fontSize: '1.1rem' }}>
           → Accéder à la Salle des Acquisitions
-        </a>
+        </Link>
       </div>
     </div>
   );

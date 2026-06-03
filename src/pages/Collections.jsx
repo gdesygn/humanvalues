@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../index.css'; // S'assurer que le CSS global est chargé
 
 const Collections = () => {
@@ -33,7 +34,7 @@ const Collections = () => {
           📖 <strong>Dossier Nexus #1 – Transmission & Héritage</strong>
         </p>
         <p style={{ margin: 0, fontSize: '0.9rem' }}>
-          Découvrir le résumé du contenu → <a href="/nexus" style={{ color: 'var(--hv-accent)', fontWeight: 'bold', textDecoration: 'underline' }}>Lire le manifeste</a>
+          Découvrir le résumé du contenu → <Link to="/nexus" style={{ color: 'var(--hv-accent)', fontWeight: 'bold', textDecoration: 'underline' }}>Lire le manifeste</Link>
         </p>
       </div>
 

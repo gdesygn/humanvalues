@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Collectif = () => {
   return (
@@ -91,9 +92,9 @@ const Collectif = () => {
           Ces valeurs animent chaque Nexus enregistré.
         </p>
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1rem', marginTop: '2rem' }}>
-          <a href="/nexus" style={{ color: 'var(--hv-black)', fontWeight: 'bold', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '0.5rem', transition: 'color 0.3s' }} className="hover-accent">
+          <Link to="/nexus" style={{ color: 'var(--hv-black)', fontWeight: 'bold', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '0.5rem', transition: 'color 0.3s' }} className="hover-accent">
             → Découvrir le Registre et activer le code HG
-          </a>
+          </Link>
           <a href="mailto:contact@humanvalues.fr?subject=Proposer%20un%20Nexus" style={{ color: 'var(--hv-black)', fontWeight: 'bold', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '0.5rem', transition: 'color 0.3s' }} className="hover-accent">
             → Proposer un Nexus
           </a>

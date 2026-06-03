@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Institution = () => {
   return (
@@ -21,10 +22,10 @@ const Institution = () => {
       {/* Bandeau de contexte vers autres pages */}
       <div style={{ maxWidth: '800px', margin: '0 auto 4rem auto', backgroundColor: 'var(--hv-cream)', border: '1px solid var(--hv-light-grey)', padding: '1.5rem', textAlign: 'center' }}>
         <p style={{ margin: '0 0 0.5rem 0' }}>
-          🏛️ <strong>Découvrir notre charte fondatrice</strong> → <a href="/collectif" style={{ color: 'var(--hv-accent)', textDecoration: 'underline' }}>Le Conseil des Nexus</a>
+          🏛️ <strong>Découvrir notre charte fondatrice</strong> → <Link to="/collectif" style={{ color: 'var(--hv-accent)', textDecoration: 'underline' }}>Le Conseil des Nexus</Link>
         </p>
         <p style={{ margin: 0 }}>
-          📖 <strong>Lire le manifeste</strong> → <a href="/nexus" style={{ color: 'var(--hv-accent)', textDecoration: 'underline' }}>Transmission & Inclusion</a>
+          📖 <strong>Lire le manifeste</strong> → <Link to="/nexus" style={{ color: 'var(--hv-accent)', textDecoration: 'underline' }}>Transmission & Inclusion</Link>
         </p>
       </div>
 
