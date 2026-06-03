@@ -37,27 +37,23 @@ const Institution = () => {
           pour promouvoir le sport adapté et l'inclusion :
         </p>
 
-        <ul style={{ listStyleType: 'none', padding: 0, margin: '0 0 3rem 0' }}>
-          <li style={{ marginBottom: '1.2rem', paddingLeft: '1.5rem', position: 'relative' }}>
-            <span style={{ position: 'absolute', left: 0, color: 'var(--hv-accent)' }}>•</span>
-            <strong>Présentation à l'UNESCO</strong> –<br/>
+        <ul style={{ listStyleType: 'none', padding: 0, margin: '0 0 3rem 0', textAlign: 'center' }}>
+          <li style={{ marginBottom: '1.2rem' }}>
+            <strong>• Présentation à l'UNESCO</strong> –<br/>
             Échanges lors de la journée internationale des personnes handicapées<br/>
             concernant l'inclusion et l'accessibilité.
           </li>
-          <li style={{ marginBottom: '1.2rem', paddingLeft: '1.5rem', position: 'relative' }}>
-            <span style={{ position: 'absolute', left: 0, color: 'var(--hv-accent)' }}>•</span>
-            <strong>Rencontre CIC-Crédit Mutuel</strong> –<br/>
+          <li style={{ marginBottom: '1.2rem' }}>
+            <strong>• Rencontre CIC-Crédit Mutuel</strong> –<br/>
             Présentation de notre démarche d'inclusion à Raphaël Rébert.
           </li>
-          <li style={{ marginBottom: '1.2rem', paddingLeft: '1.5rem', position: 'relative' }}>
-            <span style={{ position: 'absolute', left: 0, color: 'var(--hv-accent)' }}>•</span>
-            <strong>Échanges sportifs</strong> –<br/>
+          <li style={{ marginBottom: '1.2rem' }}>
+            <strong>• Échanges sportifs</strong> –<br/>
             Rencontres avec des représentants du Stade Français Rugby (Thomas Lombard)<br/>
             et d'initiatives associatives de Cécifoot.
           </li>
-          <li style={{ marginBottom: '1.2rem', paddingLeft: '1.5rem', position: 'relative' }}>
-            <span style={{ position: 'absolute', left: 0, color: 'var(--hv-accent)' }}>•</span>
-            <strong>Acteurs des sports de combat</strong> –<br/>
+          <li style={{ marginBottom: '1.2rem' }}>
+            <strong>• Acteurs des sports de combat</strong> –<br/>
             Présentations et échanges sur les valeurs d'engagement et de discipline avec Fernand Lopez,<br/>
             Greg MMA et Karaté Bushido.
           </li>
