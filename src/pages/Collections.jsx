@@ -75,8 +75,7 @@ const Collections = () => {
               fontFamily: "'Inter', sans-serif",
               fontSize: '0.55rem',
               fontWeight: '500',
-              textTransform: 'uppercase',
-              letterSpacing: '0.3em',
+              letterSpacing: '0.2em',
               textShadow: '0 1px 3px rgba(0,0,0,0.4)',
               pointerEvents: 'none'
             }}>
