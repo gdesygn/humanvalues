@@ -52,7 +52,8 @@ const Institution = () => {
           <li style={{ marginBottom: '1.2rem', paddingLeft: '1.5rem', position: 'relative' }}>
             <span style={{ position: 'absolute', left: 0, color: 'var(--hv-accent)' }}>•</span>
             <strong>Échanges sportifs</strong> –<br/>
-            Rencontres avec des représentants du Stade Français Rugby (Thomas Lombard) et d'initiatives associatives de Cécifoot.
+            Rencontres avec des représentants du Stade Français Rugby (Thomas Lombard)<br/>
+            et d'initiatives associatives de Cécifoot.
           </li>
           <li style={{ marginBottom: '1.2rem', paddingLeft: '1.5rem', position: 'relative' }}>
             <span style={{ position: 'absolute', left: 0, color: 'var(--hv-accent)' }}>•</span>
