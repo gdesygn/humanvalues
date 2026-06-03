@@ -38,21 +38,25 @@ const Institution = () => {
         </p>
 
         <ul style={{ listStyleType: 'none', padding: 0, margin: '0 0 3rem 0' }}>
-          <li style={{ marginBottom: '1rem', paddingLeft: '1.5rem', position: 'relative' }}>
+          <li style={{ marginBottom: '1.2rem', paddingLeft: '1.5rem', position: 'relative' }}>
             <span style={{ position: 'absolute', left: 0, color: 'var(--hv-accent)' }}>•</span>
-            <strong>Présentation à l'UNESCO</strong> – Échanges lors de la journée internationale des personnes handicapées concernant l'inclusion et l'accessibilité.
+            <strong>Présentation à l'UNESCO</strong> –<br/>
+            Échanges lors de la journée internationale des personnes handicapées concernant l'inclusion et l'accessibilité.
           </li>
-          <li style={{ marginBottom: '1rem', paddingLeft: '1.5rem', position: 'relative' }}>
+          <li style={{ marginBottom: '1.2rem', paddingLeft: '1.5rem', position: 'relative' }}>
             <span style={{ position: 'absolute', left: 0, color: 'var(--hv-accent)' }}>•</span>
-            <strong>Rencontre CIC-Crédit Mutuel</strong> – Présentation de notre démarche d'inclusion à Raphaël Rébert.
+            <strong>Rencontre CIC-Crédit Mutuel</strong> –<br/>
+            Présentation de notre démarche d'inclusion à Raphaël Rébert.
           </li>
-          <li style={{ marginBottom: '1rem', paddingLeft: '1.5rem', position: 'relative' }}>
+          <li style={{ marginBottom: '1.2rem', paddingLeft: '1.5rem', position: 'relative' }}>
             <span style={{ position: 'absolute', left: 0, color: 'var(--hv-accent)' }}>•</span>
-            <strong>Échanges sportifs</strong> – Rencontres avec des représentants du Stade Français Rugby (Thomas Lombard) et d'initiatives associatives de Cécifoot.
+            <strong>Échanges sportifs</strong> –<br/>
+            Rencontres avec des représentants du Stade Français Rugby (Thomas Lombard) et d'initiatives associatives de Cécifoot.
           </li>
-          <li style={{ marginBottom: '1rem', paddingLeft: '1.5rem', position: 'relative' }}>
+          <li style={{ marginBottom: '1.2rem', paddingLeft: '1.5rem', position: 'relative' }}>
             <span style={{ position: 'absolute', left: 0, color: 'var(--hv-accent)' }}>•</span>
-            <strong>Acteurs des sports de combat</strong> – Présentations et échanges sur les valeurs d'engagement et de discipline avec Fernand Lopez, Greg MMA et Karaté Bushido.
+            <strong>Acteurs des sports de combat</strong> –<br/>
+            Présentations et échanges sur les valeurs d'engagement et de discipline avec Fernand Lopez, Greg MMA et Karaté Bushido.
           </li>
         </ul>
       </section>
