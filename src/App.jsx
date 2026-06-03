@@ -8,6 +8,7 @@ import Institution from './pages/Institution';
 import Galerie from './pages/Galerie';
 import Legal from './pages/Legal';
 import CGV from './pages/CGV';
+import Confidentialite from './pages/Confidentialite';
 import Footer from './components/Footer';
 import './index.css';
 
@@ -55,7 +56,7 @@ function App() {
           <Route path="/institution" element={<Institution />} />
           <Route path="/mentions-legales" element={<Legal />} />
           <Route path="/cgv" element={<CGV />} />
-          <Route path="/confidentialite" element={<Legal />} />
+          <Route path="/confidentialite" element={<Confidentialite />} />
         </Routes>
       </Layout>
     </Router>

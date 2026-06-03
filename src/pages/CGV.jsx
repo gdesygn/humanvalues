@@ -165,7 +165,7 @@ const CGV = () => {
             <li style={{ marginBottom: '0.5rem' }}>La gestion de la commande et la livraison du lien de téléchargement</li>
             <li style={{ marginBottom: '0.5rem' }}>L’envoi occasionnel d’informations sur les nouveaux Nexus (uniquement si le Client a donné son consentement)</li>
           </ul>
-          <p style={{ marginBottom: '1rem' }}>Le Client dispose d’un droit d’accès, de rectification et de suppression de ses données. Pour l’exercer : <a href="mailto:gdesygn@gmail.com" style={{color: 'var(--hv-accent)', textDecoration: 'underline'}}>gdesygn@gmail.com</a></p>
+          <p style={{ marginBottom: '1rem' }}>Le Client dispose d’un droit d’accès, de rectification et de suppression de ses données. Pour l’exercer : <a href="mailto:contact@humanvalues.fr" style={{color: 'var(--hv-accent)', textDecoration: 'underline'}}>contact@humanvalues.fr</a></p>
           <p>Le site ne dépose pas de cookies publicitaires. Seuls les cookies techniques indispensables au bon fonctionnement du site sont utilisés.</p>
         </section>
 

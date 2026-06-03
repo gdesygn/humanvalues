@@ -14,7 +14,7 @@ const Legal = () => {
           <p style={{ marginBottom: '0.5rem' }}><strong>HumanValues HV</strong><br/>Maison culturelle des récits universels</p>
           <p style={{ marginBottom: '0.5rem' }}><strong>Directeur de publication :</strong><br/>Le Conseil des Nexus (représenté par le fondateur de HumanValues)</p>
           <p style={{ marginBottom: '0.5rem' }}><strong>Siège social :</strong><br/>déclaré au siège du Conseil des Nexus</p>
-          <p style={{ marginBottom: '0.5rem' }}><strong>Contact :</strong><br/>Email : gdesygn@gmail.com</p>
+          <p style={{ marginBottom: '0.5rem' }}><strong>Contact :</strong><br/>Email : contact@humanvalues.fr</p>
           <p><strong>Hébergement :</strong><br/>Vercel Inc.<br/>340 S Lemon Ave #4133, Walnut, CA 91789, États-Unis<br/><a href="https://vercel.com" target="_blank" rel="noopener noreferrer" style={{color: 'var(--hv-accent)', textDecoration: 'underline'}}>https://vercel.com</a></p>
         </section>
 
@@ -43,7 +43,7 @@ const Legal = () => {
         <section style={{ marginBottom: '3rem' }}>
           <h2 style={{ fontSize: '1.8rem', color: 'var(--hv-black)', marginBottom: '1.5rem', fontFamily: 'var(--font-title, Playfair Display)' }}>5. Sécurité et confidentialité</h2>
           <p style={{ marginBottom: '1rem' }}>Aucune donnée personnelle n’est collectée sans votre consentement explicite. Les seules informations traitées sont celles nécessaires à la gestion des commandes (nom, email) via Lemon Squeezy.</p>
-          <p style={{ marginBottom: '1rem' }}>Conformément au règlement (UE) 2016/679 (RGPD), vous disposez d’un droit d’accès, de rectification et de suppression des données vous concernant. Pour l’exercer : gdesygn@gmail.com.</p>
+          <p style={{ marginBottom: '1rem' }}>Conformément au règlement (UE) 2016/679 (RGPD), vous disposez d’un droit d’accès, de rectification et de suppression des données vous concernant. Pour l’exercer : contact@humanvalues.fr.</p>
           <p>Le site ne dépose pas de cookies publicitaires. Seuls les cookies techniques indispensables à son bon fonctionnement peuvent être utilisés.</p>
         </section>
 
