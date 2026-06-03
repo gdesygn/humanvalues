@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Collectif = () => {
@@ -146,7 +146,7 @@ const Collectif = () => {
       </div>
 
       <footer style={{ textAlign: 'center', marginTop: '4rem', fontSize: '0.9rem', color: '#888' }}>
-        HumanValues HV – Maison culturelle des récits universels<br/>
+        HumanValues – Maison culturelle des récits universels<br/>
         <span style={{ fontStyle: 'italic' }}>Des récits pour relier ce qui compte</span>
       </footer>
     </div>

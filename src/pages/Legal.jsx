@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 
 const Legal = () => {
   return (
@@ -57,7 +57,7 @@ const Legal = () => {
 
         <div style={{ marginTop: '4rem', paddingTop: '2rem', borderTop: '1px solid var(--hv-light-grey)', textAlign: 'center', fontSize: '0.95rem' }}>
           <p style={{ marginBottom: '0.5rem', fontStyle: 'italic' }}>Dernière mise à jour : Juin 2026</p>
-          <p style={{ fontWeight: '600', color: 'var(--hv-black)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>HumanValues HV – Maison culturelle des récits universels</p>
+          <p style={{ fontWeight: '600', color: 'var(--hv-black)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>HumanValues – Maison culturelle des récits universels</p>
           <p style={{ fontStyle: 'italic', color: 'var(--hv-accent)' }}>Des récits pour relier ce qui compte</p>
         </div>
         

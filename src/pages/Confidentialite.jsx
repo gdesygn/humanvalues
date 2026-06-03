@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 
 const Confidentialite = () => {
   return (
@@ -15,7 +15,7 @@ const Confidentialite = () => {
         <section style={{ marginBottom: '3rem' }}>
           <h2 style={{ fontSize: '1.8rem', color: 'var(--hv-black)', marginBottom: '1.5rem', fontFamily: 'var(--font-title, Playfair Display)' }}>Préambule</h2>
           <p style={{ marginBottom: '1rem' }}>
-            HumanValues HV (ci-après « la Maison Culturelle ») attache une importance fondamentale à la protection de vos données personnelles.
+            HumanValues (ci-après « la Maison Culturelle ») attache une importance fondamentale à la protection de vos données personnelles.
           </p>
           <p style={{ marginBottom: '1rem' }}>
             La présente Politique de Confidentialité vous informe de la manière dont nous collectons, utilisons, conservons et protégeons vos informations lorsque vous :
@@ -31,13 +31,13 @@ const Confidentialite = () => {
         <section style={{ marginBottom: '3rem' }}>
           <h2 style={{ fontSize: '1.8rem', color: 'var(--hv-black)', marginBottom: '1.5rem', fontFamily: 'var(--font-title, Playfair Display)' }}>Article 1 – Responsable de traitement</h2>
           <p style={{ marginBottom: '1rem' }}>
-            <strong>Responsable :</strong> HumanValues HV – représenté par le Conseil des Nexus
+            <strong>Responsable :</strong> HumanValues – représenté par le Conseil des Nexus
           </p>
           <p style={{ marginBottom: '1rem' }}>
             <strong>Contact :</strong> <a href="mailto:contact@humanvalues.fr" style={{ color: 'var(--hv-accent)', textDecoration: 'underline' }}>contact@humanvalues.fr</a>
           </p>
           <p>
-            HumanValues HV n’a pas de délégué à la protection des données (DPO) désigné, la structure n’y étant pas légalement tenue (moins de 250 salariés, traitement non sensible). Toute question relative à vos données peut être adressée à l’adresse ci-dessus.
+            HumanValues n’a pas de délégué à la protection des données (DPO) désigné, la structure n’y étant pas légalement tenue (moins de 250 salariés, traitement non sensible). Toute question relative à vos données peut être adressée à l’adresse ci-dessus.
           </p>
         </section>
 
@@ -68,7 +68,7 @@ const Confidentialite = () => {
             </tbody>
           </table>
 
-          <p style={{ marginBottom: '0.5rem' }}><strong>HumanValues HV ne collecte jamais :</strong></p>
+          <p style={{ marginBottom: '0.5rem' }}><strong>HumanValues ne collecte jamais :</strong></p>
           <ul style={{ listStyleType: 'disc', paddingLeft: '1.5rem', marginBottom: '1.5rem' }}>
             <li>De données bancaires (le paiement est externalisé)</li>
             <li>De données sensibles (santé, origines ethniques, opinions politiques)</li>
@@ -196,7 +196,7 @@ const Confidentialite = () => {
             </tbody>
           </table>
           <p>
-            HumanValues HV s’assure que tous ses sous-traitants respectent le RGPD et offrent des garanties suffisantes en matière de sécurité.
+            HumanValues s’assure que tous ses sous-traitants respectent le RGPD et offrent des garanties suffisantes en matière de sécurité.
           </p>
         </section>
 
@@ -322,7 +322,7 @@ const Confidentialite = () => {
         <section style={{ marginBottom: '3rem' }}>
           <h2 style={{ fontSize: '1.8rem', color: 'var(--hv-black)', marginBottom: '1.5rem', fontFamily: 'var(--font-title, Playfair Display)' }}>Article 10 – Sécurité</h2>
           <p style={{ marginBottom: '1rem' }}>
-            HumanValues HV met en œuvre les mesures techniques et organisationnelles suivantes pour protéger vos données :
+            HumanValues met en œuvre les mesures techniques et organisationnelles suivantes pour protéger vos données :
           </p>
           <ul style={{ listStyleType: 'disc', paddingLeft: '1.5rem', marginBottom: '1rem' }}>
             <li>Chiffrement HTTPS (certificat SSL/TLS) pour toutes les communications</li>
@@ -339,14 +339,14 @@ const Confidentialite = () => {
         <section style={{ marginBottom: '3rem' }}>
           <h2 style={{ fontSize: '1.8rem', color: 'var(--hv-black)', marginBottom: '1.5rem', fontFamily: 'var(--font-title, Playfair Display)' }}>Article 11 – Mineurs</h2>
           <p>
-            Le site n’est pas destiné aux mineurs de moins de 15 ans. HumanValues HV ne collecte pas sciemment de données relatives à des mineurs. Si un parent ou tuteur estime que des données d’un mineur ont été collectées, qu’il nous contacte pour obtenir leur suppression.
+            Le site n’est pas destiné aux mineurs de moins de 15 ans. HumanValues ne collecte pas sciemment de données relatives à des mineurs. Si un parent ou tuteur estime que des données d’un mineur ont été collectées, qu’il nous contacte pour obtenir leur suppression.
           </p>
         </section>
 
         <section style={{ marginBottom: '3rem' }}>
           <h2 style={{ fontSize: '1.8rem', color: 'var(--hv-black)', marginBottom: '1.5rem', fontFamily: 'var(--font-title, Playfair Display)' }}>Article 12 – Modification de la politique</h2>
           <p style={{ marginBottom: '1rem' }}>
-            HumanValues HV se réserve le droit de modifier la présente Politique de Confidentialité à tout moment.
+            HumanValues se réserve le droit de modifier la présente Politique de Confidentialité à tout moment.
           </p>
           <p>
             La version applicable est celle en vigueur à la date de votre navigation ou de votre achat. En cas de modification substantielle, un avertissement pourra être affiché sur le site.
@@ -366,7 +366,7 @@ const Confidentialite = () => {
 
         <div style={{ marginTop: '4rem', paddingTop: '2rem', borderTop: '1px solid var(--hv-light-grey)', textAlign: 'center', fontSize: '0.95rem' }}>
           <p style={{ marginBottom: '0.5rem', fontStyle: 'italic' }}>Dernière mise à jour : Juin 2026</p>
-          <p style={{ fontWeight: '600', color: 'var(--hv-black)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>HumanValues HV – Maison culturelle des récits universels</p>
+          <p style={{ fontWeight: '600', color: 'var(--hv-black)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>HumanValues – Maison culturelle des récits universels</p>
           <p style={{ fontStyle: 'italic', color: 'var(--hv-accent)' }}>Des récits pour relier ce qui compte</p>
         </div>
       </div>

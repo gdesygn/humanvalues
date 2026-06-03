@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 
 const CGV = () => {
   return (
@@ -18,13 +18,13 @@ const CGV = () => {
 
         <section style={{ marginBottom: '3rem' }}>
           <h2 style={{ fontSize: '1.8rem', color: 'var(--hv-black)', marginBottom: '1.5rem', fontFamily: 'var(--font-title, Playfair Display)' }}>Article 1 – Champ d’application</h2>
-          <p style={{ marginBottom: '1rem' }}>Les présentes Conditions Générales de Vente (CGV) s’appliquent à l’ensemble des acquisitions effectuées sur le site humanvalues.art par tout acheteur (ci-après « le Client ») auprès de HumanValues HV (ci-après « la Maison Culturelle »).</p>
+          <p style={{ marginBottom: '1rem' }}>Les présentes Conditions Générales de Vente (CGV) s’appliquent à l’ensemble des acquisitions effectuées sur le site humanvalues.art par tout acheteur (ci-après « le Client ») auprès de HumanValues (ci-après « la Maison Culturelle »).</p>
           <p>Toute commande implique l’acceptation sans réserve des présentes CGV.</p>
         </section>
 
         <section style={{ marginBottom: '3rem' }}>
           <h2 style={{ fontSize: '1.8rem', color: 'var(--hv-black)', marginBottom: '1.5rem', fontFamily: 'var(--font-title, Playfair Display)' }}>Article 2 – Produits et services</h2>
-          <p style={{ marginBottom: '1.5rem' }}>HumanValues HV propose :</p>
+          <p style={{ marginBottom: '1.5rem' }}>HumanValues propose :</p>
           
           <div style={{ overflowX: 'auto', marginBottom: '2rem' }}>
             <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left', fontSize: '1rem' }}>
@@ -98,7 +98,7 @@ const CGV = () => {
             <li style={{ marginBottom: '0.5rem' }}>Cartes bancaires (Visa, MasterCard, American Express)</li>
             <li style={{ marginBottom: '0.5rem' }}>Autres moyens proposés par Lemon Squeezy (Apple Pay, Google Pay, etc.)</li>
           </ul>
-          <p style={{ marginBottom: '1.5rem' }}>HumanValues HV ne manipule ni ne stocke aucune donnée bancaire. Le paiement est entièrement externalisé et sécurisé par Lemon Squeezy.</p>
+          <p style={{ marginBottom: '1.5rem' }}>HumanValues ne manipule ni ne stocke aucune donnée bancaire. Le paiement est entièrement externalisé et sécurisé par Lemon Squeezy.</p>
 
           <h3 style={{ fontSize: '1.2rem', color: 'var(--hv-black)', marginBottom: '1rem', marginTop: '2rem' }}>4.3 – Facturation</h3>
           <p>Un reçu (facture) est envoyé par email automatiquement à l’issue du paiement.</p>
@@ -110,7 +110,7 @@ const CGV = () => {
             <li style={{ marginBottom: '0.8rem' }}>Le dossier Nexus (PDF) est disponible en téléchargement immédiat après confirmation du paiement.</li>
             <li style={{ marginBottom: '0.8rem' }}>Un lien de téléchargement sécurisé est envoyé à l’adresse email renseignée par le Client.</li>
             <li style={{ marginBottom: '0.8rem' }}>Validité du lien : 48 heures (3 tentatives de téléchargement maximum).</li>
-            <li style={{ marginBottom: '0.8rem' }}>Après expiration, le Client peut contacter HumanValues HV pour obtenir un nouveau lien (justificatif d’achat requis).</li>
+            <li style={{ marginBottom: '0.8rem' }}>Après expiration, le Client peut contacter HumanValues pour obtenir un nouveau lien (justificatif d’achat requis).</li>
             <li style={{ marginBottom: '0.8rem' }}>Aucune livraison physique n’est effectuée pour les produits numériques.</li>
           </ul>
         </section>
@@ -131,12 +131,12 @@ const CGV = () => {
 
         <section style={{ marginBottom: '3rem' }}>
           <h2 style={{ fontSize: '1.8rem', color: 'var(--hv-black)', marginBottom: '1.5rem', fontFamily: 'var(--font-title, Playfair Display)' }}>Article 7 – Soutien au sport adapté</h2>
-          <p style={{ marginBottom: '1rem' }}>HumanValues HV s’engage à soutenir le développement du sport adapté (cécifoot, handisport, inclusion des aînés) par le biais de projets d'exposition ou de dons de mécénat.</p>
+          <p style={{ marginBottom: '1rem' }}>HumanValues s’engage à soutenir le développement du sport adapté (cécifoot, handisport, inclusion des aînés) par le biais de projets d'exposition ou de dons de mécénat.</p>
         </section>
 
         <section style={{ marginBottom: '3rem' }}>
           <h2 style={{ fontSize: '1.8rem', color: 'var(--hv-black)', marginBottom: '1.5rem', fontFamily: 'var(--font-title, Playfair Display)' }}>Article 8 – Propriété intellectuelle</h2>
-          <p style={{ marginBottom: '1rem' }}>Le dossier Nexus, son contenu (textes, mise en page, code HG), ainsi que l’ensemble des œuvres du Registre sont la propriété exclusive de HumanValues HV (marque déposée INPI).</p>
+          <p style={{ marginBottom: '1rem' }}>Le dossier Nexus, son contenu (textes, mise en page, code HG), ainsi que l’ensemble des œuvres du Registre sont la propriété exclusive de HumanValues (marque déposée INPI).</p>
           <p style={{ marginBottom: '1rem' }}>Le Client acquiert un droit d’usage personnel et non commercial :</p>
           <ul style={{ listStyleType: 'none', padding: 0, marginBottom: '1.5rem' }}>
             <li style={{ marginBottom: '0.8rem', display: 'flex', alignItems: 'flex-start' }}><span style={{ color: 'green', marginRight: '10px' }}>✅</span> Télécharger et stocker le PDF sur ses appareils personnels</li>
@@ -149,13 +149,13 @@ const CGV = () => {
 
         <section style={{ marginBottom: '3rem' }}>
           <h2 style={{ fontSize: '1.8rem', color: 'var(--hv-black)', marginBottom: '1.5rem', fontFamily: 'var(--font-title, Playfair Display)' }}>Article 9 – Responsabilité</h2>
-          <p style={{ marginBottom: '1rem' }}>HumanValues HV met tout en œuvre pour assurer l’exactitude des informations fournies sur le site et dans les dossiers Nexus. Toutefois, la Maison Culturelle ne saurait être tenue responsable :</p>
+          <p style={{ marginBottom: '1rem' }}>HumanValues met tout en œuvre pour assurer l’exactitude des informations fournies sur le site et dans les dossiers Nexus. Toutefois, la Maison Culturelle ne saurait être tenue responsable :</p>
           <ul style={{ paddingLeft: '1.5rem', marginBottom: '1.5rem' }}>
             <li style={{ marginBottom: '0.5rem' }}>Des erreurs ou omissions involontaires</li>
             <li style={{ marginBottom: '0.5rem' }}>Des dommages indirects (perte d’exploitation, préjudice immatériel) résultant de l’utilisation du produit</li>
             <li style={{ marginBottom: '0.5rem' }}>Des dysfonctionnements techniques indépendants de sa volonté (plateforme de paiement, hébergement)</li>
           </ul>
-          <p>En aucun cas, la responsabilité de HumanValues HV ne pourra excéder le montant payé par le Client pour le produit concerné.</p>
+          <p>En aucun cas, la responsabilité de HumanValues ne pourra excéder le montant payé par le Client pour le produit concerné.</p>
         </section>
 
         <section style={{ marginBottom: '3rem' }}>
@@ -171,13 +171,13 @@ const CGV = () => {
 
         <section style={{ marginBottom: '3rem' }}>
           <h2 style={{ fontSize: '1.8rem', color: 'var(--hv-black)', marginBottom: '1.5rem', fontFamily: 'var(--font-title, Playfair Display)' }}>Article 11 – Preuve de la transaction</h2>
-          <p style={{ marginBottom: '1rem' }}>Les registres informatisés de Lemon Squeezy (et, le cas échéant, de Stripe) sont considérés comme preuve de la transaction entre HumanValues HV et le Client.</p>
+          <p style={{ marginBottom: '1rem' }}>Les registres informatisés de Lemon Squeezy (et, le cas échéant, de Stripe) sont considérés comme preuve de la transaction entre HumanValues et le Client.</p>
           <p>En cas de litige, le Client est invité à conserver son reçu (email de confirmation).</p>
         </section>
 
         <section style={{ marginBottom: '3rem' }}>
           <h2 style={{ fontSize: '1.8rem', color: 'var(--hv-black)', marginBottom: '1.5rem', fontFamily: 'var(--font-title, Playfair Display)' }}>Article 12 – Modification des CGV</h2>
-          <p>HumanValues HV se réserve le droit de modifier les présentes CGV à tout moment. Les CGV applicables sont celles en vigueur à la date de la commande du Client.</p>
+          <p>HumanValues se réserve le droit de modifier les présentes CGV à tout moment. Les CGV applicables sont celles en vigueur à la date de la commande du Client.</p>
         </section>
 
         <section style={{ marginBottom: '3rem' }}>
@@ -188,7 +188,7 @@ const CGV = () => {
         </section>
 
         <div style={{ marginTop: '4rem', paddingTop: '2rem', borderTop: '1px solid var(--hv-light-grey)', textAlign: 'center', fontSize: '0.95rem' }}>
-          <p style={{ fontWeight: '600', color: 'var(--hv-black)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>HumanValues HV – Maison culturelle des récits universels</p>
+          <p style={{ fontWeight: '600', color: 'var(--hv-black)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>HumanValues – Maison culturelle des récits universels</p>
           <p style={{ fontStyle: 'italic', color: 'var(--hv-accent)' }}>Des récits pour relier ce qui compte</p>
         </div>
         
