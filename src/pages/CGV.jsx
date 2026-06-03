@@ -3,7 +3,7 @@ import React from 'react';
 const CGV = () => {
   return (
     <div className="container animate-fade-in-up" style={{ maxWidth: '800px', margin: '4rem auto', padding: '0 2rem', minHeight: '60vh' }}>
-      <h1 style={{ fontSize: '1.8rem', marginBottom: '1rem', fontFamily: 'var(--font-title, Playfair Display)', color: 'var(--hv-black)' }}>
+      <h1 style={{ fontSize: '2.3rem', marginBottom: '1rem', fontFamily: 'var(--font-title, Playfair Display)', color: 'var(--hv-black)' }}>
         Conditions Générales de Vente
       </h1>
       <p style={{ fontSize: '1.2rem', color: 'var(--hv-grey)', marginBottom: '3rem', borderBottom: '2px solid var(--hv-light-grey)', paddingBottom: '1rem' }}>
@@ -75,11 +75,11 @@ const CGV = () => {
             </li>
             <li style={{ padding: '0.8rem 0', borderBottom: '1px solid #eee', display: 'flex', justifyContent: 'space-between' }}>
               <span>Tirage Plexiglas Premium</span>
-              <strong style={{ color: 'var(--hv-black)' }}>149 € <span style={{ fontSize: '0.9rem', color: '#999', fontWeight: 'normal' }}>(hors livraison)</span></strong>
+              <strong style={{ color: 'var(--hv-black)' }}>890 € <span style={{ fontSize: '0.9rem', color: '#999', fontWeight: 'normal' }}>(hors livraison)</span></strong>
             </li>
           </ul>
           
-          <p>HumanValues HV se réserve le droit de modifier ses prix à tout moment. Les produits sont facturés sur la base des tarifs en vigueur au moment de la validation de la commande.</p>
+          <p>HumanValues se réserve le droit de modifier ses prix à tout moment. Les produits sont facturés sur la base des tarifs en vigueur au moment de la validation de la commande.</p>
         </section>
 
         <section style={{ marginBottom: '3rem' }}>
