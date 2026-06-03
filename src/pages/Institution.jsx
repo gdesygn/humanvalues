@@ -31,7 +31,7 @@ const Institution = () => {
 
       {/* Section UNESCO + CIC */}
       <section className="nexus-reading" style={{ marginBottom: '4rem' }}>
-        <h2 style={{ fontSize: '1.8rem', borderBottom: '1px solid var(--hv-light-grey)', paddingBottom: '1rem', marginBottom: '2rem' }}>Échanges et Rencontres</h2>
+        <h2 style={{ fontSize: '1.8rem', borderBottom: '1px solid var(--hv-light-grey)', paddingBottom: '1rem', marginBottom: '2rem', textAlign: 'center' }}>Échanges et Rencontres</h2>
         <p style={{ marginBottom: '2rem' }}>
           HumanValues présente sa vision et échange avec divers acteurs pour promouvoir le sport adapté et l'inclusion :
         </p>
