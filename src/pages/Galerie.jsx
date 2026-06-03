@@ -162,7 +162,7 @@ const ailes = [
       { id: "ar39", title: "Ballon de Basket", subject: "Objet Sportif", text: "La sphère orange sculptée par la typographie Human Values 2025.", image: "/artworks/ballon_basket.jpg" },
       { id: "ar40", title: "Ballon de Foot US", subject: "Objet Sportif", text: "L'ovale du gridiron, taillé dans l'esprit de l'édition 2025.", image: "/artworks/ballon_us.jpg" },
       { id: "ar41", title: "Le Sifflet", subject: "Respect", text: "Le symbole de l'arbitrage et du fair-play, tissé par le respect absolu.", image: "/artworks/sifflet.jpg" },
-      { id: "an14", title: "Italia", subject: "Emblème", text: "L'emblème en mouvement, symbole de puissance et de liberté.", image: "/artworks/italia_eagle.jpg" }
+      { id: "an14", title: "Italia", subject: "Emblème", text: "L'emblème en mouvement, symbole de puissance et de liberté.", image: "/artworks/italia_eagle.jpg", nexusUrl: "/nexus/italia" }
     ]
   },
   {
@@ -444,6 +444,11 @@ const Galerie = () => {
                     )}
                   </div>
                   <p style={{ fontSize: '1rem', color: 'var(--hv-grey)', lineHeight: '1.6' }}>{art.text}</p>
+                  {art.nexusUrl && (
+                    <Link to={art.nexusUrl} style={{ display: 'inline-block', marginTop: '0.8rem', fontSize: '0.85rem', color: 'var(--hv-accent)', textDecoration: 'none', letterSpacing: '0.05em', fontWeight: '500' }}>
+                      → Voir le Nexus
+                    </Link>
+                  )}
                 </div>
               ))}
             </div>

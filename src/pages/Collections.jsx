@@ -114,6 +114,10 @@ const Collections = () => {
             </video>
           </div>
           <h3>Tirage Plexiglas – "Italia"<br/><span style={{ fontSize: '1rem', fontWeight: 'normal' }}>Édition signée XXL – 100x80 cm</span></h3>
+          <p style={{ fontSize: '0.8rem', color: 'var(--hv-accent)', letterSpacing: '0.1em', textTransform: 'uppercase', marginBottom: '0.5rem' }}>Code HG : HG-877-443-1</p>
+          <p className="description" style={{ marginBottom: '0.3rem', fontStyle: 'italic' }}>
+            "L'art antique, la dolce vita, la péninsule au centre de l'histoire"
+          </p>
           <p className="description" style={{ marginBottom: '0.5rem' }}>
             Tirage d'art sur Plexiglas, produit inoxydable, épaisseur 5 cm, prêt à accrocher. Format monumental.
           </p>
@@ -124,12 +128,12 @@ const Collections = () => {
           <p style={{ fontSize: '0.85rem', color: '#666', marginBottom: '1.5rem' }}>
             (livraison offerte France par transporteur d'art)
           </p>
-          <button className="btn-primary" style={{ backgroundColor: 'transparent', color: 'var(--hv-black)', border: '1px solid var(--hv-black)' }} onClick={() => handleProductClick('plexi')}>
+          <button className="btn-primary" style={{ backgroundColor: 'transparent', color: 'var(--hv-black)', border: '1px solid var(--hv-black)', marginBottom: '1rem', display: 'block', width: '100%' }} onClick={() => handleProductClick('plexi')}>
             🖼️ Contacter la galerie
           </button>
-          <p style={{ fontSize: '0.85rem', color: '#666', marginTop: '1rem' }}>
-            Certificat d'authenticité inclus.
-          </p>
+          <Link to="/nexus/italia" style={{ display: 'block', textAlign: 'center', fontSize: '0.85rem', color: 'var(--hv-accent)', textDecoration: 'none', letterSpacing: '0.05em' }}>
+            → Voir le Nexus complet
+          </Link>
         </div>
 
       </section>
