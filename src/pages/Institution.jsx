@@ -61,7 +61,7 @@ const Institution = () => {
       </section>
 
       {/* Galerie photos avec légendes */}
-      <section style={{ marginBottom: '6rem' }}>
+      <section style={{ marginBottom: '6rem', marginTop: '4rem' }}>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '1.5rem' }}>
           
           <figure style={{ margin: 0 }}>
