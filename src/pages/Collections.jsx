@@ -71,7 +71,7 @@ const Collections = () => {
               top: '0.85rem',
               left: '50%',
               transform: 'translateX(-50%)',
-              color: 'rgba(255, 255, 255, 0.65)',
+              color: '#FFFFFF',
               fontFamily: "'Inter', sans-serif",
               fontSize: '0.55rem',
               fontWeight: '500',
