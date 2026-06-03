@@ -20,7 +20,10 @@ const Nexus = () => {
             <p style={{ margin: '0 0 0.5rem 0', fontSize: '0.95rem', fontWeight: '600' }}>
               Un protocole de transmission conçu pour être partagé avec les acteurs locaux du sport et de l'inclusion.
             </p>
-            <p style={{ margin: '0', fontSize: '0.95rem', color: 'var(--hv-accent)', fontWeight: '500' }}>
+            <p 
+              style={{ margin: '0', fontSize: '0.95rem', color: 'var(--hv-accent)', fontWeight: '500', cursor: 'pointer' }}
+              onClick={() => document.getElementById('archive-cta')?.scrollIntoView({ behavior: 'smooth' })}
+            >
               → Activez le code et recevez l'archive (dossier complet, édition Nexus). De l'intention à l'action.
             </p>
           </div>
@@ -89,7 +92,7 @@ const Nexus = () => {
         </article>
 
         {/* CTA FINAL AÉRÉ */}
-        <div style={{ padding: '3rem', backgroundColor: 'var(--hv-cream)', border: '1px solid var(--hv-light-grey)' }}>
+        <div id="archive-cta" style={{ padding: '3rem', backgroundColor: 'var(--hv-cream)', border: '1px solid var(--hv-light-grey)' }}>
           <h3 style={{ fontSize: '1.5rem', marginBottom: '1.5rem', textAlign: 'center' }}>Ce que contient l'archive</h3>
           
           <ul style={{ listStyleType: 'none', padding: 0, margin: '0 auto 2rem auto', maxWidth: '400px' }}>
