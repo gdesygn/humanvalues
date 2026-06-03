@@ -31,6 +31,8 @@ const Footer = () => {
             <li style={{ marginBottom: '0.5rem' }}><Link to="/nexus" style={{ color: '#ccc', textDecoration: 'none' }}>NEXUS</Link></li>
             <li style={{ marginBottom: '0.5rem' }}><Link to="/galerie" style={{ color: '#ccc', textDecoration: 'none' }}>Le Registre</Link></li>
             <li style={{ marginBottom: '0.5rem' }}><Link to="/collections" style={{ color: '#ccc', textDecoration: 'none' }}>Acquisitions</Link></li>
+            <li style={{ marginBottom: '0.5rem' }}><Link to="/collectif" style={{ color: '#ccc', textDecoration: 'none' }}>Collectif</Link></li>
+            <li style={{ marginBottom: '0.5rem' }}><Link to="/institution" style={{ color: '#ccc', textDecoration: 'none' }}>Institution</Link></li>
           </ul>
         </div>
 

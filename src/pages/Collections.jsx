@@ -100,12 +100,22 @@ const Collections = () => {
 
         {/* Carte 3 – Tirage Plexiglas Premium */}
         <div className="acquisition-card">
-          <div className="card-media">
-            <img src="/assets/images/mockup_plexi.png" alt="Tirage Plexiglas La terre battue - HumanValues" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+          <div className="card-media" style={{ position: 'relative', overflow: 'hidden' }}>
+            <video 
+              autoPlay 
+              loop 
+              muted 
+              playsInline 
+              style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
+            >
+              <source src="/assets/images/plexi_video.mp4" type="video/mp4" />
+              <source src="/assets/images/plexi_video.mov" type="video/quicktime" />
+              Your browser does not support the video tag.
+            </video>
           </div>
-          <h3>Tirage Plexiglas – "La terre battue"<br/><span style={{ fontSize: '1rem', fontWeight: 'normal' }}>Édition signée XXL – 100x80 cm</span></h3>
+          <h3>Tirage Plexiglas – "Italia"<br/><span style={{ fontSize: '1rem', fontWeight: 'normal' }}>Édition signée XXL – 100x80 cm</span></h3>
           <p className="description" style={{ marginBottom: '0.5rem' }}>
-            Tirage d'art sur Plexiglas, dos alu, prêt à accrocher. Format monumental.
+            Tirage d'art sur Plexiglas, produit inoxydable, épaisseur 5 cm, prêt à accrocher. Format monumental.
           </p>
           <p className="description" style={{ fontSize: '0.85rem', color: '#666', fontStyle: 'italic', marginBottom: '1.5rem' }}>
             Livré avec certificat d'authenticité HV.
