@@ -5,7 +5,7 @@ const Institution = () => {
   return (
     <div className="container" style={{ maxWidth: '1000px', margin: '0 auto', paddingBottom: '10vh' }}>
       <header style={{ marginBottom: '4rem', textAlign: 'center' }}>
-        <h1>HumanValues HV</h1>
+        <h1>HumanValues</h1>
         <p style={{ fontStyle: 'italic', fontSize: '1.2rem', color: 'var(--hv-grey)' }}>
           "L'exigence comme seul laissez-passer."
         </p>
@@ -13,7 +13,7 @@ const Institution = () => {
         {/* Executive summary */}
         <div style={{ maxWidth: '800px', margin: '2rem auto 0 auto', padding: '1.5rem', backgroundColor: '#f9f9f9', border: '1px solid #eee', textAlign: 'left' }}>
           <p style={{ margin: '0', fontSize: '1.05rem', lineHeight: '1.6', fontWeight: '500' }}>
-            HumanValues HV présente sa démarche auprès d'acteurs du sport et de la culture.<br/>
+            HumanValues présente sa démarche auprès d'acteurs du sport et de la culture.<br/>
             Notre objectif est de sensibiliser le public et les décideurs à une inclusion exigeante par le sport, la culture et le récit.
           </p>
         </div>
@@ -143,7 +143,7 @@ const Institution = () => {
         </p>
 
         <p style={{ fontStyle: 'italic', fontSize: '0.85rem', color: '#888' }}>
-          HumanValues HV est une marque déposée (INPI).
+          HumanValues est une marque déposée (INPI).
         </p>
       </section>
 
@@ -161,7 +161,7 @@ const Institution = () => {
       </div>
 
       <footer style={{ textAlign: 'center', marginTop: '4rem', fontSize: '0.9rem', color: '#888' }}>
-        HumanValues HV – Maison culturelle des récits universels<br/>
+        HumanValues – Maison culturelle des récits universels<br/>
         <span style={{ fontStyle: 'italic' }}>Des récits pour relier ce qui compte</span>
       </footer>
     </div>
