@@ -15,7 +15,10 @@ import './index.css';
 const Layout = ({ children }) => (
   <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
     <header className="nav-header">
-      <Link to="/" className="nav-logo">HV.</Link>
+      <Link to="/" className="nav-logo" style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', textDecoration: 'none' }}>
+        <span style={{ fontFamily: "'Playfair Display', serif", fontWeight: '700', fontSize: '1.5rem', color: 'var(--hv-black)' }}>HV.</span>
+        <span style={{ fontFamily: "'Inter', sans-serif", fontSize: '0.8rem', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.15em', color: 'var(--hv-grey)' }}>Le Registre</span>
+      </Link>
       <nav className="nav-links">
         <NavLink to="/nexus" className={({isActive}) => isActive ? 'active' : ''}>NEXUS</NavLink>
         <NavLink to="/galerie" className={({isActive}) => isActive ? 'active' : ''}>Le Registre</NavLink>
