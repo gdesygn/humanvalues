@@ -85,6 +85,47 @@ const Collectif = () => {
         </p>
       </section>
 
+      <section className="nexus-reading" style={{ marginBottom: '4rem' }}>
+        <h2 style={{ fontSize: '1.5rem', marginBottom: '0.5rem' }}>L'Équipe Éditoriale</h2>
+        <p style={{ fontStyle: 'italic', color: 'var(--hv-grey)', marginBottom: '2rem' }}>
+          Les gardiens de la forme, du fond et de la rigueur littéraire.
+        </p>
+
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '2rem', marginTop: '2rem' }}>
+          <div style={{ padding: '1.5rem', border: '1px solid #eee', backgroundColor: '#fafafa', borderRadius: '4px' }}>
+            <h3 style={{ fontSize: '1.1rem', fontWeight: '700', marginBottom: '0.5rem', color: 'var(--hv-black)' }}>Alexandre</h3>
+            <p style={{ fontSize: '0.85rem', color: 'var(--hv-grey)', textTransform: 'uppercase', letterSpacing: '0.05em', margin: '0 0 0.8rem 0' }}>Directeur Éditorial & Technique</p>
+            <p style={{ margin: 0, fontSize: '0.95rem', lineHeight: '1.6', color: '#555' }}>
+              Coordonne la chaîne de production littéraire. Il veille à ce que l'architecture technique du registre soutienne parfaitement la clarté et l'accessibilité des textes.
+            </p>
+          </div>
+
+          <div style={{ padding: '1.5rem', border: '1px solid #eee', backgroundColor: '#fafafa', borderRadius: '4px' }}>
+            <h3 style={{ fontSize: '1.1rem', fontWeight: '700', marginBottom: '0.5rem', color: 'var(--hv-black)' }}>Céline</h3>
+            <p style={{ fontSize: '0.85rem', color: 'var(--hv-grey)', textTransform: 'uppercase', letterSpacing: '0.05em', margin: '0 0 0.8rem 0' }}>Correctrice & Garante de Cohérence</p>
+            <p style={{ margin: 0, fontSize: '0.95rem', lineHeight: '1.6', color: '#555' }}>
+              Spécialiste de la cohérence et de l'éthique de la charte. Elle passe chaque texte sous la loupe de la sincérité émotionnelle et du respect des faits décrits.
+            </p>
+          </div>
+
+          <div style={{ padding: '1.5rem', border: '1px solid #eee', backgroundColor: '#fafafa', borderRadius: '4px' }}>
+            <h3 style={{ fontSize: '1.1rem', fontWeight: '700', marginBottom: '0.5rem', color: 'var(--hv-black)' }}>David</h3>
+            <p style={{ fontSize: '0.85rem', color: 'var(--hv-grey)', textTransform: 'uppercase', letterSpacing: '0.05em', margin: '0 0 0.8rem 0' }}>Concepteur de Récits & Archives</p>
+            <p style={{ margin: 0, fontSize: '0.95rem', lineHeight: '1.6', color: '#555' }}>
+              Recherche les fils conducteurs historiques et documente la véracité des parcours d'athlètes et de territoires pour tisser les bases de chaque Nexus.
+            </p>
+          </div>
+
+          <div style={{ padding: '1.5rem', border: '1px solid #eee', backgroundColor: '#fafafa', borderRadius: '4px' }}>
+            <h3 style={{ fontSize: '1.1rem', fontWeight: '700', marginBottom: '0.5rem', color: 'var(--hv-black)' }}>Sophie</h3>
+            <p style={{ fontSize: '0.85rem', color: 'var(--hv-grey)', textTransform: 'uppercase', letterSpacing: '0.05em', margin: '0 0 0.8rem 0' }}>Validation Finale & Relecture</p>
+            <p style={{ margin: 0, fontSize: '0.95rem', lineHeight: '1.6', color: '#555' }}>
+              Détentrice du regard holistique final. Elle s'assure que la facture stylistique et le ton de chaque publication respectent les exigences de rigueur de la Maison.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <hr style={{ border: 'none', borderTop: '1px solid #eee', margin: '3rem 0' }} />
 
       <div style={{ textAlign: 'center', backgroundColor: 'var(--hv-cream)', padding: '3rem', border: '1px solid var(--hv-light-grey)' }}>
