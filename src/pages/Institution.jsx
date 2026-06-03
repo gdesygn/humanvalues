@@ -135,18 +135,18 @@ const Institution = () => {
 
       {/* Section Licences */}
       <section className="nexus-reading" style={{ marginBottom: '4rem' }}>
-        <h2 style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>Déployer un Nexus – Licence & protocole pédagogique</h2>
+        <h2 style={{ fontSize: '1.5rem', marginBottom: '1rem', textAlign: 'center' }}>Déployer un Nexus – Licence & protocole pédagogique</h2>
         
-        <p style={{ marginBottom: '1.5rem' }}>
+        <p style={{ marginBottom: '1.5rem', textAlign: 'center' }}>
           La propriété intellectuelle des Nexus et du protocole éducatif associé est disponible sous licence.
         </p>
 
-        <p style={{ marginBottom: '1.5rem', fontWeight: '500' }}>
+        <p style={{ marginBottom: '1.5rem', fontWeight: '500', textAlign: 'center' }}>
           Écoles, musées, fédérations sportives, municipalités :<br/>
           transformez le récit en outil pédagogique et social.
         </p>
 
-        <p style={{ fontStyle: 'italic', fontSize: '0.85rem', color: '#888' }}>
+        <p style={{ fontStyle: 'italic', fontSize: '0.85rem', color: '#888', textAlign: 'center' }}>
           HumanValues est une marque déposée (INPI).
         </p>
       </section>
