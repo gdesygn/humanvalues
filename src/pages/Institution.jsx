@@ -41,7 +41,8 @@ const Institution = () => {
           <li style={{ marginBottom: '1.2rem', paddingLeft: '1.5rem', position: 'relative' }}>
             <span style={{ position: 'absolute', left: 0, color: 'var(--hv-accent)' }}>•</span>
             <strong>Présentation à l'UNESCO</strong> –<br/>
-            Échanges lors de la journée internationale des personnes handicapées concernant l'inclusion et l'accessibilité.
+            Échanges lors de la journée internationale des personnes handicapées<br/>
+            concernant l'inclusion et l'accessibilité.
           </li>
           <li style={{ marginBottom: '1.2rem', paddingLeft: '1.5rem', position: 'relative' }}>
             <span style={{ position: 'absolute', left: 0, color: 'var(--hv-accent)' }}>•</span>
