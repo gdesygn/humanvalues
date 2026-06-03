@@ -68,16 +68,16 @@ const Collections = () => {
             <img src="/assets/images/mockup_audio.png" alt="Mockup Audio Voix et Récit" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
             <div style={{
               position: 'absolute',
-              top: '1rem',
+              top: '0.85rem',
               left: '50%',
               transform: 'translateX(-50%)',
-              color: '#FFFFFF',
+              color: 'rgba(255, 255, 255, 0.65)',
               fontFamily: "'Inter', sans-serif",
-              fontSize: '0.75rem',
-              fontWeight: '600',
+              fontSize: '0.55rem',
+              fontWeight: '500',
               textTransform: 'uppercase',
-              letterSpacing: '0.2em',
-              textShadow: '0 2px 4px rgba(0,0,0,0.5)',
+              letterSpacing: '0.3em',
+              textShadow: '0 1px 3px rgba(0,0,0,0.4)',
               pointerEvents: 'none'
             }}>
               HumanValues
