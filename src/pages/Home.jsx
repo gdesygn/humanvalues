@@ -62,12 +62,13 @@ const Home = () => {
         <p>Ce site est vivant. Il grandit Nexus après Nexus.</p>
         <p style={{ marginTop: '1.5rem', fontWeight: '500' }}>
           Parcourez les 13 ailes thématiques de notre Registre : <br/>
-          <Link to="/galerie#pantheon" style={{ color: 'var(--hv-accent)' }}>Le Panthéon</Link> — 
+          <Link to="/galerie#mythes" style={{ color: 'var(--hv-accent)' }}>Les Mythes</Link> — 
           <Link to="/galerie#olympe" style={{ color: 'var(--hv-accent)' }}> L'Olympe</Link> — 
           <Link to="/galerie#arene" style={{ color: 'var(--hv-accent)' }}> L'Arène</Link> — 
           <Link to="/galerie#fluides" style={{ color: 'var(--hv-accent)' }}> Les Fluides</Link> — 
           <Link to="/galerie#ancrage" style={{ color: 'var(--hv-accent)' }}> L'Ancrage</Link> — 
           <Link to="/galerie#edifice" style={{ color: 'var(--hv-accent)' }}> L'Édifice</Link> — 
+          <Link to="/galerie#langage" style={{ color: 'var(--hv-accent)' }}> Le Langage</Link> — 
           <Link to="/galerie#artefacts" style={{ color: 'var(--hv-accent)' }}> Les Artefacts</Link>.
         </p>
         <p style={{ marginTop: '2rem', fontStyle: 'italic' }}>— Le Conseil des Nexus</p>

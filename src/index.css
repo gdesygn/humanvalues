@@ -189,6 +189,13 @@ a:hover {
 .grayscale-logo:hover {
 }
 
+/* Galerie – Grille des Œuvres */
+.galerie-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4rem;
+}
+
 /* Salle des Acquisitions – Styles */
 
 .acquisitions-hero {

@@ -41,7 +41,7 @@ const NexusMaradona = () => {
         <img
           src="/artworks/olympe_maradona.jpg"
           alt="Nexus Maradona"
-          style={{ width: '100%', display: 'block', maxHeight: '400px', objectFit: 'cover' }}
+          style={{ width: '100%', display: 'block', maxHeight: '400px', objectFit: 'contain' }}
         />
       </div>
 

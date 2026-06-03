@@ -139,7 +139,7 @@ const Collections = () => {
         {/* Carte 4 – Tirage Plexiglas Premium Maradona */}
         <div className="acquisition-card">
           <div className="card-media" style={{ position: 'relative', overflow: 'hidden', height: '300px', backgroundColor: '#fafafa', display: 'flex', justifyContent: 'center' }}>
-            <img src="/artworks/olympe_maradona.jpg" alt="Maradona" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+            <img src="/artworks/olympe_maradona.jpg" alt="Maradona" style={{ width: '100%', height: '100%', objectFit: 'contain', display: 'block' }} />
           </div>
           <h3>Tirage Plexiglas – "Maradona"<br/><span style={{ fontSize: '1rem', fontWeight: 'normal' }}>Édition signée XXL – 100x80 cm</span></h3>
           <p style={{ fontSize: '0.8rem', color: 'var(--hv-accent)', letterSpacing: '0.1em', textTransform: 'uppercase', marginBottom: '0.5rem' }}>Code HG : HG-460-086-1</p>

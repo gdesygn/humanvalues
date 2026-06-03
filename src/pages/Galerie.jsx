@@ -59,7 +59,7 @@ const ailes = [
       { id: "an15_3", title: "England", subject: "Pays", text: "UK. La couronne, le flegme britannique et la terre de légendes.", image: "/artworks/geo_pays_8.jpg" },
       { id: "an15_4", title: "Mexico", subject: "Pays", text: "52. L'aigle sur le cactus, le soleil aztèque et la ferveur.", image: "/artworks/geo_pays_9.jpg" },
       { id: "an14_1", title: "Suisse", subject: "Pays", text: "L'helvétie façonnée par les lettres. La précision, la neutralité et le survol alpin.", image: "/artworks/suisse.jpg" },
-      { id: "an29", title: "Chine", subject: "Pays", text: "L'Empire du Milieu. Les étoiles dorées brillant sur l'immensité de la nation rouge.", image: "/artworks/chine.jpg" },
+      { id: "an29_3", title: "Chine", subject: "Pays", text: "L'Empire du Milieu. Les étoiles dorées brillant sur l'immensité de la nation rouge.", image: "/artworks/chine.jpg" },
       { id: "an29_1", title: "Tunisie", subject: "Pays", text: "L'histoire carthaginoise, le soleil méditerranéen et l'ancrage nord-africain.", image: "/artworks/tunisie.jpg" },
       { id: "an29_2", title: "Uruguay", subject: "Pays", text: "Le soleil de mai rayonnant sur la ferveur céleste et l'héritage sud-américain.", image: "/artworks/uruguay.jpg" },
       { id: "an16", title: "Arc de Triomphe", subject: "Monument", text: "Symbole de victoire, carrefour de la nation.", image: "/artworks/monument_1.jpg" },
@@ -176,8 +176,8 @@ const ailes = [
     ]
   },
   {
-    id: "pantheon",
-    title: "Le Panthéon",
+    id: "mythes",
+    title: "Les Mythes",
     color: "#C25939", // Ocre / Or
     description: "L'humain devenu légende, l'imaginaire, les figures tutélaires du sport, des arts et de l'écran.",
     artworks: [
@@ -207,10 +207,22 @@ const ailes = [
     color: "#607D8B", // Bleu Gris
     description: "L'histoire incarnée, les figures intemporelles et l'héritage universel.",
     artworks: [
-      { id: "mon0", title: "The Greatest", subject: "Légende Absolue", text: "Muhammad Ali. Cassius Clay. Le visage de la légende sculpté dans l'éternité.", image: "/artworks/ali.jpg", nexusUrl: "/nexus/ali" },
       { id: "mon0_1", title: "Arc de Triomphe", subject: "Monument Historique", text: "L'Arc de Triomphe de l'Étoile dessiné par la répétition typographique de la capitale.", image: "/artworks/paris.jpg" },
+      { id: "mon3", title: "Burj Al Arab", subject: "Monument", text: "L'icône de Dubaï, la voile hissée vers la démesure.", image: "/artworks/monument_12.jpg" },
+      { id: "mon4", title: "Corcovado", subject: "Monument", text: "Le Christ Rédempteur, veillant majestueusement sur Rio de Janeiro.", image: "/artworks/monument_10.jpg" },
+      { id: "mon5", title: "Mémorial de Vimy", subject: "Monument", text: "L'hommage canadien. Les piliers de la mémoire dressés vers l'éternité.", image: "/artworks/memorial_canadien.jpg" },
       { id: "mon1", title: "La Grâce", subject: "Le Chat", text: "L'élégance féline sculptée par la typographie.", image: "/artworks/monument_chat.jpg" },
-      { id: "mon2", title: "Elizabeth II", subject: "Reine d'Angleterre", text: "La Maison Windsor, Londres et le siècle. Le portrait de la souveraine absolue.", image: "/artworks/monument_elizabeth.jpg" }
+      { id: "mon2", title: "Elizabeth II", subject: "Reine d'Angleterre", text: "La Maison Windsor, Londres et le siècle. Le portrait de la souveraine absolue.", image: "/artworks/monument_elizabeth.jpg" },
+      { id: "mon6", title: "Les Pyramides", subject: "Monument", text: "Le Sphinx et l'immensité de Gizeh, l'éternité gravée dans la pierre.", image: "/artworks/monument_13.jpg" },
+      { id: "mon7", title: "Burj Khalifa", subject: "Monument", text: "L'ascension vertigineuse, le désir humain de toucher les cieux.", image: "/artworks/monument_2.jpg" },
+      { id: "mon8", title: "Statue de la Liberté", subject: "Monument", text: "L'accueil, la flamme, l'espoir d'un monde nouveau.", image: "/artworks/monument_3.jpg" },
+      { id: "mon9", title: "Tour de Pise", subject: "Monument", text: "La beauté dans l'imperfection, le miracle de l'équilibre.", image: "/artworks/monument_4.jpg" },
+      { id: "mon10", title: "Île de Pâques", subject: "Monument", text: "Le mystère des Moaï, le regard figé sur l'immensité du Pacifique.", image: "/artworks/monument_6.jpg" },
+      { id: "mon11", title: "Tour Eiffel", subject: "Monument", text: "La Dame de Fer, l'élégance architecturale s'élevant au-dessus de Paris.", image: "/artworks/monument_7.jpg" },
+      { id: "mon12", title: "La Bonne Mère", subject: "Monument", text: "Notre-Dame de la Garde, la protectrice de la cité phocéenne.", image: "/artworks/monument_11.jpg" },
+      { id: "mon13", title: "Masque Vénitien", subject: "Culture", text: "L'énigme du carnaval, l'élégance mystérieuse de la Sérénissime dissimulée derrière le masque.", image: "/artworks/monument_8.jpg" },
+      { id: "mon14", title: "L'Emblème 2025", subject: "Collection HumanValues", text: "Le flambeau de la liberté hissé par les mots. L'icône fondatrice de la collection artistique 2025.", image: "/artworks/flambeau_hv.jpg" },
+      { id: "mon15", title: "Danseuse du Lido", subject: "Spectacle", text: "L'élégance parisienne, le glamour intemporel et la magie des revues des Champs-Élysées.", image: "/artworks/monument_5.jpg" }
     ]
   },
   {
@@ -219,19 +231,10 @@ const ailes = [
     color: "#FFDD00", // Jaune Stade Rochelais
     description: "Les divinités internationales du sport, dont l'empreinte dépasse les frontières et le temps.",
     artworks: [
+      { id: "ol0", title: "The Greatest", subject: "Légende Absolue", text: "Muhammad Ali. Cassius Clay. Le visage de la légende sculpté dans l'éternité.", image: "/artworks/ali.jpg", nexusUrl: "/nexus/ali" },
       { id: "ol1", title: "Leo Messi", subject: "Légende Internationale", text: "Le génie argentin. L'aura et la vision sculptées dans les lettres de son nom.", image: "/artworks/olympe_messi.jpg", hc: true },
       { id: "ol2", title: "Diego Maradona", subject: "Légende Internationale", text: "El Pibe de Oro. L'éternité et la passion gravées à même le visage.", image: "/artworks/olympe_maradona.jpg", nexusUrl: "/nexus/maradona" },
       { id: "ol3", title: "Shohei Ohtani", subject: "Baseball", text: "L'étoile des Dodgers. Le talent brut et la puissance sculptés dans l'emblème de la MLB.", image: "/artworks/olympe_ohtani.jpg", hc: true }
-    ]
-  },
-  {
-    id: "monuments",
-    title: "Les Monuments",
-    color: "#607D8B", // Bleu Gris
-    description: "L'histoire incarnée, les figures intemporelles et l'héritage universel.",
-    artworks: [
-      { id: "mon1", title: "La Grâce", subject: "Le Chat", text: "L'élégance féline sculptée par la typographie.", image: "/artworks/monument_chat.jpg" },
-      { id: "mon2", title: "Elizabeth II", subject: "Reine d'Angleterre", text: "La Maison Windsor, Londres et le siècle. Le portrait de la souveraine absolue.", image: "/artworks/monument_elizabeth.jpg" }
     ]
   },
   {
@@ -303,9 +306,17 @@ const ailes = [
       { id: "fo10", title: "Le Coq FFF", subject: "LFP X Inclusion", text: "L'emblème tricolore. Diversité, mécénat et humilité sur le terrain.", image: "/artworks/sport_5.jpg", hc: true },
       { id: "fo11", title: "Ligue de Football", subject: "LFP X Inclusion", text: "Le championnat professionnel porté par les valeurs saines et le cécifoot.", image: "/artworks/sport_6.jpg", hc: true },
       { id: "fo12", title: "Bondy Cécifoot Club", subject: "Club X Inclusion", text: "L'emblème du serpent. Déficience visuelle, transmission et solidarité sur le terrain.", image: "/artworks/sport_7.jpg", hc: true },
-      { id: "lan1", title: "L'Accord Parfait", subject: "Signe OK", text: "Le respect et le partage tissent le langage universel de l'approbation.", image: "/artworks/hands_echo_ok.jpg" },
-      { id: "lan2", title: "L'Amour Universel", subject: "Cœur", text: "Handicap et inclusion s'entrelacent pour former le symbole absolu.", image: "/artworks/hands_echo_heart.jpg" },
       { id: "fo18", title: "La Ligue", subject: "Ligue Contre le Cancer", text: "Le maillot solidaire tissé par le soutien, les bénévoles et l'espoir face à la maladie.", image: "/artworks/ligue_cancer.jpg", hc: true }
+    ]
+  },
+  {
+    id: "langage",
+    title: "Le Langage",
+    color: "#3F51B5", // Indigo
+    description: "Les signes, les mots, la communication universelle forgée par les valeurs.",
+    artworks: [
+      { id: "lan1", title: "L'Accord Parfait", subject: "Signe OK", text: "Le respect et le partage tissent le langage universel de l'approbation.", image: "/artworks/hands_echo_ok.jpg" },
+      { id: "lan2", title: "L'Amour Universel", subject: "Cœur", text: "Handicap et inclusion s'entrelacent pour former le symbole absolu.", image: "/artworks/hands_echo_heart.jpg" }
     ]
   },
   {

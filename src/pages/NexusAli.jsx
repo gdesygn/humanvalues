@@ -112,7 +112,7 @@ const NexusAli = () => {
         </p>
         <p style={{ fontSize: '0.85rem', color: '#aaa', lineHeight: '1.8' }}>
           1701942 : 17 janvier 1942, Louisville, Kentucky. Naissance de Cassius Clay.<br />
-          Le matricule absolu pour la légende absolue.
+          -2 : Deuxième venu. Clay puis Ali : la métamorphose.
         </p>
       </section>
 
@@ -123,7 +123,9 @@ const NexusAli = () => {
         </p>
         <h2 style={{ fontSize: '2rem', color: 'white', marginBottom: '0.5rem' }}>Tirage Plexiglas – "The Greatest"</h2>
         <p style={{ fontStyle: 'italic', color: '#aaa', marginBottom: '2rem' }}>
-          "Impossible is just a big word thrown around by small men."
+          "I am the greatest, I said that even before I knew I was."<br />
+          Il l'a dit. Et le monde a écouté.<br /><br />
+          — Le Conseil des Nexus
         </p>
         <p style={{ fontSize: '2.5rem', fontWeight: '600', color: 'white', marginBottom: '0.5rem' }}>890 €</p>
         <p style={{ fontSize: '0.9rem', color: '#777', marginBottom: '2.5rem' }}>Livraison offerte France · Certificat HV inclus</p>

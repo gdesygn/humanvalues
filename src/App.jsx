@@ -37,7 +37,7 @@ const Layout = ({ children }) => (
 const ScrollToTop = () => {
   const { pathname } = useLocation();
   useEffect(() => {
-    // Si on a un hash (ex: #pantheon), on ne scrolle pas brutalement en haut
+    // Si on a un hash (ex: #mythes), on ne scrolle pas brutalement en haut
     if (!window.location.hash) {
       window.scrollTo(0, 0);
     }
