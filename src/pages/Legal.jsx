@@ -3,15 +3,18 @@ import React from 'react';
 const Legal = () => {
   return (
     <div className="container animate-fade-in-up" style={{ maxWidth: '800px', margin: '4rem auto', padding: '0 2rem', minHeight: '60vh' }}>
-      <h1 style={{ fontSize: '3rem', marginBottom: '3rem', borderBottom: '2px solid var(--hv-light-grey)', paddingBottom: '1rem', fontFamily: 'var(--font-title, Playfair Display)', color: 'var(--hv-black)' }}>
-        Mentions Légales – HumanValues HV
+      <h1 style={{ fontSize: '3rem', marginBottom: '0.5rem', borderBottom: '2px solid var(--hv-light-grey)', paddingBottom: '1rem', fontFamily: 'var(--font-title, Playfair Display)', color: 'var(--hv-black)' }}>
+        HumanValues – Mentions Légales
       </h1>
+      <p style={{ fontStyle: 'italic', color: 'var(--hv-grey)', marginBottom: '3rem', fontSize: '1.1rem' }}>
+        HumanValues – Maison culturelle des récits universels
+      </p>
       
       <div style={{ fontSize: '1.1rem', color: 'var(--hv-grey)', lineHeight: '1.8' }}>
         
         <section style={{ marginBottom: '3rem' }}>
           <h2 style={{ fontSize: '1.8rem', color: 'var(--hv-black)', marginBottom: '1.5rem', fontFamily: 'var(--font-title, Playfair Display)' }}>1. Édition du site</h2>
-          <p style={{ marginBottom: '0.5rem' }}><strong>HumanValues HV</strong><br/>Maison culturelle des récits universels</p>
+          <p style={{ marginBottom: '0.5rem' }}><strong>HumanValues</strong><br/>Maison culturelle des récits universels</p>
           <p style={{ marginBottom: '0.5rem' }}><strong>Directeur de publication :</strong><br/>Le Conseil des Nexus (représenté par le fondateur de HumanValues)</p>
           <p style={{ marginBottom: '0.5rem' }}><strong>Siège social :</strong><br/>déclaré au siège du Conseil des Nexus</p>
           <p style={{ marginBottom: '0.5rem' }}><strong>Contact :</strong><br/>Email : contact@humanvalues.fr</p>
