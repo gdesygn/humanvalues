@@ -58,7 +58,8 @@ const Institution = () => {
           <li style={{ marginBottom: '1.2rem', paddingLeft: '1.5rem', position: 'relative' }}>
             <span style={{ position: 'absolute', left: 0, color: 'var(--hv-accent)' }}>•</span>
             <strong>Acteurs des sports de combat</strong> –<br/>
-            Présentations et échanges sur les valeurs d'engagement et de discipline avec Fernand Lopez, Greg MMA et Karaté Bushido.
+            Présentations et échanges sur les valeurs d'engagement et de discipline avec Fernand Lopez,<br/>
+            Greg MMA et Karaté Bushido.
           </li>
         </ul>
       </section>
