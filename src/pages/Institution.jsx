@@ -160,7 +160,7 @@ const Institution = () => {
           className="btn-accent" 
           onClick={() => window.location.href = "mailto:partenaires@humanvalues.fr?subject=Partenariat%20HV"}
         >
-          🤝 Devenons partenaires d'un récit qui compte. Contactez le Conseil des Nexus.
+          🤝 Devenons partenaires d'un récit qui compte.<br/>Contactez le Conseil des Nexus.
         </button>
       </div>
 
