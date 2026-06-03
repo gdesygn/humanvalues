@@ -10,6 +10,7 @@ import Legal from './pages/Legal';
 import CGV from './pages/CGV';
 import Confidentialite from './pages/Confidentialite';
 import NexusItalia from './pages/NexusItalia';
+import NexusMaradona from './pages/NexusMaradona';
 import Footer from './components/Footer';
 import './index.css';
 
@@ -59,6 +60,7 @@ function App() {
           <Route path="/cgv" element={<CGV />} />
           <Route path="/confidentialite" element={<Confidentialite />} />
           <Route path="/nexus/italia" element={<NexusItalia />} />
+          <Route path="/nexus/maradona" element={<NexusMaradona />} />
         </Routes>
       </Layout>
     </Router>

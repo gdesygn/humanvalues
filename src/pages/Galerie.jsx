@@ -208,7 +208,7 @@ const ailes = [
     description: "Les divinités internationales du sport, dont l'empreinte dépasse les frontières et le temps.",
     artworks: [
       { id: "ol1", title: "Leo Messi", subject: "Légende Internationale", text: "Le génie argentin. L'aura et la vision sculptées dans les lettres de son nom.", image: "/artworks/olympe_messi.jpg", hc: true },
-      { id: "ol2", title: "Diego Maradona", subject: "Légende Internationale", text: "El Pibe de Oro. L'éternité et la passion gravées à même le visage.", image: "/artworks/olympe_maradona.jpg" },
+      { id: "ol2", title: "Diego Maradona", subject: "Légende Internationale", text: "El Pibe de Oro. L'éternité et la passion gravées à même le visage.", image: "/artworks/olympe_maradona.jpg", nexusUrl: "/nexus/maradona" },
       { id: "ol3", title: "Shohei Ohtani", subject: "Baseball", text: "L'étoile des Dodgers. Le talent brut et la puissance sculptés dans l'emblème de la MLB.", image: "/artworks/olympe_ohtani.jpg", hc: true }
     ]
   },
