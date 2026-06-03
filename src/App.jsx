@@ -17,10 +17,10 @@ const Layout = ({ children }) => (
     <header className="nav-header">
       <Link to="/" className="nav-logo">HV.</Link>
       <nav className="nav-links">
-        <NavLink to="/nexus" className={({isActive}) => isActive ? 'active' : ''}>Registre</NavLink>
-        <NavLink to="/galerie" className={({isActive}) => isActive ? 'active' : ''}>Galerie</NavLink>
+        <NavLink to="/nexus" className={({isActive}) => isActive ? 'active' : ''}>NEXUS</NavLink>
+        <NavLink to="/galerie" className={({isActive}) => isActive ? 'active' : ''}>Le Registre</NavLink>
+        <NavLink to="/collections" className={({isActive}) => isActive ? 'active' : ''}>Acquisitions</NavLink>
         <NavLink to="/collectif" className={({isActive}) => isActive ? 'active' : ''}>Collectif</NavLink>
-        <NavLink to="/collections" className={({isActive}) => isActive ? 'active' : ''}>Collections</NavLink>
         <NavLink to="/institution" className={({isActive}) => isActive ? 'active' : ''}>Institution</NavLink>
       </nav>
     </header>
