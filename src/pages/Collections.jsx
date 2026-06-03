@@ -45,20 +45,6 @@ const Collections = () => {
         <div className="acquisition-card">
           <div className="card-media" style={{ position: 'relative' }}>
             <img src="/assets/images/mockup_nexus1_hv.png" alt="Mockup Dossier Nexus 1" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-            <div style={{
-              position: 'absolute',
-              top: '0.85rem',
-              left: '50%',
-              transform: 'translateX(-50%)',
-              color: 'var(--hv-black)',
-              fontFamily: "'Playfair Display', serif",
-              fontSize: '0.75rem',
-              fontWeight: '700',
-              letterSpacing: '0.15em',
-              pointerEvents: 'none'
-            }}>
-              HV.
-            </div>
           </div>
           <h3>Dossier Nexus #1<br/><span style={{ fontSize: '1rem', fontWeight: 'normal' }}>Transmission & Héritage</span></h3>
           <p className="description" style={{ marginBottom: '0.5rem' }}>
