@@ -164,6 +164,34 @@ const Collections = () => {
           </Link>
         </div>
 
+        {/* Carte 5 – Tirage Plexiglas Premium Ali */}
+        <div className="acquisition-card">
+          <div className="card-media" style={{ position: 'relative', overflow: 'hidden', height: '300px', backgroundColor: '#fafafa', display: 'flex', justifyContent: 'center' }}>
+            <img src="/artworks/ali.jpg" alt="The Greatest" style={{ width: '100%', height: '100%', objectFit: 'contain', display: 'block' }} />
+          </div>
+          <h3>Tirage Plexiglas – "The Greatest"<br/><span style={{ fontSize: '1rem', fontWeight: 'normal' }}>Édition signée XXL – 100x80 cm</span></h3>
+          <p style={{ fontSize: '0.8rem', color: 'var(--hv-accent)', letterSpacing: '0.1em', textTransform: 'uppercase', marginBottom: '0.5rem' }}>Code HG : HG-170-194-2</p>
+          <p className="description" style={{ marginBottom: '0.3rem', fontStyle: 'italic' }}>
+            "L'incarnation absolue de la volonté, du verbe et du combat"
+          </p>
+          <p className="description" style={{ marginBottom: '0.5rem' }}>
+            Tirage d'art sur Plexiglas, produit inoxydable, épaisseur 5 cm, prêt à accrocher. Format monumental.
+          </p>
+          <p className="description" style={{ fontSize: '0.85rem', color: '#666', fontStyle: 'italic', marginBottom: '1.5rem' }}>
+            Livré avec certificat d'authenticité HV.
+          </p>
+          <div className="price" style={{ marginBottom: '0.5rem' }}>890 €</div>
+          <p style={{ fontSize: '0.85rem', color: '#666', marginBottom: '1.5rem' }}>
+            (livraison offerte France par transporteur d'art)
+          </p>
+          <button className="btn-primary" style={{ backgroundColor: 'transparent', color: 'var(--hv-black)', border: '1px solid var(--hv-black)', marginBottom: '1rem', display: 'block', width: '100%' }} onClick={() => handleProductClick('plexi')}>
+            🖼️ Contacter la galerie
+          </button>
+          <Link to="/nexus/ali" style={{ display: 'block', textAlign: 'center', fontSize: '0.85rem', color: 'var(--hv-accent)', textDecoration: 'none', letterSpacing: '0.05em' }}>
+            → Voir le Nexus complet
+          </Link>
+        </div>
+
       </section>
 
       {/* Infos livraison globales */}
