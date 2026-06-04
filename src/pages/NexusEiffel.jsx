@@ -11,7 +11,7 @@ const NexusEiffel = () => {
         {' → '}
         <Link to="/collections" style={{ color: '#999', textDecoration: 'none' }}>Acquisitions</Link>
         {' → '}
-        <span style={{ color: 'var(--hv-black)' }}>Nexus Tour Eiffel</span>
+        <span style={{ color: 'var(--hv-black)' }}>Nexus La Grande Dame</span>
       </p>
 
       {/* Hero */}
@@ -19,7 +19,7 @@ const NexusEiffel = () => {
         <p style={{ fontSize: '0.85rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'var(--hv-accent)', marginBottom: '1rem' }}>
           Code HG : HG-889-330-1
         </p>
-        <h1 style={{ fontSize: '3.5rem', lineHeight: '1.1', marginBottom: '1.5rem' }}>La Dame de Fer</h1>
+        <h1 style={{ fontSize: '3.5rem', lineHeight: '1.1', marginBottom: '1.5rem' }}>La Grande Dame</h1>
         <p style={{ fontSize: '1.3rem', fontStyle: 'italic', color: 'var(--hv-grey)', marginBottom: '2rem' }}>
           L'élégance industrielle s'élevant au-dessus de la Ville Lumière
         </p>
@@ -54,10 +54,10 @@ const NexusEiffel = () => {
         <h2 style={{ fontSize: '2rem', marginBottom: '2rem' }}>Le Récit</h2>
 
         <p style={{ fontSize: '1.15rem', lineHeight: '1.9', marginBottom: '1.5rem', color: 'var(--hv-grey)' }}>
-          La Tour Eiffel n'est pas simplement un monument d'acier. Elle est la démonstration matérielle que la technique peut s'élever jusqu'au rang de poésie pure.
+          La Tour Eiffel ne se visite pas. Elle s’éprouve. 300 mètres de fer découpant le ciel, une leçon de gravité devenue grâce.
         </p>
         <p style={{ fontSize: '1.1rem', lineHeight: '1.9', marginBottom: '1.5rem', color: 'var(--hv-grey)' }}>
-          Érigée par Gustave Eiffel pour l'Exposition Universelle de 1889, elle devait être éphémère. Menacée de démantèlement, vivement contestée par les artistes de l'époque qui la qualifiaient de "squelette disgracieux", elle a résisté à tout. Par la science d'abord, en devenant une antenne radio indispensable, puis par l'amour d'une ville qui a fini par fusionner son image avec la sienne.
+          Érigée par Gustave Eiffel pour l'Exposition Universelle de 1889, elle devait être éphémère. Vivement contestée par les artistes de l'époque qui la qualifiaient de "squelette disgracieux", elle a résisté à tout. Menacée de démantèlement vingt ans après sa naissance, elle fut sauvée par la science : devenue antenne radio stratégique, elle gagna son droit à l’éternité et l'amour d'une ville qui a fini par fusionner son image avec la sienne.
         </p>
         <p style={{ fontSize: '1.1rem', lineHeight: '1.9', marginBottom: '1.5rem', color: 'var(--hv-grey)' }}>
           Ses 7 300 tonnes de fer puddlé forment une dentelle géométrique qui capte le vent, s'adapte aux températures et découpe l'horizon parisien avec une finesse inégalée. Elle est à la fois le symbole de la modernité triomphante du XIXe siècle et le repère immuable des rêves du monde entier.
@@ -80,12 +80,12 @@ const NexusEiffel = () => {
               texte: "S'élever à 300 mètres de hauteur quand le reste du monde criait à l'impossible effondrement."
             },
             {
-              valeur: 'Élégance',
+              valeur: 'Précision',
               texte: "Transformer des tonnes de fer industriel en une dentelle légère suspendue dans le ciel de Paris."
             },
             {
-              valeur: 'Pérennité',
-              texte: "Conçue pour durer vingt ans, devenue le phare éternel de la mémoire collective."
+              valeur: 'Résistance',
+              texte: "L’éphémère qui a vaincu le temps. Vingt ans promis, un siècle et demi de résistance."
             }
           ].map((v) => (
             <div key={v.valeur} style={{

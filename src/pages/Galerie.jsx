@@ -123,7 +123,7 @@ const ailes = [
       { id: "mon8", title: "Statue de la Liberté", subject: "Monument", text: "L'accueil, la flamme, l'espoir d'un monde nouveau.", image: "/artworks/monument_3.jpg" },
       { id: "mon9", title: "Tour de Pise", subject: "Monument", text: "La beauté dans l'imperfection, le miracle de l'équilibre.", image: "/artworks/monument_4.jpg" },
       { id: "mon10", title: "Île de Pâques", subject: "Monument", text: "Le mystère des Moaï, le regard figé sur l'immensité du Pacifique.", image: "/artworks/monument_6.jpg" },
-      { id: "mon11", title: "Tour Eiffel", subject: "Monument", text: "La Dame de Fer, l'élégance architecturale s'élevant au-dessus de Paris.", image: "/artworks/monument_7.jpg", nexusUrl: "/nexus/eiffel" },
+      { id: "mon11", title: "Tour Eiffel", subject: "Monument", text: "La Grande Dame, l'élégance architecturale s'élevant au-dessus de Paris.", image: "/artworks/monument_7.jpg", nexusUrl: "/nexus/eiffel" },
       { id: "mon12", title: "La Bonne Mère", subject: "Monument", text: "Notre-Dame de la Garde, la protectrice de la cité phocéenne.", image: "/artworks/monument_11.jpg" },
       { id: "mon13", title: "Masque Vénitien", subject: "Culture", text: "L'énigme du carnaval, l'élégance mystérieuse de la Sérénissime dissimulée derrière le masque.", image: "/artworks/monument_8.jpg" },
       { id: "mon14", title: "L'Emblème 2025", subject: "Collection HumanValues", text: "Le flambeau de la liberté hissé par les mots. L'icône fondatrice de la collection artistique 2025.", image: "/artworks/flambeau_hv.jpg" },
