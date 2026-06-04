@@ -260,7 +260,7 @@ const ailes = [
       { id: "ar27", title: "Le Roi de la Terre", subject: "Tennis", text: "La Fondation. 14 titres à Roland Garros, le roi incontesté de la terre battue.", image: "/artworks/sport_9.jpg", hc: true },
       { id: "ar28", title: "NX Jumpman 23", subject: "Basket & Légende", text: "His Airness. Le GOAT absolu sculpté par ses records et ses Final MVPs.", image: "/artworks/sport_14.jpg" },
       { id: "ar29", title: "L'Échec et Mat", subject: "Jeux d'Esprit", text: "Les rois face à face, sculptés par la stratégie et l'anticipation de 2025.", image: "/artworks/jeu_1.jpg" },
-      { id: "ar30", title: "L'Échiquier des Valeurs", subject: "Jeux d'Esprit", text: "Toutes les pièces maîtresses façonnées par les Human Values.", image: "/artworks/jeu_2.jpg" },
+      { id: "ar30", title: "L'Échiquier des Valeurs", subject: "Jeux d'Esprit", text: "Toutes les pièces maîtresses façonnées par les Human Values.", image: "/artworks/jeu_2.jpg", nexusUrl: "/nexus/echiquier" },
       { id: "ar31", title: "Le Carré d'As", subject: "Jeux d'Esprit", text: "Résistance, Discipline, Réflexion, Individuel. Les quatre atouts dans la manche.", image: "/artworks/jeu_3.jpg" }
     ]
   },
