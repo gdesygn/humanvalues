@@ -21,7 +21,7 @@ const NexusItalia = () => {
         </p>
         <h1 style={{ fontSize: '3.5rem', lineHeight: '1.1', marginBottom: '1.5rem' }}>Italia</h1>
         <p style={{ fontSize: '1.3rem', fontStyle: 'italic', color: 'var(--hv-grey)', marginBottom: '2rem' }}>
-          L'art antique, la dolce vita, la péninsule au centre de l'histoire
+          L'emblème en mouvement, symbole de puissance et de liberté.
         </p>
         <p style={{ fontSize: '0.95rem', color: '#aaa', letterSpacing: '0.1em' }}>
           Tirage Plexiglas – 100×80 cm – Édition signée et numérotée (certificat HV)
@@ -124,7 +124,7 @@ const NexusItalia = () => {
         </p>
         <h2 style={{ fontSize: '2rem', color: 'white', marginBottom: '0.5rem' }}>Tirage Plexiglas – "Italia"</h2>
         <p style={{ fontStyle: 'italic', color: '#aaa', marginBottom: '2rem' }}>
-          "L'art antique, la dolce vita, la péninsule au centre de l'histoire"
+          "L'emblème en mouvement, symbole de puissance et de liberté."
         </p>
         <p style={{ fontSize: '2.5rem', fontWeight: '600', color: 'white', marginBottom: '0.5rem' }}>890 €</p>
         <p style={{ fontSize: '0.9rem', color: '#777', marginBottom: '2.5rem' }}>Livraison offerte France · Certificat HV inclus</p>

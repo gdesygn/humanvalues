@@ -116,7 +116,7 @@ const Collections = () => {
           <h3>Tirage Plexiglas – "Italia"<br/><span style={{ fontSize: '1rem', fontWeight: 'normal' }}>Édition signée XXL – 100x80 cm</span></h3>
           <p style={{ fontSize: '0.8rem', color: 'var(--hv-accent)', letterSpacing: '0.1em', textTransform: 'uppercase', marginBottom: '0.5rem' }}>Code HG : HG-877-443-1</p>
           <p className="description" style={{ marginBottom: '0.3rem', fontStyle: 'italic' }}>
-            "L'art antique, la dolce vita, la péninsule au centre de l'histoire"
+            "L'emblème en mouvement, symbole de puissance et de liberté."
           </p>
           <p className="description" style={{ marginBottom: '0.5rem' }}>
             Tirage d'art sur Plexiglas, produit inoxydable, épaisseur 5 cm, prêt à accrocher. Format monumental.
