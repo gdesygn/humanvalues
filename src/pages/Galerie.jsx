@@ -67,7 +67,7 @@ const ailes = [
   {
     id: "vertus",
     title: "Les Vertus",
-    color: "#00BCD4", // Cyan
+    color: "#2A5A4A", // Vert Eucalyptus/Pin
     description: "L'essence de l'effort. Les vertus humaines incarnées dans le mouvement sportif et l'harmonie des éléments.",
     artworks: [
       { id: "val1", title: "Universalité", subject: "Vertu Sportive", text: "L'équilibre sur l'eau, le kayak propulsé par l'idéal universel.", image: "/artworks/valeur_1.jpg" },
@@ -109,7 +109,7 @@ const ailes = [
   {
     id: "monuments",
     title: "Les Monuments",
-    color: "#607D8B", // Bleu Gris
+    color: "#5C6B73", // Gris Pierre
     description: "L'histoire incarnée, les figures intemporelles et l'héritage universel.",
     artworks: [
       { id: "mon0_1", title: "Arc de Triomphe", subject: "Monument Historique", text: "L'Arc de Triomphe de l'Étoile dessiné par la répétition typographique de la capitale.", image: "/artworks/paris.jpg" },
@@ -215,7 +215,7 @@ const ailes = [
   {
     id: "olympe",
     title: "L'Olympe",
-    color: "#FFDD00", // Jaune Stade Rochelais
+    color: "#C5A059", // Or Mat
     description: "Les divinités internationales du sport, dont l'empreinte dépasse les frontières et le temps.",
     artworks: [
       { id: "ol1", title: "Leo Messi", subject: "Légende Internationale", text: "Le génie argentin. L'aura et la vision sculptées dans les lettres de son nom.", image: "/artworks/olympe_messi.jpg", hc: true },
@@ -226,7 +226,7 @@ const ailes = [
   {
     id: "arene",
     title: "L'Arène",
-    color: "#D32F2F", // Rouge
+    color: "#A63A3A", // Rouge Carmin
     description: "Le stade, l'institution, le club, l'équipe, la compétition féroce.",
     artworks: [
       { id: "are_jo_1", title: "L'Anneau Olympique", subject: "Paris 2024", text: "Les cinq anneaux entrelacés, tissés des lettres de la ville lumière.", image: "/artworks/paris_jo_rings.jpg", hc: true },
@@ -272,7 +272,7 @@ const ailes = [
   {
     id: "edifice",
     title: "L'Édifice",
-    color: "#607D8B", // Bleu Gris
+    color: "#2E3A4E", // Bleu Nuit
     description: "La transmission, les valeurs humaines, l'inclusion, la chaleur du groupe.",
     artworks: [
       { id: "fo_logo", title: "L'Emblème 2025", subject: "Collection HumanValues", text: "Le flambeau de la liberté hissé par les mots. L'icône fondatrice de la collection artistique 2025.", image: "/artworks/flambeau_hv.jpg" },
