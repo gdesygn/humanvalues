@@ -24,7 +24,7 @@ const NexusAli = () => {
           L'incarnation absolue de la volonté, du verbe et du combat
         </p>
         <p style={{ fontSize: '0.95rem', color: '#aaa', letterSpacing: '0.1em' }}>
-          Tirage Plexiglas – 100×80 cm – Édition signée et numérotée (certificat HV)
+          Tirage Plexiglas – 100×80 cm – Édition signée et numérotée (certificat HV) – Image issue d’une archive sous licence
         </p>
       </header>
 
@@ -65,6 +65,9 @@ const NexusAli = () => {
         <p style={{ fontSize: '1.1rem', lineHeight: '1.9', marginBottom: '1.5rem', color: 'var(--hv-grey)' }}>
           Ali est l'archétype du sportif transcendantal. L'homme qui a forcé le monde à l'écouter avant même de l'admirer.
         </p>
+        <p style={{ fontSize: '1.1rem', lineHeight: '1.9', marginBottom: '1.5rem', color: 'var(--hv-grey)' }}>
+          Le tirage sur Plexiglas capte la lumière comme un ring sous les projecteurs – l'image semble flotter, à l'image de son jeu de jambes.
+        </p>
         <p style={{ fontSize: '1.15rem', lineHeight: '1.9', fontStyle: 'italic', color: 'var(--hv-black)', fontWeight: '500' }}>
           Ce Nexus est l'empreinte de celui qui s'est nommé lui-même "The Greatest" jusqu'à ce que le monde entier finisse par l'admettre.
         </p>
@@ -85,7 +88,7 @@ const NexusAli = () => {
             },
             {
               valeur: 'Héritage',
-              texte: "Une voix qui résonne au-delà des cordes, inspirant des générations entières."
+              texte: "Ali n’a pas seulement inspiré – il a rendu le silence impossible."
             }
           ].map((v) => (
             <div key={v.valeur} style={{
@@ -126,6 +129,9 @@ const NexusAli = () => {
           "I am the greatest, I said that even before I knew I was."<br />
           Il l'a dit. Et le monde a écouté.<br /><br />
           — Le Conseil des Nexus
+        </p>
+        <p style={{ fontStyle: 'italic', color: '#aaa', marginBottom: '2rem' }}>
+          Ce que vous emportez : non un poster, mais une présence.
         </p>
         <p style={{ fontSize: '2.5rem', fontWeight: '600', color: 'white', marginBottom: '0.5rem' }}>890 €</p>
         <p style={{ fontSize: '0.9rem', color: '#777', marginBottom: '2.5rem' }}>Livraison offerte France · Certificat HV inclus</p>
