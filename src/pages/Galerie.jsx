@@ -67,7 +67,7 @@ const ailes = [
   {
     id: "vertus",
     title: "Les Vertus",
-    color: "#2A5A4A", // Vert Eucalyptus/Pin
+    color: "#00BCD4", // Cyan
     description: "L'essence de l'effort. Les vertus humaines incarnées dans le mouvement sportif et l'harmonie des éléments.",
     artworks: [
       { id: "val1", title: "Universalité", subject: "Vertu Sportive", text: "L'équilibre sur l'eau, le kayak propulsé par l'idéal universel.", image: "/artworks/valeur_1.jpg" },
@@ -107,31 +107,6 @@ const ailes = [
     ]
   },
   {
-    id: "monuments",
-    title: "Les Monuments",
-    color: "#5C6B73", // Gris Pierre
-    description: "L'histoire incarnée, les figures intemporelles et l'héritage universel.",
-    artworks: [
-      { id: "mon0_1", title: "Arc de Triomphe", subject: "Monument Historique", text: "L'Arc de Triomphe de l'Étoile dessiné par la répétition typographique de la capitale.", image: "/artworks/paris.jpg" },
-      { id: "mon3", title: "Burj Al Arab", subject: "Monument", text: "L'icône de Dubaï, la voile hissée vers la démesure.", image: "/artworks/monument_12.jpg" },
-      { id: "mon4", title: "Corcovado", subject: "Monument", text: "Le Christ Rédempteur, veillant majestueusement sur Rio de Janeiro.", image: "/artworks/monument_10.jpg" },
-      { id: "mon5", title: "Mémorial de Vimy", subject: "Monument", text: "L'hommage canadien. Les piliers de la mémoire dressés vers l'éternité.", image: "/artworks/memorial_canadien.jpg" },
-      { id: "mon1", title: "La Grâce", subject: "Le Chat", text: "L'élégance féline sculptée par la typographie.", image: "/artworks/monument_chat.jpg" },
-      { id: "mon2", title: "Elizabeth II", subject: "Reine d'Angleterre", text: "La Maison Windsor, Londres et le siècle. Le portrait de la souveraine absolue.", image: "/artworks/monument_elizabeth.jpg" },
-      { id: "mon6", title: "Les Pyramides", subject: "Monument", text: "Le Sphinx et l'immensité de Gizeh, l'éternité gravée dans la pierre.", image: "/artworks/monument_13.jpg" },
-      { id: "mon7", title: "Burj Khalifa", subject: "Monument", text: "L'ascension vertigineuse, le désir humain de toucher les cieux.", image: "/artworks/monument_2.jpg" },
-      { id: "mon8", title: "Statue de la Liberté", subject: "Monument", text: "L'accueil, la flamme, l'espoir d'un monde nouveau.", image: "/artworks/monument_3.jpg" },
-      { id: "mon9", title: "Tour de Pise", subject: "Monument", text: "La beauté dans l'imperfection, le miracle de l'équilibre.", image: "/artworks/monument_4.jpg" },
-      { id: "mon10", title: "Île de Pâques", subject: "Monument", text: "Le mystère des Moaï, le regard figé sur l'immensité du Pacifique.", image: "/artworks/monument_6.jpg" },
-      { id: "mon11", title: "Tour Eiffel", subject: "Monument", text: "La Grande Dame, l'élégance architecturale s'élevant au-dessus de Paris.", image: "/artworks/monument_7.jpg", nexusUrl: "/nexus/eiffel" },
-      { id: "mon12", title: "La Bonne Mère", subject: "Monument", text: "Notre-Dame de la Garde, la protectrice de la cité phocéenne.", image: "/artworks/monument_11.jpg" },
-      { id: "mon13", title: "Masque Vénitien", subject: "Culture", text: "L'énigme du carnaval, l'élégance mystérieuse de la Sérénissime dissimulée derrière le masque.", image: "/artworks/monument_8.jpg" },
-      { id: "mon14", title: "L'Emblème 2025", subject: "Collection HumanValues", text: "Le flambeau de la liberté hissé par les mots. L'icône fondatrice de la collection artistique 2025.", image: "/artworks/flambeau_hv.jpg" },
-      { id: "mon15", title: "Danseuse du Lido", subject: "Spectacle", text: "L'élégance parisienne, le glamour intemporel et la magie des revues des Champs-Élysées.", image: "/artworks/monument_5.jpg" },
-      { id: "mon16", title: "The Greatest", subject: "Légende Absolue", text: "Muhammad Ali. Cassius Clay. Le visage de la légende sculpté dans l'éternité.", image: "/artworks/ali.jpg", nexusUrl: "/nexus/ali" }
-    ]
-  },
-  {
     id: "artefacts",
     title: "Les Artefacts",
     color: "#424242", // Gris/Noir
@@ -140,33 +115,18 @@ const ailes = [
       { id: "ar1", title: "Brioche Vendéenne", subject: "Gastronomie", text: "La tresse dorée, symbole gourmand de la tradition et du terroir vendéen.", image: "/artworks/stjean_boat.jpg" },
       { id: "ar1_1", title: "La 2CV de St-Jean-de-Monts", subject: "Objet", text: "L'icône populaire, façonnée par les codes de la Vendée.", image: "/artworks/obj_2cv.jpg" },
       { id: "ar1_2", title: "Le Margouillat Vendéen", subject: "Faune", text: "L'animal solaire tissé des lettres de St-Jean-de-Monts 85160.", image: "/artworks/obj_margouillat.jpg" },
-      { id: "ar1_3", title: "Vendée Océan", subject: "Territoire", text: "L'empreinte maritime et l'horizon bleu de la côte vendéenne 85160.", image: "/artworks/vendee_ocean.jpg" },
-      { id: "ar1_4", title: "Le Cœur Vendéen", subject: "Emblème", text: "Le double cœur entrelacé. L'âme, la passion et l'histoire du 85.", image: "/artworks/vendee_coeur.jpg" },
-      { id: "ar2", title: "Le Gouvernail", subject: "Objet", text: "La direction, le cap maintenu contre vents et marées.", image: "/artworks/obj_region_2.jpg" },
-      { id: "ar3", title: "Vin Bordelais", subject: "Objet de Région", text: "Le cépage, la robe, le millésime. Le savoir-faire des vignobles.", image: "/artworks/bordeaux.jpg" },
-      { id: "ar4", title: "Le Ruban", subject: "Saint-Étienne", text: "L'excellence de la passementerie, le textile de luxe, l'artisanat du XVIIe.", image: "/artworks/st_etienne_1.jpg" },
-      { id: "ar5", title: "Lampe de Mineur", subject: "Saint-Étienne", text: "Le Bassin Forézien, l'or noir, la lumière dans les profondeurs de la Terre.", image: "/artworks/st_etienne_2.jpg" },
-      { id: "ar6", title: "Le Fusil", subject: "Saint-Étienne", text: "La manufacture d'armes, l'industrie lourde de la Loire, la précision mécanique.", image: "/artworks/st_etienne_3.jpg" },
-      { id: "ar7", title: "La Rose d'Angleterre", subject: "Emblème", text: "La fleur Tudor, symbole historique de la couronne britannique.", image: "/artworks/embleme_1.jpg" },
-      { id: "ar8", title: "Le Chardon Écossais", subject: "Emblème", text: "L'épine protectrice, la fierté indomptable des Highlands.", image: "/artworks/embleme_2.jpg" },
-      { id: "ar9", title: "Le Lion de Norvège", subject: "Emblème", text: "L'identité nordique gravée dans le symbole national.", image: "/artworks/embleme_3.jpg" },
-      { id: "ar10", title: "La Feuille d'Érable", subject: "Emblème", text: "L'emblème rougeoyant, l'âme naturelle de l'Amérique du Nord.", image: "/artworks/embleme_4.jpg" },
-      { id: "ar11", title: "Le Pur Sang Emirates", subject: "Excellence Hippique", text: "L'élégance animale et la noblesse brute sculptées par les lettres d'Emirates.", image: "/artworks/embleme_5.jpg", hc: true },
-      { id: "ar12", title: "L'Origine Nike", subject: "Équipementier", text: "The Goddess of Victory. Philip Knight et la naissance du mythe.", image: "/artworks/nexus_nike_1.jpg", hc: true },
-      { id: "ar13", title: "La Typographie", subject: "Équipementier", text: "No Fear. Keep Going. L'effort taillé dans la lettre massive.", image: "/artworks/nexus_nike_2.jpg", hc: true },
-      { id: "ar14", title: "Le Swoosh", subject: "Équipementier", text: "L'épure parfaite. La virgule qui souligne les légendes.", image: "/artworks/nexus_nike_3.jpg", hc: true },
-      { id: "ar14_1", title: "MJ2.0", subject: "Équipementier", text: "Le Jumpman, le 23. L'empreinte de la légende tissée dans le tissu.", image: "/artworks/jordan_cap.jpg", hc: true },
-      { id: "ar14_2", title: "Venum", subject: "Équipementier", text: "Les crocs du serpent. L'équipement martial, officiel de l'UFC, taillé dans l'impact.", image: "/artworks/venum.jpg", hc: true },
-      { id: "ar15", title: "Les 3 Bandes (Clubs)", subject: "Adidas", text: "Real Madrid, Juventus, All Blacks... Les géants réunis sous le même logo.", image: "/artworks/adidas_1.jpg", hc: true },
-      { id: "ar16", title: "Les 3 Bandes (Athlètes)", subject: "Adidas", text: "Messi, Mahomes, Serena... Les icônes qui forgent l'histoire du sport.", image: "/artworks/adidas_2.jpg", hc: true },
-      { id: "ar19", title: "Tennis 2.0", subject: "Lacoste", text: "Un emblème devenu universel sur les terrains et dans la rue.", image: "/artworks/lacoste_3.jpg", hc: true },
-      { id: "ar20", title: "Le Crocodile de Mots", subject: "Lacoste", text: "L'animal entier reconstitué par les valeurs de la marque au crocodile.", image: "/artworks/lacoste_4.jpg", hc: true },
-      { id: "ar21", title: "Microphone RMC", subject: "Média", text: "Afterfoot, Jeanot, 1998... La voix du sport transmise aux ondes.", image: "/artworks/rmc_mic.jpg", hc: true },
-      { id: "ar22", title: "Louis Vuitton", subject: "Marque de Luxe", text: "Arnault, l'Impératrice Eugénie, le monogramme intemporel.", image: "/artworks/lv_arnault.jpg", hc: true },
-      { id: "ar32", title: "Coach Prime", subject: "Football Américain", text: "Le casque tissé de l'aura de Deion Sanders. L'ère Prime Time au Colorado.", image: "/artworks/coach_prime_helmet.jpg" },
-      { id: "ar33", title: "Buffaloes CUB", subject: "Football Américain", text: "Le bison universitaire. L'emblème des Buffaloes sculpté par la ferveur de Boulder.", image: "/artworks/buffaloes_cub.jpg", hc: true },
-      { id: "ar34", title: "Le Volant", subject: "Badminton", text: "L'aérodynamisme et la légèreté du volant tissés par les valeurs humaines.", image: "/artworks/volant_badminton.jpg" },
-      { id: "ar35", title: "Sneakers HV", subject: "Lifestyle", text: "L'empreinte du streetwear et du basket sculptée dans la matière 2025.", image: "/artworks/hv_sneakers.jpg" },
+      { id: "ar1_3", title: "Phare de St-Jean-de-Monts", subject: "Architecture", text: "Le phare emblématique guidant les marins vendéens.", image: "/artworks/obj_phare.jpg" },
+      { id: "ar1_4", title: "L'Estacade de St-Jean", subject: "Lieu", text: "La célèbre jetée en bois s'avançant sur l'océan, dessinée par la typographie vendéenne.", image: "/artworks/obj_estacade.jpg" },
+      { id: "ar31_2", title: "La Flèche de Notre-Dame", subject: "Héritage", text: "La flèche reconstruite s'élevant vers le ciel, symbole de résilience et de renaissance.", image: "/artworks/fleche_notredame.jpg" },
+      { id: "ar31_3", title: "Le Sacré-Cœur", subject: "Héritage", text: "La basilique de Montmartre dominant la ville, sculptée par les lettres de son histoire.", image: "/artworks/basilique_sacrecoeur.jpg" },
+      { id: "ar32", title: "Le Phare de Cordouan", subject: "Héritage", text: "Le roi des phares, monument de Gironde, dressé fièrement dans l'estuaire.", image: "/artworks/phare_cordouan.jpg" },
+      { id: "ar33", title: "Le Lion de Belfort", subject: "Héritage", text: "Le monument colossal en grès rose, symbole de résistance et de fierté nationale.", image: "/artworks/lion_belfort.jpg" },
+      { id: "ar34", title: "La Porte Cailhau", subject: "Héritage", text: "Le monument médiéval de Bordeaux, porte de l'histoire et de la mémoire régionale.", image: "/artworks/porte_cailhau.jpg" },
+      { id: "ar35", title: "Le Viaduc de Millau", subject: "Héritage", text: "Le géant de béton et d'acier, prouesse technologique enjambant la vallée.", image: "/artworks/viaduc_millau.jpg" },
+      { id: "ar35_1", title: "Le Château de Chambord", subject: "Héritage", text: "Le chef-d'œuvre de la Renaissance, joyau de la Loire façonné par les mots de son histoire.", image: "/artworks/chateau_chambord.jpg" },
+      { id: "ar35_2", title: "Le Mont Saint-Michel", subject: "Héritage", text: "L'abbaye merveilleuse érigée sur le rocher, cernée par les marées et l'histoire.", image: "/artworks/mont_saintmichel.jpg" },
+      { id: "ar35_3", title: "Le Palais des Papes", subject: "Héritage", text: "La forteresse gothique d'Avignon, témoin du siècle pontifical en Vaucluse.", image: "/artworks/palais_des_papes.jpg" },
+      { id: "ar35_4", title: "Pont du Gard", subject: "Héritage", text: "L'aqueduc romain à trois niveaux, chef-d'œuvre antique enjambant le Gardon.", image: "/artworks/pont_du_gard.jpg" },
       { id: "ar36", title: "Home Run", subject: "Baseball", text: "La batte et la balle. Le classique américain forgé par les lettres HV 2025.", image: "/artworks/hv_baseball.jpg" },
       { id: "ar37", title: "Le Strike", subject: "Bowling", text: "La quille et la boule. L'alignement parfait avant l'impact 2025.", image: "/artworks/hv_bowling.jpg" },
       { id: "ar38", title: "Le Caddie", subject: "Golf", text: "Le célèbre véhicule des greens, dessiné par l'empreinte de la collection 2025.", image: "/artworks/caddie.jpg" },
@@ -174,16 +134,6 @@ const ailes = [
       { id: "ar40", title: "Ballon de Foot US", subject: "Objet Sportif", text: "L'ovale du gridiron, taillé dans l'esprit de l'édition 2025.", image: "/artworks/ballon_us.jpg" },
       { id: "ar41", title: "Le Sifflet", subject: "Respect", text: "Le symbole de l'arbitrage et du fair-play, tissé par le respect absolu.", image: "/artworks/sifflet.jpg" },
       { id: "an14", title: "Italia", subject: "Emblème", text: "L'emblème en mouvement, symbole de puissance et de liberté.", image: "/artworks/italia_eagle.jpg", nexusUrl: "/nexus/italia" }
-    ]
-  },
-  {
-    id: "fluides",
-    title: "Les Fluides",
-    color: "#4FC3F7", // Bleu Ciel
-    description: "Le mouvement immatériel, la grâce, l'océan, la trace éphémère dans l'eau.",
-    artworks: [
-      { id: "f1", title: "H2O'CEAN", subject: "La Source", text: "L'immensité bleue, les vagues, la vie aquatique.", image: "/artworks/ocean_world.jpg", nexusUrl: "/nexus/ocean" },
-      { id: "f2", title: "VALEURS ET PROPRIETES", subject: "La Goutte", text: "L'étymologie de la mer, la fluidité de la typographie.", image: "/artworks/nexus_eau.jpg" }
     ]
   },
   {
@@ -213,9 +163,34 @@ const ailes = [
     ]
   },
   {
+    id: "monuments",
+    title: "Les Monuments",
+    color: "#607D8B", // Bleu Gris
+    description: "L'histoire incarnée, les figures intemporelles et l'héritage universel.",
+    artworks: [
+      { id: "mon0_1", title: "Arc de Triomphe", subject: "Monument Historique", text: "L'Arc de Triomphe de l'Étoile dessiné par la répétition typographique de la capitale.", image: "/artworks/paris.jpg" },
+      { id: "mon3", title: "Burj Al Arab", subject: "Monument", text: "L'icône de Dubaï, la voile hissée vers la démesure.", image: "/artworks/monument_12.jpg" },
+      { id: "mon4", title: "Corcovado", subject: "Monument", text: "Le Christ Rédempteur, veillant majestueusement sur Rio de Janeiro.", image: "/artworks/monument_10.jpg" },
+      { id: "mon5", title: "Mémorial de Vimy", subject: "Monument", text: "L'hommage canadien. Les piliers de la mémoire dressés vers l'éternité.", image: "/artworks/memorial_canadien.jpg" },
+      { id: "mon1", title: "La Grâce", subject: "Le Chat", text: "L'élégance féline sculptée par la typographie.", image: "/artworks/monument_chat.jpg" },
+      { id: "mon2", title: "Elizabeth II", subject: "Reine d'Angleterre", text: "La Maison Windsor, Londres et le siècle. Le portrait de la souveraine absolue.", image: "/artworks/monument_elizabeth.jpg" },
+      { id: "mon6", title: "Les Pyramides", subject: "Monument", text: "Le Sphinx et l'immensité de Gizeh, l'éternité gravée dans la pierre.", image: "/artworks/monument_13.jpg" },
+      { id: "mon7", title: "Burj Khalifa", subject: "Monument", text: "L'ascension vertigineuse, le désir humain de toucher les cieux.", image: "/artworks/monument_2.jpg" },
+      { id: "mon8", title: "Statue de la Liberté", subject: "Monument", text: "L'accueil, la flamme, l'espoir d'un monde nouveau.", image: "/artworks/monument_3.jpg" },
+      { id: "mon9", title: "Tour de Pise", subject: "Monument", text: "La beauté dans l'imperfection, le miracle de l'équilibre.", image: "/artworks/monument_4.jpg" },
+      { id: "mon10", title: "Île de Pâques", subject: "Monument", text: "Le mystère des Moaï, le regard figé sur l'immensité du Pacifique.", image: "/artworks/monument_6.jpg" },
+      { id: "mon11", title: "Tour Eiffel", subject: "Monument", text: "La Grande Dame, l'élégance architecturale s'élevant au-dessus de Paris.", image: "/artworks/monument_7.jpg", nexusUrl: "/nexus/eiffel" },
+      { id: "mon12", title: "La Bonne Mère", subject: "Monument", text: "Notre-Dame de la Garde, la protectrice de la cité phocéenne.", image: "/artworks/monument_11.jpg" },
+      { id: "mon13", title: "Masque Vénitien", subject: "Culture", text: "L'énigme du carnaval, l'élégance mystérieuse de la Sérénissime dissimulée derrière le masque.", image: "/artworks/monument_8.jpg" },
+      { id: "mon14", title: "L'Emblème 2025", subject: "Collection HumanValues", text: "Le flambeau de la liberté hissé par les mots. L'icône fondatrice de la collection artistique 2025.", image: "/artworks/flambeau_hv.jpg" },
+      { id: "mon15", title: "Danseuse du Lido", subject: "Spectacle", text: "L'élégance parisienne, le glamour intemporel et la magie des revues des Champs-Élysées.", image: "/artworks/monument_5.jpg" },
+      { id: "mon16", title: "The Greatest", subject: "Légende Absolue", text: "Muhammad Ali. Cassius Clay. Le visage de la légende sculpté dans l'éternité.", image: "/artworks/ali.jpg", nexusUrl: "/nexus/ali" }
+    ]
+  },
+  {
     id: "olympe",
     title: "L'Olympe",
-    color: "#C5A059", // Or Mat
+    color: "#FFDD00", // Jaune Stade Rochelais
     description: "Les divinités internationales du sport, dont l'empreinte dépasse les frontières et le temps.",
     artworks: [
       { id: "ol1", title: "Leo Messi", subject: "Légende Internationale", text: "Le génie argentin. L'aura et la vision sculptées dans les lettres de son nom.", image: "/artworks/olympe_messi.jpg", hc: true },
@@ -224,9 +199,29 @@ const ailes = [
     ]
   },
   {
+    id: "fluides",
+    title: "Les Fluides",
+    color: "#4FC3F7", // Bleu Ciel
+    description: "Le mouvement immatériel, la grâce, l'océan, la trace éphémère dans l'eau.",
+    artworks: [
+      { id: "f1", title: "H2O'CEAN", subject: "La Source", text: "L'immensité bleue, les vagues, la vie aquatique.", image: "/artworks/ocean_world.jpg", nexusUrl: "/nexus/ocean" },
+      { id: "f2", title: "VALEURS ET PROPRIETES", subject: "La Goutte", text: "L'étymologie de la mer, la fluidité de la typographie.", image: "/artworks/nexus_eau.jpg" }
+    ]
+  },
+  {
+    id: "langage",
+    title: "Le Langage",
+    color: "#424242", // Gris/Noir
+    description: "Les signes, les mots, la communication universelle forgée par les valeurs.",
+    artworks: [
+      { id: "lan1", title: "L'Accord Parfait", subject: "Signe OK", text: "Le respect et le partage tissent le langage universel de l'approbation.", image: "/artworks/hands_echo_ok.jpg" },
+      { id: "lan2", title: "L'Amour Universel", subject: "Cœur", text: "Handicap et inclusion s'entrelacent pour former le symbole absolu.", image: "/artworks/hands_echo_heart.jpg" }
+    ]
+  },
+  {
     id: "arene",
     title: "L'Arène",
-    color: "#A63A3A", // Rouge Carmin
+    color: "#D32F2F", // Rouge
     description: "Le stade, l'institution, le club, l'équipe, la compétition féroce.",
     artworks: [
       { id: "are_jo_1", title: "L'Anneau Olympique", subject: "Paris 2024", text: "Les cinq anneaux entrelacés, tissés des lettres de la ville lumière.", image: "/artworks/paris_jo_rings.jpg", hc: true },
@@ -272,7 +267,7 @@ const ailes = [
   {
     id: "edifice",
     title: "L'Édifice",
-    color: "#2E3A4E", // Bleu Nuit
+    color: "#607D8B", // Bleu Gris
     description: "La transmission, les valeurs humaines, l'inclusion, la chaleur du groupe.",
     artworks: [
       { id: "fo_logo", title: "L'Emblème 2025", subject: "Collection HumanValues", text: "Le flambeau de la liberté hissé par les mots. L'icône fondatrice de la collection artistique 2025.", image: "/artworks/flambeau_hv.jpg" },
@@ -293,16 +288,6 @@ const ailes = [
       { id: "fo11", title: "Ligue de Football", subject: "LFP X Inclusion", text: "Le championnat professionnel porté par les valeurs saines et le cécifoot.", image: "/artworks/sport_6.jpg", hc: true },
       { id: "fo12", title: "Bondy Cécifoot Club", subject: "Club X Inclusion", text: "L'emblème du serpent. Déficience visuelle, transmission et solidarité sur le terrain.", image: "/artworks/sport_7.jpg", hc: true },
       { id: "fo18", title: "La Ligue", subject: "Ligue Contre le Cancer", text: "Le maillot solidaire tissé par le soutien, les bénévoles et l'espoir face à la maladie.", image: "/artworks/ligue_cancer.jpg", hc: true }
-    ]
-  },
-  {
-    id: "langage",
-    title: "Le Langage",
-    color: "#424242", // Gris/Noir
-    description: "Les signes, les mots, la communication universelle forgée par les valeurs.",
-    artworks: [
-      { id: "lan1", title: "L'Accord Parfait", subject: "Signe OK", text: "Le respect et le partage tissent le langage universel de l'approbation.", image: "/artworks/hands_echo_ok.jpg" },
-      { id: "lan2", title: "L'Amour Universel", subject: "Cœur", text: "Handicap et inclusion s'entrelacent pour former le symbole absolu.", image: "/artworks/hands_echo_heart.jpg" }
     ]
   },
   {
