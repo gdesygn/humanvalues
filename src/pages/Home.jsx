@@ -67,7 +67,7 @@ const Home = () => {
           <Link to="/galerie#monuments" style={{ color: 'var(--hv-accent)' }}> Les Monuments</Link> — 
           <Link to="/galerie#artefacts" style={{ color: 'var(--hv-accent)' }}> Les Artefacts</Link> — 
           <Link to="/galerie#fluides" style={{ color: 'var(--hv-accent)' }}> Les Fluides</Link> — 
-          <Link to="/galerie#mythes" style={{ color: 'var(--hv-accent)' }}> Les Mythes</Link> — 
+          <Link to="/galerie#icones" style={{ color: 'var(--hv-accent)' }}> Les Icônes</Link> — 
           <Link to="/galerie#olympe" style={{ color: 'var(--hv-accent)' }}> L'Olympe</Link> — 
           <Link to="/galerie#arene" style={{ color: 'var(--hv-accent)' }}> L'Arène</Link> — 
           <Link to="/galerie#edifice" style={{ color: 'var(--hv-accent)' }}> L'Édifice</Link> — 

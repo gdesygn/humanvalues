@@ -119,7 +119,7 @@ const NexusCantona = () => {
         <p style={{ fontSize: '0.85rem', color: '#aaa', lineHeight: '1.8' }}>
           992 : 1992 – année de son arrivée fracassante à Manchester United. Le début du règne.<br />
           7 : Le numéro légendaire qu’il a porté à Old Trafford. Celui qu’il a transformé en mythe.<br />
-          -3 : Troisième Nexus de la catégorie des Mythes (ID m3).
+          -3 : Troisième Nexus de la catégorie des Icônes (ID m3).
         </p>
       </section>
 
