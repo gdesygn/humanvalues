@@ -12,6 +12,7 @@ import Confidentialite from './pages/Confidentialite';
 import NexusItalia from './pages/NexusItalia';
 import NexusMaradona from './pages/NexusMaradona';
 import NexusAli from './pages/NexusAli';
+import NexusEiffel from './pages/NexusEiffel';
 import Footer from './components/Footer';
 import './index.css';
 
@@ -63,6 +64,7 @@ function App() {
           <Route path="/nexus/italia" element={<NexusItalia />} />
           <Route path="/nexus/maradona" element={<NexusMaradona />} />
           <Route path="/nexus/ali" element={<NexusAli />} />
+          <Route path="/nexus/eiffel" element={<NexusEiffel />} />
         </Routes>
       </Layout>
     </Router>
