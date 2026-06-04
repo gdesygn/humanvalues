@@ -17,6 +17,7 @@ import NexusResilience from './pages/NexusResilience';
 import NexusCantona from './pages/NexusCantona';
 import NexusOcean from './pages/NexusOcean';
 import NexusEchiquier from './pages/NexusEchiquier';
+import NexusRatp from './pages/NexusRatp';
 import Footer from './components/Footer';
 import './index.css';
 
@@ -71,8 +72,9 @@ function App() {
           <Route path="/nexus/eiffel" element={<NexusEiffel />} />
           <Route path="/nexus/resilience" element={<NexusResilience />} />
            <Route path="/nexus/cantona" element={<NexusCantona />} />
-          <Route path="/nexus/ocean" element={<NexusOcean />} />
+           <Route path="/nexus/ocean" element={<NexusOcean />} />
           <Route path="/nexus/echiquier" element={<NexusEchiquier />} />
+          <Route path="/nexus/ratp" element={<NexusRatp />} />
         </Routes>
       </Layout>
     </Router>

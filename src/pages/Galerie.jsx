@@ -280,7 +280,7 @@ const ailes = [
       { id: "fo6", title: "CIC", subject: "Institution & Valeurs", text: "Construisons dans un monde qui bouge. Valeurs humaines et respect.", image: "/artworks/corp_3.jpg", hc: true },
       { id: "fo7", title: "La Poste", subject: "Institution & Valeurs", text: "Le lien humain. La poignée de main façonnée par l'inclusion et la fraternité.", image: "/artworks/corp_4.jpg", hc: true },
       { id: "fo8", title: "Carrefour", subject: "Institution & Valeurs", text: "Le grand croisement. L'inclusion au cœur de la distribution.", image: "/artworks/corp_5.jpg", hc: true },
-      { id: "fo9", title: "RATP", subject: "Institution & Valeurs", text: "La mobilité pour tous. Le visage de l'intégration tracé par la ligne bleue.", image: "/artworks/corp_6.jpg", hc: true },
+      { id: "fo9", title: "RATP", subject: "Institution & Valeurs", text: "La mobilité pour tous. Le visage de l'intégration tracé par la ligne bleue.", image: "/artworks/corp_6.jpg", hc: true, nexusUrl: "/nexus/ratp" },
       { id: "fo13", title: "Groupe Dubreuil", subject: "Institution & Valeurs", text: "L'envol inclusif. Le mécénat et l'autonomie gravés dans l'oiseau solaire.", image: "/artworks/corp_7.jpg", hc: true },
       { id: "fo14", title: "Les Jardins d'Arcadie", subject: "Institution & Valeurs", text: "L'arbre protecteur. L'accompagnement, la sérénité et le bien-être des seniors.", image: "/artworks/corp_8.jpg", hc: true },
       { id: "fo15", title: "Swiss", subject: "Institution & Valeurs", text: "L'empennage solidaire. La croix helvétique façonnée par l'inclusion et la transmission.", image: "/artworks/corp_9.jpg", hc: true },
