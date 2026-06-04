@@ -91,7 +91,7 @@ const ailes = [
       { id: "val18", title: "Régularité", subject: "Vertu Sportive", text: "Le lancer de marteau. La force centrifuge maîtrisée dans la régularité du geste.", image: "/artworks/valeur_18.jpg" },
       { id: "val19", title: "Individuel", subject: "Vertu Sportive", text: "Le lancer de disque. L'engagement total et solitaire de l'athlète.", image: "/artworks/valeur_19.jpg" },
       { id: "val20", title: "Énergie", subject: "Vertu Sportive", text: "Le lancer de poids. L'énergie explosive et concentrée pour repousser la masse.", image: "/artworks/valeur_20.jpg" },
-      { id: "val21", title: "Fauteuil & Résilience", subject: "Vertu Sportive", text: "Le tennis fauteuil. La frappe, la mobilité et la résilience pure.", image: "/artworks/valeur_21.jpg" },
+      { id: "val21", title: "Fauteuil & Résilience", subject: "Vertu Sportive", text: "Le tennis fauteuil. La frappe, la mobilité et la résilience pure.", image: "/artworks/valeur_21.jpg", nexusUrl: "/nexus/resilience" },
       { id: "val22", title: "Lame & Transcendance", subject: "Vertu Sportive", text: "Le sprint paralympique. La lame affûtée pour transcender les limites humaines.", image: "/artworks/valeur_22.jpg" },
       { id: "val23", title: "Descente & Équilibre", subject: "Vertu Sportive", text: "Le para-ski alpin. L'équilibre et la vitesse au service du dépassement de soi.", image: "/artworks/valeur_23.jpg" },
       { id: "val24", title: "Effort & Vélocité", subject: "Vertu Sportive", text: "Le para-cyclisme. L'effort mécanique et la vélocité repoussant l'horizon.", image: "/artworks/valeur_24.jpg" },

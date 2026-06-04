@@ -13,6 +13,7 @@ import NexusItalia from './pages/NexusItalia';
 import NexusMaradona from './pages/NexusMaradona';
 import NexusAli from './pages/NexusAli';
 import NexusEiffel from './pages/NexusEiffel';
+import NexusResilience from './pages/NexusResilience';
 import Footer from './components/Footer';
 import './index.css';
 
@@ -65,6 +66,7 @@ function App() {
           <Route path="/nexus/maradona" element={<NexusMaradona />} />
           <Route path="/nexus/ali" element={<NexusAli />} />
           <Route path="/nexus/eiffel" element={<NexusEiffel />} />
+          <Route path="/nexus/resilience" element={<NexusResilience />} />
         </Routes>
       </Layout>
     </Router>
