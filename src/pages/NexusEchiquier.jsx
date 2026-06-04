@@ -54,13 +54,13 @@ const NexusEchiquier = () => {
         <h2 style={{ fontSize: '2rem', marginBottom: '2rem' }}>Le Récit</h2>
 
         <p style={{ fontSize: '1.15rem', lineHeight: '1.9', marginBottom: '1.5rem', color: 'var(--hv-grey)' }}>
-          Soixante-quatre cases. Trente-deux pièces. Une infinité de destins. Le plateau de jeu n’est pas un champ de bataille physique, c’est une carte de l'esprit humain où chaque décision résonne plusieurs coups à l'avance.
+          Soixante-quatre cases. Trente-deux pièces. Une infinité de destins. Le plateau de jeu n’est pas un champ de bataille physique : c’est une carte de l’esprit humain où chaque décision résonne plusieurs coups à l’avance.
         </p>
         <p style={{ fontSize: '1.1rem', lineHeight: '1.9', marginBottom: '1.5rem', color: 'var(--hv-grey)' }}>
-          L’Échiquier des Valeurs redessine les figures mythiques de ce duel millénaire à travers la typographie de la charte HumanValues. Ici, le Roi n'est pas seulement le but ultime, il incarne l'humilité. La Dame symbolise la fluidité absolue, capable d'embrasser toutes les directions avec la même aisance.
+          L’Échiquier des Valeurs redessine les figures mythiques de ce duel millénaire à travers la typographie de la charte Humanvalues. Aucun trait ne sépare les pièces. Les mots Humanvalues les relient comme une seule partition de l’esprit.
         </p>
         <p style={{ fontSize: '1.1rem', lineHeight: '1.9', marginBottom: '1.5rem', color: 'var(--hv-grey)' }}>
-          Les Cavaliers, avec leur saut atypique au-dessus des lignes, dessinent le chemin de l'anticonformisme et de la créativité. Les Fous, dans leur trajectoire diagonale rectiligne, rappellent la rigueur et l'intégrité de la vision. Les Tours représentent l'ancrage et la structure stable. Et les Pions, avançant pas à pas, forment la cohésion d'un collectif uni et résolu.
+          Ici, le Roi n’est pas seulement le but ultime : il incarne l’humilité. La Dame symbolise la fluidité absolue, capable d’embrasser toutes les directions avec la même aisance. Les Cavaliers, avec leur saut atypique au-dessus des lignes, dessinent le chemin de l’anticonformisme et de la créativité. Les Tours représentent l’ancrage et la structure stable. Les Fous, prisonniers de leur diagonale de couleur, rappellent que l’intégrité exige parfois de renoncer à l’universel. Et les Pions, avançant pas à pas, forment la cohésion d’un collectif uni et résolu.
         </p>
         <p style={{ fontSize: '1.15rem', lineHeight: '1.9', fontStyle: 'italic', color: 'var(--hv-black)', fontWeight: '500' }}>
           Ce tirage sur Plexiglas capte la symétrie géométrique du jeu, mariant la froideur de la stratégie à la chaleur des valeurs qui le composent.
@@ -81,11 +81,11 @@ const NexusEchiquier = () => {
             },
             {
               valeur: 'Discipline',
-              texte: "La maîtrise absolue du temps, de l'espace de jeu et du calme intérieur nécessaire à la prise de décision."
+              texte: "Contre l'horloge, contre soi-même. Aux échecs, il n'y a pas de coup de chance – seulement la qualité de l'attention."
             },
             {
-              valeur: 'Ancrage',
-              texte: "Savoir tenir sa position, défendre ses structures et s'enraciner face à la pression adverse."
+              valeur: 'Cohésion',
+              texte: "Chaque pièce a sa fonction, mais aucune ne gagne seule. L'unité fait la force, des Pions au Roi."
             }
           ].map((v) => (
             <div key={v.valeur} style={{
@@ -126,6 +126,9 @@ const NexusEchiquier = () => {
         <p style={{ fontStyle: 'italic', color: '#aaa', marginBottom: '2rem' }}>
           L'essence de la stratégie et de l'esprit, sculptée par la typographie Human Values.<br /><br />
           — Le Conseil des Nexus
+        </p>
+        <p style={{ fontStyle: 'italic', color: '#aaa', marginBottom: '2rem' }}>
+          Ce que vous emportez : non un échiquier à jouer, mais un échiquier à méditer – chaque pièce une valeur, chaque valeur une partition de vous-même.
         </p>
         <p style={{ fontSize: '2.5rem', fontWeight: '600', color: 'white', marginBottom: '0.5rem' }}>890 €</p>
         <p style={{ fontSize: '0.9rem', color: '#777', marginBottom: '2.5rem' }}>Livraison offerte France · Certificat HV inclus</p>
