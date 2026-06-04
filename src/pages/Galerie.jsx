@@ -298,7 +298,7 @@ const ailes = [
   {
     id: "langage",
     title: "Le Langage",
-    color: "#3F51B5", // Indigo
+    color: "#424242", // Gris/Noir
     description: "Les signes, les mots, la communication universelle forgée par les valeurs.",
     artworks: [
       { id: "lan1", title: "L'Accord Parfait", subject: "Signe OK", text: "Le respect et le partage tissent le langage universel de l'approbation.", image: "/artworks/hands_echo_ok.jpg" },
