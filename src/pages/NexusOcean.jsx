@@ -24,7 +24,7 @@ const NexusOcean = () => {
           La source de vie et l'immensité aquatique
         </p>
         <p style={{ fontSize: '0.95rem', color: '#aaa', letterSpacing: '0.1em' }}>
-          Tirage Plexiglas – 100×80 cm – Édition signée et numérotée (certificat HV) – Image issue d’une archive sous licence
+          Tirage Plexiglas – 100×80 cm – Édition signée et numérotée (certificat HV) – Image issue d'une archive sous licence
         </p>
       </header>
 
@@ -54,19 +54,19 @@ const NexusOcean = () => {
         <h2 style={{ fontSize: '2rem', marginBottom: '2rem' }}>Le Récit</h2>
 
         <p style={{ fontSize: '1.15rem', lineHeight: '1.9', marginBottom: '1.5rem', color: 'var(--hv-grey)' }}>
-          L'eau n'a pas de forme. Elle prend celle de ce qui la contient, tout en façonnant le monde.
-        </p>
-        <p style={{ fontSize: '1.15rem', lineHeight: '1.9', marginBottom: '1.5rem', color: 'var(--hv-grey)' }}>
-          Cette création d'art typographique met en valeur le côté littéraire, éducatif et culturel de l'élément liquide. « H2O'CEAN » définit l'immensité aquatique, énergique et jaillissante. Elle est la source, l'origine, et la condition incontournable de toute forme de vie sur Terre – de l'homme au végétal, en passant par le règne animal.
+          L'eau n'a pas de forme. Elle prend celle de ce qui la contient – un ventre, une bouteille, un océan.
         </p>
         <p style={{ fontSize: '1.1rem', lineHeight: '1.9', marginBottom: '1.5rem', color: 'var(--hv-grey)' }}>
-          À travers cette œuvre, l'artiste donne corps à la valeur de la vie. La goutte d'eau y est représentée de manière imagée, rappelant par ses formes arrondies le ventre d'une femme enceinte portant la vie. Cette même goutte s'adapte, prend forme même par des températures bien en dessous de zéro degré dans les endroits les plus hostiles de notre globe. Une bouteille se dessine également, mettant en évidence un monde en bonne santé, en perpétuel mouvement et en constante régénération.
+          Cette création typographique donne corps à la valeur de la vie. La goutte d'eau y est représentée comme un ventre de femme enceinte. La bouteille évoque un monde en bonne santé, en mouvement perpétuel. Et la carte du monde, elle, raconte l'essentiel : sans eau, la Terre n'est qu'un caillou silencieux.
         </p>
         <p style={{ fontSize: '1.1rem', lineHeight: '1.9', marginBottom: '1.5rem', color: 'var(--hv-grey)' }}>
-          Au cœur de la création, la carte du monde donne toute sa puissance au rôle de l'eau face à la vie. Pour que cette carte prenne forme, l'artiste a dû apposer méticuleusement <strong>624 fois le mot « Océan »</strong> et utiliser <strong>312 fois le terme « H2O »</strong> à l'aide d'un logiciel de photographie. Une technique évolutive et exclusive permettant des variations de couleurs et de dégradés à l'infini.
+          Pour que cette carte prenne forme, l'artiste a apposé méticuleusement 624 fois le mot « Océan » et utilisé 312 fois le terme « H2O » à l'aide d'un logiciel de photographie. Une technique évolutive et exclusive permettant des variations de couleurs et de dégradés à l'infini. Vue de loin, on voit la Terre. Vue de près, on lit l'océan. C'est cette bascule d'échelle qui fait la puissance de l'œuvre.
         </p>
-        <p style={{ fontSize: '1.15rem', lineHeight: '1.9', fontStyle: 'italic', color: 'var(--hv-black)', fontWeight: '500' }}>
+        <p style={{ fontSize: '1.1rem', lineHeight: '1.9', marginBottom: '1.5rem', color: 'var(--hv-grey)' }}>
           Le tirage sur Plexiglas capte la brillance cristalline de l'eau, jouant avec la lumière comme les rayons du soleil à travers la surface de l'océan, offrant à l'œuvre une profondeur et une fluidité saisissantes.
+        </p>
+        <p style={{ fontSize: '1.15rem', lineHeight: '1.9', fontStyle: 'italic', color: 'var(--hv-black)', fontWeight: '500', marginBottom: '1.5rem' }}>
+          Premier tirage de la série « Fluides », H2O'CEAN ouvre une collection où l'élément devient écriture.
         </p>
         <p style={{ fontSize: '1.15rem', lineHeight: '1.9', fontStyle: 'italic', color: 'var(--hv-black)', fontWeight: '500' }}>
           Ce Nexus est une immersion dans l'élément originel. Une leçon de clarté et de persistance.
@@ -80,15 +80,15 @@ const NexusOcean = () => {
           {[
             {
               valeur: 'Vitalité',
-              texte: "L'eau comme arme naturelle indispensable à toutes les existences (humaine, végétale, animale). Donner la vie et traverser le temps."
+              texte: "L'eau comme source unique – aucune vie sans elle, aucune mémoire sans elle. Donner la vie et traverser le temps."
             },
             {
-              valeur: 'Pureté',
-              texte: "Sa fraîcheur éclatante, limpide et inodore, rappelant qu'« un monde sans eau est un monde dénudé de toute vie, terne et obscur »."
+              valeur: 'Clarté',
+              texte: "L'eau ne cache rien. Elle traverse, elle révèle, elle désaltère. Cette œuvre capture cette transparence radicale."
             },
             {
               valeur: 'Mouvement',
-              texte: "Un monde en perpétuel renouvellement et régénérant, symbolisé par les courbes de la goutte d'eau et le dessin de la bouteille."
+              texte: "Un monde en perpétuel renouvellement et en constante régénération, symbolisé par les courbes de la goutte d'eau et le dessin de la bouteille."
             }
           ].map((v) => (
             <div key={v.valeur} style={{
@@ -131,7 +131,7 @@ const NexusOcean = () => {
           — Le Conseil des Nexus
         </p>
         <p style={{ fontStyle: 'italic', color: '#aaa', marginBottom: '2rem' }}>
-          Ce que vous emportez : non une simple œuvre d'art, mais une immersion dans la source de toute vie.
+          Ce que vous emportez : non une image de l'eau, mais l'eau devenue image – son rythme, son abondance, son silence.
         </p>
         <p style={{ fontSize: '2.5rem', fontWeight: '600', color: 'white', marginBottom: '0.5rem' }}>890 €</p>
         <p style={{ fontSize: '0.9rem', color: '#777', marginBottom: '2.5rem' }}>Livraison offerte France · Certificat HV inclus</p>
