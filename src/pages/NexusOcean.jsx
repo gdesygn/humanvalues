@@ -54,10 +54,10 @@ const NexusOcean = () => {
         <h2 style={{ fontSize: '2rem', marginBottom: '2rem' }}>Le Récit</h2>
 
         <p style={{ fontSize: '1.15rem', lineHeight: '1.9', marginBottom: '1.5rem', color: 'var(--hv-grey)' }}>
-          L'eau n'a pas de forme. Elle prend celle de ce qui la contient – un ventre, une bouteille, un océan.
+          L'eau n'a pas de forme. Elle prend celle de ce qui la contient – un fleuve, un nuage, un océan.
         </p>
         <p style={{ fontSize: '1.1rem', lineHeight: '1.9', marginBottom: '1.5rem', color: 'var(--hv-grey)' }}>
-          Cette création typographique donne corps à la valeur de la vie. La goutte d'eau y est représentée comme un ventre de femme enceinte. La bouteille évoque un monde en bonne santé, en mouvement perpétuel. Et la carte du monde, elle, raconte l'essentiel : sans eau, la Terre n'est qu'un caillou silencieux.
+          Cette création typographique donne corps à la valeur de la vie. Dessinant les continents, elle met en évidence un monde en perpétuel mouvement. La carte raconte ainsi l'essentiel : sans eau, la Terre n'est qu'un caillou silencieux.
         </p>
         <p style={{ fontSize: '1.1rem', lineHeight: '1.9', marginBottom: '1.5rem', color: 'var(--hv-grey)' }}>
           Pour que cette carte prenne forme, l'artiste a apposé méticuleusement 624 fois le mot « Océan » et utilisé 312 fois le terme « H2O » à l'aide d'un logiciel de photographie. Une technique évolutive et exclusive permettant des variations de couleurs et de dégradés à l'infini. Vue de loin, on voit la Terre. Vue de près, on lit l'océan. C'est cette bascule d'échelle qui fait la puissance de l'œuvre.
@@ -88,7 +88,7 @@ const NexusOcean = () => {
             },
             {
               valeur: 'Mouvement',
-              texte: "Un monde en perpétuel renouvellement et en constante régénération, symbolisé par les courbes de la goutte d'eau et le dessin de la bouteille."
+              texte: "Un monde en perpétuel renouvellement et en constante régénération, porté par le flux et le cycle éternel de l'élément liquide."
             }
           ].map((v) => (
             <div key={v.valeur} style={{
