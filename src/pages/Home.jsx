@@ -63,8 +63,8 @@ const Home = () => {
         <p style={{ marginTop: '1.5rem', fontWeight: '500' }}>
           Parcourez les 13 ailes thématiques de notre Registre : <br/>
           <Link to="/galerie#ancrage" style={{ color: 'var(--hv-accent)' }}>L'Ancrage</Link> — 
-          <Link to="/galerie#monuments" style={{ color: 'var(--hv-accent)' }}> Les Monuments</Link> — 
           <Link to="/galerie#vertus" style={{ color: 'var(--hv-accent)' }}> Les Vertus</Link> — 
+          <Link to="/galerie#monuments" style={{ color: 'var(--hv-accent)' }}> Les Monuments</Link> — 
           <Link to="/galerie#artefacts" style={{ color: 'var(--hv-accent)' }}> Les Artefacts</Link> — 
           <Link to="/galerie#fluides" style={{ color: 'var(--hv-accent)' }}> Les Fluides</Link> — 
           <Link to="/galerie#mythes" style={{ color: 'var(--hv-accent)' }}> Les Mythes</Link> — 
