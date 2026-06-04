@@ -201,7 +201,7 @@ const ailes = [
   {
     id: "fluides",
     title: "Les Fluides",
-    color: "#4FC3F7", // Bleu Ciel
+    color: "#00BCD4", // Cyan (Même couleur que Les Vertus)
     description: "Le mouvement immatériel, la grâce, l'océan, la trace éphémère dans l'eau.",
     artworks: [
       { id: "f1", title: "H2O'CEAN", subject: "La Source", text: "L'immensité bleue, les vagues, la vie aquatique.", image: "/artworks/ocean_world.jpg", nexusUrl: "/nexus/ocean" },
