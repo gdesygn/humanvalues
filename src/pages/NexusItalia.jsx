@@ -28,25 +28,25 @@ const NexusItalia = () => {
         </p>
       </header>
 
-      {/* Vidéo */}
+      {/* Visuel */}
       <div style={{
         position: 'relative',
         width: '100%',
-        marginBottom: '5rem',
+        maxWidth: '500px',
+        margin: '0 auto 5rem auto',
         borderRadius: '4px',
         overflow: 'hidden',
-        boxShadow: '0 20px 60px rgba(0,0,0,0.15)'
+        boxShadow: '0 20px 60px rgba(0,0,0,0.15)',
+        backgroundColor: '#fafafa',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center'
       }}>
-        <video
-          autoPlay
-          loop
-          muted
-          playsInline
-          style={{ width: '100%', display: 'block', maxHeight: '600px', objectFit: 'cover' }}
-        >
-          <source src="/assets/images/plexi_video.mp4" type="video/mp4" />
-          <source src="/assets/images/plexi_video.mov" type="video/quicktime" />
-        </video>
+        <img
+          src="/artworks/italia_eagle.jpg"
+          alt="Nexus Italia"
+          style={{ width: '100%', display: 'block', maxHeight: '500px', objectFit: 'contain' }}
+        />
       </div>
 
       {/* Récit central */}

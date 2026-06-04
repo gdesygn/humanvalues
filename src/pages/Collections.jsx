@@ -100,18 +100,8 @@ const Collections = () => {
 
         {/* Carte 3 – Tirage Plexiglas Premium */}
         <div className="acquisition-card">
-          <div className="card-media" style={{ position: 'relative', overflow: 'hidden' }}>
-            <video 
-              autoPlay 
-              loop 
-              muted 
-              playsInline 
-              style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
-            >
-              <source src="/assets/images/plexi_video.mp4" type="video/mp4" />
-              <source src="/assets/images/plexi_video.mov" type="video/quicktime" />
-              Your browser does not support the video tag.
-            </video>
+          <div className="card-media" style={{ position: 'relative', overflow: 'hidden', height: '300px', backgroundColor: '#fafafa', display: 'flex', justifyContent: 'center' }}>
+            <img src="/artworks/italia_eagle.jpg" alt="Italia" style={{ width: '100%', height: '100%', objectFit: 'contain', display: 'block' }} />
           </div>
           <h3>Tirage Plexiglas – "Italia"<br/><span style={{ fontSize: '1rem', fontWeight: 'normal' }}>Édition signée XXL – 100x80 cm</span></h3>
           <p style={{ fontSize: '0.8rem', color: 'var(--hv-accent)', letterSpacing: '0.1em', textTransform: 'uppercase', marginBottom: '0.5rem' }}>Code HG : HG-877-443-1</p>
