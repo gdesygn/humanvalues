@@ -19,7 +19,7 @@ const NexusRatp = () => {
         </p>
         <h1 style={{ fontSize: '3.5rem', lineHeight: '1.1', marginBottom: '1.5rem' }}>RATP</h1>
         <p style={{ fontSize: '1.3rem', fontStyle: 'italic', color: 'var(--hv-grey)', marginBottom: '2rem' }}>
-          La mobilité pour tous, le visage de l'intégration tracé par la ligne bleue
+          Une revisite inclusive du logo historique, le visage de l'intégration tracé par la ligne bleue
         </p>
         <p style={{ fontSize: '0.95rem', color: '#aaa', letterSpacing: '0.1em' }}>
           Étude de style – Collection Privée Institutionnelle – Image issue d’une archive sous licence
@@ -52,7 +52,7 @@ const NexusRatp = () => {
         <h2 style={{ fontSize: '2rem', marginBottom: '2rem' }}>Le Récit</h2>
 
         <p style={{ fontSize: '1.15rem', lineHeight: '1.9', marginBottom: '1.5rem', color: 'var(--hv-grey)' }}>
-          Le visage de Paris. Un profil stylisé dessiné par le cours de la Seine, tourné vers le ciel, inséré dans un cercle de transport. Le logo de la RATP n'est pas seulement un symbole industriel : c'est la carte de la mobilité partagée qui relie des millions de trajectoires individuelles chaque jour.
+          Le visage de Paris. Un profil stylisé dessiné par le cours de la Seine, tourné vers le ciel, inséré dans un cercle de transport. Cette œuvre propose une revisite inclusive du logo historique de la RATP, où la silhouette familière se dessine à travers la typographie des valeurs d'intégration.
         </p>
         <p style={{ fontSize: '1.1rem', lineHeight: '1.9', marginBottom: '1.5rem', color: 'var(--hv-grey)' }}>
           HumanValues redessine cette silhouette iconique à travers les mots de l’intégration, de la diversité et du service public. La ligne bleue, fluide et continue, devient le fil d’Ariane qui unit la périphérie au centre, abolissant les distances pour faire de la ville un espace commun.
