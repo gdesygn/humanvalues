@@ -24,7 +24,7 @@ const NexusOcean = () => {
           La source de vie et l'immensité aquatique
         </p>
         <p style={{ fontSize: '0.95rem', color: '#aaa', letterSpacing: '0.1em' }}>
-          Tirage Plexiglas – 100×80 cm – Édition signée et numérotée (certificat HV) – Présentée sous l'égide de la Fondation François Schneider
+          Tirage Plexiglas – 100×80 cm – Édition signée et numérotée (certificat HV) – Image issue d’une archive sous licence
         </p>
       </header>
 
@@ -56,8 +56,8 @@ const NexusOcean = () => {
         <p style={{ fontSize: '1.15rem', lineHeight: '1.9', marginBottom: '1.5rem', color: 'var(--hv-grey)' }}>
           L'eau n'a pas de forme. Elle prend celle de ce qui la contient, tout en façonnant le monde.
         </p>
-        <p style={{ fontSize: '1.1rem', lineHeight: '1.9', marginBottom: '1.5rem', color: 'var(--hv-grey)' }}>
-          Présentée sous l'égide de la Fondation François Schneider, cette création d'art typographique met en valeur le côté littéraire, éducatif et culturel de l'élément liquide. « H2O'CEAN » définit l'immensité aquatique, énergique et jaillissante. Elle est la source, l'origine, et la condition incontournable de toute forme de vie sur Terre – de l'homme au végétal, en passant par le règne animal.
+        <p style={{ fontSize: '1.15rem', lineHeight: '1.9', marginBottom: '1.5rem', color: 'var(--hv-grey)' }}>
+          Cette création d'art typographique met en valeur le côté littéraire, éducatif et culturel de l'élément liquide. « H2O'CEAN » définit l'immensité aquatique, énergique et jaillissante. Elle est la source, l'origine, et la condition incontournable de toute forme de vie sur Terre – de l'homme au végétal, en passant par le règne animal.
         </p>
         <p style={{ fontSize: '1.1rem', lineHeight: '1.9', marginBottom: '1.5rem', color: 'var(--hv-grey)' }}>
           À travers cette œuvre, l'artiste donne corps à la valeur de la vie. La goutte d'eau y est représentée de manière imagée, rappelant par ses formes arrondies le ventre d'une femme enceinte portant la vie. Cette même goutte s'adapte, prend forme même par des températures bien en dessous de zéro degré dans les endroits les plus hostiles de notre globe. Une bouteille se dessine également, mettant en évidence un monde en bonne santé, en perpétuel mouvement et en constante régénération.
