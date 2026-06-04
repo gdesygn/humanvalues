@@ -238,7 +238,7 @@ const ailes = [
       { id: "ar6", title: "NX flying Dac", subject: "Basket", text: "Les éléments tactiques, le parquet, la balle.", image: "/artworks/ffbb_6.jpg" },
       { id: "ar7", title: "NX Wemby", subject: "Basket", text: "La formation, les Ligues, le maillot bleu.", image: "/artworks/ffbb_7.jpg" },
       { id: "ar8", title: "NX Ovni", subject: "Basket", text: "Les médailles, les sélections, l'impact mondial.", image: "/artworks/ffbb_8.jpg" },
-      { id: "ar9", title: "NX T.Parker", subject: "Basket", text: "L'esprit d'équipe, le pick and roll, la défense.", image: "/artworks/ffbb_9.jpg", hc: true },
+      { id: "ar9", title: "NX T.Parker", subject: "Basket", text: "L'esprit d'équipe, le pick and roll, la défense.", image: "/artworks/ffbb_9.jpg" },
       { id: "ar10", title: "NX TP vs TP", subject: "Basket", text: "La conclusion, le buzzer beater, la victoire collective.", image: "/artworks/ffbb_10.jpg" },
       { id: "ar11", title: "NX Champions 25", subject: "Club", text: "Champion 2025. La capitale s'impose sur les parquets.", image: "/artworks/paris_basket_1.jpg", hc: true },
       { id: "ar12", title: "NX PB Triomphe", subject: "Club", text: "L'identité visuelle du club de la Ville Lumière.", image: "/artworks/paris_basket_2.jpg", hc: true },
