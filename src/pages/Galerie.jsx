@@ -182,7 +182,7 @@ const ailes = [
     color: "#4FC3F7", // Bleu Ciel
     description: "Le mouvement immatériel, la grâce, l'océan, la trace éphémère dans l'eau.",
     artworks: [
-      { id: "f1", title: "H2O'CEAN", subject: "La Source", text: "L'immensité bleue, les vagues, la vie aquatique.", image: "/artworks/ocean_world.jpg" },
+      { id: "f1", title: "H2O'CEAN", subject: "La Source", text: "L'immensité bleue, les vagues, la vie aquatique.", image: "/artworks/ocean_world.jpg", nexusUrl: "/nexus/ocean" },
       { id: "f2", title: "VALEURS ET PROPRIETES", subject: "La Goutte", text: "L'étymologie de la mer, la fluidité de la typographie.", image: "/artworks/nexus_eau.jpg" }
     ]
   },
