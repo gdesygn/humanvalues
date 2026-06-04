@@ -52,16 +52,16 @@ const NexusRatp = () => {
         <h2 style={{ fontSize: '2rem', marginBottom: '2rem' }}>Le Récit</h2>
 
         <p style={{ fontSize: '1.15rem', lineHeight: '1.9', marginBottom: '1.5rem', color: 'var(--hv-grey)' }}>
-          Le visage de Paris. Un profil stylisé dessiné par le cours de la Seine, tourné vers le ciel, inséré dans un cercle de transport. Cette œuvre propose une revisite inclusive du logo historique de la RATP, où la silhouette familière se dessine à travers la typographie des valeurs d'intégration.
+          Le visage de Paris. Un profil stylisé dessiné par le cours de la Seine, tourné vers le ciel, inséré dans un cercle de transport. Depuis plus de trente ans, ce signe discret habite le regard des voyageurs, sans qu’ils le sachent vraiment. Humanvalues lui redonne une voix – celle des valeurs qui font bouger la ville.
         </p>
         <p style={{ fontSize: '1.1rem', lineHeight: '1.9', marginBottom: '1.5rem', color: 'var(--hv-grey)' }}>
-          HumanValues redessine cette silhouette iconique à travers les mots de l’intégration, de la diversité et du service public. La ligne bleue, fluide et continue, devient le fil d’Ariane qui unit la périphérie au centre, abolissant les distances pour faire de la ville un espace commun.
+          Cette œuvre propose une revisite inclusive du logo historique de la RATP, où la silhouette familière se dessine à travers la typographie des valeurs d'intégration. Humanvalues redessine cette silhouette iconique à travers les mots de l’intégration, de la diversité et du service public.
         </p>
         <p style={{ fontSize: '1.1rem', lineHeight: '1.9', marginBottom: '1.5rem', color: 'var(--hv-grey)' }}>
-          En tissant le tracé du fleuve parisien avec les termes de la fraternité et de l'accessibilité, l'œuvre rappelle que le plus beau des voyages est celui qui permet à chacun, sans distinction, de se déplacer librement et de trouver sa place.
+          La ligne bleue, fluide et continue, devient le fil d’Ariane qui unit la périphérie au centre, abolissant les distances pour faire de la ville un espace commun. En tissant le tracé du fleuve parisien avec les termes de la fraternité et de l'accessibilité, l'œuvre rappelle que le plus beau des voyages est celui qui permet à chacun, sans distinction, de se déplacer librement et de trouver sa place.
         </p>
         <p style={{ fontSize: '1.15rem', lineHeight: '1.9', fontStyle: 'italic', color: 'var(--hv-black)', fontWeight: '500' }}>
-          Cette étude de style démontre comment le design graphique peut réenchanter le quotidien des transports en lui redonnant sa vocation profondément humaine.
+          Réalisée dans le cadre d’une réflexion sur l’identité visuelle inclusive, cette étude de style démontre comment le design graphique peut réenchanter le quotidien des transports en lui redonnant sa vocation profondément humaine.
         </p>
       </section>
 
@@ -80,7 +80,7 @@ const NexusRatp = () => {
             },
             {
               valeur: 'Diversité',
-              texte: "À l'image de la métropole, un flux humain d'histoires et de cultures qui cheminent ensemble."
+              texte: "Des millions d’histoires qui ne se croiseraient jamais ailleurs que dans un métro. Humanvalues les écrit en une seule ligne."
             }
           ].map((v) => (
             <div key={v.valeur} style={{
@@ -106,8 +106,8 @@ const NexusRatp = () => {
           HG-194-892-9
         </p>
         <p style={{ fontSize: '0.85rem', color: '#aaa', lineHeight: '1.8' }}>
-          194 : 1948, loi de création de la RATP unifiant le réseau de transport francilien.<br />
-          892 : 1992, année d'adoption de l'actuel logo au profil de femme et fleuve.<br />
+          194 : 1948 – loi de création de la RATP unifiant le réseau de transport francilien.<br />
+          892 : 1992 – année d’adoption de l’actuel logo, le profil stylisé de la Seine devenu visage iconique de la mobilité parisienne (œuvre de Joel Collin).<br />
           -9 : Neuvième œuvre de la thématique de l'Édifice (id: fo9).
         </p>
       </section>
@@ -119,7 +119,8 @@ const NexusRatp = () => {
         </p>
         <h2 style={{ fontSize: '2rem', color: 'var(--hv-black)', marginBottom: '1rem' }}>Étude de style & Partenariat Institutionnel</h2>
         <p style={{ fontStyle: 'italic', color: 'var(--hv-grey)', maxWidth: '600px', margin: '0 auto 2rem auto', lineHeight: '1.6' }}>
-          Cette œuvre fait partie des archives privées de la maison. Elle n'est pas disponible à l'achat public, mais illustre le savoir-faire de HumanValues au service des institutions publiques.
+          Cette œuvre fait partie des archives privées de la maison. Elle n'est pas disponible à l'achat public, mais illustre le savoir-faire de HumanValues au service des institutions publiques.<br /><br />
+          <strong>Ce que cela représente :</strong> une preuve par le design que les valeurs peuvent s’incarner jusque dans les signes les plus familiers du quotidien. La revisite inclusive du tracé de la Seine et de la silhouette iconique de la mobilité parisienne.
         </p>
         
         <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', maxWidth: '400px', margin: '0 auto' }}>
