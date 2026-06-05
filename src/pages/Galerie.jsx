@@ -317,9 +317,9 @@ const ailes = [
     color: "#C25939", // Ocre / Or
     description: "L'icône absolue. Le génie argentin décliné sous ses trois maillots historiques.",
     artworks: [
-      { id: "nxm1", title: "L'Exil Doré", subject: "Inter Miami", text: "MAGIC, EFFICIENCY, STILLNESS. Le génie argentin sous les couleurs de la Floride.", image: "/artworks/messi_miami.jpg", hc: true },
       { id: "nxm2", title: "L'Âge d'Or", subject: "FC Barcelone", text: "SHARPNESS, IMMORTAL. La légende absolue sculptée aux couleurs du Camp Nou.", image: "/artworks/messi_fcb.jpg", hc: true },
-      { id: "nxm3", title: "La Consécration", subject: "AFA", text: "L'immortalité dorée. La consécration ultime avec l'Albiceleste.", image: "/artworks/messi_afa.jpg", hc: true }
+      { id: "nxm3", title: "La Consécration", subject: "AFA", text: "L'immortalité dorée. La consécration ultime avec l'Albiceleste.", image: "/artworks/messi_afa.jpg", hc: true },
+      { id: "nxm1", title: "L'Exil Doré", subject: "Inter Miami", text: "MAGIC, EFFICIENCY, STILLNESS. Le génie argentin sous les couleurs de la Floride.", image: "/artworks/messi_miami.jpg", hc: true }
     ]
   },
   {
