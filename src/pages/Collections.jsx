@@ -106,11 +106,12 @@ const Collections = () => {
               loop 
               muted 
               playsInline 
+              poster="/artworks/italia_eagle.jpg"
               style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
             >
               <source src="/assets/images/plexi_video.mp4" type="video/mp4" />
               <source src="/assets/images/plexi_video.mov" type="video/quicktime" />
-              Your browser does not support the video tag.
+              <img src="/artworks/italia_eagle.jpg" alt="Italia" style={{ width: '100%', height: '100%', objectFit: 'contain', display: 'block' }} />
             </video>
           </div>
           <h3>Tirage Plexiglas – "Italia"<br/><span style={{ fontSize: '1rem', fontWeight: 'normal' }}>Édition signée XXL – 100x80 cm</span></h3>
