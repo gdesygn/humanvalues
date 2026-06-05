@@ -153,7 +153,7 @@ const ailes = [
       { id: "ar12", title: "L'Origine Nike", subject: "Équipementier", text: "The Goddess of Victory. Philip Knight et la naissance du mythe.", image: "/artworks/nexus_nike_1.jpg", hc: true },
       { id: "ar13", title: "La Typographie", subject: "Équipementier", text: "No Fear. Keep Going. L'effort taillé dans la lettre massive.", image: "/artworks/nexus_nike_2.jpg", hc: true },
       { id: "ar14", title: "Le Swoosh", subject: "Équipementier", text: "L'épure parfaite. La virgule qui souligne les légendes.", image: "/artworks/nexus_nike_3.jpg", hc: true },
-      { id: "ar14_1", title: "MJ2.0", subject: "Équipementier", text: "Le Jumpman, le 23. L'empreinte de la légende tissée dans le tissu.", image: "/artworks/jordan_cap2.jpg", hc: true },
+
       { id: "ar14_2", title: "Venum", subject: "Équipementier", text: "Les crocs du serpent. L'équipement martial, officiel de l'UFC, taillé dans l'impact.", image: "/artworks/venum.jpg", hc: true },
       { id: "ar15", title: "Les 3 Bandes | Clubs", subject: "Adidas", text: "Real Madrid, Juventus, All Blacks... Les géants réunis sous le même logo.", image: "/artworks/adidas_1.jpg", hc: true },
       { id: "ar16", title: "Les 3 Bandes | Athlètes", subject: "Adidas", text: "Messi, Mahomes, Serena... Les icônes qui forgent l'histoire du sport.", image: "/artworks/adidas_2.jpg", hc: true },
