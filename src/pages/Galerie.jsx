@@ -259,7 +259,7 @@ const ailes = [
       { id: "ar17", title: "L'Étoile du PSG", subject: "Club de Football", text: "L'effectif 2024/2025 gravé dans l'étoile. Enrique, Marquinhos, Barcola, Dembele.", image: "/artworks/psg_1.jpg", hc: true },
       { id: "ar18", title: "Le Cadratin", subject: "Rugby", text: "La course folle du Top 14, forgée par les noms des clubs et instances.", image: "/artworks/rugby_1.jpg" },
       { id: "ar19", title: "Jour de gloire", subject: "Rugby", text: "L'ombre du joueur façonnée par les chiffres de la Coupe du Monde 2023.", image: "/artworks/rugby_2.jpg" },
-      { id: "ar20", title: "L'ovalie !", subject: "Rugby", text: "L'essence du jeu encapsulée dans la typographie du tournoi mondial.", image: "/artworks/rugby_3.jpg" },
+      { id: "ar20", title: "L'ovalie", subject: "Rugby", text: "L'essence du jeu encapsulée dans la typographie du tournoi mondial.", image: "/artworks/rugby_3.jpg" },
       { id: "ar21", title: "Le Trophée Webb Ellis", subject: "Rugby", text: "Le Graal du rugby, taillé dans les mots de la Coupe du Monde.", image: "/artworks/rugby_4.jpg" },
       { id: "ar21_1", title: "Fly Emirates F1", subject: "Course Automobile", text: "L'aérodynamisme taillé dans le texte, l'alliance de la vitesse et de la puissance.", image: "/artworks/emirates_f1.jpg", hc: true },
       { id: "ar22", title: "La Puissance Pure", subject: "Cyclisme", text: "La puissance pure. L'arc-en-ciel sur les routes, la domination d'un champion hors norme.", image: "/artworks/sport_8.jpg", hc: true },
