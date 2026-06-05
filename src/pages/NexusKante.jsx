@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 const NexusKante = () => {
   return (
     <div style={{ maxWidth: '900px', margin: '0 auto', padding: '4rem 2rem 8rem' }}>
-
       {/* Breadcrumb */}
       <p style={{ fontSize: '0.85rem', color: '#999', marginBottom: '2rem' }}>
         <Link to="/galerie" style={{ color: '#999', textDecoration: 'none' }}>Le Registre</Link>
@@ -17,7 +16,7 @@ const NexusKante = () => {
       {/* Hero */}
       <header style={{ textAlign: 'center', marginBottom: '4rem' }}>
         <p style={{ fontSize: '0.85rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'var(--hv-accent)', marginBottom: '1rem' }}>
-          Code HG : HG-007-FFF-1
+          Code HG : HG-2018-7-1
         </p>
         <h1 style={{ fontSize: '3.5rem', lineHeight: '1.1', marginBottom: '1.5rem' }}>N'Golo Kanté | Le Cœur Tricolore</h1>
         <p style={{ fontSize: '1.3rem', fontStyle: 'italic', color: 'var(--hv-grey)', marginBottom: '2rem' }}>
@@ -41,7 +40,7 @@ const NexusKante = () => {
       }}>
         <img
           src="/artworks/nexus_kante.jpg"
-          alt="Nexus Kanté"
+          alt="Nexus Kanté - Le Cœur Tricolore"
           style={{ width: '100%', display: 'block', maxHeight: '600px', objectFit: 'contain' }}
         />
       </div>
@@ -49,26 +48,32 @@ const NexusKante = () => {
       {/* Récit central */}
       <section style={{ marginBottom: '5rem', borderLeft: '4px solid var(--hv-accent)', paddingLeft: '2rem' }}>
         <h2 style={{ fontSize: '2rem', marginBottom: '2rem' }}>Le Récit</h2>
-
         <p style={{ fontSize: '1.15rem', lineHeight: '1.9', marginBottom: '1.5rem', color: 'var(--hv-grey)' }}>
-          N'Golo Kanté ne court pas pour lui, il court pour les autres. 
+          N'Golo Kanté ne court pas pour lui, il court pour les autres.
         </p>
         <p style={{ fontSize: '1.1rem', lineHeight: '1.9', marginBottom: '1.5rem', color: 'var(--hv-grey)' }}>
-          Depuis ses débuts humbles à Suresnes, en passant par Boulogne et Caen, jusqu'au sommet du football mondial avec Leicester, Chelsea et l'Équipe de France, son ascension est une leçon d'abnégation. Il n'a jamais réclamé la lumière, mais ses performances l'y ont inévitablement placé.
+          Né le <strong>29 mars 1991 à Paris</strong>, il a gravi un à un tous les échelons : <strong>Suresnes, Boulogne, Caen, Leicester, Chelsea, Al-Ittihad</strong>. 
+          Champion du monde <strong>2018</strong>, vainqueur de la <strong>Ligue des Champions 2021</strong>, champion d'Angleterre à deux reprises… 
+          mais jamais il n'a changé de visage.
         </p>
         <p style={{ fontSize: '1.1rem', lineHeight: '1.9', marginBottom: '1.5rem', color: 'var(--hv-grey)' }}>
-          Le coq français, emblème de toute une nation, est ici entièrement tissé par son nom. Une répétition infinie, à l'image de ses efforts sur le terrain. Il est partout. Il récupère, il relance, il sourit. Et la France gagne.
+          Depuis ses débuts humbles jusqu'au sommet du football mondial, son ascension est une leçon d'abnégation. 
+          Il n'a jamais réclamé la lumière, mais ses performances l'y ont inévitablement placé.
         </p>
-        <p style={{ fontSize: '1.1rem', lineHeight: '1.9', marginBottom: '2rem', color: 'var(--hv-grey)' }}>
-          Champion du Monde 2018, vainqueur de la Ligue des Champions, il possède l'un des palmarès les plus complets de l'histoire du football français. Mais plus que les trophées, c'est son aura qui marque les esprits : l'unanimité absolue autour d'un homme qui a fait de la simplicité une arme redoutable.
+        <p style={{ fontSize: '1.1rem', lineHeight: '1.9', marginBottom: '1.5rem', color: 'var(--hv-grey)' }}>
+          Le coq français, emblème de toute une nation, est ici entièrement tissé par son nom. Une répétition infinie, à l'image de ses efforts sur le terrain. 
+          Il est partout. Il récupère, il relance, il sourit. Et la France gagne.
         </p>
-
+        <p style={{ fontSize: '1.1rem', lineHeight: '1.9', marginBottom: '1.5rem', color: 'var(--hv-grey)' }}>
+          <strong>Le tirage sur Plexiglas</strong> capture l'intensité de son regard et la répétition infinie de son nom – 
+          comme ses courses, invisibles mais décisives.
+        </p>
         <p style={{ fontSize: '1.15rem', lineHeight: '1.9', fontStyle: 'italic', color: 'var(--hv-black)', fontWeight: '500' }}>
           Cette œuvre rend hommage à l'âme bleue de l'équipe de France. Le cœur battant du coq tricolore.
         </p>
       </section>
 
-      {/* Valeurs */}
+      {/* Valeurs associées */}
       <section style={{ marginBottom: '5rem' }}>
         <h2 style={{ fontSize: '2rem', marginBottom: '2rem' }}>Valeurs associées</h2>
         <div style={{ display: 'grid', gap: '1.5rem' }}>
@@ -82,8 +87,8 @@ const NexusKante = () => {
               texte: "L'effort invisible qui rend possible la gloire collective."
             },
             {
-              valeur: 'Résilience',
-              texte: "Des divisions inférieures au toit du monde. Un parcours forgé dans le travail."
+              valeur: 'Joie',
+              texte: "Le sourire qui ne triche pas. Même après avoir couru 12 km, même après avoir tout gagné."
             },
             {
               valeur: 'Collectif',
@@ -104,18 +109,27 @@ const NexusKante = () => {
         </div>
       </section>
 
-      {/* Code HG */}
+      {/* Signification du Code HG */}
       <section style={{ marginBottom: '5rem', textAlign: 'center', padding: '3rem', border: '1px solid #e0e0e0' }}>
         <p style={{ fontSize: '0.8rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: '#aaa', marginBottom: '1rem' }}>
           Identifiant Nexus
         </p>
         <p style={{ fontSize: '2.5rem', fontFamily: 'var(--font-heading)', color: 'var(--hv-accent)', letterSpacing: '0.1em', marginBottom: '1rem' }}>
-          HG-007-FFF-1
+          HG-2018-7-1
         </p>
         <p style={{ fontSize: '0.85rem', color: '#aaa', lineHeight: '1.8' }}>
-          007 : Le numéro fétiche, l'agent silencieux au milieu de terrain.<br />
-          FFF : Le coq, la nation, les deux étoiles.<br />
-          1 : Premier tirage de la série.
+          <strong>2018</strong> : Année du sacre mondial avec les Bleus – la consécration ultime.<br />
+          <strong>7</strong> : Son numéro de maillot en équipe de France, devenu légendaire.<br />
+          <strong>1</strong> : Premier tirage de la série des « Cœurs Tricolores ».
+        </p>
+      </section>
+
+      {/* Ce que vous emportez */}
+      <section style={{ marginBottom: '5rem', textAlign: 'center', padding: '2rem', backgroundColor: '#f5f5f5', borderRadius: '4px' }}>
+        <h2 style={{ fontSize: '1.5rem', marginBottom: '1rem', letterSpacing: '0.05em' }}>Ce que vous emportez</h2>
+        <p style={{ fontSize: '1.2rem', fontStyle: 'italic', color: 'var(--hv-grey)', maxWidth: '600px', margin: '0 auto', lineHeight: '1.8' }}>
+          « Ce que vous emportez : non un portrait de star, mais le visage de l'humilité triomphante – 
+          un homme qui a gagné le monde sans jamais cesser de sourire. »
         </p>
       </section>
 
@@ -124,13 +138,13 @@ const NexusKante = () => {
         <p style={{ fontSize: '0.85rem', letterSpacing: '0.15em', textTransform: 'uppercase', color: '#aaa', marginBottom: '1rem' }}>
           Édition signée XXL – 100×80 cm
         </p>
-        <h2 style={{ fontSize: '2rem', color: 'white', marginBottom: '0.5rem' }}>Tirage Plexiglas – "Kanté"</h2>
+        <h2 style={{ fontSize: '2rem', color: 'white', marginBottom: '0.5rem' }}>Tirage Plexiglas – "Kanté | Le Cœur Tricolore"</h2>
         <p style={{ fontStyle: 'italic', color: '#aaa', marginBottom: '2rem' }}>
-          "71% de la surface de la terre est couverte d'eau. Le reste est couvert par N'Golo Kanté."<br/>
-          Le mythe devenu réalité.<br/><br/>
-          — Le Conseil des Nexus
+          "71% de la surface de la terre est couverte d'eau. Le reste est couvert par N'Golo Kanté."<br />
+          Le mythe devenu réalité.
         </p>
-        <p style={{ fontSize: '2.5rem', fontWeight: '600', color: 'white', marginBottom: '0.5rem' }}>890 €</p>
+        <p style={{ fontSize: '0.9rem', color: '#777', marginBottom: '0.5rem' }}>— Le Conseil des Nexus</p>
+        <p style={{ fontSize: '2.5rem', fontWeight: '600', color: 'white', marginBottom: '0.5rem', marginTop: '1.5rem' }}>890 €</p>
         <p style={{ fontSize: '0.9rem', color: '#777', marginBottom: '2.5rem' }}>Livraison offerte France · Certificat HV inclus</p>
         <Link
           to="/collections"
@@ -151,7 +165,6 @@ const NexusKante = () => {
           🖼️ Contacter la galerie
         </Link>
       </section>
-
     </div>
   );
 };
