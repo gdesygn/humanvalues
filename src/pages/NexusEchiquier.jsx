@@ -34,10 +34,6 @@ const NexusEchiquier = () => {
         width: '100%',
         maxWidth: '500px',
         margin: '0 auto 5rem auto',
-        borderRadius: '4px',
-        overflow: 'hidden',
-        boxShadow: '0 20px 60px rgba(0,0,0,0.15)',
-        backgroundColor: '#fafafa',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center'
