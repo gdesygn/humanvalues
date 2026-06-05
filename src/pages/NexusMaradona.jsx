@@ -33,10 +33,7 @@ const NexusMaradona = () => {
         position: 'relative',
         width: '100%',
         maxWidth: '500px',
-        margin: '0 auto 5rem auto',
-        borderRadius: '4px',
-        overflow: 'hidden',
-        boxShadow: '0 20px 60px rgba(0,0,0,0.15)'
+        margin: '0 auto 5rem auto'
       }}>
         <img
           src="/artworks/olympe_maradona.jpg"
