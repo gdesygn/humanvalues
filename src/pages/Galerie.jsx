@@ -187,7 +187,7 @@ const ailes = [
       { id: "mon11", title: "Tour Eiffel", subject: "Monument", text: "La Grande Dame, l'élégance architecturale s'élevant au-dessus de Paris.", image: "/artworks/monument_7.jpg", nexusUrl: "/nexus/eiffel" },
       { id: "mon12", title: "La Bonne Mère", subject: "Monument", text: "Notre-Dame de la Garde, la protectrice de la cité phocéenne.", image: "/artworks/monument_11.jpg" },
       { id: "mon13", title: "Masque Vénitien", subject: "Culture", text: "L'énigme du carnaval, l'élégance mystérieuse de la Sérénissime dissimulée derrière le masque.", image: "/artworks/monument_8.jpg" },
-      { id: "mon14", title: "L'Emblème 2025", subject: "Collection HumanValues", text: "Le flambeau de la liberté hissé par les mots. L'icône fondatrice de la collection artistique 2025.", image: "/artworks/flambeau_hv.jpg" },
+      { id: "mon14", title: "L'Emblème 2025", subject: "HumanValues", text: "Le flambeau de la liberté hissé par les mots. L'icône fondatrice de la collection artistique 2025.", image: "/artworks/flambeau_hv.jpg" },
       { id: "mon15", title: "Danseuse du Lido", subject: "Spectacle", text: "L'élégance parisienne, le glamour intemporel et la magie des revues des Champs-Élysées.", image: "/artworks/monument_5.jpg" },
       { id: "mon16", title: "The Greatest", subject: "Légende Absolue", text: "Muhammad Ali. Cassius Clay. Le visage de la légende sculpté dans l'éternité.", image: "/artworks/ali.jpg", nexusUrl: "/nexus/ali" }
     ]
@@ -280,7 +280,7 @@ const ailes = [
     color: "#607D8B", // Bleu Gris
     description: "La transmission, les valeurs humaines, l'inclusion, la chaleur du groupe.",
     artworks: [
-      { id: "fo_logo", title: "L'Emblème 2025", subject: "Collection HumanValues", text: "Le flambeau de la liberté hissé par les mots. L'icône fondatrice de la collection artistique 2025.", image: "/artworks/flambeau_hv.jpg" },
+      { id: "fo_logo", title: "L'Emblème 2025", subject: "HumanValues", text: "Le flambeau de la liberté hissé par les mots. L'icône fondatrice de la collection artistique 2025.", image: "/artworks/flambeau_hv.jpg" },
       { id: "fo16", title: "L'Accord Inclusif", subject: "UNESCO X Inclusion", text: "La poignée de main universelle. Diversité, autisme, soutien aux aînés et valeurs partagées à l'échelle mondiale.", image: "/artworks/concept_unesco.jpg" },
       { id: "fo17", title: "NX Ivry S/Seine", subject: "Territoire & Inclusion", text: "L'identité de la ville tissée par les mots de l'inclusion, du handicap et de la solidarité. Hommage à Philippe Bouyssou.", image: "/artworks/ivry_inclusion.jpg", hc: true },
       { id: "fo1", title: "NX Logo FFBB", subject: "FFBB X Inclusion", text: "L'empathie, la solidarité, l'humanité. Le handicap visible et invisible.", image: "/artworks/inclusion_1.jpg", hc: true },
