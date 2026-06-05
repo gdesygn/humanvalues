@@ -19,7 +19,7 @@ const NexusJumpman = () => {
         <p style={{ fontSize: '0.85rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'var(--hv-accent)', marginBottom: '1rem' }}>
           Code HG : HG-023-006-1
         </p>
-        <h1 style={{ fontSize: '3.5rem', lineHeight: '1.1', marginBottom: '1.5rem' }}>His Airness</h1>
+        <h1 style={{ fontSize: '3.5rem', lineHeight: '1.1', marginBottom: '1.5rem' }}>Michael Jordan | His Airness</h1>
         <p style={{ fontSize: '1.3rem', fontStyle: 'italic', color: 'var(--hv-grey)', marginBottom: '2rem' }}>
           Le GOAT absolu sculpté par ses records et ses Final MVPs.
         </p>
@@ -33,12 +33,16 @@ const NexusJumpman = () => {
         position: 'relative',
         width: '100%',
         maxWidth: '500px',
-        margin: '0 auto 5rem auto'
+        margin: '0 auto 5rem auto',
+        borderRadius: '4px',
+        overflow: 'hidden',
+        boxShadow: '0 20px 60px rgba(0,0,0,0.15)',
+        backgroundColor: '#000'
       }}>
         <img
           src="/artworks/sport_14.jpg"
-          alt="Nexus Jumpman 23"
-          style={{ width: '100%', display: 'block', maxHeight: '400px', objectFit: 'contain' }}
+          alt="Nexus Jumpman 23 - Michael Jordan His Airness"
+          style={{ width: '100%', display: 'block', maxHeight: '600px', objectFit: 'contain' }}
         />
       </div>
 
@@ -69,18 +73,18 @@ const NexusJumpman = () => {
         </div>
 
         <p style={{ fontSize: '1.1rem', lineHeight: '1.9', marginBottom: '1.5rem', color: 'var(--hv-grey)' }}>
+          <strong>Le tirage sur Plexiglas</strong> capture l'élan de cette silhouette suspendue dans le vide – comme Jordan au sommet de son saut, figé pour l'éternité.
+        </p>
+
+        <p style={{ fontSize: '1.1rem', lineHeight: '1.9', marginBottom: '1.5rem', color: 'var(--hv-grey)' }}>
           "I've failed over and over and over again in my life. And that is why I succeed." C'est par cette obsession de la perfection, par cette soif inextinguible de victoire, qu'il s'est élevé au-dessus de tous. 
         </p>
         <p style={{ fontSize: '1.1rem', lineHeight: '1.9', marginBottom: '1.5rem', color: 'var(--hv-grey)' }}>
           Son empreinte va bien au-delà des parquets. Il est le symbole ultime du dépassement de soi, l'icône culturelle dont l'envol est figé pour l'éternité dans l'imaginaire collectif.
         </p>
-        
-        <p style={{ fontSize: '1.15rem', lineHeight: '1.9', fontStyle: 'italic', color: 'var(--hv-black)', fontWeight: '500' }}>
-          Ce que vous emportez n'est pas qu'une image de basketball, c'est l'incarnation absolue de la volonté de vaincre.
-        </p>
       </section>
 
-      {/* Valeurs */}
+      {/* Valeurs associées */}
       <section style={{ marginBottom: '5rem' }}>
         <h2 style={{ fontSize: '2rem', marginBottom: '2rem' }}>Valeurs associées</h2>
         <div style={{ display: 'grid', gap: '1.5rem' }}>
@@ -99,7 +103,7 @@ const NexusJumpman = () => {
             },
             {
               valeur: 'Héritage',
-              texte: "Une empreinte culturelle, stylistique et sportive immortelle."
+              texte: "Avant lui, le basket était un sport. Après lui, il est devenu une culture. Les sneakers, les films, la légende – tout porte son empreinte."
             }
           ].map((v) => (
             <div key={v.valeur} style={{
@@ -116,7 +120,7 @@ const NexusJumpman = () => {
         </div>
       </section>
 
-      {/* Code HG */}
+      {/* Signification du Code HG */}
       <section style={{ marginBottom: '5rem', textAlign: 'center', padding: '3rem', border: '1px solid #e0e0e0' }}>
         <p style={{ fontSize: '0.8rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: '#aaa', marginBottom: '1rem' }}>
           Identifiant Nexus
@@ -125,9 +129,17 @@ const NexusJumpman = () => {
           HG-023-006-1
         </p>
         <p style={{ fontSize: '0.85rem', color: '#aaa', lineHeight: '1.8' }}>
-          023 : Le numéro mythique de Sa Majesté.<br />
-          006 : Les 6 titres NBA, les 6 trophées de MVP des Finales.<br />
-          1 : Le statut unique de GOAT.
+          <strong>023</strong> : Le numéro mythique de Sa Majesté, entré dans la légende.<br />
+          <strong>006</strong> : Les 6 titres NBA et les 6 trophées de MVP des Finales – un doublé inégalé.<br />
+          <strong>1</strong> : Le statut unique de GOAT. Il n'y en a qu'un.
+        </p>
+      </section>
+
+      {/* Ce que vous emportez */}
+      <section style={{ marginBottom: '5rem', textAlign: 'center', padding: '2rem', backgroundColor: '#f5f5f5', borderRadius: '4px' }}>
+        <h2 style={{ fontSize: '1.5rem', marginBottom: '1rem', letterSpacing: '0.05em' }}>Ce que vous emportez</h2>
+        <p style={{ fontSize: '1.2rem', fontStyle: 'italic', color: 'var(--hv-grey)', maxWidth: '600px', margin: '0 auto', lineHeight: '1.8' }}>
+          « Ce que vous emportez n'est pas qu'une image de basketball, c'est l'incarnation absolue de la volonté de vaincre. »
         </p>
       </section>
 
