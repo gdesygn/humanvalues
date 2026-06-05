@@ -139,7 +139,7 @@ const ailes = [
       { id: "ar1_3", title: "Vendée Océan", subject: "Territoire", text: "L'empreinte maritime et l'horizon bleu de la côte vendéenne 85160.", image: "/artworks/vendee_ocean.jpg" },
       { id: "ar1_4", title: "Le Cœur Vendéen", subject: "Emblème", text: "Le double cœur entrelacé. L'âme, la passion et l'histoire du 85.", image: "/artworks/vendee_coeur.jpg" },
       { id: "ar2", title: "Le Gouvernail", subject: "Objet", text: "La direction, le cap maintenu contre vents et marées.", image: "/artworks/obj_region_2.jpg" },
-      { id: "ar1", title: "Destination 85160", subject: "Objet", text: "L'héritage maritime, l'ancrage sur le littoral vendéen.", image: "/artworks/stjean_boat.jpg" },
+      { id: "ar1", title: "Destination 85160", subject: "Objet", text: "L'héritage maritime, l'ancrage sur le littoral vendéen.", image: "/artworks/BARQUE.jpg" },
       { id: "ar3", title: "Vin Bordelais", subject: "Objet de Région", text: "Le cépage, la robe, le millésime. Le savoir-faire des vignobles.", image: "/artworks/bordeaux.jpg" },
       { id: "ar4", title: "Le Ruban", subject: "Saint-Étienne", text: "L'excellence de la passementerie, le textile de luxe, l'artisanat du XVIIe.", image: "/artworks/st_etienne_1.jpg" },
       { id: "ar5", title: "Lampe de Mineur", subject: "Saint-Étienne", text: "Le Bassin Forézien, l'or noir, la lumière dans les profondeurs de la Terre.", image: "/artworks/st_etienne_2.jpg" },
