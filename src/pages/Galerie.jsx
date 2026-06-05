@@ -204,6 +204,7 @@ const ailes = [
       { id: "m3", title: "The King", subject: "Football", text: "Le col relevé. The King, la poésie rebelle et le théâtre des rêves.", image: "/artworks/portrait_3.jpg", nexusUrl: "/nexus/cantona" },
       { id: "m4", title: "Galactic", subject: "Football", text: "Zizou. La roulette, la grâce absolue, la finale 98.", image: "/artworks/portrait_4.jpg" },
       { id: "m5", title: "Goleador", subject: "Football", text: "La fulgurance. La vitesse pure, la coupe du monde à 19 ans.", image: "/artworks/portrait_5.jpg" },
+      { id: "m15", title: "The Austrian Oak", subject: "Cinéma & Légende", text: "Arnie. Gouvernator. Schwarzy. L'incarnation du rêve américain et de la volonté absolue.", image: "/artworks/arnold_schwarzenegger.jpg" },
       { id: "m6", title: "Krongsak | Origins", subject: "Muay Thaï", text: "Guerrier né d'un art royal. Nak Muay. Respect. Knees.", image: "/artworks/martial_arts_1.jpg" },
       { id: "m7", title: "Krongsak | Mindset", subject: "Muay Thaï", text: "L\'esprit martial, la garde d'acier, la posture royale.", image: "/artworks/martial_arts_2.jpg" },
       { id: "m8", title: "Skarbowsky | L'Héritage", subject: "Muay Thaï", text: "Jean-Charles Skarbowsky. KO 51, Victories 75. La fiole des statistiques.", image: "/artworks/martial_arts_3.jpg" },
@@ -214,7 +215,6 @@ const ailes = [
       { id: "m12", title: "L'Intouchable", subject: "Cinéma & Parcours", text: "L'ascension fulgurante. De Trappes à Hollywood, le sourire de la France.", image: "/artworks/omar_sy.jpg" },
       { id: "m13", title: "La Vérité de José", subject: "Cinéma & Humour", text: "Le rire flamboyant. De Nulle Part Ailleurs aux sommets du box-office.", image: "/artworks/jose_garcia.jpg" },
       { id: "m14", title: "Diogo JOTA 20", subject: "Football", text: "Toute l'histoire du Liverpool FC et de Diogo Jota racontée à travers l'oiseau mythique du club.", image: "/artworks/diogo_jota_lfc.jpg", hc: true },
-      { id: "m15", title: "The Austrian Oak", subject: "Cinéma & Légende", text: "Arnie. Gouvernator. Schwarzy. L'incarnation du rêve américain et de la volonté absolue.", image: "/artworks/arnold_schwarzenegger.jpg" },
       { id: "m16", title: "CR7", subject: "Football & Légende", text: "L'obsession de la perfection. Le numéro mythique entièrement tissé par l'identité de Cristiano Ronaldo.", image: "/artworks/cr7.jpg", hc: true },
       { id: "m17", title: "NX Donnarumma", subject: "Football", text: "Le rempart ultime. L'envergure du gardien sculptée par le PSG, l'AC Milan et la Ligue des Champions.", image: "/artworks/donnarumma.jpg", hc: true },
       { id: "m20", title: "N'Golo Kanté", subject: "Football", text: "Le Cœur Tricolore. Le moteur inépuisable sculpté dans l'emblème national.", image: "/artworks/nexus_kante.jpg", nexusUrl: "/nexus/kante", hc: true }
