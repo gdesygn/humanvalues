@@ -91,19 +91,41 @@ const ailes = [
       { id: "val18", title: "Régularité", subject: "Vertu Sportive", text: "Le lancer de marteau. La force centrifuge maîtrisée dans la régularité du geste.", image: "/artworks/valeur_18.jpg" },
       { id: "val19", title: "Individuel", subject: "Vertu Sportive", text: "Le lancer de disque. L'engagement total et solitaire de l'athlète.", image: "/artworks/valeur_19.jpg" },
       { id: "val20", title: "Énergie", subject: "Vertu Sportive", text: "Le lancer de poids. L'énergie explosive et concentrée pour repousser la masse.", image: "/artworks/valeur_20.jpg" },
-      { id: "val21", title: "Athlétisme Fauteuil & Résilience", subject: "Vertu Sportive", text: "L'athlétisme fauteuil. L'art de l'inclinaison, du braquet et de la résilience pure.", image: "/artworks/valeur_21.jpg", nexusUrl: "/nexus/resilience" },
+      { id: "val21", title: "Athlétisme Fauteuil & Résilience", subject: "Vertu Sportive", text: "L'athlétisme fauteuil. L'art de l'inclinaison, du braquet et de la résilience pure.", image: "/artworks/valeur_21.jpg" },
       { id: "val22", title: "Lame & Transcendance", subject: "Vertu Sportive", text: "Le sprint paralympique. La lame affûtée pour transcender les limites humaines.", image: "/artworks/valeur_22.jpg" },
       { id: "val23", title: "Descente & Équilibre", subject: "Vertu Sportive", text: "Le para-ski alpin. L'équilibre et la vitesse au service du dépassement de soi.", image: "/artworks/valeur_23.jpg" },
-      { id: "val24", title: "Effort & Vélocité", subject: "Vertu Sportive", text: "Le para-cyclisme. L'effort mécanique et la vélocité repoussant l'horizon.", image: "/artworks/valeur_24.jpg" },
+      { id: "val24", title: "Effort & Vélocité", subject: "Vertu Sportive", text: "Le para-cyclisme. L'effort mécanique et la vélocité repoussant l'horizon.", image: "/artworks/valeur_24.jpg", nexusUrl: "/nexus/resilience" },
       { id: "val25", title: "Puissance & Précision", subject: "Vertu Sportive", text: "Le baseball fauteuil. L'attente du lancer, la puissance et la précision de la frappe.", image: "/artworks/valeur_25.jpg" },
       { id: "val30", title: "Force & Alignement", subject: "Vertu Sportive", text: "L'haltérophilie. La force pure et l'alignement parfait pour s'élever au-dessus des limites physiques.", image: "/artworks/valeur_30.jpg" },
-      { id: "val26", title: "HV (Ruban)", subject: "Gymnastique Rythmique", text: "L'harmonie du mouvement et la légèreté du ruban, sculptées par les lettres HV.", image: "/artworks/grace_ruban.jpg" },
-      { id: "val27", title: "La Grâce (Poutre)", subject: "Gymnastique Artistique", text: "L'équilibre parfait sur la poutre. La grâce incarnée dans chaque syllabe.", image: "/artworks/grace_poutre.jpg" },
-      { id: "val28", title: "La Grâce (Ballon)", subject: "Gymnastique Rythmique", text: "L'élégance absolue. La capture du ballon suspendue dans le temps.", image: "/artworks/grace_ballon.jpg" },
+      { id: "val26", title: "HV | Ruban", subject: "Gymnastique Rythmique", text: "L'harmonie du mouvement et la légèreté du ruban, sculptées par les lettres HV.", image: "/artworks/grace_ruban.jpg" },
+      { id: "val27", title: "La Grâce | Poutre", subject: "Gymnastique Artistique", text: "L'équilibre parfait sur la poutre. La grâce incarnée dans chaque syllabe.", image: "/artworks/grace_poutre.jpg" },
+      { id: "val28", title: "La Grâce | Ballon", subject: "Gymnastique Rythmique", text: "L'élégance absolue. La capture du ballon suspendue dans le temps.", image: "/artworks/grace_ballon.jpg" },
       { id: "val29", title: "Le Service Parfait", subject: "Tennis", text: "La puissance et la précision du service, dessinées par la typographie HV 2025.", image: "/artworks/hv_tennis_service.jpg" },
       { id: "val31", title: "Collectif", subject: "Vertu Sportive", text: "La création est une femme sur un cheval au saut d'obstacle.", image: "/artworks/swiss_horse.jpg", hc: true },
       { id: "val32", title: "Individuel & Collectif", subject: "Vertu Sportive", text: "Le tennis de table. La dualité parfaite entre la discipline individuelle et la dynamique collective.", image: "/artworks/swiss_pingpong.jpg", hc: true },
-      { id: "val33", title: "Performance", subject: "Vertu Sportive", text: "Le vélo de piste. L'aérodynamisme et la recherche absolue de la vitesse et de la performance.", image: "/artworks/swiss_cycling.jpg", hc: true }
+      { id: "val33", title: "Performance", subject: "Vertu Sportive", text: "Le vélo de piste. L'aérodynamisme et la recherche absolue de la vitesse et de la performance.", image: "/artworks/swiss_cycling.jpg", hc: true },
+      { id: "ar34", title: "Le Volant", subject: "Badminton", text: "L'aérodynamisme et la légèreté du volant tissés par les valeurs humaines.", image: "/artworks/volant_badminton.jpg" },
+      { id: "ar35", title: "Sneakers HV", subject: "Lifestyle", text: "L'empreinte du streetwear et du basket sculptée dans la matière 2025.", image: "/artworks/hv_sneakers.jpg" },
+      { id: "ar36", title: "Home Run", subject: "Baseball", text: "La batte et la balle. Le classique américain forgé par les lettres HV 2025.", image: "/artworks/hv_baseball.jpg" },
+      { id: "ar37", title: "Le Strike", subject: "Bowling", text: "La quille et la boule. L'alignement parfait avant l'impact 2025.", image: "/artworks/hv_bowling.jpg" },
+      { id: "ar38", title: "Le Caddie", subject: "Golf", text: "Le célèbre véhicule des greens, dessiné par l'empreinte de la collection 2025.", image: "/artworks/caddie.jpg" },
+      { id: "ar39", title: "Ballon de Basket", subject: "Objet Sportif", text: "La sphère orange sculptée par la typographie Human Values 2025.", image: "/artworks/ballon_basket.jpg" },
+      { id: "ar40", title: "Ballon de Foot US", subject: "Objet Sportif", text: "L'ovale du gridiron, taillé dans l'esprit de l'édition 2025.", image: "/artworks/ballon_us.jpg" },
+      { id: "ar41", title: "Le Sifflet", subject: "Respect", text: "Le symbole de l'arbitrage et du fair-play, tissé par le respect absolu.", image: "/artworks/sifflet.jpg" }
+    ]
+  },
+  {
+    id: "nexus-stade-rochelais",
+    title: "Nexus Stade Rochelais",
+    color: "#FFDD00", // Jaune Stade Rochelais
+    description: "Les champions d'Europe. Le territoire et le blason sculptés par ceux qui les défendent.",
+    artworks: [
+      { id: "nxr1", title: "Charente-Maritime", subject: "Stade Rochelais", text: "Le 17. Le département dessiné par les noms de ses fiers corsaires.", image: "/artworks/hands_echo_1.jpg", hc: true },
+      { id: "nxr2", title: "La Caravelle", subject: "Stade Rochelais", text: "Le logo historique sculpté par l'effectif maritime champion d'Europe.", image: "/artworks/hands_echo_2.jpg", hc: true },
+      { id: "nxr3", title: "Charente-Maritime | Or", subject: "Stade Rochelais", text: "Le 17. Le département dessiné par les noms de ses fiers corsaires sur fond or.", image: "/artworks/rochelais_map_1.jpg", hc: true },
+      { id: "nxr4", title: "La Caravelle | Or", subject: "Stade Rochelais", text: "Le logo historique sculpté par l'effectif maritime champion d'Europe sur fond or.", image: "/artworks/rochelais_caravelle_1.jpg", hc: true },
+      { id: "nxr5", title: "Charente-Maritime | Noir", subject: "Stade Rochelais", text: "Le département façonné par les noms, incrusté de noir profond.", image: "/artworks/rochelais_map_2.jpg", hc: true },
+      { id: "nxr6", title: "La Caravelle | Noir", subject: "Stade Rochelais", text: "L'emblème du club et l'héritage européen en noir intense.", image: "/artworks/rochelais_caravelle_2.jpg", hc: true }
     ]
   },
   {
@@ -112,12 +134,12 @@ const ailes = [
     color: "#424242", // Gris/Noir
     description: "L'objet inerte, le symbole manufacturé, les marques et l'héritage humain.",
     artworks: [
-      { id: "ar1", title: "Barque de St-Jean-de-Monts", subject: "Objet", text: "L'héritage maritime, l'ancrage sur le littoral vendéen.", image: "/artworks/stjean_boat.jpg" },
       { id: "ar1_1", title: "La 2CV de St-Jean-de-Monts", subject: "Objet", text: "L'icône populaire, façonnée par les codes de la Vendée.", image: "/artworks/obj_2cv.jpg" },
       { id: "ar1_2", title: "Le Margouillat Vendéen", subject: "Faune", text: "L'animal solaire tissé des lettres de St-Jean-de-Monts 85160.", image: "/artworks/obj_margouillat.jpg" },
       { id: "ar1_3", title: "Vendée Océan", subject: "Territoire", text: "L'empreinte maritime et l'horizon bleu de la côte vendéenne 85160.", image: "/artworks/vendee_ocean.jpg" },
       { id: "ar1_4", title: "Le Cœur Vendéen", subject: "Emblème", text: "Le double cœur entrelacé. L'âme, la passion et l'histoire du 85.", image: "/artworks/vendee_coeur.jpg" },
       { id: "ar2", title: "Le Gouvernail", subject: "Objet", text: "La direction, le cap maintenu contre vents et marées.", image: "/artworks/obj_region_2.jpg" },
+      { id: "ar1", title: "Destination 85160", subject: "Objet", text: "L'héritage maritime, l'ancrage sur le littoral vendéen.", image: "/artworks/stjean_boat.jpg" },
       { id: "ar3", title: "Vin Bordelais", subject: "Objet de Région", text: "Le cépage, la robe, le millésime. Le savoir-faire des vignobles.", image: "/artworks/bordeaux.jpg" },
       { id: "ar4", title: "Le Ruban", subject: "Saint-Étienne", text: "L'excellence de la passementerie, le textile de luxe, l'artisanat du XVIIe.", image: "/artworks/st_etienne_1.jpg" },
       { id: "ar5", title: "Lampe de Mineur", subject: "Saint-Étienne", text: "Le Bassin Forézien, l'or noir, la lumière dans les profondeurs de la Terre.", image: "/artworks/st_etienne_2.jpg" },
@@ -130,51 +152,19 @@ const ailes = [
       { id: "ar12", title: "L'Origine Nike", subject: "Équipementier", text: "The Goddess of Victory. Philip Knight et la naissance du mythe.", image: "/artworks/nexus_nike_1.jpg", hc: true },
       { id: "ar13", title: "La Typographie", subject: "Équipementier", text: "No Fear. Keep Going. L'effort taillé dans la lettre massive.", image: "/artworks/nexus_nike_2.jpg", hc: true },
       { id: "ar14", title: "Le Swoosh", subject: "Équipementier", text: "L'épure parfaite. La virgule qui souligne les légendes.", image: "/artworks/nexus_nike_3.jpg", hc: true },
-      { id: "ar14_1", title: "MJ2.0", subject: "Équipementier", text: "Le Jumpman, le 23. L'empreinte de la légende tissée dans le tissu.", image: "/artworks/jordan_cap.jpg", hc: true },
+      { id: "ar14_1", title: "MJ2.0", subject: "Équipementier", text: "Le Jumpman, le 23. L'empreinte de la légende tissée dans le tissu.", image: "/artworks/jordan_cap.png", hc: true },
       { id: "ar14_2", title: "Venum", subject: "Équipementier", text: "Les crocs du serpent. L'équipement martial, officiel de l'UFC, taillé dans l'impact.", image: "/artworks/venum.jpg", hc: true },
-      { id: "ar15", title: "Les 3 Bandes (Clubs)", subject: "Adidas", text: "Real Madrid, Juventus, All Blacks... Les géants réunis sous le même logo.", image: "/artworks/adidas_1.jpg", hc: true },
-      { id: "ar16", title: "Les 3 Bandes (Athlètes)", subject: "Adidas", text: "Messi, Mahomes, Serena... Les icônes qui forgent l'histoire du sport.", image: "/artworks/adidas_2.jpg", hc: true },
+      { id: "ar15", title: "Les 3 Bandes | Clubs", subject: "Adidas", text: "Real Madrid, Juventus, All Blacks... Les géants réunis sous le même logo.", image: "/artworks/adidas_1.jpg", hc: true },
+      { id: "ar16", title: "Les 3 Bandes | Athlètes", subject: "Adidas", text: "Messi, Mahomes, Serena... Les icônes qui forgent l'histoire du sport.", image: "/artworks/adidas_2.jpg", hc: true },
       { id: "ar19", title: "Tennis 2.0", subject: "Lacoste", text: "Un emblème devenu universel sur les terrains et dans la rue.", image: "/artworks/lacoste_3.jpg", hc: true },
       { id: "ar20", title: "Le Crocodile de Mots", subject: "Lacoste", text: "L'animal entier reconstitué par les valeurs de la marque au crocodile.", image: "/artworks/lacoste_4.jpg", hc: true },
       { id: "ar21", title: "Microphone RMC", subject: "Média", text: "Afterfoot, Jeanot, 1998... La voix du sport transmise aux ondes.", image: "/artworks/rmc_mic.jpg", hc: true },
       { id: "ar22", title: "Louis Vuitton", subject: "Marque de Luxe", text: "Arnault, l'Impératrice Eugénie, le monogramme intemporel.", image: "/artworks/lv_arnault.jpg", hc: true },
       { id: "ar32", title: "Coach Prime", subject: "Football Américain", text: "Le casque tissé de l'aura de Deion Sanders. L'ère Prime Time au Colorado.", image: "/artworks/coach_prime_helmet.jpg" },
       { id: "ar33", title: "Buffaloes CUB", subject: "Football Américain", text: "Le bison universitaire. L'emblème des Buffaloes sculpté par la ferveur de Boulder.", image: "/artworks/buffaloes_cub.jpg", hc: true },
-      { id: "ar34", title: "Le Volant", subject: "Badminton", text: "L'aérodynamisme et la légèreté du volant tissés par les valeurs humaines.", image: "/artworks/volant_badminton.jpg" },
-      { id: "ar35", title: "Sneakers HV", subject: "Lifestyle", text: "L'empreinte du streetwear et du basket sculptée dans la matière 2025.", image: "/artworks/hv_sneakers.jpg" },
-      { id: "ar36", title: "Home Run", subject: "Baseball", text: "La batte et la balle. Le classique américain forgé par les lettres HV 2025.", image: "/artworks/hv_baseball.jpg" },
-      { id: "ar37", title: "Le Strike", subject: "Bowling", text: "La quille et la boule. L'alignement parfait avant l'impact 2025.", image: "/artworks/hv_bowling.jpg" },
-      { id: "ar38", title: "Le Caddie", subject: "Golf", text: "Le célèbre véhicule des greens, dessiné par l'empreinte de la collection 2025.", image: "/artworks/caddie.jpg" },
-      { id: "ar39", title: "Ballon de Basket", subject: "Objet Sportif", text: "La sphère orange sculptée par la typographie Human Values 2025.", image: "/artworks/ballon_basket.jpg" },
-      { id: "ar40", title: "Ballon de Foot US", subject: "Objet Sportif", text: "L'ovale du gridiron, taillé dans l'esprit de l'édition 2025.", image: "/artworks/ballon_us.jpg" },
-      { id: "ar41", title: "Le Sifflet", subject: "Respect", text: "Le symbole de l'arbitrage et du fair-play, tissé par le respect absolu.", image: "/artworks/sifflet.jpg" },
-      { id: "an14", title: "Italia", subject: "Emblème", text: "L'emblème en mouvement, symbole de puissance et de liberté.", image: "/artworks/italia_eagle.jpg", nexusUrl: "/nexus/italia" }
-    ]
-  },
-  {
-    id: "icones",
-    title: "Les Icônes",
-    color: "#C25939", // Ocre / Or
-    description: "L'humain devenu légende, l'imaginaire, les figures tutélaires du sport, des arts et de l'écran.",
-    artworks: [
-      { id: "m1", title: "Le 13 Éternel", subject: "Football", text: "Le record absolu. Les 13 buts qui défient le temps.", image: "/artworks/portrait_1.jpg" },
-      { id: "m2", title: "Numéro 10", subject: "Football", text: "Le Roi Michel. Le numéro 10, le chef d'orchestre, le coup franc parfait.", image: "/artworks/portrait_2.jpg" },
-      { id: "m3", title: "The King", subject: "Football", text: "Le col relevé. The King, la poésie rebelle et le théâtre des rêves.", image: "/artworks/portrait_3.jpg", nexusUrl: "/nexus/cantona" },
-      { id: "m4", title: "Galactic", subject: "Football", text: "Zizou. La roulette, la grâce absolue, la finale 98.", image: "/artworks/portrait_4.jpg" },
-      { id: "m5", title: "Goleador", subject: "Football", text: "La fulgurance. La vitesse pure, la coupe du monde à 19 ans.", image: "/artworks/portrait_5.jpg" },
-      { id: "m6", title: "Krongsak (Origines) ⭐", subject: "Muay Thaï", text: "Guerrier né d'un art royal. Nak Muay. Respect. Knees.", image: "/artworks/martial_arts_1.jpg" },
-      { id: "m7", title: "Krongsak (Mindset) ⭐", subject: "Muay Thaï", text: "L\'esprit martial, la garde d'acier, la posture royale.", image: "/artworks/martial_arts_2.jpg" },
-      { id: "m8", title: "Skarbowsky (L'Héritage) ⭐", subject: "Muay Thaï", text: "Jean-Charles Skarbowsky. KO 51, Victories 75. La fiole des statistiques.", image: "/artworks/martial_arts_3.jpg" },
-      { id: "m9", title: "Skarbowsky (Karma) ⭐", subject: "Muay Thaï", text: "Sang, Ancrage, Rigueur, Bangkok. Le karma du combattant.", image: "/artworks/martial_arts_4.jpg" },
-      { id: "m9_1", title: "Karate & Bushido", subject: "Arts Martiaux", text: "L'opposition de style, la voie du guerrier. La pureté du combat typographique.", image: "/artworks/martial_arts_karate.jpg" },
-      { id: "m10", title: "L'Avenir du Court", subject: "Tennis", text: "US Open, Roland Garros. La balle de tennis en lettres, l'avenir sur le court.", image: "/artworks/gauff.jpg", hc: true },
-      { id: "m11", title: "Le Prodige", subject: "Football", text: "Le joga bonito, le prodige brésilien et la barre des 700.", image: "/artworks/neymar_700.jpg", hc: true },
-      { id: "m12", title: "Le O de Omar", subject: "Cinéma & Parcours", text: "Toute son histoire dans le O de Omar. De Trappes à Hollywood, le sourire de la France.", image: "/artworks/omar_sy.jpg" },
-      { id: "m13", title: "La Vérité de José", subject: "Cinéma & Humour", text: "Le rire flamboyant. De Nulle Part Ailleurs aux sommets du box-office.", image: "/artworks/jose_garcia.jpg" },
-      { id: "m14", title: "Diogo JOTA 20", subject: "Football & R&D", text: "L'oiseau mythique de Liverpool tissé par le parcours, les statistiques et l'esport de Diogo Jota.", image: "/artworks/diogo_jota_lfc.jpg", hc: true },
-      { id: "m15", title: "The Austrian Oak", subject: "Cinéma & Légende", text: "Arnie. Gouvernator. Schwarzy. L'incarnation du rêve américain et de la volonté absolue.", image: "/artworks/arnold_schwarzenegger.jpg" },
-      { id: "m16", title: "Le 7 de CR7", subject: "Football & Légende", text: "L'obsession de la perfection. Le numéro mythique entièrement tissé par l'identité de Cristiano Ronaldo.", image: "/artworks/cr7.jpg", hc: true },
-      { id: "m17", title: "NX Donnarumma", subject: "Football", text: "Le rempart ultime. L'envergure du gardien sculptée par le PSG, l'AC Milan et la Ligue des Champions.", image: "/artworks/donnarumma.jpg", hc: true }
+
+      { id: "an14", title: "Italia", subject: "Emblème", text: "L'emblème en mouvement, symbole de puissance et de liberté.", image: "/artworks/italia_eagle.jpg", nexusUrl: "/nexus/italia" },
+      { id: "are_club_1", title: "Spartiates", subject: "Club", text: "Le casque de Sparte, le bouclier, la fierté de Marseille sur la glace.", image: "/artworks/spartiates.jpg" }
     ]
   },
   {
@@ -203,34 +193,40 @@ const ailes = [
     ]
   },
   {
-    id: "olympe",
-    title: "L'Olympe",
-    color: "#FFDD00", // Jaune Stade Rochelais
-    description: "Les divinités internationales du sport, dont l'empreinte dépasse les frontières et le temps.",
+    id: "icones",
+    title: "Les Icônes",
+    color: "#E50914", // Rouge Netflix
+    description: "L'humain devenu légende, l'imaginaire, les figures tutélaires du sport, des arts et de l'écran.",
     artworks: [
-      { id: "ol1", title: "Leo Messi", subject: "Légende Internationale", text: "Le génie argentin. L'aura et la vision sculptées dans les lettres de son nom.", image: "/artworks/olympe_messi.jpg", hc: true },
-      { id: "ol2", title: "Diego Maradona", subject: "Légende Internationale", text: "El Pibe de Oro. L'éternité et la passion gravées à même le visage.", image: "/artworks/olympe_maradona.jpg", nexusUrl: "/nexus/maradona" },
-      { id: "ol3", title: "Shohei Ohtani", subject: "Baseball", text: "L'étoile des Dodgers. Le talent brut et la puissance sculptés dans l'emblème de la MLB.", image: "/artworks/olympe_ohtani.jpg", hc: true }
+      { id: "m1", title: "Le 13 Éternel", subject: "Football", text: "Le record absolu. Les 13 buts qui défient le temps.", image: "/artworks/portrait_1.jpg" },
+      { id: "m2", title: "Numéro 10", subject: "Football", text: "Le Roi Michel. Le numéro 10, le chef d'orchestre, le coup franc parfait.", image: "/artworks/portrait_2.jpg" },
+      { id: "m3", title: "The King", subject: "Football", text: "Le col relevé. The King, la poésie rebelle et le théâtre des rêves.", image: "/artworks/portrait_3.jpg", nexusUrl: "/nexus/cantona" },
+      { id: "m4", title: "Galactic", subject: "Football", text: "Zizou. La roulette, la grâce absolue, la finale 98.", image: "/artworks/portrait_4.jpg" },
+      { id: "m5", title: "Goleador", subject: "Football", text: "La fulgurance. La vitesse pure, la coupe du monde à 19 ans.", image: "/artworks/portrait_5.jpg" },
+      { id: "m6", title: "Krongsak | Origins", subject: "Muay Thaï", text: "Guerrier né d'un art royal. Nak Muay. Respect. Knees.", image: "/artworks/martial_arts_1.jpg" },
+      { id: "m7", title: "Krongsak | Mindset", subject: "Muay Thaï", text: "L\'esprit martial, la garde d'acier, la posture royale.", image: "/artworks/martial_arts_2.jpg" },
+      { id: "m8", title: "Skarbowsky | L'Héritage", subject: "Muay Thaï", text: "Jean-Charles Skarbowsky. KO 51, Victories 75. La fiole des statistiques.", image: "/artworks/martial_arts_3.jpg" },
+      { id: "m9", title: "Skarbowsky | Karma", subject: "Muay Thaï", text: "Sang, Ancrage, Rigueur, Bangkok. Le karma du combattant.", image: "/artworks/martial_arts_4.jpg" },
+      { id: "m9_1", title: "Karaté Bushido", subject: "Arts Martiaux", text: "L'opposition de style, la voie du guerrier. La pureté du combat typographique.", image: "/artworks/martial_arts_karate.jpg" },
+      { id: "m10", title: "L'Avenir du Court", subject: "Tennis", text: "US Open, Roland Garros. La balle de tennis en lettres, l'avenir sur le court.", image: "/artworks/gauff.jpg", hc: true },
+      { id: "m11", title: "Le Prodige", subject: "Football", text: "Le joga bonito, le prodige brésilien et la barre des 700.", image: "/artworks/neymar_700.jpg", hc: true },
+      { id: "m12", title: "L'Intouchable", subject: "Cinéma & Parcours", text: "L'ascension fulgurante. De Trappes à Hollywood, le sourire de la France.", image: "/artworks/omar_sy.jpg" },
+      { id: "m13", title: "La Vérité de José", subject: "Cinéma & Humour", text: "Le rire flamboyant. De Nulle Part Ailleurs aux sommets du box-office.", image: "/artworks/jose_garcia.jpg" },
+      { id: "m14", title: "Diogo JOTA 20", subject: "Football", text: "Toute l'histoire du Liverpool FC et de Diogo Jota racontée à travers l'oiseau mythique du club.", image: "/artworks/diogo_jota_lfc.jpg", hc: true },
+      { id: "m15", title: "The Austrian Oak", subject: "Cinéma & Légende", text: "Arnie. Gouvernator. Schwarzy. L'incarnation du rêve américain et de la volonté absolue.", image: "/artworks/arnold_schwarzenegger.jpg" },
+      { id: "m16", title: "CR7", subject: "Football & Légende", text: "L'obsession de la perfection. Le numéro mythique entièrement tissé par l'identité de Cristiano Ronaldo.", image: "/artworks/cr7.jpg", hc: true },
+      { id: "m17", title: "NX Donnarumma", subject: "Football", text: "Le rempart ultime. L'envergure du gardien sculptée par le PSG, l'AC Milan et la Ligue des Champions.", image: "/artworks/donnarumma.jpg", hc: true },
+      { id: "m20", title: "N'Golo Kanté", subject: "Football", text: "Le Cœur Tricolore. Le moteur inépuisable sculpté dans l'emblème national.", image: "/artworks/nexus_kante.jpg", nexusUrl: "/nexus/kante" }
     ]
   },
   {
     id: "fluides",
     title: "Les Fluides",
     color: "#00BCD4", // Cyan (Même couleur que Les Vertus)
-    description: "Le mouvement immatériel, la grâce, l'océan, la trace éphémère dans l'eau.",
+    description: "Le mouvement immatériel, la grace, l'océan, la trace éphémère dans l'eau.",
     artworks: [
-      { id: "f1", title: "H2O'CEAN", subject: "La Source", text: "L'immensité bleue, les vagues, la vie aquatique.", image: "/artworks/ocean_world.jpg", nexusUrl: "/nexus/ocean" },
-      { id: "f2", title: "VALEURS ET PROPRIETES", subject: "La Goutte", text: "L'étymologie de la mer, la fluidité de la typographie.", image: "/artworks/nexus_eau.jpg" }
-    ]
-  },
-  {
-    id: "langage",
-    title: "Le Langage",
-    color: "#424242", // Gris/Noir
-    description: "Les signes, les mots, la communication universelle forgée par les valeurs.",
-    artworks: [
-      { id: "lan1", title: "L'Accord Parfait", subject: "Signe OK", text: "Le respect et le partage tissent le langage universel de l'approbation.", image: "/artworks/hands_echo_ok.jpg" },
-      { id: "lan2", title: "L'Amour Universel", subject: "Cœur", text: "Handicap et inclusion s'entrelacent pour former le symbole absolu.", image: "/artworks/hands_echo_heart.jpg" }
+      { id: "f1", title: "H2O'Céan", subject: "La Source", text: "L'immensité bleue, les vagues, la vie aquatique.", image: "/artworks/ocean_world.jpg", nexusUrl: "/nexus/ocean" },
+      { id: "f2", title: "Valeurs et Propriétés", subject: "La Goutte", text: "L'étymologie de la mer, la fluidité de la typographie.", image: "/artworks/nexus_eau.jpg" }
     ]
   },
   {
@@ -244,9 +240,8 @@ const ailes = [
       { id: "are_jo_3", title: "La Flamme 2024", subject: "Paris 2024", text: "Le visage de Marianne embrasé par l'esprit olympique, forgé dans la date fondatrice.", image: "/artworks/paris_jo_flame.jpg", hc: true },
       { id: "are_inst_1", title: "Le Coq Olympique", subject: "CNOSF", text: "L'esprit du sport français réuni sous l'emblème national.", image: "/artworks/obj_coq_olympique.jpg", hc: true },
       { id: "are_inst_2", title: "Le Coq du Volley", subject: "FFVolley", text: "L'envol, le smash, l'excellence de la Fédération Française de Volley.", image: "/artworks/ffvolley_rooster.jpg", hc: true },
-      { id: "are_club_1", title: "Spartiates", subject: "Club", text: "Le casque de Sparte, le bouclier, la fierté de Marseille sur la glace.", image: "/artworks/spartiates.jpg" },
-      { id: "ar1", title: "09 Playground", subject: "Basket", text: "La Fédération Française de Basket, l'héritage d'une nation.", image: "/artworks/ffbb_1.jpg", hc: true },
-      { id: "ar2", title: "Team 99", subject: "Basket", text: "L'épopée fondatrice, les grands noms du basket tricolore.", image: "/artworks/ffbb_2.jpg", hc: true },
+      { id: "ar1", title: "NX 09 Playground", subject: "Basket", text: "La Fédération Française de Basket, l'héritage d'une nation.", image: "/artworks/ffbb_1.jpg", hc: true },
+      { id: "ar2", title: "NX Team 99", subject: "Basket", text: "L'épopée fondatrice, les grands noms du basket tricolore.", image: "/artworks/ffbb_2.jpg", hc: true },
       { id: "ar3", title: "NX Legends", subject: "Basket", text: "Le meneur, le Hall of Fame, le premier des géants.", image: "/artworks/ffbb_3.jpg", hc: true },
       { id: "ar4", title: "NX Icons", subject: "Basket", text: "L'Alien. La mutation du jeu, l'envergure vertigineuse.", image: "/artworks/ffbb_4.jpg", hc: true },
       { id: "ar5", title: "NX The Dancing Bear", subject: "Basket", text: "La légende de Limoges, la combativité, le titre européen.", image: "/artworks/ffbb_5.jpg", hc: true },
@@ -264,7 +259,7 @@ const ailes = [
       { id: "ar17", title: "L'Étoile du PSG", subject: "Club de Football", text: "L'effectif 2024/2025 gravé dans l'étoile. Enrique, Marquinhos, Barcola, Dembele.", image: "/artworks/psg_1.jpg", hc: true },
       { id: "ar18", title: "Le Cadratin", subject: "Rugby", text: "La course folle du Top 14, forgée par les noms des clubs et instances.", image: "/artworks/rugby_1.jpg" },
       { id: "ar19", title: "Jour de gloire", subject: "Rugby", text: "L'ombre du joueur façonnée par les chiffres de la Coupe du Monde 2023.", image: "/artworks/rugby_2.jpg" },
-      { id: "ar20", title: "Le Ballon Ovale", subject: "Rugby", text: "L'essence du jeu encapsulée dans la typographie du tournoi mondial.", image: "/artworks/rugby_3.jpg" },
+      { id: "ar20", title: "L'ovalie !", subject: "Rugby", text: "L'essence du jeu encapsulée dans la typographie du tournoi mondial.", image: "/artworks/rugby_3.jpg" },
       { id: "ar21", title: "Le Trophée Webb Ellis", subject: "Rugby", text: "Le Graal du rugby, taillé dans les mots de la Coupe du Monde.", image: "/artworks/rugby_4.jpg" },
       { id: "ar21_1", title: "Fly Emirates F1", subject: "Course Automobile", text: "L'aérodynamisme taillé dans le texte, l'alliance de la vitesse et de la puissance.", image: "/artworks/emirates_f1.jpg", hc: true },
       { id: "ar22", title: "La Puissance Pure", subject: "Cyclisme", text: "La puissance pure. L'arc-en-ciel sur les routes, la domination d'un champion hors norme.", image: "/artworks/sport_8.jpg", hc: true },
@@ -276,7 +271,7 @@ const ailes = [
       { id: "ar28", title: "NX Jumpman 23", subject: "Basket & Légende", text: "His Airness. Le GOAT absolu sculpté par ses records et ses Final MVPs.", image: "/artworks/sport_14.jpg" },
       { id: "ar29", title: "L'Échec et Mat", subject: "Jeux d'Esprit", text: "Les rois face à face, sculptés par la stratégie et l'anticipation de 2025.", image: "/artworks/jeu_1.jpg" },
       { id: "ar30", title: "L'Échiquier des Valeurs", subject: "Jeux d'Esprit", text: "Toutes les pièces maîtresses façonnées par les Human Values.", image: "/artworks/jeu_2.jpg", nexusUrl: "/nexus/echiquier" },
-      { id: "ar31", title: "Le Carré d'As", subject: "Jeux d'Esprit", text: "Résistance, Discipline, Réflexion, Individuel. Les quatre atouts dans la manche.", image: "/artworks/jeu_3.jpg" }
+      { id: "ar31", title: "Le Quatuor Absolu", subject: "Jeux d'Esprit", text: "Résistance, Discipline, Réflexion, Individuel. Les quatre atouts dans la manche.", image: "/artworks/jeu_3.jpg" }
     ]
   },
   {
@@ -287,8 +282,8 @@ const ailes = [
     artworks: [
       { id: "fo_logo", title: "L'Emblème 2025", subject: "Collection HumanValues", text: "Le flambeau de la liberté hissé par les mots. L'icône fondatrice de la collection artistique 2025.", image: "/artworks/flambeau_hv.jpg" },
       { id: "fo16", title: "L'Accord Inclusif", subject: "UNESCO X Inclusion", text: "La poignée de main universelle. Diversité, autisme, soutien aux aînés et valeurs partagées à l'échelle mondiale.", image: "/artworks/concept_unesco.jpg" },
-      { id: "fo17", title: "Ivry S/Seine", subject: "Territoire & Inclusion", text: "L'identité de la ville tissée par les mots de l'inclusion, du handicap et de la solidarité. Hommage à Philippe Bouyssou.", image: "/artworks/ivry_inclusion.jpg", hc: true },
-      { id: "fo1", title: "Logo PMR", subject: "FFBB X Inclusion", text: "L'empathie, la solidarité, l'humanité. Le handicap visible et invisible.", image: "/artworks/inclusion_1.jpg", hc: true },
+      { id: "fo17", title: "NX Ivry S/Seine", subject: "Territoire & Inclusion", text: "L'identité de la ville tissée par les mots de l'inclusion, du handicap et de la solidarité. Hommage à Philippe Bouyssou.", image: "/artworks/ivry_inclusion.jpg", hc: true },
+      { id: "fo1", title: "NX Logo FFBB", subject: "FFBB X Inclusion", text: "L'empathie, la solidarité, l'humanité. Le handicap visible et invisible.", image: "/artworks/inclusion_1.jpg", hc: true },
       { id: "fo3", title: "Nadir Hifi", subject: "Paris Basket X Inclusion", text: "La silhouette typographique. Ensemble, l'égalité des chances.", image: "/artworks/inclusion_3.jpg", hc: true },
       { id: "fo4", title: "Caisse d'Épargne", subject: "Institution & Valeurs", text: "L'écureuil rouge. Égalité des chances, inclusion, handicap visible et invisible.", image: "/artworks/corp_1.jpg", hc: true },
       { id: "fo5", title: "BNP Paribas", subject: "Institution & Valeurs", text: "Les étoiles vertes. Solidarité, bienveillance, énergies positives et soutien.", image: "/artworks/corp_2.jpg", hc: true },
@@ -303,6 +298,27 @@ const ailes = [
       { id: "fo11", title: "Ligue de Football", subject: "LFP X Inclusion", text: "Le championnat professionnel porté par les valeurs saines et le cécifoot.", image: "/artworks/sport_6.jpg", hc: true },
       { id: "fo12", title: "Bondy Cécifoot Club", subject: "Club X Inclusion", text: "L'emblème du serpent. Déficience visuelle, transmission et solidarité sur le terrain.", image: "/artworks/sport_7.jpg", hc: true },
       { id: "fo18", title: "La Ligue", subject: "Ligue Contre le Cancer", text: "Le maillot solidaire tissé par le soutien, les bénévoles et l'espoir face à la maladie.", image: "/artworks/ligue_cancer.jpg", hc: true }
+    ]
+  },
+  {
+    id: "langage",
+    title: "Le Langage",
+    color: "#424242", // Gris/Noir
+    description: "Les signes, les mots, la communication universelle forgée par les valeurs.",
+    artworks: [
+      { id: "lan1", title: "L'Accord Parfait", subject: "Signe OK", text: "Le respect et le partage tissent le langage universel de l'approbation.", image: "/artworks/hands_echo_ok.jpg" },
+      { id: "lan2", title: "L'Amour Universel", subject: "Cœur", text: "Handicap et inclusion s'entrelacent pour former le symbole absolu.", image: "/artworks/hands_echo_heart.jpg" }
+    ]
+  },
+  {
+    id: "nexus-messi",
+    title: "Nexus Messi",
+    color: "#C25939", // Ocre / Or
+    description: "L'icône absolue. Le génie argentin décliné sous ses trois maillots historiques.",
+    artworks: [
+      { id: "nxm1", title: "L'Exil Doré", subject: "Inter Miami", text: "MAGIC, EFFICIENCY, STILLNESS. Le génie argentin sous les couleurs de la Floride.", image: "/artworks/messi_miami.jpg", hc: true },
+      { id: "nxm2", title: "L'Âge d'Or", subject: "FC Barcelone", text: "SHARPNESS, IMMORTAL. La légende absolue sculptée aux couleurs du Camp Nou.", image: "/artworks/messi_fcb.jpg", hc: true },
+      { id: "nxm3", title: "La Consécration", subject: "AFA", text: "L'immortalité dorée. La consécration ultime avec l'Albiceleste.", image: "/artworks/messi_afa.jpg", hc: true }
     ]
   },
   {
@@ -321,28 +337,14 @@ const ailes = [
     ]
   },
   {
-    id: "nexus-stade-rochelais",
-    title: "Nexus Stade Rochelais",
+    id: "olympe",
+    title: "L'Olympe",
     color: "#FFDD00", // Jaune Stade Rochelais
-    description: "Les champions d'Europe. Le territoire et le blason sculptés par ceux qui les défendent.",
+    description: "Les divinités internationales du sport, dont l'empreinte dépasse les frontières et le temps.",
     artworks: [
-      { id: "nxr1", title: "Charente-Maritime", subject: "Stade Rochelais", text: "Le 17. Le département dessiné par les noms de ses fiers corsaires.", image: "/artworks/hands_echo_1.jpg", hc: true },
-      { id: "nxr2", title: "La Caravelle", subject: "Stade Rochelais", text: "Le logo historique sculpté par l'effectif maritime champion d'Europe.", image: "/artworks/hands_echo_2.jpg", hc: true },
-      { id: "nxr3", title: "Charente-Maritime (Or)", subject: "Stade Rochelais", text: "Le 17. Le département dessiné par les noms de ses fiers corsaires sur fond or.", image: "/artworks/rochelais_map_1.jpg", hc: true },
-      { id: "nxr4", title: "La Caravelle (Or)", subject: "Stade Rochelais", text: "Le logo historique sculpté par l'effectif maritime champion d'Europe sur fond or.", image: "/artworks/rochelais_caravelle_1.jpg", hc: true },
-      { id: "nxr5", title: "Charente-Maritime (Noir)", subject: "Stade Rochelais", text: "Le département façonné par les noms, incrusté de noir profond.", image: "/artworks/rochelais_map_2.jpg", hc: true },
-      { id: "nxr6", title: "La Caravelle (Noir)", subject: "Stade Rochelais", text: "L'emblème du club et l'héritage européen en noir intense.", image: "/artworks/rochelais_caravelle_2.jpg", hc: true }
-    ]
-  },
-  {
-    id: "nexus-messi",
-    title: "Nexus Messi",
-    color: "#C25939", // Ocre / Or
-    description: "L'icône absolue. Le génie argentin décliné sous ses trois maillots historiques.",
-    artworks: [
-      { id: "nxm1", title: "Messi (Miami)", subject: "Inter Miami", text: "MAGIC, EFFICIENCY, STILLNESS. Le génie argentin sous les couleurs de la Floride.", image: "/artworks/messi_miami.jpg", hc: true },
-      { id: "nxm2", title: "Messi (Barcelone)", subject: "FC Barcelone", text: "SHARPNESS, IMMORTAL. La légende absolue sculptée aux couleurs du Camp Nou.", image: "/artworks/messi_fcb.jpg", hc: true },
-      { id: "nxm3", title: "Messi (Argentine)", subject: "AFA", text: "L'immortalité dorée. La consécration ultime avec l'Albiceleste.", image: "/artworks/messi_afa.jpg", hc: true }
+      { id: "m18", title: "Leo Messi", subject: "Légende Internationale", text: "Le génie argentin. L'aura et la vision sculptées dans les lettres de son nom.", image: "/artworks/olympe_messi.jpg", hc: true },
+      { id: "m19", title: "Diego Maradona", subject: "Légende Internationale", text: "El Pibe de Oro. L'éternité et la passion gravées à même le visage.", image: "/artworks/olympe_maradona.jpg", nexusUrl: "/nexus/maradona" },
+      { id: "ol3", title: "Shohei Ohtani", subject: "Baseball", text: "L'étoile des Dodgers. Le talent brut et la puissance sculptés dans l'emblème de la MLB.", image: "/artworks/olympe_ohtani.jpg", hc: true }
     ]
   }
 ];

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const NexusResilience = () => {
+const NexusKante = () => {
   return (
     <div style={{ maxWidth: '900px', margin: '0 auto', padding: '4rem 2rem 8rem' }}>
 
@@ -11,20 +11,20 @@ const NexusResilience = () => {
         {' → '}
         <Link to="/collections" style={{ color: '#999', textDecoration: 'none' }}>Acquisitions</Link>
         {' → '}
-        <span style={{ color: 'var(--hv-black)' }}>Nexus Effort & Vélocité</span>
+        <span style={{ color: 'var(--hv-black)' }}>Nexus Kanté</span>
       </p>
 
       {/* Hero */}
       <header style={{ textAlign: 'center', marginBottom: '4rem' }}>
         <p style={{ fontSize: '0.85rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'var(--hv-accent)', marginBottom: '1rem' }}>
-          Code HG : HG-976-992-3
+          Code HG : HG-007-FFF-1
         </p>
-        <h1 style={{ fontSize: '3.5rem', lineHeight: '1.1', marginBottom: '1.5rem' }}>Effort & Vélocité</h1>
+        <h1 style={{ fontSize: '3.5rem', lineHeight: '1.1', marginBottom: '1.5rem' }}>N'Golo Kanté | Le Cœur Tricolore</h1>
         <p style={{ fontSize: '1.3rem', fontStyle: 'italic', color: 'var(--hv-grey)', marginBottom: '2rem' }}>
-          L’art de l’inclinaison, du braquet et du combat en mouvement
+          Le moteur inépuisable, l'humilité incarnée, l'âme des Bleus
         </p>
         <p style={{ fontSize: '0.95rem', color: '#aaa', letterSpacing: '0.1em' }}>
-          Tirage Plexiglas – 100×80 cm – Édition signée et numérotée (certificat HV) – Image issue d’une archive sous licence
+          Tirage Plexiglas – 100×80 cm – Édition signée et numérotée (certificat HV)
         </p>
       </header>
 
@@ -37,15 +37,12 @@ const NexusResilience = () => {
         borderRadius: '4px',
         overflow: 'hidden',
         boxShadow: '0 20px 60px rgba(0,0,0,0.15)',
-        backgroundColor: '#fafafa',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center'
+        backgroundColor: '#000'
       }}>
         <img
-          src="/artworks/valeur_24.jpg"
-          alt="Nexus Effort & Vélocité"
-          style={{ width: '100%', display: 'block', maxHeight: '500px', objectFit: 'contain' }}
+          src="/artworks/nexus_kante.jpg"
+          alt="Nexus Kanté"
+          style={{ width: '100%', display: 'block', maxHeight: '600px', objectFit: 'contain' }}
         />
       </div>
 
@@ -54,22 +51,20 @@ const NexusResilience = () => {
         <h2 style={{ fontSize: '2rem', marginBottom: '2rem' }}>Le Récit</h2>
 
         <p style={{ fontSize: '1.15rem', lineHeight: '1.9', marginBottom: '1.5rem', color: 'var(--hv-grey)' }}>
-          La piste n’est pas une ligne droite. C’est un diagnostic de volonté. Ici, ce ne sont pas les jambes qui propulsent, mais un bras, un buste, un souffle.
+          N'Golo Kanté ne court pas pour lui, il court pour les autres. 
         </p>
         <p style={{ fontSize: '1.1rem', lineHeight: '1.9', marginBottom: '1.5rem', color: 'var(--hv-grey)' }}>
-          L’athlétisme fauteuil est né dans les années 70 de la rage silencieuse de blessés médullaires refusant l’immobilité. Pas de filet, pas d’adversaire direct : seulement le chrono, l’asphalte, et soi-même.
+          Depuis ses débuts humbles à Suresnes, en passant par Boulogne et Caen, jusqu'au sommet du football mondial avec Leicester, Chelsea et l'Équipe de France, son ascension est une leçon d'abnégation. Il n'a jamais réclamé la lumière, mais ses performances l'y ont inévitablement placé.
         </p>
         <p style={{ fontSize: '1.1rem', lineHeight: '1.9', marginBottom: '1.5rem', color: 'var(--hv-grey)' }}>
-          Le fauteuil de course n’a rien d’un fauteuil roulant ordinaire. Trois roues, un carénage, un braquet pensé comme un rapport de force. À l’accélération, le buste se plaque sur le dossier. Dans les virages, le corps s’incline jusqu’à frôler le sol. La roue arrière cambrée capte l’adhérence. La main gantée tourne, pousse, relâche – quarante fois sur 400 mètres.
+          Le coq français, emblème de toute une nation, est ici entièrement tissé par son nom. Une répétition infinie, à l'image de ses efforts sur le terrain. Il est partout. Il récupère, il relance, il sourit. Et la France gagne.
         </p>
-        <p style={{ fontSize: '1.1rem', lineHeight: '1.9', marginBottom: '1.5rem', color: 'var(--hv-grey)' }}>
-          Ce sport n’est pas une adaptation du sport valide. C’est un sport à part entière, avec sa physique, sa tactique et sa violence douce.
+        <p style={{ fontSize: '1.1rem', lineHeight: '1.9', marginBottom: '2rem', color: 'var(--hv-grey)' }}>
+          Champion du Monde 2018, vainqueur de la Ligue des Champions, il possède l'un des palmarès les plus complets de l'histoire du football français. Mais plus que les trophées, c'est son aura qui marque les esprits : l'unanimité absolue autour d'un homme qui a fait de la simplicité une arme redoutable.
         </p>
+
         <p style={{ fontSize: '1.15rem', lineHeight: '1.9', fontStyle: 'italic', color: 'var(--hv-black)', fontWeight: '500' }}>
-          Le tirage sur Plexiglas capte la tension des rayons métalliques sous l’effort, la vibration de la roue figée dans la transparence du matériau.
-        </p>
-        <p style={{ fontSize: '1.15rem', lineHeight: '1.9', fontStyle: 'italic', color: 'var(--hv-black)', fontWeight: '500' }}>
-          Ce Nexus est un hommage au geste le plus fondamental : avancer. Quoi qu’il en coûte.
+          Cette œuvre rend hommage à l'âme bleue de l'équipe de France. Le cœur battant du coq tricolore.
         </p>
       </section>
 
@@ -79,16 +74,20 @@ const NexusResilience = () => {
         <div style={{ display: 'grid', gap: '1.5rem' }}>
           {[
             {
-              valeur: 'Adaptation',
-              texte: "Transformer le fauteuil en machine de guerre contre l’inertie."
+              valeur: 'Humilité',
+              texte: 'Le triomphe sans arrogance. Le sourire qui désarme les critiques.'
+            },
+            {
+              valeur: 'Abnégation',
+              texte: "L'effort invisible qui rend possible la gloire collective."
             },
             {
               valeur: 'Résilience',
-              texte: "Refuser l’arrêt. Faire de chaque tour de roue une réponse."
+              texte: "Des divisions inférieures au toit du monde. Un parcours forgé dans le travail."
             },
             {
-              valeur: 'Maîtrise',
-              texte: "L’inclinaison parfaite, le braquet choisi, le geste répété dix mille fois."
+              valeur: 'Collectif',
+              texte: "Un homme dont le seul but est de rendre les autres meilleurs."
             }
           ].map((v) => (
             <div key={v.valeur} style={{
@@ -111,12 +110,12 @@ const NexusResilience = () => {
           Identifiant Nexus
         </p>
         <p style={{ fontSize: '2.5rem', fontFamily: 'var(--font-heading)', color: 'var(--hv-accent)', letterSpacing: '0.1em', marginBottom: '1rem' }}>
-          HG-976-992-3
+          HG-007-FFF-1
         </p>
         <p style={{ fontSize: '0.85rem', color: '#aaa', lineHeight: '1.8' }}>
-          976 : 1976, premiers championnats officiels d’athlétisme fauteuil (Canada, Allemagne, États-Unis).<br />
-          992 : 1992, Barcelone – intégration paralympique de l’athlétisme fauteuil comme discipline reine.<br />
-          -3 : Troisième Nexus de la catégorie des Vertus.
+          007 : Le numéro fétiche, l'agent silencieux au milieu de terrain.<br />
+          FFF : Le coq, la nation, les deux étoiles.<br />
+          1 : Premier tirage de la série.
         </p>
       </section>
 
@@ -125,13 +124,11 @@ const NexusResilience = () => {
         <p style={{ fontSize: '0.85rem', letterSpacing: '0.15em', textTransform: 'uppercase', color: '#aaa', marginBottom: '1rem' }}>
           Édition signée XXL – 100×80 cm
         </p>
-        <h2 style={{ fontSize: '2rem', color: 'white', marginBottom: '0.5rem' }}>Tirage Plexiglas – "Effort & Vélocité"</h2>
+        <h2 style={{ fontSize: '2rem', color: 'white', marginBottom: '0.5rem' }}>Tirage Plexiglas – "Kanté"</h2>
         <p style={{ fontStyle: 'italic', color: '#aaa', marginBottom: '2rem' }}>
-          La vertu de la résilience sportive, dessinée par la typographie de la collection 2025.<br /><br />
+          "71% de la surface de la terre est couverte d'eau. Le reste est couvert par N'Golo Kanté."<br/>
+          Le mythe devenu réalité.<br/><br/>
           — Le Conseil des Nexus
-        </p>
-        <p style={{ fontStyle: 'italic', color: '#aaa', marginBottom: '2rem' }}>
-          Ce que vous emportez : non un fauteuil, mais une foulée d'acier.
         </p>
         <p style={{ fontSize: '2.5rem', fontWeight: '600', color: 'white', marginBottom: '0.5rem' }}>890 €</p>
         <p style={{ fontSize: '0.9rem', color: '#777', marginBottom: '2.5rem' }}>Livraison offerte France · Certificat HV inclus</p>
@@ -159,4 +156,4 @@ const NexusResilience = () => {
   );
 };
 
-export default NexusResilience;
+export default NexusKante;

@@ -18,6 +18,7 @@ import NexusCantona from './pages/NexusCantona';
 import NexusOcean from './pages/NexusOcean';
 import NexusEchiquier from './pages/NexusEchiquier';
 import NexusRatp from './pages/NexusRatp';
+import NexusKante from './pages/NexusKante';
 import Footer from './components/Footer';
 import './index.css';
 
@@ -43,7 +44,7 @@ const Layout = ({ children }) => (
 const ScrollToTop = () => {
   const { pathname } = useLocation();
   useEffect(() => {
-    // Si on a un hash (ex: #icones), on ne scrolle pas brutalement en haut
+    // Si on a un hash (ex: #pantheon), on ne scrolle pas brutalement en haut
     if (!window.location.hash) {
       window.scrollTo(0, 0);
     }
@@ -75,6 +76,7 @@ function App() {
            <Route path="/nexus/ocean" element={<NexusOcean />} />
           <Route path="/nexus/echiquier" element={<NexusEchiquier />} />
           <Route path="/nexus/ratp" element={<NexusRatp />} />
+          <Route path="/nexus/kante" element={<NexusKante />} />
         </Routes>
       </Layout>
     </Router>
