@@ -40,7 +40,7 @@ const NexusJumpman = () => {
         backgroundColor: '#000'
       }}>
         <img
-          src="/artworks/sport_14.jpg"
+          src="/artworks/jordan_cap2.jpg"
           alt="Nexus Jumpman 23 - Michael Jordan His Airness"
           style={{ width: '100%', display: 'block', maxHeight: '600px', objectFit: 'contain' }}
         />
