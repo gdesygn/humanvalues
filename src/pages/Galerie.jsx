@@ -146,7 +146,7 @@ const ailes = [
       { id: "ar6", title: "Le Fusil", subject: "Saint-Étienne", text: "La manufacture d'armes, l'industrie lourde de la Loire, la précision mécanique.", image: "/artworks/st_etienne_3.jpg" },
       { id: "ar7", title: "La Rose d'Angleterre", subject: "Emblème", text: "La fleur Tudor, symbole historique de la couronne britannique.", image: "/artworks/embleme_1.jpg" },
       { id: "ar8", title: "Le Chardon Écossais", subject: "Emblème", text: "L'épine protectrice, la fierté indomptable des Highlands.", image: "/artworks/embleme_2.jpg" },
-      { id: "ar9", title: "Le Lion de Norvège", subject: "Emblème", text: "L'identité nordique gravée dans le symbole national.", image: "/artworks/embleme_3.jpg" },
+      { id: "ar9", title: "L'Âme Viking", subject: "Emblème", text: "L'identité nordique gravée dans le symbole national.", image: "/artworks/embleme_3.jpg" },
       { id: "ar10", title: "La Feuille d'Érable", subject: "Emblème", text: "L'emblème rougeoyant, l'âme naturelle de l'Amérique du Nord.", image: "/artworks/embleme_4.jpg" },
       { id: "ar11", title: "Le Pur Sang Emirates", subject: "Excellence Hippique", text: "L'élégance animale et la noblesse brute sculptées par les lettres d'Emirates.", image: "/artworks/embleme_5.jpg", hc: true },
       { id: "ar12", title: "L'Origine Nike", subject: "Équipementier", text: "The Goddess of Victory. Philip Knight et la naissance du mythe.", image: "/artworks/nexus_nike_1.jpg", hc: true },
