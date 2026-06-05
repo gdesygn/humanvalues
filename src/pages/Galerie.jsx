@@ -178,7 +178,7 @@ const ailes = [
       { id: "mon4", title: "Corcovado", subject: "Monument", text: "Le Christ Rédempteur, veillant majestueusement sur Rio de Janeiro.", image: "/artworks/monument_10.jpg" },
       { id: "mon5", title: "Mémorial de Vimy", subject: "Monument", text: "L'hommage canadien. Les piliers de la mémoire dressés vers l'éternité.", image: "/artworks/memorial_canadien.jpg" },
       { id: "mon1", title: "La Grâce", subject: "Le Chat", text: "L'élégance féline sculptée par la typographie.", image: "/artworks/monument_chat.jpg" },
-      { id: "mon2", title: "Elizabeth II", subject: "Reine d'Angleterre", text: "La Maison Windsor, Londres et le siècle. Le portrait de la souveraine absolue.", image: "/artworks/monument_elizabeth.jpg" },
+      { id: "mon2", title: "Elizabeth II", subject: "Reine d'Angleterre", text: "La Maison Windsor, Londres et le siècle. Le portrait de la souveraine absolue.", image: "/artworks/monument_elizabeth.jpg", hc: true },
       { id: "mon6", title: "Les Pyramides", subject: "Monument", text: "Le Sphinx et l'immensité de Gizeh, l'éternité gravée dans la pierre.", image: "/artworks/monument_13.jpg" },
       { id: "mon7", title: "Burj Khalifa", subject: "Monument", text: "L'ascension vertigineuse, le désir humain de toucher les cieux.", image: "/artworks/monument_2.jpg" },
       { id: "mon8", title: "Statue de la Liberté", subject: "Monument", text: "L'accueil, la flamme, l'espoir d'un monde nouveau.", image: "/artworks/monument_3.jpg" },
