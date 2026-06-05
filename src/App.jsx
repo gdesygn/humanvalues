@@ -19,6 +19,7 @@ import NexusOcean from './pages/NexusOcean';
 import NexusEchiquier from './pages/NexusEchiquier';
 import NexusRatp from './pages/NexusRatp';
 import NexusKante from './pages/NexusKante';
+import NexusJumpman from './pages/NexusJumpman';
 import Footer from './components/Footer';
 import './index.css';
 
@@ -77,6 +78,7 @@ function App() {
           <Route path="/nexus/echiquier" element={<NexusEchiquier />} />
           <Route path="/nexus/ratp" element={<NexusRatp />} />
           <Route path="/nexus/kante" element={<NexusKante />} />
+          <Route path="/nexus/jumpman" element={<NexusJumpman />} />
         </Routes>
       </Layout>
     </Router>
