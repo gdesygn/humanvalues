@@ -138,6 +138,7 @@ const ailes = [
       { id: "ar1_2", title: "Le Margouillat Vendéen", subject: "Faune", text: "L'animal solaire tissé des lettres de St-Jean-de-Monts 85160.", image: "/artworks/obj_margouillat.jpg" },
       { id: "ar1_3", title: "Vendée Océan", subject: "Territoire", text: "L'empreinte maritime et l'horizon bleu de la côte vendéenne 85160.", image: "/artworks/vendee_ocean.jpg" },
       { id: "ar1_4", title: "Le Cœur Vendéen", subject: "Emblème", text: "Le double cœur entrelacé. L'âme, la passion et l'histoire du 85.", image: "/artworks/vendee_coeur.jpg" },
+      { id: "ar1_5", title: "L'Héritage Gourmand", subject: "Gastronomie", text: "Le patrimoine culinaire vendéen, tissé avec soin par l'identité et les valeurs du 85160.", image: "/artworks/stjean_brioche.jpg" },
       { id: "ar2", title: "Le Gouvernail", subject: "Objet", text: "La direction, le cap maintenu contre vents et marées.", image: "/artworks/obj_region_2.jpg" },
       { id: "ar1", title: "Destination 85160", subject: "Objet", text: "L'héritage maritime, l'ancrage sur le littoral vendéen.", image: "/artworks/BARQUE.jpg" },
       { id: "ar3", title: "Vin Bordelais", subject: "Objet de Région", text: "Le cépage, la robe, le millésime. Le savoir-faire des vignobles.", image: "/artworks/bordeaux.jpg" },
