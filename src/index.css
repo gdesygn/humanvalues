@@ -493,3 +493,13 @@ a:hover {
     padding-right: 15vw !important;
   }
 }
+
+/* Grayscale hover effect for Institution gallery */
+.institution-gallery img {
+  filter: grayscale(100%);
+  transition: filter 0.4s ease;
+}
+
+.institution-gallery img:hover {
+  filter: grayscale(0%);
+}
