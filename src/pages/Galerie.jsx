@@ -216,7 +216,7 @@ const ailes = [
       { id: "m15", title: "The Austrian Oak", subject: "Cinéma & Légende", text: "Arnie. Gouvernator. Schwarzy. L'incarnation du rêve américain et de la volonté absolue.", image: "/artworks/arnold_schwarzenegger.jpg" },
       { id: "m16", title: "CR7", subject: "Football & Légende", text: "L'obsession de la perfection. Le numéro mythique entièrement tissé par l'identité de Cristiano Ronaldo.", image: "/artworks/cr7.jpg", hc: true },
       { id: "m17", title: "NX Donnarumma", subject: "Football", text: "Le rempart ultime. L'envergure du gardien sculptée par le PSG, l'AC Milan et la Ligue des Champions.", image: "/artworks/donnarumma.jpg", hc: true },
-      { id: "m20", title: "N'Golo Kanté", subject: "Football", text: "Le Cœur Tricolore. Le moteur inépuisable sculpté dans l'emblème national.", image: "/artworks/nexus_kante.jpg", nexusUrl: "/nexus/kante" }
+      { id: "m20", title: "N'Golo Kanté", subject: "Football", text: "Le Cœur Tricolore. Le moteur inépuisable sculpté dans l'emblème national.", image: "/artworks/nexus_kante.jpg", nexusUrl: "/nexus/kante", hc: true }
     ]
   },
   {
