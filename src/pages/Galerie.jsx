@@ -71,7 +71,7 @@ const ailes = [
     description: "L'essence de l'effort. Les vertus humaines incarnées dans le mouvement sportif et l'harmonie des éléments.",
     artworks: [
       { id: "val1", title: "Universalité", subject: "Vertu Sportive", text: "L'équilibre sur l'eau, le kayak propulsé par l'idéal universel.", image: "/artworks/valeur_1.jpg" },
-      { id: "val2", title: "Ski de piste & Anticipation", subject: "Vertu Sportive", text: "La glisse, l'anticipation, le ski de piste tracé par les valeurs.", image: "/artworks/valeur_2.jpg" },
+      { id: "val2", title: "Biathlon & Anticipation", subject: "Vertu Sportive", text: "La glisse, l'anticipation, l'effort et la précision du tir tracés par les valeurs.", image: "/artworks/valeur_2.jpg" },
       { id: "val3", title: "Collectif", subject: "Vertu Sportive", text: "Le hockey sur glace, la force du groupe, l'union inébranlable.", image: "/artworks/valeur_3.jpg" },
       { id: "val4", title: "Liberté", subject: "Vertu Sportive", text: "Le slalom, la trajectoire libre à travers les portes du défi.", image: "/artworks/valeur_4.jpg" },
       { id: "val5", title: "Résistant", subject: "Vertu Sportive", text: "Le ski de fond, l'endurance absolue, la ténacité dans l'effort long.", image: "/artworks/valeur_5.jpg" },
