@@ -145,7 +145,7 @@ const ailes = [
       { id: "ar4", title: "Le Ruban", subject: "Saint-Étienne", text: "L'excellence de la passementerie, le textile de luxe, l'artisanat du XVIIe.", image: "/artworks/st_etienne_1.jpg" },
       { id: "ar5", title: "Lampe de Mineur", subject: "Saint-Étienne", text: "Le Bassin Forézien, l'or noir, la lumière dans les profondeurs de la Terre.", image: "/artworks/st_etienne_2.jpg" },
       { id: "ar6", title: "Le Fusil", subject: "Saint-Étienne", text: "La manufacture d'armes, l'industrie lourde de la Loire, la précision mécanique.", image: "/artworks/st_etienne_3.jpg" },
-      { id: "ar7", title: "La Rose d'Angleterre", subject: "Emblème", text: "La fleur Tudor, symbole historique de la couronne britannique.", image: "/artworks/embleme_1.jpg" },
+      { id: "ar7", title: "La Rose Tudor", subject: "Emblème", text: "L'emblème absolu de la couronne britannique, sculpté dans la fierté et l'histoire anglaise.", image: "/artworks/embleme_1.jpg" },
       { id: "ar8", title: "Le Chardon Écossais", subject: "Emblème", text: "L'épine protectrice, la fierté indomptable des Highlands.", image: "/artworks/embleme_2.jpg" },
       { id: "ar9", title: "L'Âme Viking", subject: "Emblème", text: "L'identité nordique gravée dans le symbole national.", image: "/artworks/embleme_3.jpg" },
       { id: "ar10", title: "La Feuille d'Érable", subject: "Emblème", text: "L'emblème rougeoyant, l'âme naturelle de l'Amérique du Nord.", image: "/artworks/embleme_4.jpg" },
