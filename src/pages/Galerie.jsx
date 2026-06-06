@@ -208,7 +208,7 @@ const ailes = [
       { id: "m6", title: "Krongsak | Origins", subject: "Muay Thaï", text: "Guerrier né d'un art royal. Nak Muay. Respect. Knees.", image: "/artworks/martial_arts_1.jpg" },
       { id: "m7", title: "Krongsak | Mindset", subject: "Muay Thaï", text: "L\'esprit martial, la garde d'acier, la posture royale.", image: "/artworks/martial_arts_2.jpg" },
       { id: "m8", title: "Skarbowsky | L'Héritage", subject: "Muay Thaï", text: "Jean-Charles Skarbowsky. KO 51, Victories 75. La fiole des statistiques.", image: "/artworks/skarbowsky_heritage.jpg" },
-      { id: "m9", title: "Skarbowsky | Karma", subject: "Muay Thaï", text: "Sang, Ancrage, Rigueur, Bangkok. Le karma du combattant.", image: "/artworks/martial_arts_4.jpg" },
+      { id: "m9", title: "Skarbowsky | Karma", subject: "Muay Thaï", text: "Sang, Ancrage, Rigueur, Bangkok. Le karma du combattant.", image: "/artworks/skarbowsky_karma.jpg" },
       { id: "m9_1", title: "Karaté Bushido", subject: "Arts Martiaux", text: "L'opposition de style, la voie du guerrier. La pureté du combat typographique.", image: "/artworks/martial_arts_karate.jpg" },
       { id: "m10", title: "L'Avenir du Court", subject: "Tennis", text: "US Open, Roland Garros. La balle de tennis en lettres, l'avenir sur le court.", image: "/artworks/gauff.jpg", hc: true },
       { id: "m11", title: "Le Prodige", subject: "Football", text: "Le joga bonito, le prodige brésilien et la barre des 700.", image: "/artworks/neymar_700.jpg", hc: true },
