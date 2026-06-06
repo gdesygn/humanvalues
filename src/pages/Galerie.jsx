@@ -110,7 +110,7 @@ const ailes = [
       { id: "ar37", title: "Strike !!", subject: "Bowling", text: "La quille et la boule. L'alignement parfait avant l'impact 2025.", image: "/artworks/hv_bowling.jpg" },
       { id: "ar38", title: "Le Caddie", subject: "Golf", text: "Le célèbre véhicule des greens, dessiné par l'empreinte de la collection 2025.", image: "/artworks/caddie.jpg" },
       { id: "ar39", title: "Le Cuir Orange", subject: "Objet Sportif", text: "Le rebond, l'impact, le rythme. La balle iconique façonnée par l'esprit de l'édition 2025.", image: "/artworks/ballon_basket.jpg" },
-      { id: "ar40", title: "Ballon de Foot US", subject: "Objet Sportif", text: "L'ovale du gridiron, taillé dans l'esprit de l'édition 2025.", image: "/artworks/ballon_us.jpg" },
+      { id: "ar40", title: "Touchdown !", subject: "Objet Sportif", text: "L'ovale de cuir. L'impact absolu vers la ligne d'en-but, taillé par l'édition 2025.", image: "/artworks/ballon_us.jpg" },
       { id: "ar41", title: "Le Sifflet", subject: "Respect", text: "Le symbole de l'arbitrage et du fair-play, tissé par le respect absolu.", image: "/artworks/sifflet.jpg" }
     ]
   },
