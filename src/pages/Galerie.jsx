@@ -94,7 +94,7 @@ const ailes = [
       { id: "val21", title: "Athlétisme Fauteuil & Résilience", subject: "Vertu Sportive", text: "L'athlétisme fauteuil. L'art de l'inclinaison, du braquet et de la résilience pure.", image: "/artworks/valeur_21.jpg" },
       { id: "val22", title: "Lame & Transcendance", subject: "Vertu Sportive", text: "Le sprint paralympique. La lame affûtée pour transcender les limites humaines.", image: "/artworks/valeur_22.jpg" },
       { id: "val23", title: "Descente & Équilibre", subject: "Vertu Sportive", text: "Le para-ski alpin. L'équilibre et la vitesse au service du dépassement de soi.", image: "/artworks/valeur_23.jpg" },
-      { id: "val24", title: "Effort & Vélocité", subject: "Vertu Sportive", text: "Le para-cyclisme. L'effort mécanique et la vélocité repoussant l'horizon.", image: "/artworks/valeur_24.jpg", nexusUrl: "/nexus/resilience" },
+      { id: "val24", title: "Effort & Vélocité", subject: "Vertu Sportive", text: "L'athlétisme fauteuil. L'art de l'inclinaison, du braquet et de la résilience pure.", image: "/artworks/valeur_24.jpg", nexusUrl: "/nexus/resilience" },
       { id: "val25", title: "Puissance & Précision", subject: "Vertu Sportive", text: "Le baseball fauteuil. L'attente du lancer, la puissance et la précision de la frappe.", image: "/artworks/valeur_25.jpg" },
       { id: "val30", title: "Force & Alignement", subject: "Vertu Sportive", text: "L'haltérophilie. La force pure et l'alignement parfait pour s'élever au-dessus des limites physiques.", image: "/artworks/valeur_30.jpg" },
       { id: "val26", title: "HV | Ruban", subject: "Gymnastique Rythmique", text: "L'harmonie du mouvement et la légèreté du ruban, sculptées par les lettres HV.", image: "/artworks/grace_ruban.jpg" },
