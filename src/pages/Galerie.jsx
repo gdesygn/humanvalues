@@ -134,7 +134,7 @@ const ailes = [
     color: "#424242", // Gris/Noir
     description: "L'objet inerte, le symbole manufacturé, les marques et l'héritage humain.",
     artworks: [
-      { id: "ar14_1", title: "MJ2.0", subject: "Objet", text: "Le Jumpman, le 23. L'empreinte de la légende tissée dans le tissu.", image: "/artworks/jordan_cap_final.jpg", hc: true },
+      { id: "ar14_1", title: "La Casquette 23", subject: "Objet", text: "Le Jumpman, le 23. L'empreinte de la légende tissée dans le tissu.", image: "/artworks/jordan_cap_final.jpg", hc: true },
       { id: "ar1_1", title: "La 2CV de St-Jean-de-Monts", subject: "Objet", text: "L'icône populaire, façonnée par les codes de la Vendée.", image: "/artworks/obj_2cv.jpg" },
       { id: "ar1_2", title: "Le Margouillat Vendéen", subject: "Faune", text: "L'animal solaire tissé des lettres de St-Jean-de-Monts 85160.", image: "/artworks/obj_margouillat.jpg" },
       { id: "ar1_3", title: "Vendée Océan", subject: "Territoire", text: "L'empreinte maritime et l'horizon bleu de la côte vendéenne 85160.", image: "/artworks/vendee_ocean.jpg" },
