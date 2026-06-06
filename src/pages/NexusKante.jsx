@@ -133,37 +133,54 @@ const NexusKante = () => {
         </p>
       </section>
 
-      {/* CTA Acquisition */}
-      <section style={{ textAlign: 'center', padding: '4rem 2rem', backgroundColor: 'var(--hv-black)', color: 'white' }}>
-        <p style={{ fontSize: '0.85rem', letterSpacing: '0.15em', textTransform: 'uppercase', color: '#aaa', marginBottom: '1rem' }}>
-          Édition signée XXL – 100×80 cm
+      {/* CTA Collaboratif B2B (Style Hors Commerce) */}
+      <section style={{ textAlign: 'center', padding: '4rem 2rem', backgroundColor: '#fafafa', border: '1px solid #e0e0e0', borderRadius: '4px' }}>
+        <p style={{ fontSize: '0.85rem', letterSpacing: '0.15em', textTransform: 'uppercase', color: 'var(--hv-accent)', marginBottom: '1.5rem', fontWeight: '600' }}>
+          Collection Privée – Hors Commerce
         </p>
-        <h2 style={{ fontSize: '2rem', color: 'white', marginBottom: '0.5rem' }}>Tirage Plexiglas – "Kanté | Le Cœur Tricolore"</h2>
-        <p style={{ fontStyle: 'italic', color: '#aaa', marginBottom: '2rem' }}>
-          "71% de la surface de la terre est couverte d'eau. Le reste est couvert par N'Golo Kanté."<br />
-          Le mythe devenu réalité.
+        <h2 style={{ fontSize: '2rem', color: 'var(--hv-black)', marginBottom: '1rem' }}>Étude de style & Partenariat B2B</h2>
+        <p style={{ fontStyle: 'italic', color: 'var(--hv-grey)', maxWidth: '600px', margin: '0 auto 2rem auto', lineHeight: '1.6' }}>
+          Cette œuvre estampillée H.C. (Hors Commerce) fait partie des archives privées de la maison. Elle n'est pas disponible à l'acquisition publique.<br /><br />
+          <strong>Ce que cela représente :</strong> Une étude de style visant à illustrer comment l'identité des grands athlètes peut se fondre dans les emblèmes de la ferveur collective.
         </p>
-        <p style={{ fontSize: '0.9rem', color: '#777', marginBottom: '0.5rem' }}>— Le Conseil des Nexus</p>
-        <p style={{ fontSize: '2.5rem', fontWeight: '600', color: 'white', marginBottom: '0.5rem', marginTop: '1.5rem' }}>890 €</p>
-        <p style={{ fontSize: '0.9rem', color: '#777', marginBottom: '2.5rem' }}>Livraison offerte France · Certificat HV inclus</p>
-        <Link
-          to="/collections"
-          style={{
-            display: 'inline-block',
-            padding: '1rem 2.5rem',
-            border: '1px solid white',
-            color: 'white',
-            textDecoration: 'none',
-            fontSize: '0.9rem',
-            letterSpacing: '0.08em',
-            textTransform: 'uppercase',
-            transition: 'all 0.3s ease'
-          }}
-          onMouseOver={e => { e.currentTarget.style.backgroundColor = 'white'; e.currentTarget.style.color = '#111'; }}
-          onMouseOut={e => { e.currentTarget.style.backgroundColor = 'transparent'; e.currentTarget.style.color = 'white'; }}
-        >
-          🖼️ Contacter la galerie
-        </Link>
+        
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', maxWidth: '400px', margin: '0 auto' }}>
+          <a
+            href="mailto:partenaires@humanvalues.fr?subject=Projet%20B2B%20-%20Identité%20visuelle%20Sport"
+            style={{
+              display: 'inline-block',
+              padding: '1rem 2rem',
+              backgroundColor: 'var(--hv-black)',
+              color: 'white',
+              textDecoration: 'none',
+              fontSize: '0.9rem',
+              fontWeight: 'bold',
+              letterSpacing: '0.08em',
+              textTransform: 'uppercase',
+              transition: 'all 0.3s ease'
+            }}
+          >
+            🤝 Solliciter le studio B2B
+          </a>
+          <Link
+            to="/galerie"
+            style={{
+              display: 'inline-block',
+              padding: '1rem 2rem',
+              border: '1px solid var(--hv-black)',
+              color: 'var(--hv-black)',
+              textDecoration: 'none',
+              fontSize: '0.9rem',
+              letterSpacing: '0.08em',
+              textTransform: 'uppercase',
+              transition: 'all 0.3s ease'
+            }}
+            onMouseOver={e => { e.currentTarget.style.backgroundColor = 'var(--hv-black)'; e.currentTarget.style.color = 'white'; }}
+            onMouseOut={e => { e.currentTarget.style.backgroundColor = 'transparent'; e.currentTarget.style.color = 'var(--hv-black)'; }}
+          >
+            📂 Retourner au Registre
+          </Link>
+        </div>
       </section>
     </div>
   );

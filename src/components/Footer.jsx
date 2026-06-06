@@ -19,9 +19,9 @@ const Footer = () => {
         gap: '2rem'
       }}>
         <div style={{ flex: '1 1 300px' }}>
-          <h3 style={{ fontSize: '1.5rem', marginBottom: '1rem', fontFamily: 'var(--font-title, Playfair Display)' }}>HumanValues</h3>
+          <h3 style={{ fontSize: '1.5rem', marginBottom: '1rem', fontFamily: 'var(--font-title, Playfair Display)' }}>HumanValues HV</h3>
           <p style={{ color: '#aaa', fontSize: '0.9rem', lineHeight: '1.6' }}>
-            HumanValues est une marque déposée et protégée depuis 2016. L'ensemble des œuvres de notre registre est conçu pour être décliné sur de multiples supports. Elles sont ouvertes à l'acquisition pour les institutions, incluant la cession intégrale des droits d'auteur.
+            Des récits pour relier ce qui compte.
           </p>
         </div>
         

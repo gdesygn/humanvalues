@@ -91,7 +91,7 @@ const ailes = [
       { id: "val18", title: "Régularité", subject: "Vertu Sportive", text: "Le lancer de marteau. La force centrifuge maîtrisée dans la régularité du geste.", image: "/artworks/valeur_18.jpg" },
       { id: "val19", title: "Individuel", subject: "Vertu Sportive", text: "Le lancer de disque. L'engagement total et solitaire de l'athlète.", image: "/artworks/valeur_19.jpg" },
       { id: "val20", title: "Énergie", subject: "Vertu Sportive", text: "Le lancer de poids. L'énergie explosive et concentrée pour repousser la masse.", image: "/artworks/valeur_20.jpg" },
-      { id: "val21", title: "Inclusion", subject: "Vertu Sportive", text: "Le tennis en chaise.", image: "/artworks/valeur_21.jpg" },
+      { id: "val21", title: "La Trace & l'Impact", subject: "Vertu Sportive", text: "L'art du mouvement réinventé par la rigueur de la trajectoire et l'intensité du geste.", image: "/artworks/valeur_21.jpg" },
       { id: "val22", title: "Lame & Transcendance", subject: "Vertu Sportive", text: "Le sprint paralympique. La lame affûtée pour transcender les limites humaines.", image: "/artworks/valeur_22.jpg" },
       { id: "val23", title: "Descente & Équilibre", subject: "Vertu Sportive", text: "Le para-ski alpin. L'équilibre et la vitesse au service du dépassement de soi.", image: "/artworks/valeur_23.jpg" },
       { id: "val24", title: "Effort & Vélocité", subject: "Vertu Sportive", text: "L'athlétisme fauteuil. L'art de l'inclinaison, du braquet et de la résilience pure.", image: "/artworks/valeur_24.jpg", nexusUrl: "/nexus/resilience" },
@@ -105,7 +105,7 @@ const ailes = [
       { id: "val32", title: "Individuel & Collectif", subject: "Vertu Sportive", text: "Le tennis de table. La dualité parfaite entre la discipline individuelle et la dynamique collective.", image: "/artworks/swiss_pingpong.jpg", hc: true },
       { id: "val33", title: "Performance", subject: "Vertu Sportive", text: "Le vélo de piste. L'aérodynamisme et la recherche absolue de la vitesse et de la performance.", image: "/artworks/swiss_cycling.jpg", hc: true },
       { id: "ar34", title: "Le Volant", subject: "Badminton", text: "L'aérodynamisme et la légèreté du volant tissés par les valeurs humaines.", image: "/artworks/volant_badminton.jpg" },
-      { id: "ar35", title: "Sneakers HV", subject: "Lifestyle", text: "L'empreinte du streetwear et du basket sculptée dans la matière 2025.", image: "/artworks/hv_sneakers.jpg" },
+      { id: "ar35", title: "HV | Sneakers", subject: "Lifestyle", text: "L'empreinte du streetwear et du basket sculptée dans la matière 2025.", image: "/artworks/hv_sneakers.jpg" },
       { id: "ar36", title: "Home Run", subject: "Baseball", text: "La batte et la balle. Le classique américain forgé par les lettres HV 2025.", image: "/artworks/hv_baseball.jpg" },
       { id: "ar37", title: "Strike !!", subject: "Bowling", text: "La quille et la boule. L'alignement parfait avant l'impact 2025.", image: "/artworks/hv_bowling.jpg" },
       { id: "ar38", title: "Le Caddie", subject: "Golf", text: "Le célèbre véhicule des greens, dessiné par l'empreinte de la collection 2025.", image: "/artworks/caddie.jpg" },
@@ -154,19 +154,19 @@ const ailes = [
       { id: "ar13", title: "La Typographie", subject: "Équipementier", text: "No Fear. Keep Going. L'effort taillé dans la lettre massive.", image: "/artworks/nexus_nike_2.jpg", hc: true },
       { id: "ar14", title: "Le Swoosh", subject: "Équipementier", text: "L'épure parfaite. La virgule qui souligne les légendes.", image: "/artworks/nexus_nike_3.jpg", hc: true },
 
-      { id: "ar14_1", title: "L'Héritage Air", subject: "Équipementier", text: "Le Jumpman, le 23. L'empreinte de la légende tissée dans le tissu.", image: "/artworks/jordan_cap_final.jpg", hc: true },
+      { id: "are_club_1", title: "Spartiates", subject: "Club", text: "Le casque de Sparte, le bouclier, la fierté de Marseille sur la glace.", image: "/artworks/spartiates.jpg" },
       { id: "ar14_2", title: "Venum", subject: "Équipementier", text: "Les crocs du serpent. L'équipement martial, officiel de l'UFC, taillé dans l'impact.", image: "/artworks/venum.jpg", hc: true },
       { id: "ar15", title: "Les 3 Bandes | Clubs", subject: "Adidas", text: "Real Madrid, Juventus, All Blacks... Les géants réunis sous le même logo.", image: "/artworks/adidas_1.jpg", hc: true },
       { id: "ar16", title: "Les 3 Bandes | Athlètes", subject: "Adidas", text: "Messi, Mahomes, Serena... Les icônes qui forgent l'histoire du sport.", image: "/artworks/adidas_2.jpg", hc: true },
-      { id: "ar19", title: "Tennis 2.0", subject: "Lacoste", text: "Un emblème devenu universel sur les terrains et dans la rue.", image: "/artworks/lacoste_3.jpg", hc: true },
-      { id: "ar20", title: "Le Crocodile de Mots", subject: "Lacoste", text: "L'animal entier reconstitué par les valeurs de la marque au crocodile.", image: "/artworks/lacoste_4.jpg", hc: true },
       { id: "ar21", title: "Microphone RMC", subject: "Média", text: "Afterfoot, Jeanot, 1998... La voix du sport transmise aux ondes.", image: "/artworks/rmc_mic.jpg", hc: true },
       { id: "ar22", title: "Louis Vuitton", subject: "Marque de Luxe", text: "Arnault, l'Impératrice Eugénie, le monogramme intemporel.", image: "/artworks/lv_arnault.jpg", hc: true },
       { id: "ar32", title: "Coach Prime", subject: "Football Américain", text: "Le casque tissé de l'aura de Deion Sanders. L'ère Prime Time au Colorado.", image: "/artworks/coach_prime_helmet.jpg" },
       { id: "ar33", title: "Buffaloes CUB", subject: "Football Américain", text: "Le bison universitaire. L'emblème des Buffaloes sculpté par la ferveur de Boulder.", image: "/artworks/buffaloes_cub.jpg", hc: true },
 
       { id: "an14", title: "Italia", subject: "Emblème", text: "L'emblème en mouvement, symbole de puissance et de liberté.", image: "/artworks/italia_eagle.jpg", nexusUrl: "/nexus/italia" },
-      { id: "are_club_1", title: "Spartiates", subject: "Club", text: "Le casque de Sparte, le bouclier, la fierté de Marseille sur la glace.", image: "/artworks/spartiates.jpg" }
+      { id: "ar19", title: "Tennis 2.0", subject: "Lacoste", text: "Un emblème devenu universel sur les terrains et dans la rue.", image: "/artworks/lacoste_3.jpg", hc: true },
+      { id: "ar20", title: "Le Crocodile de Mots", subject: "Lacoste", text: "L'animal entier reconstitué par les valeurs de la marque au crocodile.", image: "/artworks/lacoste_4.jpg", hc: true },
+      { id: "ar14_1", title: "L'Héritage Air", subject: "Équipementier", text: "Le Jumpman, le 23. L'empreinte de la légende tissée dans le tissu.", image: "/artworks/jordan_cap_final.jpg", hc: true }
     ]
   },
   {
@@ -296,7 +296,7 @@ const ailes = [
       { id: "fo13", title: "Groupe Dubreuil", subject: "Institution & Valeurs", text: "L'envol inclusif. Le mécénat et l'autonomie gravés dans l'oiseau solaire.", image: "/artworks/corp_7.jpg", hc: true },
       { id: "fo14", title: "Les Jardins d'Arcadie", subject: "Institution & Valeurs", text: "L'arbre protecteur. L'accompagnement, la sérénité et le bien-être des seniors.", image: "/artworks/corp_8.jpg", hc: true },
       { id: "fo15", title: "Swiss", subject: "Institution & Valeurs", text: "L'empennage solidaire. La croix helvétique façonnée par l'inclusion et la transmission.", image: "/artworks/corp_9.jpg", hc: true },
-      { id: "fo10", title: "Le Coq FFF", subject: "LFP X Inclusion", text: "L'emblème tricolore. Diversité, mécénat et humilité sur le terrain.", image: "/artworks/sport_5.jpg", hc: true },
+      { id: "fo10", title: "LNF", subject: "LFP X Inclusion", text: "Le blason du football professionnel, intégralement redessiné par les valeurs de l'inclusion.", image: "/artworks/sport_5.jpg", hc: true },
       { id: "fo11", title: "Ligue de Football", subject: "LFP X Inclusion", text: "Le championnat professionnel porté par les valeurs saines et le cécifoot.", image: "/artworks/sport_6.jpg", hc: true },
       { id: "fo12", title: "Bondy Cécifoot Club", subject: "Club X Inclusion", text: "L'emblème du serpent. Déficience visuelle, transmission et solidarité sur le terrain.", image: "/artworks/sport_7.jpg", hc: true },
       { id: "fo18", title: "La Ligue", subject: "Ligue Contre le Cancer", text: "Le maillot solidaire tissé par le soutien, les bénévoles et l'espoir face à la maladie.", image: "/artworks/ligue_cancer.jpg", hc: true }
@@ -309,7 +309,8 @@ const ailes = [
     description: "Les signes, les mots, la communication universelle forgée par les valeurs.",
     artworks: [
       { id: "lan1", title: "L'Accord Parfait", subject: "Signe OK", text: "Le respect et le partage tissent le langage universel de l'approbation.", image: "/artworks/hands_echo_ok.jpg" },
-      { id: "lan2", title: "L'Amour Universel", subject: "Cœur", text: "Handicap et inclusion s'entrelacent pour former le symbole absolu.", image: "/artworks/hands_echo_heart.jpg" }
+      { id: "lan2", title: "L'Amour Universel", subject: "Cœur", text: "Handicap et inclusion s'entrelacent pour former le symbole absolu.", image: "/artworks/hands_echo_heart.jpg" },
+      { id: "lan3", title: "L'Esprit Aloha", subject: "Signe Shaka", text: "La bienveillance et la fraternité gravées dans le symbole universel de la glisse.", image: "/artworks/hands_echo_shaka.jpg" }
     ]
   },
   {
