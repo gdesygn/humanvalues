@@ -149,7 +149,7 @@ const ailes = [
       { id: "ar8", title: "Le Chardon Écossais", subject: "Emblème", text: "L'épine protectrice, la fierté indomptable des Highlands.", image: "/artworks/embleme_2.jpg" },
       { id: "ar9", title: "L'Âme Viking", subject: "Emblème", text: "L'identité nordique gravée dans le symbole national.", image: "/artworks/embleme_3.jpg" },
       { id: "ar10", title: "La Feuille d'Érable", subject: "Emblème", text: "L'emblème rougeoyant, l'âme naturelle de l'Amérique du Nord.", image: "/artworks/embleme_4.jpg" },
-      { id: "ar11", title: "Le Pur Sang Emirates", subject: "Excellence Hippique", text: "L'élégance animale et la noblesse brute sculptées par les lettres d'Emirates.", image: "/artworks/embleme_5.jpg", hc: true },
+      { id: "ar11", title: "PUR SANG", subject: "Excellence Hippique", text: "L'élégance animale et la noblesse brute sculptées par les lettres d'Emirates.", image: "/artworks/embleme_5.jpg", hc: true },
       { id: "ar12", title: "L'Origine Nike", subject: "Équipementier", text: "The Goddess of Victory. Philip Knight et la naissance du mythe.", image: "/artworks/nexus_nike_1.jpg", hc: true },
       { id: "ar13", title: "La Typographie", subject: "Équipementier", text: "No Fear. Keep Going. L'effort taillé dans la lettre massive.", image: "/artworks/nexus_nike_2.jpg", hc: true },
       { id: "ar14", title: "Le Swoosh", subject: "Équipementier", text: "L'épure parfaite. La virgule qui souligne les légendes.", image: "/artworks/nexus_nike_3.jpg", hc: true },
