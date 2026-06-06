@@ -80,7 +80,7 @@ const ailes = [
       { id: "val8", title: "Humilité", subject: "Vertu Sportive", text: "Le meneur de jeu. L'humilité dans la construction de l'action collective.", image: "/artworks/valeur_8.jpg" },
       { id: "val9", title: "Santé", subject: "Vertu Sportive", text: "Le service smashé, la vitalité pure et l'énergie du corps en mouvement.", image: "/artworks/valeur_9.jpg" },
       { id: "val10", title: "Liberté", subject: "Vertu Sportive", text: "L'extension en plein vol. La liberté de mouvement avant l'impact en handball.", image: "/artworks/valeur_10.jpg" },
-      { id: "val11", title: "Arène & Engagement", subject: "Vertu Sportive", text: "Le coup de genou sauté en Muay Thaï. L'engagement total dans l'arène.", image: "/artworks/valeur_11.jpg" },
+      { id: "val11", title: "Arène & Engagement", subject: "Vertu Sportive", text: "Le coup de genou en Muay Thaï. L'engagement total dans l'arène.", image: "/artworks/valeur_11.jpg" },
       { id: "val12", title: "Humilité", subject: "Vertu Sportive", text: "Les gants suspendus. Le respect absolu du ring, de l'effort et de l'adversaire.", image: "/artworks/valeur_12.jpg" },
       { id: "val13", title: "Détermination Brute", subject: "Vertu Sportive", text: "Le boxeur thaï de face, genou levé. La détermination brute et l'impact imminent.", image: "/artworks/valeur_13.jpg" },
       { id: "val14", title: "Excellence", subject: "Vertu Sportive", text: "Le coup de pied haut. L'équilibre et la recherche de la perfection martiale.", image: "/artworks/valeur_14.jpg" },
