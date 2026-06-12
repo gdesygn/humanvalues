@@ -47,31 +47,21 @@ const ailes = [
       { id: "an35_2", title: "Pays de Monts", subject: "Territoire", text: "Le 85. La dune, la pinède et la force de l'océan atlantique.", image: "/artworks/region_paysdemonts.jpg" },
       { id: "an35_3", title: "Var", subject: "Département", text: "Le 83. Le soleil éclatant et l'âme méditerranéenne en lettres majuscules.", image: "/artworks/region_var.jpg" },
       { id: "an35_4", title: "Vaucluse", subject: "Département", text: "Le 84. La terre ensoleillée, le mistral et le charme provençal.", image: "/artworks/region_vaucluse.jpg" },
-
+      { id: "an35", title: "Nouvelle-Aquitaine", subject: "Région HV", text: "Le code postal 33000 tissé au cœur du grand Sud-Ouest.", image: "/artworks/region_aquitaine_restored.jpg" },
+      { id: "an34", title: "Le Département 33", subject: "Gironde HV", text: "L'identité institutionnelle redessinée en lettres majuscules.", image: "/artworks/region_11.jpg" },
       { id: "an11", title: "Afrika", subject: "Continent", text: "Le berceau de l'humanité, l'énergie pure de la terre.", image: "/artworks/geo_pays_1.jpg" },
       { id: "an12", title: "Brazil", subject: "Pays", text: "Ordem e Progresso. La passion, le rythme, la forêt infinie.", image: "/artworks/geo_pays_2.jpg" },
       { id: "an13", title: "Germany", subject: "Pays", text: "L'histoire, la rigueur, le cœur battant de l'Europe.", image: "/artworks/geo_pays_3.jpg" },
       { id: "an15", title: "Norway", subject: "Pays", text: "Les fjords majestueux, les aurores boréales, l'appel du Nord.", image: "/artworks/geo_pays_5.jpg" },
-      { id: "gp23", title: "Argentina", subject: "Pays", text: "L'étoile du Sud. Le soleil de Mai et l'élan d'une nation vers son destin.", image: "/artworks/geo_pays_23.jpg" },
-      { id: "an15_0", title: "Argentina", subject: "Pays", text: "Le soleil de mai, la cordillère, l'albiceleste dans les cieux.", image: "/artworks/geo_pays_22.jpg" },
-      { id: "an15_1", title: "Armenia", subject: "Pays", text: "Le lac Sevan, les montagnes sacrées, une histoire millénaire.", image: "/artworks/geo_pays_4.jpg" },
+      { id: "an15_0", title: "Argentina", subject: "Pays", text: "Le soleil de mai, la cordillère, l'albiceleste dans les cieux.", image: "/artworks/argentina.jpg" },
+      { id: "an15_1", title: "Armenia", subject: "Pays", text: "Le lac Sevan, les montagnes sacrées, une histoire millénaire.", image: "/artworks/geo_pays_6.jpg" },
       { id: "an15_2", title: "Algeria", subject: "Pays", text: "DZ. L'immensité du désert et l'héritage d'un peuple fier.", image: "/artworks/geo_pays_7.jpg" },
       { id: "an15_3", title: "England", subject: "Pays", text: "UK. La couronne, le flegme britannique et la terre de légendes.", image: "/artworks/geo_pays_8.jpg" },
       { id: "an15_4", title: "Mexico", subject: "Pays", text: "52. L'aigle sur le cactus, le soleil aztèque et la ferveur.", image: "/artworks/geo_pays_9.jpg" },
-      { id: "an14_1", title: "Suisse", subject: "Pays", text: "L'helvétie façonnée par les lettres. La précision, la neutralité et le survol alpin.", image: "/artworks/geo_pays_20.jpg" },
-      { id: "an29_3", title: "Chine", subject: "Pays", text: "L'Empire du Milieu. Les étoiles dorées brillant sur l'immensité de la nation rouge.", image: "/artworks/geo_pays_15.jpg" },
-      { id: "an29_1", title: "Tunisie", subject: "Pays", text: "L'histoire carthaginoise, le soleil méditerranéen et l'ancrage nord-africain.", image: "/artworks/geo_pays_21.jpg" },
-      { id: "an29_2", title: "Uruguay", subject: "Pays", text: "Le soleil de mai rayonnant sur la ferveur céleste et l'héritage sud-américain.", image: "/artworks/geo_pays_17.jpg" },
-      { id: "gp6", title: "Congo", subject: "Pays", text: "Le fleuve majestueux, le cœur vert de l'Afrique centrale.", image: "/artworks/geo_pays_6.jpg" },
-      { id: "gp10", title: "France", subject: "Pays", text: "La République. La patrie des droits de l'homme, sculptée dans l'hexagone.", image: "/artworks/geo_pays_10.jpg" },
-      { id: "gp11", title: "Equateur", subject: "Pays", text: "La ligne zéro. Le pays coupé en deux par l'équateur géographique.", image: "/artworks/geo_pays_11.jpg" },
-      { id: "gp12", title: "Cameroon", subject: "Pays", text: "L'Afrique en miniature. La diversité des paysages et la force du Lion Indomptable.", image: "/artworks/geo_pays_12.jpg" },
-      { id: "gp13", title: "Italia", subject: "Pays", text: "La Botte. L'art, la passion, la dolce vita et la grandeur de la civilisation romaine.", image: "/artworks/geo_pays_13.jpg" },
-      { id: "gp14", title: "Egypte", subject: "Pays", text: "La civilisation millénaire, les pharaons et l'éternité gravée dans la pierre.", image: "/artworks/geo_pays_14.jpg" },
-      { id: "gp16", title: "Ghana", subject: "Pays", text: "Le pays de l'or. La fierté africaine et l'étoile noire de l'indépendance.", image: "/artworks/geo_pays_16.jpg" },
-      { id: "gp18", title: "Venezuela", subject: "Pays", text: "El Dorado. Les llanos infinis, les chutes d'Angel et la terre de Bolívar.", image: "/artworks/geo_pays_18.jpg" },
-      { id: "gp19", title: "Sénégal", subject: "Pays", text: "La Téranga. L'hospitalité légendaire du pays de la Téranga et du peuple wolof.", image: "/artworks/geo_pays_19.jpg" },
-      { id: "gp22", title: "Italia", subject: "Pays", text: "La Botte. L'art, la passion, la dolce vita et la grandeur de la civilisation romaine.", image: "/artworks/geo_pays_22.jpg" }
+      { id: "an14_1", title: "Suisse", subject: "Pays", text: "L'helvétie façonnée par les lettres. La précision, la neutralité et le survol alpin.", image: "/artworks/suisse.jpg" },
+      { id: "an29_3", title: "Chine", subject: "Pays", text: "L'Empire du Milieu. Les étoiles dorées brillant sur l'immensité de la nation rouge.", image: "/artworks/chine.jpg" },
+      { id: "an29_1", title: "Tunisie", subject: "Pays", text: "L'histoire carthaginoise, le soleil méditerranéen et l'ancrage nord-africain.", image: "/artworks/tunisie.jpg" },
+      { id: "an29_2", title: "Uruguay", subject: "Pays", text: "Le soleil de mai rayonnant sur la ferveur céleste et l'héritage sud-américain.", image: "/artworks/uruguay.jpg" }
     ]
   },
   {
@@ -88,9 +78,6 @@ const ailes = [
       { id: "val6", title: "Humilité", subject: "Vertu Sportive", text: "Le contrôle parfait. Le football au service du jeu sans artifice.", image: "/artworks/valeur_6.jpg" },
       { id: "val7", title: "Détente & Élévation", subject: "Vertu Sportive", text: "L'envol vers le panier, l'élévation par l'esprit et la détente.", image: "/artworks/valeur_7.jpg" },
       { id: "val8", title: "L'Altruisme", subject: "Vertu Sportive", text: "Le meneur de jeu. La valeur suprême qui fait briller les autres.", image: "/artworks/valeur_8.jpg" },
-      { id: "rug1", title: "Collectif & Humilité", subject: "Rugby", text: "La passe décisive. Deux forces unies par le collectif et l'humilité sur le pré.", image: "/artworks/rugby_duo.jpg" },
-      { id: "rug2", title: "L'Essai Collectif", subject: "Rugby", text: "La course vers l'en-but. L'engagement total du porteur de balle forgé par l'esprit collectif.", image: "/artworks/rugby_collectif.jpg" },
-      { id: "rug3", title: "Le Plaisir du Jeu", subject: "Rugby", text: "La joie pure du mouvement. Le plaisir comme moteur absolu de la performance.", image: "/artworks/rugby_plaisir.jpg" },
       { id: "val9", title: "Santé", subject: "Vertu Sportive", text: "Le service smashé, la vitalité pure et l'énergie du corps en mouvement.", image: "/artworks/valeur_9.jpg" },
       { id: "val10", title: "Liberté", subject: "Vertu Sportive", text: "L'extension en plein vol. La liberté de mouvement avant l'impact en handball.", image: "/artworks/valeur_10.jpg" },
       { id: "val12", title: "La Sagesse", subject: "Vertu Sportive", text: "Les gants suspendus. L'apprentissage par l'effort et la douleur.", image: "/artworks/valeur_12.jpg" },
@@ -126,6 +113,8 @@ const ailes = [
       { id: "ar0_ippon", title: "Ippon", subject: "Judo", text: "La victoire absolue. Le grade suprême et l'achèvement total tissés par l'engagement sur le tatami.", image: "/artworks/ippon.jpg" },
       { id: "ar41", title: "Le Sifflet", subject: "Respect", text: "Le symbole de l'arbitrage et du fair-play, tissé par le respect absolu.", image: "/artworks/sifflet.jpg" }
     ]
+  }
+    ]
   },
   {
     id: "artefacts",
@@ -133,13 +122,13 @@ const ailes = [
     color: "#424242", // Gris/Noir
     description: "L'objet inerte, le symbole manufacturé, les marques et l'héritage humain.",
     artworks: [
-      { id: "ar1_1", title: "La Légende Rétro", subject: "Objet", text: "L'icône populaire, façonnée par les codes de la Vendée.", image: "/artworks/obj_2cv.jpg" },
       { id: "ar1_3", title: "Vendée Océan", subject: "Territoire", text: "L'empreinte maritime et l'horizon bleu de la côte vendéenne 85160.", image: "/artworks/vendee_ocean.jpg" },
       { id: "ar2", title: "Le Gouvernail", subject: "Objet", text: "La direction, le cap maintenu contre vents et marées.", image: "/artworks/obj_region_2.jpg" },
+      { id: "ar1_1", title: "La Légende Rétro", subject: "Objet", text: "L'icône populaire, façonnée par les codes de la Vendée.", image: "/artworks/obj_2cv.jpg" },
       { id: "ar1_2", title: "Le Margouillat Vendéen", subject: "Faune", text: "L'animal solaire tissé des lettres de St-Jean-de-Monts 85160.", image: "/artworks/obj_margouillat.jpg" },
       { id: "ar1", title: "Destination 85160", subject: "Objet", text: "L'héritage maritime, l'ancrage sur le littoral vendéen.", image: "/artworks/BARQUE.jpg" },
       { id: "ar1_5", title: "L'Héritage Gourmand", subject: "Gastronomie", text: "Le patrimoine culinaire vendéen, tissé avec soin par l'identité et les valeurs du 85160.", image: "/artworks/stjean_brioche.jpg" },
-
+      { id: "ar1_4", title: "Le Cœur Vendéen", subject: "Emblème", text: "Le double cœur entrelacé. L'âme, la passion et l'histoire du 85.", image: "/artworks/coeur_vendeen.jpg" },
       { id: "ar3", title: "Vin Bordelais", subject: "Objet de Région", text: "Le cépage, la robe, le millésime. Le savoir-faire des vignobles.", image: "/artworks/bordeaux.jpg" },
       { id: "ar4", title: "Le Ruban", subject: "Saint-Étienne", text: "L'excellence de la passementerie, le textile de luxe, l'artisanat du XVIIe.", image: "/artworks/st_etienne_1.jpg" },
       { id: "ar5", title: "Lampe de Mineur", subject: "Saint-Étienne", text: "Le Bassin Forézien, l'or noir, la lumière dans les profondeurs de la Terre.", image: "/artworks/st_etienne_2.jpg" },
@@ -173,13 +162,25 @@ const ailes = [
       { id: "mon10", title: "Île de Pâques", subject: "Monument", text: "Le mystère des Moaï, le regard figé sur l'immensité du Pacifique.", image: "/artworks/monument_6.jpg" },
       { id: "mon11", title: "Tour Eiffel", subject: "Monument", text: "La Grande Dame, l'élégance architecturale s'élevant au-dessus de Paris.", image: "/artworks/monument_7.jpg", nexusUrl: "/nexus/eiffel" },
       { id: "mon12", title: "La Bonne Mère", subject: "Monument", text: "Notre-Dame de la Garde, la protectrice de la cité phocéenne.", image: "/artworks/monument_11.jpg" },
-      { id: "mon13", title: "L'Énigme de Venise", subject: "Culture", text: "L'énigme du carnaval, l'élégance mystérieuse de la Sérénissime dissimulée derrière le masque.", image: "/artworks/monument_8.jpg" },
+      { id: "mon13", title: "Masque Vénitien", subject: "Culture", text: "L'énigme du carnaval, l'élégance mystérieuse de la Sérénissime dissimulée derrière le masque.", image: "/artworks/monument_8.jpg" },
       { id: "mon14", title: "HV | L'Emblème", subject: "HumanValues", text: "Le flambeau de la liberté hissé par les mots. L'icône fondatrice de la collection artistique 2025.", image: "/artworks/flambeau_hv.jpg" },
-      { id: "mon15", title: "L'Étoile du Cabaret", subject: "Spectacle", text: "L'élégance parisienne, le glamour intemporel et la magie des revues des Champs-Élysées.", image: "/artworks/monument_5.jpg" },
-
-      { id: "mon16", title: "Zinedine x Alpine", subject: "Partenariat", text: "Le volant galactique. L'alliance de l'excellence sportive et de l'ingénierie automobile de pointe.", image: "/artworks/monument_alpine.jpg?v=final_update_v2" },
-      { id: "ar21", title: "Le Trophée Webb Ellis", subject: "Rugby", text: "Le Graal du rugby, taillé dans les mots de la Coupe du Monde.", image: "/artworks/rugby_4.jpg" },
-      { id: "mon17", title: "Le Violon", subject: "Nexus Intégral", text: "L'harmonie parfaite. Les cordes et l'archet vibrant au diapason des valeurs humaines.", image: "/artworks/monument_violon.jpg?v=final_update_v2" }
+      { id: "mon15", title: "Danseuse du Lido", subject: "Spectacle", text: "L'élégance parisienne, le glamour intemporel et la magie des revues des Champs-Élysées.", image: "/artworks/monument_5.jpg" },
+      { id: "mon16", title: "The Greatest", subject: "Légende Absolue", text: "Muhammad Ali. Cassius Clay. Le visage de la légende sculpté dans l'éternité.", image: "/artworks/ali.jpg", nexusUrl: "/nexus/ali" },
+      { id: "ar21", title: "Le Trophée Webb Ellis", subject: "Rugby", text: "Le Graal du rugby, taillé dans les mots de la Coupe du Monde.", image: "/artworks/rugby_4.jpg" }
+    ]
+  },
+  { id: "m2", title: "Numéro 10", subject: "Football", text: "Le Roi Michel. Le numéro 10, le chef d'orchestre, le coup franc parfait.", image: "/artworks/portrait_2.jpg" },
+      { id: "m3", title: "The King", subject: "Football", text: "Le col relevé. The King, la poésie rebelle et le théâtre des rêves.", image: "/artworks/portrait_3.jpg", nexusUrl: "/nexus/cantona" },
+      { id: "m4", title: "Galactic", subject: "Football", text: "Zizou. La roulette, la grâce absolue, la finale 98.", image: "/artworks/portrait_4.jpg" },
+      { id: "m5", title: "Goleador", subject: "Football", text: "La fulgurance. La vitesse pure, la coupe du monde à 19 ans.", image: "/artworks/portrait_5.jpg" },
+      { id: "m15", title: "The Austrian Oak", subject: "Cinéma & Légende", text: "Arnie. Gouvernator. Schwarzy. L'incarnation du rêve américain et de la volonté absolue.", image: "/artworks/arnold_schwarzenegger.jpg" },
+      { id: "m6", title: "Krongsak | Origins", subject: "Muay Thaï", text: "Guerrier né d'un art royal. Nak Muay. Respect. Knees.", image: "/artworks/martial_arts_1.jpg" },
+      { id: "m7", title: "Krongsak | Mindset", subject: "Muay Thaï", text: "L\'esprit martial, la garde d'acier, la posture royale.", image: "/artworks/martial_arts_2.jpg" },
+      { id: "m8", title: "Skarbowsky | L'Héritage", subject: "Muay Thaï", text: "Jean-Charles Skarbowsky. KO 51, Victories 75. La fiole des statistiques.", image: "/artworks/skarbowsky_heritage.jpg" },
+      { id: "m9", title: "Skarbowsky | Karma", subject: "Muay Thaï", text: "Sang, Ancrage, Rigueur, Bangkok. Le karma du combattant.", image: "/artworks/skarbowsky_karma.jpg" },
+      { id: "m9_1", title: "Karaté Bushido", subject: "Arts Martiaux", text: "L'opposition de style, la voie du guerrier. La pureté du combat typographique.", image: "/artworks/martial_arts_karate.jpg" },
+      { id: "m13", title: "La Vérité de José", subject: "Cinéma & Humour", text: "Le rire flamboyant. De Nulle Part Ailleurs aux sommets du box-office.", image: "/artworks/jose_garcia.jpg" },
+      { id: "m12", title: "L'Intouchable", subject: "Cinéma & Parcours", text: "L'ascension fulgurante. De Trappes à Hollywood, le sourire de la France.", image: "/artworks/omar_sy.jpg" }
     ]
   },
   {
@@ -188,9 +189,24 @@ const ailes = [
     color: "#00BCD4", // Cyan (Même couleur que Les Vertus)
     description: "Le mouvement immatériel, la grace, l'océan, la trace éphémère dans l'eau.",
     artworks: [
-      { id: "f2", title: "Valeurs et Propriétés", subject: "La Goutte", text: "L'étymologie de la mer, la fluidité de la typographie.", image: "/artworks/nexus_eau.jpg" },
       { id: "f1", title: "H2O'Céan", subject: "La Source", text: "L'immensité bleue, les vagues, la vie aquatique.", image: "/artworks/ocean_world.jpg", nexusUrl: "/nexus/ocean" },
-      { id: "f3", title: "Le Verre", subject: "L'Élixir", text: "Cascade, source, vapeur, fleuve. Toute l'étymologie de l'eau condensée dans la transparence du cristal.", image: "/artworks/fluide_verre.jpg" }
+      { id: "f2", title: "Valeurs et Propriétés", subject: "La Goutte", text: "L'étymologie de la mer, la fluidité de la typographie.", image: "/artworks/nexus_eau.jpg" }
+    ]
+  },
+      { id: "ar7", title: "NX Wemby", subject: "Basket", text: "La formation, les Ligues, le maillot bleu.", image: "/artworks/ffbb_7.jpg" },
+      { id: "ar8", title: "NX Ovni", subject: "Basket", text: "Les médailles, les sélections, l'impact mondial.", image: "/artworks/ffbb_8.jpg" },
+      { id: "ar9", title: "NX T.Parker", subject: "Basket", text: "L'esprit d'équipe, le pick and roll, la défense.", image: "/artworks/ffbb_9.jpg" },
+      { id: "ar16", title: "La Couronne", subject: "Boxe", text: "La couronne de Bud. WBO, WBA, WBC, IBF. L'unification absolue.", image: "/artworks/crawford.jpg" },
+      { id: "ar18", title: "Le Cadratin", subject: "Rugby", text: "La course folle du Top 14, forgée par les noms des clubs et instances.", image: "/artworks/rugby_1.jpg" },
+      { id: "ar19", title: "Jour de gloire", subject: "Rugby", text: "Nexus littéraire de l'équipe de France de rugby. La silhouette du joueur ballon en main.", image: "/artworks/rugby_2.jpg" },
+      { id: "ar23", title: "L'Échappé", subject: "Cyclisme", text: "Le solitaire de l'avant, l'effort unique façonné par les Human Values.", image: "/artworks/sport_10.jpg" },
+      { id: "ar24", title: "Le Groupetto", subject: "Cyclisme", text: "La solidarité dans l'effort. L'union fait la force face à la montagne.", image: "/artworks/sport_11.jpg" },
+      { id: "ar25", title: "Le Peloton", subject: "Cyclisme", text: "La meute humaine au pied de la Tour Eiffel. La cohésion du Tour de France.", image: "/artworks/sport_12.jpg" },
+      { id: "ar26", title: "NX Snowboarder", subject: "Sports d'Hiver", text: "L'envol blanc. La glisse extrême taillée dans les Human Values.", image: "/artworks/sport_13.jpg" },
+      { id: "ar28", title: "NX Jumpman 23", subject: "Basket & Légende", text: "His Airness. Le GOAT absolu sculpté par ses records et ses Final MVPs.", image: "/artworks/jordan_jumpman.jpg", nexusUrl: "/nexus/jumpman" },
+      { id: "ar29", title: "L'Échec et Mat", subject: "Jeux d'Esprit", text: "Les rois face à face, sculptés par la stratégie et l'anticipation de 2025.", image: "/artworks/jeu_1.jpg" },
+      { id: "ar30", title: "L'Échiquier des Valeurs", subject: "Jeux d'Esprit", text: "Toutes les pièces maîtresses façonnées par les Human Values.", image: "/artworks/jeu_2.jpg", nexusUrl: "/nexus/echiquier" },
+      { id: "ar31", title: "Le Quatuor Absolu", subject: "Jeux d'Esprit", text: "Résistance, Discipline, Réflexion, Individuel. Les quatre atouts dans la manche.", image: "/artworks/jeu_3.jpg" }
     ]
   },
   {
@@ -200,11 +216,7 @@ const ailes = [
     description: "La transmission, les valeurs humaines, l'inclusion, la chaleur du groupe.",
     artworks: [
 
-      { id: "fo16", title: "L'Accord Inclusif", subject: "UNESCO X Inclusion", text: "La poignée de main universelle. Diversité, autisme, soutien aux aînés et valeurs partagées à l'échelle mondiale.", image: "/artworks/concept_unesco.jpg" },
-      { id: "ed1", title: "Bienveillance & Inclusion", subject: "Solidarité", text: "La rencontre des valeurs. Une poignée de main forgée par l'égalité des chances et le partage.", image: "/artworks/edifice_poignee_1.jpg" },
-      { id: "ed2", title: "L'Énergie Positive", subject: "Soutien Mutuel", text: "L'union des générations et des différences tissée par la bienveillance universelle.", image: "/artworks/edifice_poignee_2.jpg" },
-      { id: "ed3", title: "L'Ancrage Inclusif", subject: "CIC X Inclusion", text: "L'inclusion visible et invisible. Le socle des valeurs humaines et de l'égalité des chances pour tous.", image: "/artworks/edifice_cic_1.jpg" },
-      { id: "ed4", title: "Valeurs Humaines CIC", subject: "CIC X Inclusion", text: "La solidarité intergénérationnelle et l'engagement inclusif tissés au cœur de l'identité institutionnelle.", image: "/artworks/edifice_cic_2.jpg" }
+      { id: "fo16", title: "L'Accord Inclusif", subject: "UNESCO X Inclusion", text: "La poignée de main universelle. Diversité, autisme, soutien aux aînés et valeurs partagées à l'échelle mondiale.", image: "/artworks/concept_unesco.jpg" }
     ]
   },
   {
@@ -217,37 +229,12 @@ const ailes = [
       { id: "lan2", title: "L'Amour Universel", subject: "Cœur", text: "Handicap et inclusion s'entrelacent pour former le symbole absolu.", image: "/artworks/hands_echo_heart.jpg" },
       { id: "lan3", title: "L'Esprit Aloha", subject: "Signe Shaka", text: "La bienveillance et la fraternité gravées dans le symbole universel de la glisse.", image: "/artworks/hands_echo_shaka.jpg" }
     ]
-  },
-  {
-    id: "icones",
-    title: "Les Icônes",
-    color: "#FFD700", // Or
-    description: "Les légendes vivantes. Les figures iconiques du sport mondial, sculptées par la typographie HumanValues.",
-    artworks: [
-      { id: "ico1", title: "Kylian", subject: "Football", text: "L'éclair du football mondial. La vitesse, la puissance et l'élégance française sculptées dans chaque foulée.", image: "/artworks/icone_kylian.jpg" },
-      { id: "ico2", title: "Michael", subject: "Basketball", text: "His Airness. Le vol plané légendaire de Chicago, 6 titres et 840 points de grandeur absolue.", image: "/artworks/icone_michael.jpg" },
-      { id: "ico3", title: "Novak", subject: "Tennis", text: "Le GOAT des courts. SRB688. La résilience serbe et la domination totale sur la terre, l'herbe et le dur.", image: "/artworks/icone_novak.jpg" },
-      { id: "ico4", title: "Usain", subject: "Athlétisme", text: "Lightning Bolt. La Jamaïque en éclair. 9.58 secondes d'éternité gravées dans l'histoire de l'humanité.", image: "/artworks/icone_usain.jpg" },
-      { id: "ico5", title: "Teddy", subject: "Judo", text: "La légende du tatami. Le champion absolu dont la silhouette imposante illumine le judo mondial, sculptée par la grandeur de ses victoires.", image: "/artworks/icone_teddy.jpg" },
-      { id: "ico6", title: "Ousmane", subject: "Football", text: "L'éclair sénégalais. La vitesse pure et la grâce du dribble, immortalisées dans la silhouette typographique du numéro 11 mondial.", image: "/artworks/icone_ousmane.jpg" },
-      { id: "ico7", title: "Rafael", subject: "Tennis", text: "Le Roi de la Terre Battue. 14 Roland-Garros gravés dans la balle de tennis, la légende de Manacor sculptée par les mots.", image: "/artworks/icone_rafael.jpg" },
-      { id: "ico8", title: "Wayne", subject: "Hockey", text: "The Great One. Le numéro 99, la légende absolue du hockey sur glace d'Edmonton à Los Angeles, tissée dans chaque geste.", image: "/artworks/icone_wayne.jpg" },
-      { id: "ico9", title: "Zinedine", subject: "Football", text: "Le Galactique. Les étoiles de Madrid et la magie bordelaise réunies. Le génie absolu du football mondial sculpté par les astres.", image: "/artworks/icone_zinedine.jpg" },
-      { id: "ico10", title: "Thierry", subject: "Football", text: "La Sneaker Légendaire. Arsenal, Barcelone, Monaco — la trajectoire d'un attaquant d'exception gravée dans la semelle de l'histoire.", image: "/artworks/icone_thierry.jpg" }
+  }
+    ]
+  }
     ]
   },
-  {
-    id: "mindset",
-    title: "Le Mindset",
-    color: "#E50914", // Rouge Nexus
-    description: "L'état d'esprit. Les piliers fondateurs de la philosophie HumanValues, incarnés dans la couleur de l'ambition.",
-    artworks: [
-      { id: "ms1", title: "Opportunity", subject: "Mindset", text: "La clé qui ouvre toutes les portes. Chaque instant est une opportunité de se réinventer et de briller.", image: "/artworks/mindset_opportunity.jpg" },
-      { id: "ms2", title: "Flourishing", subject: "Mindset", text: "L'élan ascendant. La flèche qui ne connaît qu'une direction : vers le haut, vers l'épanouissement total.", image: "/artworks/mindset_flourishing.jpg" },
-      { id: "ms3", title: "Adventure", subject: "Mindset", text: "Le sommet à conquérir. L'audace de gravir chaque montagne et de repousser l'horizon du possible.", image: "/artworks/mindset_adventure.jpg" },
-      { id: "ms4", title: "Learning", subject: "Mindset", text: "Le regard qui apprend. La soif de connaissance tissée dans chaque page, chaque mot, chaque vision.", image: "/artworks/mindset_learning.jpg" },
-      { id: "ms5", title: "Inspiration", subject: "Mindset", text: "L'étincelle créative. L'idée lumineuse qui jaillit pour éclairer le chemin de l'innovation.", image: "/artworks/mindset_inspiration_new.jpg?v=final_update_v2" },
-      { id: "ms6", title: "Leadership", subject: "Mindset", text: "La voix qui guide. La prise de parole puissante pour inspirer et rassembler vers l'excellence.", image: "/artworks/mindset_leadership_new.jpg?v=final_update_v2" }
+  { id: "m19", title: "Diego Maradona", subject: "Légende Internationale", text: "El Pibe de Oro. L'éternité et la passion gravées à même le visage.", image: "/artworks/olympe_maradona.jpg", nexusUrl: "/nexus/maradona" }
     ]
   }
 ];
@@ -273,24 +260,24 @@ const Galerie = () => {
         <p style={{ fontStyle: 'italic', fontSize: '1.2rem', color: 'var(--hv-grey)', marginBottom: '1.5rem' }}>
           Entrez dans le Registre. Parcourez nos collections et découvrez nos œuvres.
         </p>
-
+        
       </header>
 
       {/* NAVIGATION INTERNE (ANCRES) STICKY */}
       <nav style={{
-        position: 'sticky', top: '0', backgroundColor: 'rgba(255, 255, 255, 0.95)',
+        position: 'sticky', top: '0', backgroundColor: 'rgba(255, 255, 255, 0.95)', 
         padding: '1.5rem 0', borderBottom: '1px solid var(--hv-light-grey)', zIndex: 100,
         marginBottom: '6rem', display: 'flex', justifyContent: 'center', flexWrap: 'wrap', gap: '2rem',
         boxShadow: '0 4px 20px rgba(0,0,0,0.05)'
       }}>
         {ailes.map(aile => (
           <a key={aile.id} href={`#${aile.id}`} style={{
-            fontSize: '1rem', textTransform: 'uppercase', letterSpacing: '1.5px',
+            fontSize: '1rem', textTransform: 'uppercase', letterSpacing: '1.5px', 
             fontWeight: '600', color: aile.color, textDecoration: 'none', borderBottom: `2px solid transparent`,
             transition: 'border-color 0.3s'
           }}
-            onMouseOver={(e) => e.currentTarget.style.borderBottom = `2px solid ${aile.color}`}
-            onMouseOut={(e) => e.currentTarget.style.borderBottom = `2px solid transparent`}
+          onMouseOver={(e) => e.currentTarget.style.borderBottom = `2px solid ${aile.color}`}
+          onMouseOut={(e) => e.currentTarget.style.borderBottom = `2px solid transparent`}
           >
             {aile.title}
           </a>
@@ -301,11 +288,11 @@ const Galerie = () => {
       <div style={{ display: 'flex', flexDirection: 'column', gap: '10rem' }}>
         {ailes.map((aile, index) => (
           <section key={aile.id} id={aile.id} style={{ scrollMarginTop: '120px' }}>
-
+            
             {/* EN-TÊTE DE L'AILE */}
-            <div style={{
-              borderLeft: `8px solid ${aile.color}`,
-              paddingLeft: '2rem', marginBottom: '5rem'
+            <div style={{ 
+              borderLeft: `8px solid ${aile.color}`, 
+              paddingLeft: '2rem', marginBottom: '5rem' 
             }}>
               <h2 style={{ fontSize: '3.5rem', margin: '0', color: 'var(--hv-black)', letterSpacing: '-1px' }}>{aile.title}</h2>
               <p style={{ fontSize: '1.3rem', color: 'var(--hv-grey)', fontStyle: 'italic', marginTop: '1rem', maxWidth: '800px' }}>
@@ -316,23 +303,23 @@ const Galerie = () => {
             {/* GRILLE DES ŒUVRES */}
             <div className="galerie-grid">
               {aile.artworks.map((art, idx) => (
-                <div key={art.id} className={`animate-fade-in-up delay-${(idx % 5) * 100 + 100}`} style={{
-                  display: 'flex', flexDirection: 'column',
+                <div key={art.id} className={`animate-fade-in-up delay-${(idx % 5) * 100 + 100}`} style={{ 
+                  display: 'flex', flexDirection: 'column', 
                   marginTop: idx % 2 === 1 ? '4rem' : '0' // Effet asymétrique pour casser la grille
                 }}>
-                  <div style={{
-                    height: '500px', backgroundColor: 'var(--hv-cream)',
+                  <div style={{ 
+                    height: '500px', backgroundColor: 'var(--hv-cream)', 
                     marginBottom: '1.5rem', display: 'flex', alignItems: 'center', justifyContent: 'center',
                     borderBottom: `3px solid ${aile.color}`, overflow: 'hidden',
                     boxShadow: '0 10px 30px rgba(0,0,0,0.03)',
                     transition: 'transform 0.3s ease',
                     cursor: 'pointer'
                   }}
-                    onMouseOver={(e) => e.currentTarget.style.transform = 'translateY(-5px)'}
-                    onMouseOut={(e) => e.currentTarget.style.transform = 'translateY(0)'}
+                  onMouseOver={(e) => e.currentTarget.style.transform = 'translateY(-5px)'}
+                  onMouseOut={(e) => e.currentTarget.style.transform = 'translateY(0)'}
                   >
                     {art.image ? (
-                      <img src={`${art.image}?v=final_update_v2`} alt={art.subject} loading="lazy" style={{ width: '90%', height: '90%', objectFit: 'contain' }} />
+                      <img src={`${art.image}?v=final_update`} alt={art.subject} loading="lazy" style={{ width: '90%', height: '90%', objectFit: 'contain' }} />
                     ) : (
                       <span style={{ color: 'var(--hv-grey)', fontSize: '0.85rem', textTransform: 'uppercase', textAlign: 'center', padding: '1rem' }}>
                         [ Visuel : {art.subject} ]
@@ -341,17 +328,17 @@ const Galerie = () => {
                   </div>
                   <h3 style={{ fontSize: '1.6rem', marginBottom: '0.5rem', fontWeight: '700' }}>{art.title}</h3>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '1rem' }}>
-                    <span style={{
-                      fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '1px',
-                      backgroundColor: aile.color, color: 'white', padding: '0.2rem 0.6rem', borderRadius: '4px'
+                    <span style={{ 
+                      fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '1px', 
+                      backgroundColor: aile.color, color: 'white', padding: '0.2rem 0.6rem', borderRadius: '4px' 
                     }}>
                       {art.subject}
                     </span>
                     {art.hc && (
-                      <span style={{
-                        fontSize: '0.65rem', textTransform: 'uppercase', letterSpacing: '1px',
+                      <span style={{ 
+                        fontSize: '0.65rem', textTransform: 'uppercase', letterSpacing: '1px', 
                         backgroundColor: 'transparent', color: 'var(--hv-grey)', border: '1px solid #ccc',
-                        padding: '0.1rem 0.4rem', borderRadius: '4px', fontWeight: 'bold'
+                        padding: '0.1rem 0.4rem', borderRadius: '4px', fontWeight: 'bold' 
                       }} title="Hors Commerce - Prestation B2B">
                         H.C.
                       </span>
@@ -370,24 +357,24 @@ const Galerie = () => {
           </section>
         ))}
       </div>
-
+      
       {/* APPEL À L'ACTION PLEXIGLAS */}
       <div style={{ textAlign: 'center', marginTop: '12rem', borderTop: '1px solid var(--hv-light-grey)', paddingTop: '6rem' }}>
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1rem', marginBottom: '4rem' }}>
-          <div style={{
-            padding: '0.8rem 1.5rem', border: '1px solid var(--hv-light-grey)',
+          <div style={{ 
+            padding: '0.8rem 1.5rem', border: '1px solid var(--hv-light-grey)', 
             borderRadius: '4px', backgroundColor: 'var(--hv-cream)', fontSize: '0.85rem', color: 'var(--hv-grey)',
             textAlign: 'left', maxWidth: '800px'
           }}>
-            Véritable leviers d'innovation sociale, les créations inclusives participent à la transformation des enceintes sportives en lieux d'accueil, de partage et d'accessibilité universelle.
+            <strong>Note :</strong> Les pièces estampillées <strong>H.C. (Hors Commerce)</strong> illustrent notre savoir-faire en matière de R&D et d'Inclusion institutionnelle.<br/>Ces études de style représentent des prestations de services B2B et ne sont pas disponibles à l'acquisition publique.
           </div>
-
-          <div style={{
-            padding: '0.8rem 1.5rem', border: '1px solid #C25939',
+          
+          <div style={{ 
+            padding: '0.8rem 1.5rem', border: '1px solid #C25939', 
             borderRadius: '4px', backgroundColor: '#fffdfa', fontSize: '0.85rem', color: '#a64526',
             textAlign: 'left', maxWidth: '800px'
           }}>
-            Une innovation culturelle qui contribue à démocratiser l'apprentissage de la lecture et l'accès aux ressources éducatives.
+            <strong>⭐ Solidarité & Mécénat :</strong> Pour toute acquisition d'une œuvre signalée par une étoile jaune, <strong>20% des revenus</strong> sont reversés à notre partenaire caritatif (JC Skarbowsky Gym).
           </div>
         </div>
 
